@@ -1,5 +1,5 @@
 /* Généré automatiquement par tools/build.py — ne pas éditer la liste. */
-const VERSION = 'najma-v1-20261124';
+const VERSION = 'najma-v1-1-20261125';
 const PRECACHE = [
   "index.html",
   "manifest.webmanifest",

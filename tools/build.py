@@ -243,7 +243,7 @@ def build_sw():
             if fn.endswith('.json'):
                 rel = os.path.relpath(os.path.join(dirpath, fn), ROOT).replace(os.sep, '/')
                 assets.append(rel)
-    version = 'najma-v1-' + '20261124'
+    version = 'najma-v1-1-' + '20261125'
     body = f"""/* Généré automatiquement par tools/build.py — ne pas éditer la liste. */
 const VERSION = '{version}';
 const PRECACHE = {json.dumps(assets, indent=2)};

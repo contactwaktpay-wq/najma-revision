@@ -373,11 +373,33 @@ async function loadCatalogue(force = false) {
   return catalogue;
 }
 
+/* Repli de sécurité : si _matieres.json est absent (hébergeur qui exclut
+   les fichiers à underscore), l'app fonctionne quand même. */
+const MATIERES_FALLBACK = {
+  arabe: { label: { fr: 'Arabe · اللغة العربية', ar: 'اللغة العربية' }, icone: 'book' },
+  francais: { label: { fr: 'Français · الفرنسية', ar: 'الفرنسية' }, icone: 'pen' },
+  mathematiques: { label: { fr: 'Mathématiques · الرياضيات', ar: 'الرياضيات' }, icone: 'calc' },
+  sciences: { label: { fr: 'Sciences · العلوم', ar: 'العلوم' }, icone: 'flask' },
+  sciences_naturelles: { label: { fr: 'Sciences naturelles · علوم الطبيعة والحياة', ar: 'علوم الطبيعة والحياة' }, icone: 'leaf' },
+  physique_chimie: { label: { fr: 'Physique-Chimie · الفيزياء والكيمياء', ar: 'الفيزياء والكيمياء' }, icone: 'atom' },
+  histoire_geo: { label: { fr: 'Histoire-Géographie · التاريخ والجغرافيا', ar: 'التاريخ والجغرافيا' }, icone: 'globe' },
+  education_islamique: { label: { fr: 'Éducation islamique · التربية الإسلامية', ar: 'التربية الإسلامية' }, icone: 'star' },
+  anglais: { label: { fr: 'Anglais · الإنجليزية', ar: 'الإنجليزية' }, icone: 'globe' },
+  philosophie: { label: { fr: 'Philosophie · الفلسفة', ar: 'الفلسفة' }, icone: 'book' },
+};
+
 async function loadMatieres() {
   if (!matieres) {
     if (EMBED) { matieres = EMBED.matieres; return matieres; }
-    const res = await fetch('content/_matieres.json');
-    matieres = await res.json();
+    try {
+      const res = await fetch('content/_matieres.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      if (!data || typeof data !== 'object' || !data.mathematiques) throw new Error('format invalide');
+      matieres = data;
+    } catch {
+      matieres = MATIERES_FALLBACK; // l'app ne doit jamais s'arrêter pour ce fichier
+    }
   }
   return matieres;
 }
