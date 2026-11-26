@@ -1,0 +1,516 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-02",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 2,
+  "titre": {
+    "fr": "Noms, déterminants et adjectifs",
+    "ar": "الأسماء والمحددات والصفات"
+  },
+  "duree_min": 25,
+  "objectifs": {
+    "fr": [
+      "Distinguer noms communs et noms propres, singulier et pluriel",
+      "Employer les déterminants (articles, possessifs, démonstratifs)",
+      "Accorder l'adjectif qualificatif avec le nom"
+    ],
+    "ar": [
+      "التمييز بين الأسماء الجاهرة والعامة والمفرد والجمع",
+      "استعمال المحددات (الأدوات، الملكية، الإشارة)",
+      "مطابقة الصفة مع الاسم"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Le nom et son nombre",
+        "ar": "الاسم وعدده"
+      },
+      "puces": [
+        {
+          "fr": "Nom commun : désigne une catégorie (un chameau, la mer). Nom propre : désigne une personne ou un lieu précis (Moussa, Nouakchott) → majuscule.",
+          "ar": "الاسم العام: يدل على صنف (جمل، البحر). الاسم الجاهر: يدل على شخص أو مكان معين (موسى، نواكشوط) ← بحرف كبير."
+        },
+        {
+          "fr": "Pluriel régulier : + s (les dattes). Pluriels en -eau/-eu : + x (un bateau → des bateaux ; un jeu → des jeux).",
+          "ar": "الجمع المنتظم: + s. الجمع المنتهي بـ -eau/-eu: + x (قارب ← قوارب)."
+        },
+        {
+          "fr": "Pluriels irréguliers à connaître : un cheval → des chevaux ; un œil → des yeux.",
+          "ar": "جمع شاذ يجب حفظه: حصان ← خيول ؛ عين ← عيون."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Les déterminants",
+        "ar": "المحددات"
+      },
+      "puces": [
+        {
+          "fr": "Articles définis : le, la, l', les. Articles indéfinis : un, une, des.",
+          "ar": "الأدوات المعرفة: le، la، l'، les. الأدوات النكرة: un، une، des."
+        },
+        {
+          "fr": "Possessifs : mon, ton, son, notre, votre, leur (+ féminin ma, ta, sa ; pluriel mes, tes, ses…).",
+          "ar": "أدوات الملكية: mon، ton، son، notre، votre، leur (والمؤنث ma، ta، sa؛ والجمع mes، tes، ses…)."
+        },
+        {
+          "fr": "Démonstratifs : ce, cet (devant voyelle), cette, ces.",
+          "ar": "أدوات الإشارة: ce، cet (قبل حرف علة)، cette، ces."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "L'adjectif qualificatif",
+        "ar": "الصفة النوعية"
+      },
+      "bloc": [
+        {
+          "fr": "L'adjectif qualifie le nom : il s'accorde en genre et en nombre avec lui. « Un marché coloré », « une rue animée », « des dunes dorées ».",
+          "ar": "الصفة تصف الاسم: تطابقه في الجنس والعدد. «سوق ملوّن»، «شارع مزدحم»، «كثبان ذهبية»."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Accorde : « des sandales (neuf) » ; « une étoile (brillant) ».",
+          "ar": "طبّق المطابقة: «أحذية (جديد)» ؛ «نجمة (لامعة)»."
+        },
+        "etapes": [
+          {
+            "fr": "Sandales = féminin pluriel → neuv-es → « des sandales neuves ».",
+            "ar": "أحذية = مؤنث جمع ← «جديدة»."
+          },
+          {
+            "fr": "Étoile = féminin singulier → brillant-e → « une étoile brillante ».",
+            "ar": "نجمة = مؤنث مفرد ← «لامعة»."
+          }
+        ],
+        "resultat": {
+          "fr": "neuves ; brillante",
+          "ar": "جديدة؛ لامعة"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Nom commun",
+        "ar": "اسم عام"
+      },
+      "def": {
+        "fr": "Désigne une classe d'êtres ou d'objets.",
+        "ar": "يدل على صنف من المخلوقات أو الأشياء."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Nom propre",
+        "ar": "اسم جاهر"
+      },
+      "def": {
+        "fr": "Désigne une personne ou un lieu unique, avec majuscule.",
+        "ar": "يدل على شخص أو مكان واحد، بحرف كبير."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Déterminant",
+        "ar": "المحدِّد"
+      },
+      "def": {
+        "fr": "Mot placé devant le nom pour l'introduire (article, possessif, démonstratif…).",
+        "ar": "كلمة قبل الاسم لإدخاله (أداة، ملكية، إشارة…)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Adjectif qualificatif",
+        "ar": "صفة نوعية"
+      },
+      "def": {
+        "fr": "Mot qui donne une qualité du nom et s'accorde avec lui.",
+        "ar": "كلمة تبيّن صفة من صفات الاسم وتطابقه."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Mets au pluriel : « un cheval » ; « un jeu ».",
+        "ar": "حوّل إلى الجمع: «حصان» ؛ «لعبة»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Pluriel irrégulier en -aux ; pluriel régulier des noms en -eu → -eux.",
+            "ar": "جمع شاذ بـ -aux؛ وجمع منتظم للمنتهي بـ -eu ← -eux."
+          }
+        ],
+        "resultat": {
+          "fr": "des chevaux ; des jeux",
+          "ar": "خيول ؛ ألعاب"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Complète avec un démonstratif : « ___ fleurs sont magnifiques. »",
+        "ar": "أكمل بأداة إشارة: «___ أزهار رائعة.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Fleurs = féminin pluriel → ces.",
+            "ar": "أزهار = مؤنث جمع ← ces."
+          }
+        ],
+        "resultat": {
+          "fr": "Ces",
+          "ar": "هذه"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Accorde les adjectifs : « des maisons (blanc) et (haut) ».",
+        "ar": "طبّق المطابقة: «بيوت (أبيض) و(عالي)»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Maisons = féminin pluriel → blanches, hautes.",
+            "ar": "بيوت = مؤنث جمع ← بيضاء وعالية."
+          }
+        ],
+        "resultat": {
+          "fr": "des maisons blanches et hautes",
+          "ar": "بيوت بيضاء وعالية"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Remplace le déterminant par un possessif : « le cartable de l’élève » → « ___ cartable » ; « la maison de Fatou » → « ___ maison ».",
+        "ar": "استبدل المحل بضمير ملكية: «حقيبة التلميذ» ← «___ حقيبة»؛ «بيت فاتو» ← «___ بيت»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "son cartable ; sa maison.",
+            "ar": "حقيبته؛ بيته."
+          }
+        ],
+        "resultat": {
+          "fr": "son ; sa",
+          "ar": "son؛ sa"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Dans « Ces pêcheurs du Banc d’Arguin vendent leurs poissons au marché central. », trouve les déterminants et les noms.",
+        "ar": "في الجملة أوجد المحددات والأسماء."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Déterminants : ces, leurs, au (à + le) ; noms : pêcheurs, poissons, marché.",
+            "ar": "المحددات: ces، leurs؛ الأسماء: pêcheurs، poissons، marché."
+          }
+        ],
+        "resultat": {
+          "fr": "Voir étapes",
+          "ar": "انظر الخطوات"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Pluriel de « un œil » :",
+        "ar": "جمع «عين»:"
+      },
+      "choix": [
+        {
+          "fr": "des yeux",
+          "ar": "عيون"
+        },
+        {
+          "fr": "des œils",
+          "ar": "أعين"
+        },
+        {
+          "fr": "des œilsx",
+          "ar": "أعينsx"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Pluriel irrégulier.",
+        "ar": "جمع شاذ."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel déterminant devant « arbre » ?",
+        "ar": "أي محدد قبل «شجرة»؟"
+      },
+      "choix": [
+        {
+          "fr": "un",
+          "ar": "un"
+        },
+        {
+          "fr": "une",
+          "ar": "une"
+        },
+        {
+          "fr": "des la",
+          "ar": "des la"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Arbre = masculin singulier → un.",
+        "ar": "شجرة = مذكر مفرد ← un."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Dans « Nouakchott », on met une majuscule car c'est un nom propre.",
+        "ar": "في «نواكشوط» نكتب الحرف كبيراً لأنه اسم جاهر."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Nom de ville.",
+        "ar": "اسم مدينة."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "q": {
+        "fr": "« ___ amie est fidèle. » (possessif, à toi)",
+        "ar": "«___ صديقة وفيّة.» (ملكية لك)"
+      },
+      "choix": [
+        {
+          "fr": "Ta",
+          "ar": "صديقتك"
+        },
+        {
+          "fr": "Ton",
+          "ar": "صديقك"
+        },
+        {
+          "fr": "Tes",
+          "ar": "أصدقاؤك"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Amie = féminin singulier → ta.",
+        "ar": "صديقة = مؤنث مفرد ← ta."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Écris l'accord : « une veste (gris) ».",
+        "ar": "اكتب المطابقة: «سترة (رمادي)»."
+      },
+      "acceptees": [
+        "grise"
+      ],
+      "explication": {
+        "fr": "Féminin singulier → grise.",
+        "ar": "مؤنث مفرد ← grise."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "« des bateaux » : pourquoi -x ?",
+        "ar": "«قوارب»: لماذا -x؟"
+      },
+      "choix": [
+        {
+          "fr": "Les noms en -eau prennent -x",
+          "ar": "الأسماء المنتهية بـ -eau تأخذ -x"
+        },
+        {
+          "fr": "C'est irrégulier",
+          "ar": "جمع شاذ"
+        },
+        {
+          "fr": "Pour faire joli",
+          "ar": "للجمال فقط"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Règle des noms en -eau.",
+        "ar": "قاعدة الأسماء المنتهية بـ -eau."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel déterminant démonstratif ?",
+        "ar": "أي محدد إشارة؟"
+      },
+      "choix": [
+        {
+          "fr": "ce",
+          "ar": "هذا"
+        },
+        {
+          "fr": "mon",
+          "ar": "ملكي"
+        },
+        {
+          "fr": "les",
+          "ar": "الـ"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "ce, cet, cette, ces.",
+        "ar": "ce، cet، cette، ces."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "courte",
+      "q": {
+        "fr": "Déterminant de « ___ fleurs » (féminin pluriel) ?",
+        "ar": "محدد «___ أزهار» (مؤنث جمع)؟"
+      },
+      "acceptees": [
+        "les",
+        "des",
+        "ces",
+        "mes"
+      ],
+      "explication": {
+        "fr": "les/des/ces/mes fleurs.",
+        "ar": "les أو des…"
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Pluriel des noms en -eau / -eu",
+        "ar": "جمع الأسماء المنتهية بـ -eau/-eu"
+      },
+      "verso": {
+        "fr": "+ x (bateaux, jeux).",
+        "ar": "+ x."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "cheval → ?",
+        "ar": "حصان ← ؟"
+      },
+      "verso": {
+        "fr": "chevaux.",
+        "ar": "خيول."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Démonstratifs",
+        "ar": "أدوات الإشارة"
+      },
+      "verso": {
+        "fr": "ce, cet, cette, ces.",
+        "ar": "ce, cet, cette, ces."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Accord de l'adjectif",
+        "ar": "مطابقة الصفة"
+      },
+      "verso": {
+        "fr": "Genre et nombre du nom qu'il qualifie.",
+        "ar": "جنس وعدد الاسم الذي يصفه."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Nom propre vs commun",
+        "ar": "الاسم الجاهر مقابل العام"
+      },
+      "verso": {
+        "fr": "Propre = personne/lieu unique + majuscule.",
+        "ar": "الجاهر = شخص/مكان واحد + حرف كبير."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Possessif féminin singulier",
+        "ar": "أداة الملكية للمؤنث المفرد"
+      },
+      "verso": {
+        "fr": "ma (la mienne), ta, sa.",
+        "ar": "ma, ta, sa."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Déterminants possessifs",
+        "ar": "ضمائر الملكية"
+      },
+      "verso": {
+        "fr": "mon, ton, son, notre, votre, leur (+ mes, tes, ses…).",
+        "ar": "mon، ton، son…"
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Déterminants démonstratifs",
+        "ar": "محددات الإشارة"
+      },
+      "verso": {
+        "fr": "ce, cet, cette, ces.",
+        "ar": "ce، cet، cette، ces."
+      }
+    }
+  ]
+}

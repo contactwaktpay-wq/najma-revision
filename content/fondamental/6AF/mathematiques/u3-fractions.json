@@ -1,0 +1,510 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-03",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 3,
+  "titre": {
+    "fr": "Les fractions",
+    "ar": "الكسور"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Lire, écrire et représenter une fraction",
+      "Calculer la fraction d'une quantité",
+      "Comparer des fractions et additionner celles de même dénominateur"
+    ],
+    "ar": [
+      "قراءة وكتابة وتمثيل الكسر",
+      "حساب جزء من كمية",
+      "مقارنة الكسور وجمع الكسور ذات البسط المشترك"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Qu'est-ce qu'une fraction ?",
+        "ar": "ما هو الكسر؟"
+      },
+      "bloc": [
+        {
+          "fr": "Une fraction partage une unité en parts égales. Dans 3/4, le dénominateur (4) dit en combien de parts on partage ; le numérateur (3) dit combien de parts on prend.",
+          "ar": "الكسر يقسم الوحدة إلى أجزاء متساوية. في 3/4، المقام (4) يبيّن عدد الأجزاء والبسط (3) يبيّن عدد الأجزاء المأخوذة."
+        }
+      ],
+      "puces": [
+        {
+          "fr": "3/4 se lit « trois quarts ».",
+          "ar": "3/4 تُقرأ «ثلاثة أرباع»."
+        },
+        {
+          "fr": "Une fraction est égale à 1 quand numérateur = dénominateur (4/4 = 1).",
+          "ar": "الكسر يساوي 1 إذا تساوى البسط مع المقام (4/4 = 1)."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Fraction d'une quantité",
+        "ar": "جزء من كمية"
+      },
+      "bloc": [
+        {
+          "fr": "Pour prendre la fraction d'une quantité, on divise par le dénominateur puis on multiplie par le numérateur.",
+          "ar": "لأخذ جزء من كمية نقسم على المقام ثم نضرب في البسط."
+        }
+      ],
+      "formules": [
+        "fraction d'une quantité = (quantité ÷ dénominateur) × numérateur"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Les 3/4 de 240.",
+          "ar": "ثلاثة أرباع العدد 240."
+        },
+        "etapes": [
+          {
+            "fr": "240 ÷ 4 = 60 (un quart).",
+            "ar": "240 ÷ 4 = 60 (الربع)."
+          },
+          {
+            "fr": "60 × 3 = 180 (trois quarts).",
+            "ar": "60 × 3 = 180 (ثلاثة أرباع)."
+          }
+        ],
+        "resultat": {
+          "fr": "180",
+          "ar": "180"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Fractions équivalentes et comparaison",
+        "ar": "الكسور المكافئة والمقارنة"
+      },
+      "puces": [
+        {
+          "fr": "On obtient une fraction équivalente en multipliant (ou divisant) numérateur ET dénominateur par le même nombre : 2/3 = 4/6.",
+          "ar": "نحصل على كسر مكافئ بضرب (أو قسمة) البسط والمقام في العدد نفسه: 2/3 = 4/6."
+        },
+        {
+          "fr": "Pour comparer, on peut les mettre au même dénominateur : 1/2 = 3/6 et 1/3 = 2/6, donc 1/2 > 1/3.",
+          "ar": "للمقارنة نوحّد المقامات: 1/2 = 3/6 و 1/3 = 2/6، إذن 1/2 > 1/3."
+        },
+        {
+          "fr": "Addition de même dénominateur : on additionne les numérateurs (2/7 + 3/7 = 5/7).",
+          "ar": "جمع الكسور ذات المقام نفسه: نجمع البسطين (2/7 + 3/7 = 5/7)."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Numérateur",
+        "ar": "البسط"
+      },
+      "def": {
+        "fr": "Chiffre du haut : nombre de parts prises.",
+        "ar": "الرقم العلوي: عدد الأجزاء المأخوذة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Dénominateur",
+        "ar": "المقام"
+      },
+      "def": {
+        "fr": "Chiffre du bas : nombre de parts égales.",
+        "ar": "الرقم السفلي: عدد الأجزاء المتساوية."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Fractions équivalentes",
+        "ar": "كسور مكافئة"
+      },
+      "def": {
+        "fr": "Fractions qui représentent la même quantité (1/2 = 2/4).",
+        "ar": "كسور تمثل الكمية نفسها (1/2 = 2/4)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Simplifier",
+        "ar": "تبسيط"
+      },
+      "def": {
+        "fr": "Diviser numérateur et dénominateur par le même nombre : 6/9 = 2/3.",
+        "ar": "قسمة البسط والمقام في العدد نفسه: 6/9 = 2/3."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Les 2/5 de 30 ?",
+        "ar": "خُمسي العدد 30؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "30 ÷ 5 = 6 ; 6 × 2 = 12.",
+            "ar": "30 ÷ 5 = 6 ؛ 6 × 2 = 12."
+          }
+        ],
+        "resultat": {
+          "fr": "12",
+          "ar": "12"
+        }
+      },
+      "acceptees": [
+        "12"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Simplifie 12/18 au maximum.",
+        "ar": "بسّط الكسر 12/18 إلى أبسط صورة."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "12 et 18 sont divisibles par 6 : 12÷6 = 2 ; 18÷6 = 3.",
+            "ar": "12 و 18 يقبلان القسمة على 6: 12÷6 = 2 ؛ 18÷6 = 3."
+          }
+        ],
+        "resultat": {
+          "fr": "2/3",
+          "ar": "2/3"
+        }
+      },
+      "acceptees": [
+        "2/3"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Ali a dépensé 2/7 de son argent le lundi et 3/7 le mardi. Quelle fraction lui reste-t-il ?",
+        "ar": "أنفق عليّ 2/7 من ماله يوم الاثنين و 3/7 يوم الثلاثاء. ما الكسر الباقي؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Dépensé : 2/7 + 3/7 = 5/7. Reste : 7/7 − 5/7 = 2/7.",
+            "ar": "المنفق: 2/7 + 3/7 = 5/7. الباقي: 7/7 − 5/7 = 2/7."
+          }
+        ],
+        "resultat": {
+          "fr": "2/7 de son argent",
+          "ar": "2/7 من ماله"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Compare 3/5 et 7/10 (même dénominateur).",
+        "ar": "قارن 3/5 و 7/10."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "3/5 = 6/10 ; 6/10 < 7/10 → 3/5 < 7/10.",
+            "ar": "3/5 = 6/10 ← أصغر من 7/10."
+          }
+        ],
+        "resultat": {
+          "fr": "3/5 < 7/10",
+          "ar": "3/5 < 7/10"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Écris en nombre décimal : 3/10 ; 45/100 ; 1 + 7/10.",
+        "ar": "اكتب عدداً عشرياً: 3/10؛ 45/100؛ 1 + 7/10."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "0,3 ; 0,45 ; 1,7.",
+            "ar": "0,3؛ 0,45؛ 1,7."
+          }
+        ],
+        "resultat": {
+          "fr": "0,3 ; 0,45 ; 1,7",
+          "ar": "0,3؛ 0,45؛ 1,7"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "Les 3/4 de 240 ?",
+        "ar": "ثلاثة أرباع العدد 240؟"
+      },
+      "acceptees": [
+        "180"
+      ],
+      "explication": {
+        "fr": "240 ÷ 4 × 3.",
+        "ar": "240 ÷ 4 × 3."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Quelle fraction est équivalente à 2/3 ?",
+        "ar": "أي كسر يكافئ 2/3؟"
+      },
+      "choix": [
+        {
+          "fr": "4/6",
+          "ar": "4/6"
+        },
+        {
+          "fr": "3/4",
+          "ar": "3/4"
+        },
+        {
+          "fr": "2/6",
+          "ar": "2/6"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "On multiplie haut et bas par 2.",
+        "ar": "نضرب البسط والمقام في 2."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "1/2 > 1/3",
+        "ar": "1/2 > 1/3"
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Partager en 2 donne des parts plus grandes qu'en 3.",
+        "ar": "القسمة على 2 تعطي أجزاء أكبر من القسمة على 3."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Calcule 2/7 + 3/7.",
+        "ar": "احسب 2/7 + 3/7."
+      },
+      "acceptees": [
+        "5/7"
+      ],
+      "explication": {
+        "fr": "Même dénominateur : on ajoute les numérateurs.",
+        "ar": "المقام نفسه: نجمع البسطين."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Simplifie au maximum 8/12.",
+        "ar": "بسّط 8/12 إلى أبسط صورة."
+      },
+      "choix": [
+        {
+          "fr": "2/3",
+          "ar": "2/3"
+        },
+        {
+          "fr": "4/6",
+          "ar": "4/6"
+        },
+        {
+          "fr": "3/4",
+          "ar": "3/4"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "÷4 : 8÷4=2 ; 12÷4=3.",
+        "ar": "÷4: 8÷4=2 ؛ 12÷4=3."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Dans 3/4, que dit le dénominateur ?",
+        "ar": "في الكسر 3/4 ماذا يدل المقام؟"
+      },
+      "choix": [
+        {
+          "fr": "Combien de parts on prend",
+          "ar": "عدد الأجزاء المأخوذة"
+        },
+        {
+          "fr": "En combien de parts on partage",
+          "ar": "عدد الأجزاء المتساوية"
+        },
+        {
+          "fr": "La valeur du nombre entier",
+          "ar": "قيمة العدد الصحيح"
+        }
+      ],
+      "bonne": 1,
+      "explication": {
+        "fr": "Le dénominateur donne le partage.",
+        "ar": "المقام يدل على التقسيم."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "4/5 en décimal ?",
+        "ar": "4/5 بالعدد العشري؟"
+      },
+      "choix": [
+        {
+          "fr": "0,8",
+          "ar": "0,8"
+        },
+        {
+          "fr": "0,45",
+          "ar": "0,45"
+        },
+        {
+          "fr": "4,5",
+          "ar": "4,5"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "4 ÷ 5 = 0,8.",
+        "ar": "4 ÷ 5 = 0,8."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "2/4 = 1/2.",
+        "ar": "2/4 = 1/2."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Simplification par 2.",
+        "ar": "التبسيط بـ 2."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Que dit le dénominateur ?",
+        "ar": "ماذا يدل المقام؟"
+      },
+      "verso": {
+        "fr": "En combien de parts égales on partage.",
+        "ar": "عدد الأجزاء المتساوية."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Comment prendre 3/4 d'une quantité ?",
+        "ar": "كيف نأخذ ثلاثة أرباع كمية؟"
+      },
+      "verso": {
+        "fr": "÷4 puis ×3.",
+        "ar": "نقسم على 4 ثم نضرب في 3."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Fractions équivalentes à 1/2",
+        "ar": "كسور تكافئ 1/2"
+      },
+      "verso": {
+        "fr": "2/4, 3/6, 4/8…",
+        "ar": "2/4، 3/6، 4/8…"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Règle d'addition même dénominateur",
+        "ar": "قاعدة الجمع للمقام نفسه"
+      },
+      "verso": {
+        "fr": "On additionne les numérateurs seulement.",
+        "ar": "نجمع البسطين فقط."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Quand une fraction vaut-elle 1 ?",
+        "ar": "متى يساوي الكسر 1؟"
+      },
+      "verso": {
+        "fr": "Quand numérateur = dénominateur.",
+        "ar": "عندما يتساوى البسط مع المقام."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Simplifier 10/15",
+        "ar": "بسّط 10/15"
+      },
+      "verso": {
+        "fr": "2/3 (÷5).",
+        "ar": "2/3 (÷5)."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Fraction décimale",
+        "ar": "الكسر العشري"
+      },
+      "verso": {
+        "fr": "Dénominateur 10, 100, 1 000 : 7/100 = 0,07.",
+        "ar": "المقام 10 أو 100 أو 1000: 7/100 = 0,07."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Comparer des fractions",
+        "ar": "مقارنة الكسور"
+      },
+      "verso": {
+        "fr": "Même dénominateur → on compare les numérateurs.",
+        "ar": "المقام نفسه ← نقارن البسط."
+      }
+    }
+  ]
+}

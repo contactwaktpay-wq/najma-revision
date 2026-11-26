@@ -1,0 +1,453 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-math-06",
+  "niveau": "4AS",
+  "matiere": "mathematiques",
+  "ordre": 6,
+  "titre": {
+    "fr": "Statistiques et pourcentages",
+    "ar": "الإحصاء والنسب المئوية"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Organiser des données dans un tableau d'effectifs",
+      "Calculer moyenne, mode et étendue",
+      "Lire diagrammes (bâtons, circulaire) et calculer des pourcentages"
+    ],
+    "ar": [
+      "تنظيم البيانات في جدول التكرارات",
+      "حساب المتوسط والمنوال والمدى",
+      "قراءة التمثيلات البيانية (الأعمدة والدائري) وحساب النسب المئوية"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Tableau d'effectifs",
+        "ar": "جدول التكرارات"
+      },
+      "bloc": [
+        {
+          "fr": "L'effectif d'une valeur est le nombre de fois où elle apparaît. L'effectif total est la somme des effectifs. La fréquence = effectif ÷ effectif total (souvent en %).",
+          "ar": "التكرار هو عدد مرات ظهور القيمة. التكرار الكلي هو مجموع التكرارات. والتواتر = التكرار ÷ التكرار الكلي (غالباً بنسبة مئوية)."
+        }
+      ],
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "Note",
+            "ar": "النقطة"
+          },
+          {
+            "fr": "8",
+            "ar": "8"
+          },
+          {
+            "fr": "10",
+            "ar": "10"
+          },
+          {
+            "fr": "12",
+            "ar": "12"
+          },
+          {
+            "fr": "14",
+            "ar": "14"
+          },
+          {
+            "fr": "16",
+            "ar": "16"
+          }
+        ],
+        "lignes": [
+          [
+            "Effectif",
+            "2",
+            "4",
+            "5",
+            "3",
+            "1"
+          ],
+          [
+            "Effectif cumulé",
+            "2",
+            "6",
+            "11",
+            "14",
+            "15"
+          ]
+        ]
+      },
+      "exemple": {
+        "enonce": {
+          "fr": "Moyenne des notes du tableau ci-dessus (15 élèves).",
+          "ar": "متوسط النقاط في الجدول أعلاه (15 تلميذاً)."
+        },
+        "etapes": [
+          {
+            "fr": "Somme : 8×2 + 10×4 + 12×5 + 14×3 + 16×1 = 16 + 40 + 60 + 42 + 16 = 174.",
+            "ar": "المجموع: 16 + 40 + 60 + 42 + 16 = 174."
+          },
+          {
+            "fr": "Moyenne : 174 ÷ 15 = 11,6.",
+            "ar": "المتوسط: 174 ÷ 15 = 11,6."
+          }
+        ],
+        "resultat": {
+          "fr": "11,6 / 20",
+          "ar": "11,6 / 20"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Moyenne, mode, étendue",
+        "ar": "المتوسط والمنوال والمدى"
+      },
+      "puces": [
+        {
+          "fr": "Moyenne = somme des valeurs × effectifs ÷ effectif total.",
+          "ar": "المتوسط = مجموع القيم مضروبة بتكراراتها ÷ التكرار الكلي."
+        },
+        {
+          "fr": "Mode = valeur la plus fréquente (ici 12).",
+          "ar": "المنوال = القيمة الأكثر تكراراً (هنا 12)."
+        },
+        {
+          "fr": "Étendue = plus grande valeur − plus petite (16 − 8 = 8).",
+          "ar": "المدى = أكبر قيمة − أصغر قيمة (16 − 8 = 8)."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Diagrammes et pourcentages",
+        "ar": "التمثيلات البيانية والنسب المئوية"
+      },
+      "puces": [
+        {
+          "fr": "Diagramme en bâtons : hauteurs proportionnelles aux effectifs.",
+          "ar": "تمثيل بالأعمدة: الارتفاعات متناسبة مع التكرارات."
+        },
+        {
+          "fr": "Diagramme circulaire : angle = fréquence × 360°.",
+          "ar": "تمثيل دائري: الزاوية = التواتر × 360°."
+        },
+        {
+          "fr": "Fréquence en % : (effectif ÷ total) × 100.",
+          "ar": "التواتر بنسبة مئوية: (التكرار ÷ الكلي) × 100."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Effectif",
+        "ar": "التكرار"
+      },
+      "def": {
+        "fr": "Nombre d'individus portant une valeur.",
+        "ar": "عدد الأفراد الحاملين لقيمة معينة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Moyenne",
+        "ar": "المتوسط الحسابي"
+      },
+      "def": {
+        "fr": "Valeur qui partage équitablement le total.",
+        "ar": "القيمة التي تقسم المجموع بالعدل."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Mode",
+        "ar": "المنوال"
+      },
+      "def": {
+        "fr": "Valeur d'effectif maximal.",
+        "ar": "القيمة ذات أكبر تكرار."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Étendue",
+        "ar": "المدى"
+      },
+      "def": {
+        "fr": "Écart entre la plus grande et la plus petite valeur.",
+        "ar": "الفارق بين أكبر وأصغر قيمة."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Notes : 10, 12, 12, 14. Moyenne ?",
+        "ar": "النقاط: 10، 12، 12، 14. ما المتوسط؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "(10 + 12 + 12 + 14) ÷ 4 = 48 ÷ 4.",
+            "ar": "48 ÷ 4."
+          }
+        ],
+        "resultat": {
+          "fr": "12",
+          "ar": "12"
+        }
+      },
+      "acceptees": [
+        "12"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Fréquence en % des notes ≥ 12 dans le tableau de la fiche (15 élèves).",
+        "ar": "تواتر النقاط ≥ 12 بنسبة مئوية في الجدول أعلاه (15 تلميذاً)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Effectif ≥ 12 : 5 + 3 + 1 = 9 ; 9/15 = 0,6 = 60 %.",
+            "ar": "التكرار ≥ 12: 9 ؛ 9/15 = 60%."
+          }
+        ],
+        "resultat": {
+          "fr": "60 %",
+          "ar": "60 %"
+        }
+      },
+      "acceptees": [
+        "60"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Pour un diagramme circulaire, quel angle pour la valeur d'effectif 4 sur 15 ?",
+        "ar": "في تمثيل دائري، ما الزاوية المقابلة لقيمة تكرارها 4 من أصل 15؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Angle = 4/15 × 360 = 96°.",
+            "ar": "الزاوية = 4/15 × 360 = 96°."
+          }
+        ],
+        "resultat": {
+          "fr": "96°",
+          "ar": "96°"
+        }
+      },
+      "acceptees": [
+        "96"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Mode des notes 8, 10, 10, 12 :",
+        "ar": "منوال النقاط 8، 10، 10، 12:"
+      },
+      "choix": [
+        {
+          "fr": "10",
+          "ar": "10"
+        },
+        {
+          "fr": "8",
+          "ar": "8"
+        },
+        {
+          "fr": "10,5",
+          "ar": "10,5"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Valeur la plus fréquente.",
+        "ar": "الأكثر تكراراً."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "Moyenne de 10, 12, 12, 14 :",
+        "ar": "متوسط 10، 12، 12، 14:"
+      },
+      "acceptees": [
+        "12"
+      ],
+      "explication": {
+        "fr": "48 ÷ 4.",
+        "ar": "48 ÷ 4."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "qcm",
+      "q": {
+        "fr": "Étendue de 8 à 16 :",
+        "ar": "المدى من 8 إلى 16:"
+      },
+      "choix": [
+        {
+          "fr": "8",
+          "ar": "8"
+        },
+        {
+          "fr": "24",
+          "ar": "24"
+        },
+        {
+          "fr": "12",
+          "ar": "12"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "16 − 8.",
+        "ar": "16 − 8."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "q": {
+        "fr": "Angle d'une fréquence de 25 % en diagramme circulaire :",
+        "ar": "زاوية تواتر 25% في التمثيل الدائري:"
+      },
+      "choix": [
+        {
+          "fr": "90°",
+          "ar": "90°"
+        },
+        {
+          "fr": "25°",
+          "ar": "25°"
+        },
+        {
+          "fr": "100°",
+          "ar": "100°"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "0,25 × 360.",
+        "ar": "0,25 × 360."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "vf",
+      "q": {
+        "fr": "La moyenne dépend des effectifs de chaque valeur.",
+        "ar": "المتوسط يعتمد على تكرارات كل قيمة."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "C'est une moyenne pondérée.",
+        "ar": "إنه متوسط مرجّح."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Fréquence de 9 élèves sur 15, en % :",
+        "ar": "تواتر 9 تلاميذ من أصل 15 بنسبة مئوية:"
+      },
+      "acceptees": [
+        "60",
+        "60%"
+      ],
+      "explication": {
+        "fr": "9/15 × 100.",
+        "ar": "9/15 × 100."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Formule de la moyenne pondérée",
+        "ar": "صيغة المتوسط المرجّح"
+      },
+      "verso": {
+        "fr": "Σ(valeur × effectif) ÷ total.",
+        "ar": "مجموع (القيمة × التكرار) ÷ الكلي."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Mode",
+        "ar": "المنوال"
+      },
+      "verso": {
+        "fr": "Valeur la plus fréquente.",
+        "ar": "القيمة الأكثر تكراراً."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Étendue",
+        "ar": "المدى"
+      },
+      "verso": {
+        "fr": "Max − Min.",
+        "ar": "الأكبر − الأصغر."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Angle en diagramme circulaire",
+        "ar": "الزاوية في التمثيل الدائري"
+      },
+      "verso": {
+        "fr": "Fréquence × 360°.",
+        "ar": "التواتر × 360°."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Fréquence",
+        "ar": "التواتر"
+      },
+      "verso": {
+        "fr": "Effectif ÷ effectif total.",
+        "ar": "التكرار ÷ التكرار الكلي."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Diagramme en bâtons : hauteur",
+        "ar": "التمثيل بالأعمدة: الارتفاع"
+      },
+      "verso": {
+        "fr": "Proportionnel à l'effectif.",
+        "ar": "متناسب مع التكرار."
+      }
+    }
+  ]
+}

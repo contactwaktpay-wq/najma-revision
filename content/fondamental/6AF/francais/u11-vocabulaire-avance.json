@@ -1,0 +1,140 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-11",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 11,
+  "titre": { "fr": "Vocabulaire : familles de mots et sens", "ar": "المعجم: عائلات الكلمات والمعاني" },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Former les familles de mots (préfixes et suffixes)",
+      "Utiliser synonymes et antonymes",
+      "Distinguer sens propre et sens figuré"
+    ],
+    "ar": [
+      "تكوين عائلات الكلمات (السوابق واللواحق)",
+      "استعمال المترادفات والمتضادات",
+      "التمييز بين المعنى الحقيقي والمجازي"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "La famille de mots", "ar": "عائلة الكلمات" },
+      "puces": [
+        { "fr": "Une famille regroupe les mots formés sur le même radical : eau, aquatique, aquarium…", "ar": "العائلة تجمع الكلمات المشتقة من الجذر نفسه: ماء، مائي، حوض ماء…" },
+        { "fr": "Préfixe (devant) : re- (refaire = faire encore), dé- (défaire), in-/im- (contraire : impossible), mal- (malheureux).", "ar": "السابقة (قبل): re- للتكرار، dé- للعكس، in-/im- للنفي، mal- للسوء." },
+        { "fr": "Suffixe (après) : -tion (action), -ment (lentement), -able (mangeable), -eur/-euse (chanteur/chanteuse), -age (nettoyage).", "ar": "اللاحقة (بعد): -tion، -ment، -able، -eur/-euse، -age." }
+      ],
+      "tableau": {
+        "entetes": { "fr": ["Radical", "Famille"], "ar": ["الجذر", "العائلة"] },
+        "lignes": [
+          { "fr": ["ferme", "fermier, ferme, fermette, agriculture"], "ar": ["مزرعة", "فلاح، مزرعة، فلاحة"] },
+          { "fr": ["école", "écolier, scolaire, scolarité"], "ar": ["مدرسة", "تلميذ، مدرسي، تعليم"] },
+          { "fr": ["pêche", "pêcheur, pêcher, pêcherie"], "ar": ["صيد", "صياد، يصطاد، ميناء صيد"] }
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Synonymes et antonymes", "ar": "المترادفات والمتضادات" },
+      "puces": [
+        { "fr": "Synonymes : mots de sens proche — content = joyeux = ravi.", "ar": "المترادفات: كلمات قريبة المعنى — سعيد = فرِح = مسرور." },
+        { "fr": "Antonymes : mots de sens contraire — grand ≠ petit ; chaud ≠ froid ; vite ≠ lentement.", "ar": "المتضادات: كلمات معناها معاكس — كبير ≠ صغير؛ حار ≠ بارد." },
+        { "fr": "Le préfixe in-/im-/dé-/mal- forme souvent l'antonyme : utile → inutile, poli → impoli.", "ar": "السابقة in-/im-/dé-/mal- تصنع المتضاد غالباً: مفيد ← غير مفيد؛ مؤدب ← غير مؤدب." }
+      ]
+    },
+    {
+      "titre": { "fr": "Sens propre et sens figuré", "ar": "المعنى الحقيقي والمجازي" },
+      "puces": [
+        { "fr": "Sens propre : « la pluie tombe » (elle descend vraiment).", "ar": "الحقيقي: «تمطر السماء» (تتنزل فعلاً)." },
+        { "fr": "Sens figuré : « il tombe mal » (c'est un mauvais moment) ; « le cœur lourd » (triste).", "ar": "المجازي: «وقت سيئ»؛ «قلب ثقيل» (حزين)." },
+        { "fr": "Expressions à connaître : « avoir la langue bien pendue » (parler beaucoup), « être dans le même bateau » (vivre la même situation).", "ar": "تعبيرات: «لسان طويل» (يثور كثيراً)، «في القارب نفسه» (يعيشون الموقف ذاته)." }
+      ],
+      "exemple": { "fr": "Au marché : « ce poisson est frais » (sens propre) ; « une idée fraîche » (sens figuré : nouvelle).", "ar": "في السوق: «سمكة طازجة» (حقيقي)؛ «فكرة طازجة» (مجازي: جديدة)." }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Préfixe", "ar": "السابقة" }, "def": { "fr": "Élément placé devant le radical (re-, in-, dé-).", "ar": "عنصر يوضع قبل الجذر (re-، in-، dé-)." } },
+    { "terme": { "fr": "Suffixe", "ar": "اللاحقة" }, "def": { "fr": "Élément placé après le radical (-tion, -ment, -able).", "ar": "عنصر يوضع بعد الجذر (-tion، -ment، -able)." } },
+    { "terme": { "fr": "Synonyme", "ar": "المترادف" }, "def": { "fr": "Mot de sens proche d'un autre.", "ar": "كلمة قريبة المعنى من أخرى." } },
+    { "terme": { "fr": "Antonyme", "ar": "المتضاد" }, "def": { "fr": "Mot de sens contraire.", "ar": "كلمة معناها معاكس." } },
+    { "terme": { "fr": "Sens figuré", "ar": "المعنى المجازي" }, "def": { "fr": "Sens autre que le sens littéral du mot.", "ar": "معنى غير المعنى الحرفي للكلمة." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Forme 3 mots de la famille de « jardin ».", "ar": "كوّن 3 كلمات من عائلة «jardin»." },
+      "correction": {
+        "etapes": [
+          { "fr": "jardinier (celui qui cultive), jardinage (l'activité), jardinet (petit jardin).", "ar": "jardinier، jardinage، jardinet." }
+        ],
+        "resultat": { "fr": "jardinier ; jardinage ; jardinet", "ar": "jardinier؛ jardinage؛ jardinet" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 1,
+      "enonce": { "fr": "Donne un antonyme : propre → ___ ; montée → ___ ; courageux → ___.", "ar": "أعط المتضاد: نظيف، صعود، شجاع." },
+      "correction": {
+        "etapes": [
+          { "fr": "propre → sale ; montée → descente ; courageux → lâche (ou poltron).", "ar": "سلكس، نزول، جبان." }
+        ],
+        "resultat": { "fr": "sale ; descente ; lâche", "ar": "sale؛ descente؛ lâche" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Grâce aux préfixes, forme le contraire : possible → ___ ; faire → ___ ; heureux → ___ ; utiliser → ___.", "ar": "بالسوابق كوّن العكس: ممكن، يفعل، سعيد، يستعمل." },
+      "correction": {
+        "etapes": [
+          { "fr": "impossible ; défaire ; malheureux ; déutiliser → on préfère « ne pas utiliser » (ou « désueter » rare) — réponse attendue : impossible, défaire, malheureux.", "ar": "impossible؛ défaire؛ malheureux." }
+        ],
+        "resultat": { "fr": "impossible ; défaire ; malheureux", "ar": "impossible؛ défaire؛ malheureux" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 2,
+      "enonce": { "fr": "Sens propre ou sens figuré ? « Il a le cœur lourd. » / « Ce sac est lourd. » / « Elle a une tête dure. »", "ar": "حقيقي أم مجازي؟ «قلبه ثقيل» / «الحقيبة ثقيلة» / «رأسه عنيد»." },
+      "correction": {
+        "etapes": [
+          { "fr": "« Il a le cœur lourd » : figuré (triste).", "ar": "الأولى مجازية (حزين)." },
+          { "fr": "« Ce sac est lourd » : propre (poids réel).", "ar": "الثانية حقيقية (وزن فعلي)." },
+          { "fr": "« Une tête dure » : figuré (têtu).", "ar": "الثالثة مجازية (عنيد)." }
+        ],
+        "resultat": { "fr": "figuré ; propre ; figuré", "ar": "مجازي؛ حقيقي؛ مجازي" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Écris une phrase avec « rapide » et une autre avec son antonyme. Puis remplace « rapide » par un synonyme sans changer le sens.", "ar": "اكتب جملة بـ «rapide» وأخرى بمتضاده. ثم استبدل «rapide» بمترادف دون تغيير المعنى." },
+      "correction": {
+        "etapes": [
+          { "fr": "Exemple : « La gazelle est rapide. » / « Le dromadaire est lent. »", "ar": "مثال: «الغزال سريع» / «الجمل بطيء»." },
+          { "fr": "Synonymes de rapide : véloce, agile, pressé (selon le contexte).", "ar": "مترادفات: véloce، agile." },
+          { "fr": "Barème : 2 pts phrases + 1 pt synonyme correct.", "ar": "التنقيط: نقطتان للجملتين + نقطة للمترادف." }
+        ],
+        "resultat": { "fr": "Deux phrases + un synonyme", "ar": "جملتان + مترادف" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Quel mot appartient à la famille de « pêche » ?", "ar": "أي كلمة من عائلة «pêche»؟" }, "choix": [{ "fr": "pêcheur", "ar": "صياد" }, { "fr": "période", "ar": "فترة" }, { "fr": "perruque", "ar": "شعر مستعار" }], "bonne": 0, "explication": { "fr": "pêcheur = celui qui pêche.", "ar": "pêcheur = من يصطاد." } },
+    { "id": "q2", "type": "courte", "q": { "fr": "Antonyme de « monter » ?", "ar": "متضاد «monter»؟" }, "acceptees": ["descendre", "يقع", "ينزل"], "explication": { "fr": "monter ≠ descendre.", "ar": "يرتفع ≠ ينزل." } },
+    { "id": "q3", "type": "qcm", "q": { "fr": "Le préfixe de « impossible » est…", "ar": "سابقة كلمة «impossible» هي…" }, "choix": [{ "fr": "im-", "ar": "im-" }, { "fr": "-ible", "ar": "-ible" }, { "fr": "pos-", "ar": "pos-" }], "bonne": 0, "explication": { "fr": "im- + possible.", "ar": "im- + possible." } },
+    { "id": "q4", "type": "vf", "q": { "fr": "« Une idée fraîche » est un sens figuré.", "ar": "«فكرة طازجة» معنى مجازي." }, "bonne": true, "explication": { "fr": "Oui : nouvelle, originale.", "ar": "نعم: جديدة، أصيلة." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Synonyme de « content » ?", "ar": "مترادف «content»؟" }, "choix": [{ "fr": "joyeux", "ar": "فرِح" }, { "fr": "triste", "ar": "حزين" }, { "fr": "fatigué", "ar": "متعب" }], "bonne": 0, "explication": { "fr": "content = joyeux.", "ar": "content = فرِح." } },
+    { "id": "q6", "type": "courte", "q": { "fr": "Suffixe de « lentement » ?", "ar": "لاحقة كلمة «lentement»؟" }, "acceptees": ["-ment", "ment"], "explication": { "fr": "lente + -ment.", "ar": "-ment." } },
+    { "id": "q7", "type": "qcm", "q": { "fr": "« Être dans le même bateau » signifie…", "ar": "«في القارب نفسه» تعني…" }, "choix": [{ "fr": "vivre la même situation", "ar": "يعيشون الموقف نفسه" }, { "fr": "aimer la mer", "ar": "يحبون البحر" }, { "fr": "voyager ensemble", "ar": "يسافرون معاً" }], "bonne": 0, "explication": { "fr": "Sens figuré : même situation.", "ar": "مجازي: الموقف نفسه." } },
+    { "id": "q8", "type": "vf", "q": { "fr": "Un antonyme de « rapide » est « lent ».", "ar": "متضاد «سريع» هو «بطيء»." }, "bonne": true, "explication": { "fr": "Vrai.", "ar": "صحيح." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Préfixe du contraire ?", "ar": "سابقة العكس؟" }, "verso": { "fr": "in-, im-, dé-, mal-", "ar": "in-، im-، dé-، mal-" } },
+    { "id": "f2", "recto": { "fr": "Synonyme de « joyeux » ?", "ar": "مترادف «joyeux»؟" }, "verso": { "fr": "content, ravi, gai", "ar": "content، ravi، gai" } },
+    { "id": "f3", "recto": { "fr": "Antonyme de « vite » ?", "ar": "متضاد «vite»؟" }, "verso": { "fr": "lentement", "ar": "lentement" } },
+    { "id": "f4", "recto": { "fr": "Famille de « mer » ?", "ar": "عائلة «mer»؟" }, "verso": { "fr": "marin, maritime, marée", "ar": "marin، maritime، marée" } },
+    { "id": "f5", "recto": { "fr": "Sens figuré de « cœur lourd » ?", "ar": "المجازي لـ «cœur lourd»؟" }, "verso": { "fr": "Être triste", "ar": "أن يكون حزيناً" } },
+    { "id": "f6", "recto": { "fr": "Suffixe métier (-eur) : celui qui chante ?", "ar": "لاحقة المهنة: من يُغني؟" }, "verso": { "fr": "chanteur / chanteuse", "ar": "chanteur / chanteuse" } },
+    { "id": "f7", "recto": { "fr": "Préfixe de répétition ?", "ar": "سابقة التكرار؟" }, "verso": { "fr": "re- (refaire)", "ar": "re-" } },
+    { "id": "f8", "recto": { "fr": "Antonyme de « propre » ?", "ar": "متضاد «نظيف»؟" }, "verso": { "fr": "sale", "ar": "سلكس" } }
+  ]
+}

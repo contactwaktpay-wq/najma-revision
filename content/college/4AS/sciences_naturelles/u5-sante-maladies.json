@@ -1,0 +1,77 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-svn-05",
+  "niveau": "4AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 5,
+  "titre": { "fr": "Santé et maladies : agents, transmission, prévention", "ar": "الصحة والأمراض: العوامل والانتقال والوقاية" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Identifier les agents pathogènes et leurs modes de transmission", "Décrire le paludisme et sa prévention en contexte sahélien", "Justifier l'intérêt de la vaccination et de l'hygiène"],
+    "ar": ["التعرف على العوامل الممرضة وطرق انتقالها", "وصف الملاريا ووسائل الوقاية منها في السياق الساحلي", "تبرير أهمية التطعيم والنظافة"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Les agents pathogènes", "ar": "العوامل الممرضة" },
+      "puces": [
+        { "fr": "Bactéries : microorganismes unicellulaires (tuberculose, choléra, rage dentaire/caries).", "ar": "البكتيريا: كائنات وحيدة الخلية (السل، الكوليرا، تسوس الأسنان)." },
+        { "fr": "Virus : beaucoup plus petits, parasitent les cellules (grippe, rougeole, VIH/SIDA).", "ar": "الفيروسات: أصغر بكثير وتتطفل على الخلايا (الإنفلونزا، الحصبة، فيروس نقص المناعة)." },
+        { "fr": "Parasites : organismes qui vivent aux dépens d'un hôte (Plasmodium du paludisme, vers intestinaux).", "ar": "الطفيليات: كائنات تعيش على حساب مضيف (المتصورة المسببة للملاريا، الديدان المعوية)." }
+      ]
+    },
+    {
+      "titre": { "fr": "Le paludisme, maladie majeure au Sahel", "ar": "الملاريا، مرض كبرى في الساحل" },
+      "bloc": [{ "fr": "Le paludisme est transmis par la piqûre de la femelle du moustique anophèle, qui injecte le parasite Plasmodium. Symptômes : fièvre élevée, frissons, fatigue, maux de tête. C'est une cause majeure d'absentéisme scolaire en Mauritanie pendant la saison des pluies.", "ar": "تنتقل الملاريا بلدغة أنثى البعوض الأنوفيلي التي تحقن المتصورة. الأعراض: حمى شديدة، قشعريرة، إجهاد، صداع. وهي من أسباب الغياب المدرسي الكبرى في موريتانيا خلال موسم الأمطار." }],
+      "puces": [
+        { "fr": "Prévention : moustiquaires imprégnées, eau stagnante éliminée, pulvérisations.", "ar": "الوقاية: الناموسيات المعالجة، إزالة المياه الراكدة، الرش." },
+        { "fr": "Traitement : consulter un centre de santé dès la fièvre ; médicaments antipaludiques prescrits.", "ar": "العلاج: مراجعة مركز صحي عند الحمى؛ أدوية مضادة للملاريا بوصفة." }
+      ]
+    },
+    {
+      "titre": { "fr": "Vaccination et hygiène", "ar": "التطعيم والنظافة" },
+      "puces": [
+        { "fr": "La vaccination prépare le corps à reconnaître et détruire un agent pathogène avant la maladie (calendrier vaccinal du pays).", "ar": "التطعيم يُجهّز الجسم للتعرف على العامل الممرض وتدميره قبل المرض (البرنامج الوطني للتطعيم)." },
+        { "fr": "Hygiène : lavage des mains, eau potable, propreté du corps et des habitations, assainissement.", "ar": "النظافة: غسل اليدين، ماء صالح للشرب، نظافة الجسم والمساكن، الإصحاح." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Agent pathogène", "ar": "العامل الممرض" }, "def": { "fr": "Microorganisme qui provoque une maladie.", "ar": "كائن مجهري يسبب مرضاً." } },
+    { "terme": { "fr": "Vecteur", "ar": "الناقل" }, "def": { "fr": "Animal qui transmet l'agent (anophèle → paludisme).", "ar": "حيوان ينقل العامل (الأنوفيلي ← الملاريا)." } },
+    { "terme": { "fr": "Vaccin", "ar": "اللقاح" }, "def": { "fr": "Produit qui entraîne le corps à se défendre contre une maladie.", "ar": "مادة تدرّب الجسم على الدفاع ضد مرض." } },
+    { "terme": { "fr": "Épidémie", "ar": "وباء" }, "def": { "fr": "Propagation rapide d'une maladie dans une région.", "ar": "انتقال سريع لمرض في منطقة ما." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Classe : grippe, paludisme, choléra → type d'agent.", "ar": "صنّف: الإنفلونزا، الملاريا، الكوليرا ← نوع العامل." },
+      "correction": { "etapes": [{ "fr": "Grippe = virus ; paludisme = parasite ; choléra = bactérie.", "ar": "الإنفلونزا = فيروس ؛ الملاريا = طفيلي ؛ الكوليرا = بكتيريا." }], "resultat": { "fr": "Virus ; parasite ; bactérie.", "ar": "فيروس ؛ طفيلي ؛ بكتيريا." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Explique pourquoi l'anophèle transmet le paludisme mais pas la grippe.", "ar": "اشرح لماذا ينقل الأنوفيلي الملاريا ولا ينقل الإنفلونزا." },
+      "correction": { "etapes": [{ "fr": "Chaque agent a son mode de transmission : Plasmodium circule dans le sang de l'anophèle ; le virus de la grippe passe par les gouttelettes respiratoires.", "ar": "لكل عامل طريقة انتقال: المتصورة في دم الأنوفيلي؛ وفيروس الإنفلونزا عبر رذاذ التنفس." }], "resultat": { "fr": "Modes de transmission différents.", "ar": "طرق انتقال مختلفة." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Propose un plan d'action anti-paludisme pour ton école.", "ar": "اقترح خطة عمل ضد الملاريا لمدرستك." },
+      "correction": { "etapes": [
+        { "fr": "Distribuer des moustiquaires ; assécher les flaques après la pluie ; sensibiliser (affiches, causeries) ; signaler toute fièvre à l'infirmerie.", "ar": "توزيع ناموسيات؛ تجفيف الماء الراكد بعد المطر؛ التوعية (ملصقات، محادثات)؛ إبلاغ المختص عن كل حمى." }
+      ], "resultat": { "fr": "Prévention collective organisée.", "ar": "وقاية جماعية منظمة." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Vecteur du paludisme :", "ar": "ناقل الملاريا:" },
+      "choix": [{ "fr": "anophèle femelle", "ar": "أنثى الأنوفيلي" }, { "fr": "rat", "ar": "الفأر" }, { "fr": "eau souillée", "ar": "ماء ملوث" }], "bonne": 0, "explication": { "fr": "Piqûre de la femelle d'anophèle.", "ar": "لدغة الأنثى." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Plasmodium est :", "ar": "المتصورة:" },
+      "choix": [{ "fr": "un parasite", "ar": "طفيلي" }, { "fr": "un virus", "ar": "فيروس" }, { "fr": "une bactérie", "ar": "بكتيريا" }], "bonne": 0, "explication": { "fr": "Parasite unicellulaire transmis par piqûre.", "ar": "طفيلي وحيد الخلية ينقل بلدغة." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "Une moustiquaire imprégnée protège du paludisme.", "ar": "الناموسية المعالجة تحمي من الملاريا." }, "bonne": true, "explication": { "fr": "Empêche les piqûres nocturnes.", "ar": "تمنع اللدغات الليلية." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Symptôme principal du paludisme :", "ar": "العرض الرئيسي للملاريا:" }, "acceptees": ["fièvre", "la fièvre", "حمى"], "explication": { "fr": "Fièvre + frissons + fatigue.", "ar": "حمى + قشعريرة + إجهاد." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "La vaccination sert à :", "ar": "التطعيم يهدف إلى:" },
+      "choix": [{ "fr": "préparer le corps avant la maladie", "ar": "تجهيز الجسم قبل المرض" }, { "fr": "guérir déjà malade", "ar": "علاج المريض أصلاً" }, { "fr": "tuer les moustiques", "ar": "قتل البعوض" }], "bonne": 0, "explication": { "fr": "Prévention active.", "ar": "وقاية فعالة." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "L'eau stagnante favorise la reproduction des moustiques.", "ar": "المياه الراكدة تساعد تكاثر البعوض." }, "bonne": true, "explication": { "fr": "Larves dans l'eau calme.", "ar": "اليرقات تنمو في الماء الساكن." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "3 types d'agents pathogènes", "ar": "أنواع العوامل الممرضة الثلاثة" }, "verso": { "fr": "Bactéries, virus, parasites.", "ar": "بكتيريا، فيروسات، طفيليات." } },
+    { "id": "f2", "recto": { "fr": "Paludisme : agent + vecteur", "ar": "الملاريا: العامل والناقل" }, "verso": { "fr": "Plasmodium + anophèle femelle.", "ar": "المتصورة + أنثى الأنوفيلي." } },
+    { "id": "f3", "recto": { "fr": "Définition du vaccin", "ar": "تعريف اللقاح" }, "verso": { "fr": "Prépare la défense du corps avant la maladie.", "ar": "يجهز دفاع الجسم قبل المرض." } },
+    { "id": "f4", "recto": { "fr": "3 gestes d'hygiène essentiels", "ar": "ثلاث ممارسات نظافة أساسية" }, "verso": { "fr": "Laver les mains, boire de l'eau potable, corps et maison propres.", "ar": "غسل اليدين، ماء نظيف، جسم ومسكن نظيفان." } },
+    { "id": "f5", "recto": { "fr": "Premier réflexe en cas de fièvre", "ar": "أول رد فعل عند الحمى" }, "verso": { "fr": "Consulter un centre de santé.", "ar": "المراجعة إلى مركز صحي." } },
+    { "id": "f6", "recto": { "fr": "Vecteur", "ar": "الناقل" }, "verso": { "fr": "Organisme qui transmet l'agent pathogène.", "ar": "كائن ينقل العامل الممرض." } }
+  ]
+}

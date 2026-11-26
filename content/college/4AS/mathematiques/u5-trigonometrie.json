@@ -1,0 +1,417 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "4AS-math-05",
+  "niveau": "4AS",
+  "matiere": "mathematiques",
+  "ordre": 5,
+  "titre": {
+    "fr": "Trigonométrie dans le triangle rectangle",
+    "ar": "المثلثات في المثلث القائم"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Définir cos, sin et tan dans un triangle rectangle",
+      "Calculer un côté ou un angle à l'aide des rapports trigonométriques"
+    ],
+    "ar": [
+      "تعريف cos و sin و tan في المثلث القائم",
+      "حساب ضلع أو زاوية باستعمال النسب المثلثية"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Les trois rapports",
+        "ar": "النسب الثلاث"
+      },
+      "bloc": [
+        {
+          "fr": "Dans un triangle rectangle, par rapport à un angle aigu α : le cosinus = adjacent/hypoténuse, le sinus = opposé/hypoténuse, la tangente = opposé/adjacent.",
+          "ar": "في المثلث القائم، بالنسبة إلى الزاوية الحادة α: الجيب التمام = المجاور/الوتر، الجيب = المقابل/الوتر، الظل = المقابل/المجاور."
+        }
+      ],
+      "formules": [
+        "cos α = adjacent / hypoténuse",
+        "sin α = opposé / hypoténuse",
+        "tan α = opposé / adjacent",
+        "sin α / cos α = tan α"
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Valeurs à connaître",
+        "ar": "قيم يجب حفظها"
+      },
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "Angle",
+            "ar": "الزاوية"
+          },
+          {
+            "fr": "sin",
+            "ar": "sin"
+          },
+          {
+            "fr": "cos",
+            "ar": "cos"
+          },
+          {
+            "fr": "tan",
+            "ar": "tan"
+          }
+        ],
+        "lignes": [
+          [
+            "30°",
+            "1/2",
+            "√3/2",
+            "√3/3"
+          ],
+          [
+            "45°",
+            "√2/2",
+            "√2/2",
+            "1"
+          ],
+          [
+            "60°",
+            "√3/2",
+            "1/2",
+            "√3"
+          ]
+        ]
+      },
+      "exemple": {
+        "enonce": {
+          "fr": "Hypoténuse 10, adjacent 8 : quelle est la mesure de l'angle ?",
+          "ar": "الوتر 10 والمجاور 8: ما قياس الزاوية؟"
+        },
+        "etapes": [
+          {
+            "fr": "cos α = 8/10 = 0,8.",
+            "ar": "cos α = 8/10 = 0,8."
+          },
+          {
+            "fr": "α ≈ 37° (calculatrice, mode degrés).",
+            "ar": "α ≈ 37° (بالحاسبة بنمط الدرجات)."
+          }
+        ],
+        "resultat": {
+          "fr": "α ≈ 37°",
+          "ar": "α ≈ 37°"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Applications concrètes",
+        "ar": "تطبيقات واقعية"
+      },
+      "puces": [
+        {
+          "fr": "Mesurer une hauteur inaccessible (palmier, puits) à partir d'une distance au sol et d'un angle.",
+          "ar": "قياس ارتفاع يتعذر الوصول إليه (نخلة، بئر) انطلاقاً من مسافة أفقية وزاوية."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Adjacent",
+        "ar": "الضلع المجاور"
+      },
+      "def": {
+        "fr": "Côté de l'angle α qui n'est pas l'hypoténuse.",
+        "ar": "الضلع المجاور للزاوية α وليس الوتر."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Opposé",
+        "ar": "الضلع المقابل"
+      },
+      "def": {
+        "fr": "Côté en face de l'angle α.",
+        "ar": "الضلع المقابل للزاوية α."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Un triangle rectangle : hypoténuse 10, adjacent 8. Calcule cos α.",
+        "ar": "مثلث قائم: الوتر 10 والمجاور 8. احسب cos α."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "cos α = 8/10 = 0,8.",
+            "ar": "cos α = 8/10 = 0,8."
+          }
+        ],
+        "resultat": {
+          "fr": "0,8",
+          "ar": "0,8"
+        }
+      },
+      "acceptees": [
+        "0,8",
+        "0.8"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Angle 45°, adjacent 7. Calcule l'opposé (tan 45° = 1).",
+        "ar": "زاوية 45° والمجاور 7. احسب المقابل (tan 45° = 1)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "tan 45° = opp/adj → opp = 1 × 7 = 7.",
+            "ar": "tan 45° = opp/adj ← opp = 7."
+          }
+        ],
+        "resultat": {
+          "fr": "7",
+          "ar": "7"
+        }
+      },
+      "acceptees": [
+        "7"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "À 5 m d'un palmier, l'angle d'élévation vers le sommet est 60°. Hauteur du palmier (tan 60° ≈ 1,73) ?",
+        "ar": "على بعد 5 م من نخلة، كانت زاوية الارتفاع نحو القمة 60°. ما ارتفاع النخلة (tan 60° ≈ 1,73)؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "tan 60° = h/5 → h = 5 × 1,73 ≈ 8,65 m.",
+            "ar": "tan 60° = h/5 ← h ≈ 8,65 م."
+          }
+        ],
+        "resultat": {
+          "fr": "≈ 8,65 m",
+          "ar": "≈ 8,65 م"
+        }
+      },
+      "acceptees": [
+        "8,65",
+        "8.65"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "cos α = ?",
+        "ar": "cos α = ؟"
+      },
+      "choix": [
+        {
+          "fr": "adjacent/hypoténuse",
+          "ar": "المجاور/الوتر"
+        },
+        {
+          "fr": "opposé/adjacent",
+          "ar": "المقابل/المجاور"
+        },
+        {
+          "fr": "opposé/hypoténuse",
+          "ar": "المقابل/الوتر"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Définition.",
+        "ar": "التعريف."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "tan 45° = ?",
+        "ar": "tan 45° = ؟"
+      },
+      "acceptees": [
+        "1"
+      ],
+      "explication": {
+        "fr": "Triangle rectangle isocèle.",
+        "ar": "مثلث قائم متساوي الساقين."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "sin α / cos α = tan α.",
+        "ar": "sin α / cos α = tan α."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Relation fondamentale.",
+        "ar": "علاقة أساسية."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "cos α si hypoténuse = 10 et adjacent = 8.",
+        "ar": "cos α إذا كان الوتر 10 والمجاور 8."
+      },
+      "acceptees": [
+        "0,8",
+        "0.8"
+      ],
+      "explication": {
+        "fr": "8/10.",
+        "ar": "8/10."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "sin 30° = ?",
+        "ar": "sin 30° = ؟"
+      },
+      "choix": [
+        {
+          "fr": "1/2",
+          "ar": "1/2"
+        },
+        {
+          "fr": "√3/2",
+          "ar": "√3/2"
+        },
+        {
+          "fr": "1",
+          "ar": "1"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Valeur remarquable.",
+        "ar": "قيمة شهيرة."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Hauteur d'un palmier vu sous 60° à 5 m :",
+        "ar": "ارتفاع نخلة تُرى بزاوية 60° من 5 م:"
+      },
+      "choix": [
+        {
+          "fr": "≈ 8,65 m",
+          "ar": "≈ 8,65 م"
+        },
+        {
+          "fr": "≈ 5 m",
+          "ar": "≈ 5 م"
+        },
+        {
+          "fr": "≈ 2,5 m",
+          "ar": "≈ 2,5 م"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "h = 5 × tan 60°.",
+        "ar": "h = 5 × tan 60°."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "cos α",
+        "ar": "cos α"
+      },
+      "verso": {
+        "fr": "adjacent / hypoténuse.",
+        "ar": "المجاور / الوتر."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "sin α",
+        "ar": "sin α"
+      },
+      "verso": {
+        "fr": "opposé / hypoténuse.",
+        "ar": "المقابل / الوتر."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "tan α",
+        "ar": "tan α"
+      },
+      "verso": {
+        "fr": "opposé / adjacent = sin/cos.",
+        "ar": "المقابل / المجاور = sin/cos."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "sin 30°",
+        "ar": "sin 30°"
+      },
+      "verso": {
+        "fr": "1/2.",
+        "ar": "1/2."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "cos 60°",
+        "ar": "cos 60°"
+      },
+      "verso": {
+        "fr": "1/2.",
+        "ar": "1/2."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "tan 45°",
+        "ar": "tan 45°"
+      },
+      "verso": {
+        "fr": "1.",
+        "ar": "1."
+      }
+    }
+  ],
+  "notes_editeur": [
+    {
+      "fr": "Rapprochement programme sénégalais/francophone (BFEM) : vérifier si la trigonométrie du triangle rectangle figure explicitement au programme mauritanien de 4AS et à quel coefficient du Brevet.",
+      "ar": "استئناس بالبرنامج السنغافوري/الفرنكفوني (شهادة الإعدادي): التحقق من وجود المثلثات في المثلث القائم بالبرنامج الموريتاني للسنة الرابعة إعدادي ومعاملها."
+    }
+  ]
+}

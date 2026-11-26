@@ -1,0 +1,426 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "7ASD-math-01",
+  "niveau": "7AS",
+  "matiere": "mathematiques",
+  "ordre": 1,
+  "titre": {
+    "fr": "Limites et continuité",
+    "ar": "النهايات والاتصال"
+  },
+  "duree_min": 40,
+  "objectifs": {
+    "fr": [
+      "Calculer des limites à l'aide des opérations et des formes indéterminées",
+      "Étudier la continuité d'une fonction en un point",
+      "Appliquer le théorème des valeurs intermédiaires (TVI)"
+    ],
+    "ar": [
+      "حساب النهايات بالعمليات ومعالجة الصور غير المحددة",
+      "دراسة اتصال دالة في نقطة",
+      "تطبيق مبرهنة القيم الوسطية"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Calcul de limites",
+        "ar": "حساب النهايات"
+      },
+      "puces": [
+        {
+          "fr": "Limites des fonctions usuelles : lim x→+∞ 1/x = 0 ; lim x→+∞ xⁿ = +∞ ; lim x→0⁺ 1/x = +∞.",
+          "ar": "نهايات الدوال الأساسية: lim x→+∞ 1/x = 0 ؛ lim x→+∞ xⁿ = +∞ ؛ lim x→0⁺ 1/x = +∞."
+        },
+        {
+          "fr": "Formes indéterminées à lever : ∞−∞, 0×∞, 0/0, ∞/∞ → factoriser par le terme dominant, ou utiliser les identités remarquables.",
+          "ar": "الصور غير المحددة: ∞−∞، 0×∞، 0/0، ∞/∞ ← تحليل بحد أقصى أو استعمال المتطابقات."
+        },
+        {
+          "fr": "Comparaison (gendarmes) : si g ≤ f ≤ h et g, h → L alors f → L.",
+          "ar": "المقارنة: إذا كانت g ≤ f ≤ h و g، h → L فإن f → L."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Calcule lim x→1 (2x² − 3x + 1)/(x − 1).",
+          "ar": "احسب lim x→1 (2x² − 3x + 1)/(x − 1)."
+        },
+        "etapes": [
+          {
+            "fr": "Forme 0/0 : on factorise le numérateur : 2x² − 3x + 1 = (2x − 1)(x − 1).",
+            "ar": "صورة 0/0: نحلل البسط: 2x² − 3x + 1 = (2x − 1)(x − 1)."
+          },
+          {
+            "fr": "On simplifie : lim x→1 (2x − 1) = 1.",
+            "ar": "نبسّط: lim x→1 (2x − 1) = 1."
+          }
+        ],
+        "resultat": {
+          "fr": "lim = 1",
+          "ar": "النهاية = 1"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Continuité",
+        "ar": "الاتصال"
+      },
+      "puces": [
+        {
+          "fr": "f est continue en a si : f(a) existe, lim x→a f(x) existe et lim x→a f(x) = f(a).",
+          "ar": "تكون f متصلة في a إذا: وُجد f(a)، ووُجدت النهاية، وتساوت النهاية مع f(a)."
+        },
+        {
+          "fr": "Toute fonction polynomiale, racine carrée, exp, ln est continue sur son ensemble de définition ; les composées aussi.",
+          "ar": "كل دالة متعددة الحدود أو جذر أو أسية أو لوغاريتمية متصلة على مجموعة تعريفها؛ وكذلك الدوال المركبة."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Théorème des valeurs intermédiaires",
+        "ar": "مبرهنة القيم الوسطية"
+      },
+      "bloc": [
+        {
+          "fr": "Si f est continue et strictement monotone sur [a, b], alors pour tout k compris entre f(a) et f(b), l'équation f(x) = k admet une unique solution α ∈ [a, b]. On l'utilise pour justifier l'existence d'une solution et l'encadrer.",
+          "ar": "إذا كانت f متصلة وقطعية تماماً على [a، b] فإن لكل k بين f(a) و f(b) المعادلة f(x) = k حلًّا وحيداً α في [a، b]. نستعملها لتبرير وجود حل وتأطيره."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Montrer que x³ + x − 4 = 0 admet une solution sur [1, 2].",
+          "ar": "بيّن أن المعادلة x³ + x − 4 = 0 تقبل حلاً في [1، 2]."
+        },
+        "etapes": [
+          {
+            "fr": "g(x) = x³ + x − 4 est continue et strictement croissante sur [1, 2].",
+            "ar": "الدالة g متصلة وتزايدية تماماً على [1، 2]."
+          },
+          {
+            "fr": "g(1) = −2 < 0 et g(2) = 6 > 0 → 0 ∈ [−2, 6] → solution unique α ∈ ]1, 2[ (TVI).",
+            "ar": "g(1) = −2 < 0 و g(2) = 6 > 0 ← حل وحيد α في ]1، 2[."
+          }
+        ],
+        "resultat": {
+          "fr": "Une unique solution α ≈ 1,38.",
+          "ar": "حل وحيد α ≈ 1,38."
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Limite",
+        "ar": "النهاية"
+      },
+      "def": {
+        "fr": "Valeur vers laquelle tend f(x) quand x se rapproche d'un point ou de l'infini.",
+        "ar": "القيمة التي يقاربها f(x) عند اقتراب x من نقطة أو من المالانهاية."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Continuité en a",
+        "ar": "الاتصال في a"
+      },
+      "def": {
+        "fr": "lim x→a f(x) = f(a).",
+        "ar": "lim x→a f(x) = f(a)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Forme indéterminée",
+        "ar": "صورة غير محددة"
+      },
+      "def": {
+        "fr": "Expression (∞−∞, 0/0…) dont la limite exige une transformation.",
+        "ar": "عبارة تتطلب تحويلاً لإيجاد نهايتها."
+      }
+    },
+    {
+      "terme": {
+        "fr": "TVI",
+        "ar": "مبرهنة القيم الوسطية"
+      },
+      "def": {
+        "fr": "Existence d'une solution de f(x) = k pour f continue et monotone.",
+        "ar": "وجود حل للمعادلة f(x) = k إذا كانت f متصلة وقطعية."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Calcule lim x→+∞ (3x² − 5)/(x² + 1).",
+        "ar": "احسب lim x→+∞ (3x² − 5)/(x² + 1)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "On factorise par x² : (3 − 5/x²)/(1 + 1/x²) → 3/1 = 3.",
+            "ar": "نحلل بـ x²: (3 − 5/x²)/(1 + 1/x²) ← 3."
+          }
+        ],
+        "resultat": {
+          "fr": "3",
+          "ar": "3"
+        }
+      },
+      "acceptees": [
+        "3"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Soit f(x) = (x² − 4)/(x − 2) si x ≠ 2. Calcule lim x→2 f(x). f est-elle prolongeable par continuité ?",
+        "ar": "ليكن f(x) = (x² − 4)/(x − 2) إذا x ≠ 2. احسب النهاية عند 2. هل يمكن إمتدادها بالاتصال؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "x² − 4 = (x − 2)(x + 2) → f(x) = x + 2 pour x ≠ 2 → limite = 4.",
+            "ar": "x² − 4 = (x − 2)(x + 2) ← f(x) = x + 2 ← النهاية = 4."
+          },
+          {
+            "fr": "Oui : on définit f(2) = 4, f devient continue.",
+            "ar": "نعم: نضع f(2) = 4 فتصبح f متصلة."
+          }
+        ],
+        "resultat": {
+          "fr": "lim = 4 ; prolongement f(2) = 4.",
+          "ar": "النهاية = 4 ؛ الامتداد f(2) = 4."
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Montre que l'équation x³ + x − 4 = 0 a une solution unique dans ]1, 2[ et encadre-la à 0,1 près.",
+        "ar": "بيّن أن x³ + x − 4 = 0 تقبل حلاً وحيداً في ]1، 2[ وأطّره بمقدار 0,1."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "g(1) = −2 < 0, g(2) = 6 > 0, g continue croissante → unique solution (TVI).",
+            "ar": "g(1) = −2 < 0 و g(2) = 6 > 0 و g متصلة تزايدية ← حل وحيد."
+          },
+          {
+            "fr": "g(1,3) = 2,197 + 1,3 − 4 = −0,503 < 0 ; g(1,4) = 2,744 + 1,4 − 4 = 0,144 > 0 → 1,3 < α < 1,4.",
+            "ar": "g(1,3) = −0,503 < 0 ؛ g(1,4) = 0,144 > 0 ← 1,3 < α < 1,4."
+          }
+        ],
+        "resultat": {
+          "fr": "α ≈ 1,38 ; encadrement 1,3 < α < 1,4.",
+          "ar": "α ≈ 1,38 ؛ 1,3 < α < 1,4."
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "lim x→+∞ (3x² − 5)/(x² + 1) = ?",
+        "ar": "lim x→+∞ (3x² − 5)/(x² + 1) = ؟"
+      },
+      "acceptees": [
+        "3"
+      ],
+      "explication": {
+        "fr": "Rapport des termes dominants.",
+        "ar": "نسبة الحدود المهيمنة."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "lim x→1 (2x² − 3x + 1)/(x − 1) =",
+        "ar": "lim x→1 (2x² − 3x + 1)/(x − 1) ="
+      },
+      "choix": [
+        {
+          "fr": "1",
+          "ar": "1"
+        },
+        {
+          "fr": "0",
+          "ar": "0"
+        },
+        {
+          "fr": "+∞",
+          "ar": "+∞"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Forme 0/0 → factorisation → 2x − 1 → 1.",
+        "ar": "صورة 0/0 ← التحليل ← 1."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Une fonction polynomiale est continue sur ℝ.",
+        "ar": "كل دالة متعددة الحدود متصلة على ℝ."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Somme de fonctions continues.",
+        "ar": "مجموع دوال متصلة."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "g(x) = x³ + x − 4 : g(1,4) ≈ ?",
+        "ar": "g(x) = x³ + x − 4: g(1,4) ≈ ؟"
+      },
+      "acceptees": [
+        "0,14",
+        "0.14",
+        "0,144"
+      ],
+      "explication": {
+        "fr": "2,744 + 1,4 − 4.",
+        "ar": "2,744 + 1,4 − 4."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Le TVI exige que f soit…",
+        "ar": "تتطلب مبرهنة القيم الوسطية أن تكون f…"
+      },
+      "choix": [
+        {
+          "fr": "continue et strictement monotone",
+          "ar": "متصلة وقطعية تماماً"
+        },
+        {
+          "fr": "dérivable seulement",
+          "ar": "مشتقة فقط"
+        },
+        {
+          "fr": "positive",
+          "ar": "موجبة"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Hypothèses du théorème.",
+        "ar": "فرضيات المبرهنة."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "lim x→0⁺ 1/x = ?",
+        "ar": "lim x→0⁺ 1/x = ؟"
+      },
+      "choix": [
+        {
+          "fr": "+∞",
+          "ar": "+∞"
+        },
+        {
+          "fr": "0",
+          "ar": "0"
+        },
+        {
+          "fr": "−∞",
+          "ar": "−∞"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "x → 0⁺ : 1/x devient très grand.",
+        "ar": "عند اقتراب x من 0 يميناً تصبح 1/x كبيرة جداً."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Continuité en a : condition",
+        "ar": "شرط الاتصال في a"
+      },
+      "verso": {
+        "fr": "lim x→a f(x) = f(a).",
+        "ar": "lim x→a f(x) = f(a)."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Formes indéterminées",
+        "ar": "الصور غير المحددة"
+      },
+      "verso": {
+        "fr": "∞−∞, 0×∞, 0/0, ∞/∞.",
+        "ar": "∞−∞، 0×∞، 0/0، ∞/∞."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Méthode pour 0/0",
+        "ar": "طريقة معالجة 0/0"
+      },
+      "verso": {
+        "fr": "Factoriser puis simplifier.",
+        "ar": "نحلل ثم نبسّط."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "TVI : hypothèses",
+        "ar": "مبرهنة القيم الوسطية: الفروض"
+      },
+      "verso": {
+        "fr": "f continue + strictement monotone sur [a, b].",
+        "ar": "f متصلة وقطعية تماماً على [a، b]."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "lim x→+∞ 1/x",
+        "ar": "lim x→+∞ 1/x"
+      },
+      "verso": {
+        "fr": "0.",
+        "ar": "0."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Gendarmes (comparaison)",
+        "ar": "المقارنة (الرقيبان)"
+      },
+      "verso": {
+        "fr": "g ≤ f ≤ h et g, h → L ⇒ f → L.",
+        "ar": "g ≤ f ≤ h و g، h → L ← f → L."
+      }
+    }
+  ]
+}

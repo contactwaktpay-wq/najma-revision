@@ -1,0 +1,280 @@
+{
+  "schema": "sehil.examen@1",
+  "statut": "PUBLIE",
+  "id": "EX-6AF",
+  "niveau": "6AF",
+  "type": "CONCOURS",
+  "titre": { "fr": "Concours d'entrée en secondaire — fin de 6AF (blanc)", "ar": "مباراة الدخول إلى الثانوي — نهاية السنة السادسة أساسي (تجريبي)" },
+  "matiere": "composite",
+  "duree_min": 90,
+  "note_max": 20,
+  "consignes": {
+    "fr": [
+      "18 questions, 90 minutes : environ 5 minutes par question, garde ton rythme.",
+      "Les réponses numériques acceptent une erreur d'arrondi de ±0,05.",
+      "Pour les questions « rédaction », corrige-toi toi-même avec le corrigé puis attribue tes points honnêtement.",
+      "Astuce : réponds d'abord aux questions faciles, reviens ensuite sur les difficiles."
+    ],
+    "ar": [
+      "18 سؤالاً في 90 دقيقة: نحو 5 دقائق للسؤال، حافظ على إيقاعك.",
+      "تقبل الإجابات العددية بخطأ ±0,05.",
+      "في أسئلة «التحرير» صحّح نفسك بالمصحح ثم امنح نفسك النقط بصدق.",
+      "نصيحة: أجب أولاً عن الأسئلة السهلة ثم عُد إلى الصعبة."
+    ]
+  },
+  "sections": [
+    {
+      "titre": { "fr": "Partie A — Français (8 points)", "ar": "الجزء أ — الفرنسية (8 نقاط)" },
+      "points": 8,
+      "questions": [
+        {
+          "id": "A1", "type": "qcm", "points": 1,
+          "enonce": { "fr": "« Ferme la porte, s'il te plaît. » est une phrase…", "ar": "«أغلق الباب من فضلك.» جملة…" },
+          "choix": [
+            { "fr": "impérative", "ar": "أمرية" },
+            { "fr": "déclarative", "ar": "خبرية" },
+            { "fr": "interrogative", "ar": "استفهامية" }
+          ],
+          "bonne": 0,
+          "correction": {
+            "etapes": [
+              { "fr": "Rappel : une phrase qui donne un ordre ou un conseil est impérative.", "ar": "تذكير: الجملة التي تعطي أمراً أو نصيحة أمرية." },
+              { "fr": "Ici on demande de fermer la porte → impérative.", "ar": "هنا نطلب إغلاق الباب ← أمرية." }
+            ],
+            "resultat": { "fr": "impérative", "ar": "أمرية" }
+          }
+        },
+        {
+          "id": "A2", "type": "qcm", "points": 1,
+          "enonce": { "fr": "Complète : « Les élèves ___ leurs cahiers. » (ouvrir)", "ar": "أكمل: «التلاميذ ___ دفاترهم.» (يفتح)" },
+          "choix": [
+            { "fr": "ouvrent", "ar": "يفتحون" },
+            { "fr": "ouvre", "ar": "يفتح" },
+            { "fr": "ouvrir", "ar": "الفتح" }
+          ],
+          "bonne": 0,
+          "correction": {
+            "etapes": [
+              { "fr": "Sujet pluriel « les élèves » → 3e personne du pluriel : -ent.", "ar": "الفاعل جمع ← صيغة الجمع." }
+            ],
+            "resultat": { "fr": "ouvrent", "ar": "يفتحون" }
+          }
+        },
+        {
+          "id": "A3", "type": "courte", "points": 1,
+          "enonce": { "fr": "Écris le pluriel : « un animal » → des ___", "ar": "اكتب الجمع: «حيوان» ← ___" },
+          "acceptees": ["animaux"],
+          "correction": {
+            "etapes": [
+              { "fr": "Rappel : les mots en -al font leur pluriel en -aux.", "ar": "تذكير: الكلمات المنتهية بـ -al تجمع بـ -aux." }
+            ],
+            "resultat": { "fr": "des animaux", "ar": "حيوانات" }
+          }
+        },
+        {
+          "id": "A4", "type": "courte", "points": 1,
+          "enonce": { "fr": "Complète avec son ou sont : « Ils ___ partis avec ___ frère. » (2 mots, sépare par une virgule)", "ar": "أكمل بـ sont أو son: «خرجوا مع أخيهم.» (كلمتان مفصولتان بفاصلة)" },
+          "acceptees": ["sont, son", "sont,son", "sont son"],
+          "correction": {
+            "etapes": [
+              { "fr": "« Ils sont partis » : verbe être → sont.", "ar": "الفعل être ← sont." },
+              { "fr": "« avec son frère » : déterminant possessif → son.", "ar": "ضمير ملكية ← son." }
+            ],
+            "resultat": { "fr": "sont ; son", "ar": "sont ؛ son" }
+          }
+        },
+        {
+          "id": "A5", "type": "qcm", "points": 1,
+          "enonce": { "fr": "Un synonyme de « rapide » est…", "ar": "مترادف «سريع» هو…" },
+          "choix": [
+            { "fr": "vite", "ar": "بسرعة" },
+            { "fr": "lentement", "ar": "ببطء" },
+            { "fr": "hier", "ar": "أمس" }
+          ],
+          "bonne": 0,
+          "correction": {
+            "etapes": [{ "fr": "Synonyme = sens proche : rapide = vite.", "ar": "المترادف = معنى قريب." }],
+            "resultat": { "fr": "vite", "ar": "بسرعة" }
+          }
+        },
+        {
+          "id": "A6", "type": "qcm", "points": 1,
+          "enonce": { "fr": "Un antonyme de « monter » est…", "ar": "متضاد «يرتفع» هو…" },
+          "choix": [
+            { "fr": "descendre", "ar": "ينزل" },
+            { "fr": "partir", "ar": "ينطلق" },
+            { "fr": "courir", "ar": "يجري" }
+          ],
+          "bonne": 0,
+          "correction": {
+            "etapes": [{ "fr": "Antonyme = sens contraire : monter ≠ descendre.", "ar": "المتضاد = معنى معاكس." }],
+            "resultat": { "fr": "descendre", "ar": "ينزل" }
+          }
+        },
+        {
+          "id": "A7", "type": "courte", "points": 1,
+          "enonce": { "fr": "Écris le féminin : « un garçon heureux » → « une fille ___ »", "ar": "اكتب المؤنث: «ولد سعيد» ← «بنت ___»" },
+          "acceptees": ["heureuse"],
+          "correction": {
+            "etapes": [
+              { "fr": "Rappel : -eux au masculin → -euse au féminin.", "ar": "تذكير: -eux للمذكر ← -euse للمؤنث." }
+            ],
+            "resultat": { "fr": "heureuse", "ar": "سعيدة" }
+          }
+        },
+        {
+          "id": "A8", "type": "redaction", "points": 1,
+          "enonce": { "fr": "Écris une phrase complète avec le connecteur « parce que ».", "ar": "اكتب جملة كاملة بـ «parce que»." },
+          "consigne": { "fr": "Structure attendue : sujet + verbe + parce que + cause. Majuscule et point obligatoires.", "ar": "البنية المطلوبة: فاعل + فعل + لأن + السبب. بحرف كبير ونقطة." },
+          "correction": {
+            "etapes": [
+              { "fr": "Exemple attendu : « Je révise mes leçons parce que je veux réussir mon concours. »", "ar": "مثال مقبول: «أراجع دروسي لأنني أريد النجاح في المباراة.»" },
+              { "fr": "Barème interne : phrase complète correcte = 1 pt (0,5 si « parce que » mal employé).", "ar": "التنقيط الداخلي: جملة كاملة = نقطة." }
+            ],
+            "resultat": { "fr": "Phrase complète avec cause correcte.", "ar": "جملة كاملة مع سبب صحيح." }
+          }
+        }
+      ]
+    },
+    {
+      "titre": { "fr": "Partie B — Calcul et problèmes (12 points)", "ar": "الجزء ب — الحساب والمسائل (12 نقطة)" },
+      "points": 12,
+      "questions": [
+        {
+          "id": "B1", "type": "qcm", "points": 1,
+          "enonce": { "fr": "Écris en chiffres : « sept cent mille quatre-vingt-dix ».", "ar": "اكتب بالأرقام: «سبعمئة ألف وتسعون»." },
+          "choix": [
+            { "fr": "700 090", "ar": "700 090" },
+            { "fr": "770 090", "ar": "770 090" },
+            { "fr": "700 900", "ar": "700 900" }
+          ],
+          "bonne": 0,
+          "correction": {
+            "etapes": [
+              { "fr": "Sept cent mille = 700 000 ; quatre-vingt-dix = 90.", "ar": "سبعمئة ألف = 700 000 ؛ وتسعون = 90." },
+              { "fr": "Total : 700 000 + 90 = 700 090.", "ar": "المجموع 700 090." }
+            ],
+            "resultat": { "fr": "700 090", "ar": "700 090" }
+          }
+        },
+        {
+          "id": "B2", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Calcule : 4 086 + 2 957.", "ar": "احسب: 4 086 + 2 957." },
+          "acceptees": ["7043", "7 043"],
+          "correction": {
+            "etapes": [
+              { "fr": "Addition posée, retenues : 6+7=13 (je pose 3, je retiens 1)…", "ar": "جمع بالتواائم." },
+              { "fr": "Résultat : 7 043.", "ar": "النتيجة 7 043." }
+            ],
+            "resultat": { "fr": "7 043", "ar": "7 043" }
+          }
+        },
+        {
+          "id": "B3", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Calcule : 64 × 25.", "ar": "احسب: 64 × 25." },
+          "acceptees": ["1600", "1 600"],
+          "correction": {
+            "etapes": [
+              { "fr": "Astuce : × 25 = × 100 puis ÷ 4.", "ar": "حيلة: نضرب في 100 ثم نقسم على 4." },
+              { "fr": "64 × 100 = 6 400 ; 6 400 ÷ 4 = 1 600.", "ar": "6 400 ÷ 4 = 1 600." }
+            ],
+            "resultat": { "fr": "1 600", "ar": "1 600" }
+          }
+        },
+        {
+          "id": "B4", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Calcule les 3/4 de 240.", "ar": "احسب ثلاثة أرباع العدد 240." },
+          "acceptees": ["180"],
+          "correction": {
+            "etapes": [
+              { "fr": "Un quart : 240 ÷ 4 = 60.", "ar": "الربع: 60." },
+              { "fr": "Trois quarts : 60 × 3 = 180.", "ar": "ثلاثة أرباع: 180." }
+            ],
+            "resultat": { "fr": "180", "ar": "180" }
+          }
+        },
+        {
+          "id": "B5", "type": "qcm", "points": 1,
+          "enonce": { "fr": "3,5 + 0,45 = ?", "ar": "3,5 + 0,45 = ؟" },
+          "choix": [
+            { "fr": "3,95", "ar": "3,95" },
+            { "fr": "3,50", "ar": "3,50" },
+            { "fr": "4,0", "ar": "4,0" }
+          ],
+          "bonne": 0,
+          "correction": {
+            "etapes": [
+              { "fr": "Rappel : aligner les virgules → 3,50 + 0,45.", "ar": "نوائم الفواصل." },
+              { "fr": "Somme : 3,95.", "ar": "المجموع 3,95." }
+            ],
+            "resultat": { "fr": "3,95", "ar": "3,95" }
+          }
+        },
+        {
+          "id": "B6", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Un rectangle mesure 8 m sur 3 m. Périmètre (en m) ?", "ar": "مستطيل 8 م × 3 م. ما محيطه (بالأمتار)؟" },
+          "acceptees": ["22", "22 m"],
+          "correction": {
+            "etapes": [
+              { "fr": "Rappel : P = 2 × (L + l).", "ar": "تذكير: المحيط = 2 × (الطول + العرض)." },
+              { "fr": "P = 2 × (8 + 3) = 2 × 11 = 22 m.", "ar": "المحيط = 22 م." }
+            ],
+            "resultat": { "fr": "22 m", "ar": "22 م" }
+          }
+        },
+        {
+          "id": "B7", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Le même rectangle de 8 m sur 3 m : quelle est son aire (en m²) ?", "ar": "المستطيل نفسه 8 م × 3 م: ما مساحته (م²)؟" },
+          "acceptees": ["24", "24 m²", "24 m2"],
+          "correction": {
+            "etapes": [
+              { "fr": "Rappel : A = L × l.", "ar": "تذكير: المساحة = الطول × العرض." },
+              { "fr": "A = 8 × 3 = 24 m².", "ar": "المساحة = 24 م²." }
+            ],
+            "resultat": { "fr": "24 m²", "ar": "24 م²" }
+          }
+        },
+        {
+          "id": "B8", "type": "courte", "points": 1,
+          "enonce": { "fr": "Convertis : 2 h 15 min = ___ min.", "ar": "حوّل: ساعتان و15 دقيقة = ___ دقيقة." },
+          "acceptees": ["135", "135 min"],
+          "correction": {
+            "etapes": [
+              { "fr": "2 h = 2 × 60 = 120 min.", "ar": "ساعتان = 120 دقيقة." },
+              { "fr": "120 + 15 = 135 min.", "ar": "المجموع 135 دقيقة." }
+            ],
+            "resultat": { "fr": "135 min", "ar": "135 دقيقة" }
+          }
+        },
+        {
+          "id": "B9", "type": "calcul", "points": 2,
+          "enonce": { "fr": "Problème : Achète 3 cahiers à 25 MRU chacun et 2 stylos à 10 MRU chacun. Prix total (MRU) ?", "ar": "مسألة: اشترِ 3 كراسات بـ 25 أوقية للكراس وقلمين بـ 10 أوقية للقلم. ما المجموع؟" },
+          "acceptees": ["95", "95 MRU"],
+          "correction": {
+            "etapes": [
+              { "fr": "Étape 1 — cahiers : 3 × 25 = 75 MRU.", "ar": "الخطوة 1 — الكراسات: 75 أوقية." },
+              { "fr": "Étape 2 — stylos : 2 × 10 = 20 MRU.", "ar": "الخطوة 2 — الأقلام: 20 أوقية." },
+              { "fr": "Étape 3 — total : 75 + 20 = 95 MRU.", "ar": "الخطوة 3 — المجموع: 95 أوقية." }
+            ],
+            "resultat": { "fr": "95 MRU", "ar": "95 أوقية" }
+          }
+        },
+        {
+          "id": "B10", "type": "redaction", "points": 2,
+          "enonce": { "fr": "Explique en 2 ou 3 phrases comment tu as résolu le problème B9.", "ar": "اشرح في جملتين إلى ثلاث كيف حللت المسألة السابقة." },
+          "consigne": { "fr": "Nomme les étapes (cahiers, stylos, addition) et utilise la phrase de réponse avec l'unité MRU.", "ar": "اذكر الخطوات (الكراسات، الأقلام، الجمع) واختم بجملة الإجابة بالأوقية." },
+          "correction": {
+            "etapes": [
+              { "fr": "Corrigé type : « J'ai calculé le prix des cahiers : 3 × 25 = 75 MRU. Puis celui des stylos : 2 × 10 = 20 MRU. Enfin, j'ai additionné : 75 + 20 = 95 MRU. »", "ar": "المصحح النموذجي: «حسبت ثمن الكراسات 75 أوقية، ثم الأقلام 20 أوقية، وأخيراً جمعت: 95 أوقية.»" },
+              { "fr": "Barème interne : 1 pt par étape clairement rédigée (2 étapes minimum attendues).", "ar": "التنقيط الداخلي: نقطة لكل خطوة واضحة." }
+            ],
+            "resultat": { "fr": "Explication complète des étapes.", "ar": "شرح كامل للخطوات." }
+          }
+        }
+      ]
+    }
+  ],
+  "notes_editeur": [
+    { "fr": "Format « français + calcul » du concours d'entrée en secondaire ; barème affiné (18 questions) — à recalibrer sur l'arrêté officiel en vigueur.", "ar": "شكل «فرنسية + حساب» لمباراة الدخول إلى الثانوي؛ تنقيط منقّح (18 سؤالاً) — يُعاد ضبطه وفق النص الرسمي الساري." }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-label="Najma — نجمة">
+  <!-- Najma · نجمة — bloc-logo horizontal (icône + nom bilingue) -->
+  <circle cx="32" cy="32" r="30" fill="#0D3B66"/>
+  <circle cx="32" cy="32" r="26" fill="#092A4A"/>
+  <path d="M32,10 L36.6,24.4 L51,26.5 L39.8,34.4 L43.4,49 L32,40.6 L20.6,49 L24.2,34.4 L13,26.5 L27.4,24.4 Z"
+        fill="#F0C75E" stroke="#D9A032" stroke-width="1.4"/>
+  <circle cx="32" cy="28" r="3.2" fill="#FAF7F0"/>
+  <path d="M4,50 Q14,42 26,49 Q38,56 50,48 Q56,44 60,47 L60,60 Q32,66 4,60 Z" fill="#C77B3F" opacity=".9"/>
+  <path d="M4,54 Q16,48 30,54 Q44,60 60,52 L60,60 Q32,66 4,60 Z" fill="#F2E8D5"/>
+  <text x="74" y="30" font-family="Segoe UI, system-ui, sans-serif" font-size="26" font-weight="800" fill="#0D3B66">Najma</text>
+  <text x="74" y="52" font-family="Segoe UI, system-ui, sans-serif" font-size="11" font-weight="600" fill="#A95E28">La boussole de la réussite</text>
+  <text x="176" y="30" font-family="Geeza Pro, Noto Naskh Arabic, serif" font-size="24" font-weight="700" fill="#0D3B66">نجمة</text>
+  <text x="163" y="52" font-family="Geeza Pro, Noto Naskh Arabic, serif" font-size="11" fill="#A95E28">بوصلة النجاح</text>
+</svg>

@@ -1,0 +1,566 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-11",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 11,
+  "titre": {
+    "fr": "Symétrie et figures",
+    "ar": "التناظر والأشكال"
+  },
+  "duree_min": 40,
+  "objectifs": {
+    "fr": [
+      "Reconnaître une figure symétrique et son axe",
+      "Trouver le nombre d'axes des figures usuelles",
+      "Compléter une figure par symétrie"
+    ],
+    "ar": [
+      "التعرّف على الشكل المتناظر ومحوره",
+      "إيجاد عدد محاور الأشكال المعتادة",
+      "إكمال شكل بالتناظر"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Qu'est-ce que la symétrie ?",
+        "ar": "ما هو التناظر؟"
+      },
+      "puces": [
+        {
+          "fr": "Une figure est symétrique quand on peut la plier selon une ligne : les deux moitiés se superposent exactement.",
+          "ar": "الشكل متناظر إذا أمكن طيّه على خط: تتطابق النصفان تماماً."
+        },
+        {
+          "fr": "Cette ligne de pliage s'appelle l'axe de symétrie (comme un miroir).",
+          "ar": "خط الطي هذا يسمى محور التناظر (مثل المرآة)."
+        },
+        {
+          "fr": "Un point et son symétrique sont à la même distance de l'axe.",
+          "ar": "النقطة ونظيرتها المتناظرة على مسافة واحدة من المحور."
+        }
+      ],
+      "exemple": {
+        "fr": "Le papillon, les ailes d'un oiseau en vol, le drapeau découpé en deux : symétrie !",
+        "ar": "الفراشة، جناحا طائر يحلق، علم مقوّس إلى نصفين: تناظر!"
+      }
+    },
+    {
+      "titre": {
+        "fr": "Axes de symétrie des figures usuelles",
+        "ar": "محاور تناظر الأشكال المعتادة"
+      },
+      "puces": [
+        {
+          "fr": "Carré : 4 axes. Rectangle : 2 axes. Losange : 2 axes.",
+          "ar": "المربع: 4 محاور. المستطيل: محوران. المعين: محوران."
+        },
+        {
+          "fr": "Triangle isocèle : 1 axe. Triangle équilatéral : 3 axes.",
+          "ar": "المثلث متساوي الساقين: محور واحد. المثلث متساوي الأضلاع: 3 محاور."
+        },
+        {
+          "fr": "Cercle : une infinité d'axes (chaque diamètre).",
+          "ar": "الدائرة: محاور بلا عدد (كل قطر محور)."
+        }
+      ],
+      "tableau": {
+        "entetes": {
+          "fr": [
+            "Figure",
+            "Nombre d'axes"
+          ],
+          "ar": [
+            "الشكل",
+            "عدد المحاور"
+          ]
+        },
+        "lignes": [
+          {
+            "fr": [
+              "Carré",
+              "4"
+            ],
+            "ar": [
+              "المربع",
+              "4"
+            ]
+          },
+          {
+            "fr": [
+              "Rectangle",
+              "2"
+            ],
+            "ar": [
+              "المستطيل",
+              "2"
+            ]
+          },
+          {
+            "fr": [
+              "Losange",
+              "2"
+            ],
+            "ar": [
+              "المعين",
+              "2"
+            ]
+          },
+          {
+            "fr": [
+              "Triangle équilatéral",
+              "3"
+            ],
+            "ar": [
+              "المثلث متساوي الأضلاع",
+              "3"
+            ]
+          },
+          {
+            "fr": [
+              "Cercle",
+              "infinité"
+            ],
+            "ar": [
+              "الدائرة",
+              "بلا عدد"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "titre": {
+        "fr": "Symétrie autour de nous",
+        "ar": "التناظر في محيطنا"
+      },
+      "puces": [
+        {
+          "fr": "Lettres avec 1 axe vertical : A, M, T, U, V, W, Y (dans leur forme majuscule courante).",
+          "ar": "حروف لها محور عمودي: A، M، T، U، V، W، Y (بشكلها الكبير المعتاد)."
+        },
+        {
+          "fr": "Lettre O : deux axes (vertical et horizontal).",
+          "ar": "الحرف O: محوران (عمودي وأفقي)."
+        },
+        {
+          "fr": "Motifs des tissus et des bijons mauritaniens répètent souvent des figures symétriques.",
+          "ar": "زخارف الأقمشة والحلي الموريتانية كثيراً ما تكرر أشكالاً متناظرة."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Axe de symétrie",
+        "ar": "محور التناظر"
+      },
+      "def": {
+        "fr": "Ligne qui partage une figure en deux moitiés identiques.",
+        "ar": "خط يقسم الشكل إلى نصفين متطابقين."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Figure symétrique",
+        "ar": "شكل متناظر"
+      },
+      "def": {
+        "fr": "Figure dont les deux parties se superposent par pliage.",
+        "ar": "شكل يتطابق جزءاه بالطي."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Symétrique d'un point",
+        "ar": "نظير النقطة"
+      },
+      "def": {
+        "fr": "Point situé face au premier, à même distance de l'axe.",
+        "ar": "نقطة مقابل الأخرى على بعد واحد من المحور."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Combien d'axes de symétrie a un rectangle ? Un carré ?",
+        "ar": "كم محور تناظر للمستطيل؟ وللمربع؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Rectangle : 2 axes (les médianes).",
+            "ar": "المستطيل: محوران (المنصفان)."
+          },
+          {
+            "fr": "Carré : 4 axes (2 médianes + 2 diagonales).",
+            "ar": "المربع: 4 محاور (منصفان + قطران)."
+          }
+        ],
+        "resultat": {
+          "fr": "2 et 4",
+          "ar": "محوران و4 محاور"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Parmi ces lettres, lesquelles ont un axe vertical de symétrie : B, M, G, T, O ?",
+        "ar": "أي الحروف التالية لها محور تناظر عمودي: B، M، G، T، O؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "M et T ont un axe vertical ; O en a deux (vertical + horizontal) ; B et G n'ont pas d'axe vertical.",
+            "ar": "M وT لها محور عمودي؛ O لها محوران؛ B وG بلا محور عمودي."
+          }
+        ],
+        "resultat": {
+          "fr": "M, T (et O avec 2 axes)",
+          "ar": "M، T (وO بمحورين)"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Vrai ou faux : un triangle équilatéral a 3 axes de symétrie.",
+        "ar": "صواب أم خطأ: المثلث متساوي الأضلاع له 3 محاور تناظر."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Vrai : chaque médiane est un axe, et il y a 3 médianes.",
+            "ar": "صحيح: كل منصف محور، والمنصفات ثلاثة."
+          }
+        ],
+        "resultat": {
+          "fr": "Vrai",
+          "ar": "صحيح"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Un point A est à 3 cm d'un axe de symétrie. À quelle distance de l'axe se trouve son symétrique A' ?",
+        "ar": "نقطة A تبعد 3 سم عن محور تناظر. كم تبعد نظيرتها A′ عن المحور؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Le symétrique est à la même distance, de l'autre côté : 3 cm.",
+            "ar": "النظيرة على المسافة نفسها من الجهة المقابلة: 3 سم."
+          }
+        ],
+        "resultat": {
+          "fr": "3 cm",
+          "ar": "3 سم"
+        }
+      },
+      "acceptees": [
+        "3"
+      ]
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un maçon veut un motif symétrique sur une porte de 2 m de large. Le motif de gauche occupe 0,8 m à partir du bord. Où finit-il par rapport à l'axe central, et où commence le motif de droite ?",
+        "ar": "مسألة: يريد بناء نقشاً متناظراً على باب عرضه 2 م. يشغل النقش الأيسر 0,8 م من الحافة. أين ينتهي بالنسبة للمحور المركزي، وأين يبدأ النقش الأيمن؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Axe central : 2 ÷ 2 = 1 m du bord.",
+            "ar": "المحور المركزي: 2 ÷ 2 = 1 م من الحافة."
+          },
+          {
+            "fr": "Le motif finit à 0,8 m : il reste 1 − 0,8 = 0,2 m jusqu'à l'axe.",
+            "ar": "ينتهي النقش عند 0,8 م: يبقى 0,2 م إلى المحور."
+          },
+          {
+            "fr": "Le motif de droite commence donc à 0,2 m après l'axe (1,2 m du bord gauche).",
+            "ar": "يبدأ النقش الأيمن عند 0,2 م بعد المحور (1,2 م من الحافة اليسرى)."
+          }
+        ],
+        "resultat": {
+          "fr": "Fin à 0,2 m de l'axe ; début droit à 1,2 m du bord",
+          "ar": "النهاية على 0,2 م من المحور؛ بداية اليمين على 1,2 م من الحافة"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Combien d'axes de symétrie pour un carré ?",
+        "ar": "كم محور تناظر للمربع؟"
+      },
+      "choix": [
+        {
+          "fr": "4",
+          "ar": "4"
+        },
+        {
+          "fr": "2",
+          "ar": "2"
+        },
+        {
+          "fr": "1",
+          "ar": "1"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "2 médianes + 2 diagonales.",
+        "ar": "منصفان + قطران."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Combien d'axes pour un rectangle ?",
+        "ar": "كم محوراً للمستطيل؟"
+      },
+      "choix": [
+        {
+          "fr": "2",
+          "ar": "2"
+        },
+        {
+          "fr": "4",
+          "ar": "4"
+        },
+        {
+          "fr": "0",
+          "ar": "0"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Les 2 médianes seulement (les diagonales ne marchent pas).",
+        "ar": "المنصفان فقط (القطران لا يصلحان)."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Le cercle a une infinité d'axes de symétrie.",
+        "ar": "للدائرة محاور تناظر بلا عدد."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Chaque diamètre est un axe.",
+        "ar": "كل قطر محور."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Comment s'appelle la ligne de pliage d'une figure symétrique ?",
+        "ar": "ما اسم خط طي الشكل المتناظر؟"
+      },
+      "acceptees": [
+        "axe de symetrie",
+        "axe de symétrie",
+        "l'axe",
+        "axe",
+        "محور التناظر"
+      ],
+      "explication": {
+        "fr": "L'axe de symétrie.",
+        "ar": "محور التناظر."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Triangle isocèle : nombre d'axes ?",
+        "ar": "المثلث متساوي الساقين: عدد المحاور؟"
+      },
+      "choix": [
+        {
+          "fr": "1",
+          "ar": "1"
+        },
+        {
+          "fr": "3",
+          "ar": "3"
+        },
+        {
+          "fr": "2",
+          "ar": "2"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "1 seul axe (la hauteur issue du sommet principal).",
+        "ar": "محور واحد (الارتفاع من الرأس الرئيسي)."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "vf",
+      "q": {
+        "fr": "Un point et son symétrique sont à la même distance de l'axe.",
+        "ar": "النقطة ونظيرتها على بعد واحد من المحور."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai, de part et d'autre de l'axe.",
+        "ar": "صحيح، على جانبي المحور."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Quelle figure a exactement 3 axes de symétrie ?",
+        "ar": "أي شكل له 3 محاور بالضبط؟"
+      },
+      "choix": [
+        {
+          "fr": "Triangle équilatéral",
+          "ar": "المثلث متساوي الأضلاع"
+        },
+        {
+          "fr": "Carré",
+          "ar": "المربع"
+        },
+        {
+          "fr": "Rectangle",
+          "ar": "المستطيل"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Le triangle équilatéral.",
+        "ar": "المثلث متساوي الأضلاع."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "courte",
+      "q": {
+        "fr": "Combien d'axes a la lettre O (majuscule) ?",
+        "ar": "كم محوراً للحرف O الكبير؟"
+      },
+      "acceptees": [
+        "2",
+        "deux",
+        "اثنان"
+      ],
+      "explication": {
+        "fr": "2 axes : vertical et horizontal.",
+        "ar": "محوران: عمودي وأفقي."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Axe de symétrie ?",
+        "ar": "محور التناظر؟"
+      },
+      "verso": {
+        "fr": "Ligne de pliage : les deux moitiés se superposent.",
+        "ar": "خط الطي: يتطابق النصفان."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Axes du carré ?",
+        "ar": "محاور المربع؟"
+      },
+      "verso": {
+        "fr": "4",
+        "ar": "4"
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Axes du rectangle ?",
+        "ar": "محاور المستطيل؟"
+      },
+      "verso": {
+        "fr": "2",
+        "ar": "2"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Axes du cercle ?",
+        "ar": "محاور الدائرة؟"
+      },
+      "verso": {
+        "fr": "Une infinité (les diamètres).",
+        "ar": "بلا عدد (الأقطار)."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Axes du triangle équilatéral ?",
+        "ar": "محاور المثلث متساوي الأضلاع؟"
+      },
+      "verso": {
+        "fr": "3",
+        "ar": "3"
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Distance du symétrique à l'axe ?",
+        "ar": "بعد النظيرة عن المحور؟"
+      },
+      "verso": {
+        "fr": "La même que le point de départ.",
+        "ar": "المسافة نفسها للنقطة الأصلية."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Exemple de symétrie dans la nature ?",
+        "ar": "مثال تناظر في الطبيعة؟"
+      },
+      "verso": {
+        "fr": "Le papillon, les ailes d'un oiseau.",
+        "ar": "الفراشة، جناحا الطائر."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Axes du triangle isocèle ?",
+        "ar": "محاور المثلث متساوي الساقين؟"
+      },
+      "verso": {
+        "fr": "1 seul axe.",
+        "ar": "محور واحد."
+      }
+    }
+  ]
+}

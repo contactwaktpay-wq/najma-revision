@@ -1,0 +1,82 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-math-02",
+  "niveau": "4AS",
+  "matiere": "mathematiques",
+  "ordre": 2,
+  "titre": { "fr": "Calcul littéral et identités remarquables", "ar": "الحساب الحرفي والمتطابقات الشهيرة" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Développer et réduire une expression littérale", "Utiliser les identités remarquables", "Factoriser une expression simple"],
+    "ar": ["تطوير وتقليل عبارة حرفية", "استعمال المتطابقات الشهيرة", "تحليل عبارة بسيطة"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Développer et réduire", "ar": "التطوير والتقليل" },
+      "puces": [
+        { "fr": "Double distribution : (a+b)(c+d) = ac + ad + bc + bd.", "ar": "التوزيع المزدوج: (a+b)(c+d) = ac + ad + bc + bd." },
+        { "fr": "Réduire = regrouper les termes semblables : 3x + 5x − 2 = 8x − 2.", "ar": "التقليل: جمع الحدود المتشابهة: 3x + 5x − 2 = 8x − 2." }
+      ],
+      "exemple": {
+        "enonce": { "fr": "Développe et réduis : 2(3x − 1) + 4(x + 5).", "ar": "طوّر وقلّل: 2(3x − 1) + 4(x + 5)." },
+        "etapes": [
+          { "fr": "2(3x − 1) = 6x − 2 ; 4(x + 5) = 4x + 20.", "ar": "2(3x − 1) = 6x − 2 ؛ 4(x + 5) = 4x + 20." },
+          { "fr": "Réduction : 6x + 4x − 2 + 20 = 10x + 18.", "ar": "التقليل: 6x + 4x − 2 + 20 = 10x + 18." }
+        ],
+        "resultat": { "fr": "10x + 18", "ar": "10x + 18" }
+      }
+    },
+    {
+      "titre": { "fr": "Identités remarquables", "ar": "المتطابقات الشهيرة" },
+      "formules": ["(a + b)² = a² + 2ab + b²", "(a − b)² = a² − 2ab + b²", "(a + b)(a − b) = a² − b²"],
+      "exemple": {
+        "enonce": { "fr": "Développe (x + 3)².", "ar": "طوّر (x + 3)²." },
+        "etapes": [{ "fr": "a = x, b = 3 : x² + 2×x×3 + 3².", "ar": "a = x و b = 3: x² + 6x + 9." }],
+        "resultat": { "fr": "x² + 6x + 9", "ar": "x² + 6x + 9" }
+      }
+    },
+    {
+      "titre": { "fr": "Factoriser", "ar": "التحليل" },
+      "puces": [
+        { "fr": "Chercher un facteur commun : 5x² + 10x = 5x(x + 2).", "ar": "البحث عن عامل مشترك: 5x² + 10x = 5x(x + 2)." },
+        { "fr": "Reconnaître une identité : x² − 9 = (x + 3)(x − 3).", "ar": "التعرف على متطابقة: x² − 9 = (x + 3)(x − 3)." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Expression littérale", "ar": "عبارة حرفية" }, "def": { "fr": "Expression contenant des lettres (variables).", "ar": "عبارة تحتوي حروفًا (متغيرات)." } },
+    { "terme": { "fr": "Factoriser", "ar": "التحليل" }, "def": { "fr": "Écrire une somme sous forme d'un produit.", "ar": "كتابة المجموع على صورة حاصل ضرب." } },
+    { "terme": { "fr": "Termes semblables", "ar": "الحدود المتشابهة" }, "def": { "fr": "Termes avec la même partie littérale (3x et 7x).", "ar": "حدود لها الجزء الحرفي نفسه (3x و 7x)." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Développe : 3(2x + 5).", "ar": "طوّر: 3(2x + 5)." },
+      "correction": { "etapes": [{ "fr": "Distribue 3 : 6x + 15.", "ar": "وزّع 3: 6x + 15." }], "resultat": { "fr": "6x + 15", "ar": "6x + 15" } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Développe et réduis : (x + 4)(x + 1).", "ar": "طوّر وقلّل: (x + 4)(x + 1)." },
+      "correction": { "etapes": [{ "fr": "x² + x + 4x + 4 = x² + 5x + 4.", "ar": "x² + x + 4x + 4 = x² + 5x + 4." }], "resultat": { "fr": "x² + 5x + 4", "ar": "x² + 5x + 4" } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Factorise : x² − 16.", "ar": "حلّل: x² − 16." },
+      "correction": { "etapes": [{ "fr": "x² − 16 = x² − 4² = (x + 4)(x − 4).", "ar": "x² − 16 = x² − 4² = (x + 4)(x − 4)." }], "resultat": { "fr": "(x + 4)(x − 4)", "ar": "(x + 4)(x − 4)" } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "courte", "q": { "fr": "Réduis : 3x + 5x − 2.", "ar": "قلّل: 3x + 5x − 2." }, "acceptees": ["8x-2", "8x−2", "8x − 2"], "explication": { "fr": "Termes semblables.", "ar": "الحدود المتشابهة." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "(x − 5)² = ?", "ar": "(x − 5)² = ؟" },
+      "choix": [{ "fr": "x² − 10x + 25", "ar": "x² − 10x + 25" }, { "fr": "x² + 10x + 25", "ar": "x² + 10x + 25" }, { "fr": "x² − 25", "ar": "x² − 25" }], "bonne": 0, "explication": { "fr": "(a−b)² = a² − 2ab + b².", "ar": "(a−b)² = a² − 2ab + b²." } },
+    { "id": "q3", "type": "courte", "q": { "fr": "Développe (x + 3)².", "ar": "طوّر (x + 3)²." }, "acceptees": ["x²+6x+9", "x^2+6x+9", "x2+6x+9"], "explication": { "fr": "Identité (a+b)².", "ar": "المتطابقة (a+b)²." } },
+    { "id": "q4", "type": "qcm", "q": { "fr": "Factorise 7x + 21 :", "ar": "حلّل 7x + 21:" },
+      "choix": [{ "fr": "7(x + 3)", "ar": "7(x + 3)" }, { "fr": "7x(x + 3)", "ar": "7x(x + 3)" }, { "fr": "3(x + 7)", "ar": "3(x + 7)" }], "bonne": 0, "explication": { "fr": "Facteur commun 7.", "ar": "العامل المشترك 7." } },
+    { "id": "q5", "type": "vf", "q": { "fr": "(a + b)(a − b) = a² − b².", "ar": "(a + b)(a − b) = a² − b²." }, "bonne": true, "explication": { "fr": "Identité de la différence de carrés.", "ar": "متطابقة فرق المربعين." } },
+    { "id": "q6", "type": "qcm", "q": { "fr": "Développe et réduis : 2(3x − 1) + 4(x + 5) =", "ar": "طوّر وقلّل: 2(3x − 1) + 4(x + 5) =" },
+      "choix": [{ "fr": "10x + 18", "ar": "10x + 18" }, { "fr": "10x + 2", "ar": "10x + 2" }, { "fr": "8x + 18", "ar": "8x + 18" }], "bonne": 0, "explication": { "fr": "6x − 2 + 4x + 20.", "ar": "6x − 2 + 4x + 20." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "(a + b)²", "ar": "(a + b)²" }, "verso": { "fr": "a² + 2ab + b².", "ar": "a² + 2ab + b²." } },
+    { "id": "f2", "recto": { "fr": "(a − b)²", "ar": "(a − b)²" }, "verso": { "fr": "a² − 2ab + b².", "ar": "a² − 2ab + b²." } },
+    { "id": "f3", "recto": { "fr": "(a + b)(a − b)", "ar": "(a + b)(a − b)" }, "verso": { "fr": "a² − b².", "ar": "a² − b²." } },
+    { "id": "f4", "recto": { "fr": "Factoriser = ?", "ar": "التحليل = ؟" }, "verso": { "fr": "Somme → produit.", "ar": "المجموع ← حاصل الضرب." } },
+    { "id": "f5", "recto": { "fr": "Développer (x+4)(x+1)", "ar": "تطوير (x+4)(x+1)" }, "verso": { "fr": "x² + 5x + 4.", "ar": "x² + 5x + 4." } },
+    { "id": "f6", "recto": { "fr": "Factoriser x² − 9", "ar": "تحليل x² − 9" }, "verso": { "fr": "(x + 3)(x − 3).", "ar": "(x + 3)(x − 3)." } }
+  ]
+}

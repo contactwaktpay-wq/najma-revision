@@ -1,0 +1,85 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-svn-03",
+  "niveau": "4AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 3,
+  "titre": { "fr": "La respiration et la circulation sanguine", "ar": "التنفس والدوران الدموي" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Décrire les échanges respiratoires et comparer l'air inspiré et l'air expiré", "Décrire le trajet du sang et le rôle du cœur", "Relier respiration et circulation à la nutrition des organes"],
+    "ar": ["وصف التبادلات التنفسية ومقارنة الهواء المستنشق بالمتنفس", "وصف مسار الدم ودور القلب", "ربط التنفس والدوران بتغذية الأعضاء"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Les échanges respiratoires", "ar": "التبادلات التنفسية" },
+      "bloc": [{ "fr": "L'air inspiré entre par le nez, traverse la trachée, les bronches et arrive dans les poumons jusqu'aux alvéoles pulmonaires. C'est là que le gaz carbonique (CO₂) du sang est remplacé par l'oxygène (O₂) de l'air : c'est l'hématose.", "ar": "يدخل الهواء المستنشق من الأنف، ويعبر الرغامى والقصبات إلى الرئتين وصولاً إلى الحويصلات الهوائية. هناك يُستبدل غاز ثاني أكسيد الكربون في الدم بأكسجين الهواء: هذه هي التهوية الدموية." }],
+      "tableau": {
+        "entetes": [{ "fr": "Gaz", "ar": "الغاز" }, { "fr": "Air inspiré", "ar": "الهواء المستنشق" }, { "fr": "Air expiré", "ar": "الهواء المتنفَّس" }],
+        "lignes": [["O₂", "≈ 21 %", "≈ 16 %"], ["CO₂", "≈ 0,03 %", "≈ 4 %"], ["Vapeur d'eau", "faible", "saturée"]]
+      }
+    },
+    {
+      "titre": { "fr": "La circulation du sang", "ar": "دوران الدم" },
+      "puces": [
+        { "fr": "Le cœur, pompe à deux oreillettes et deux ventricules, propulse le sang dans les artères ; les veines le ramènent ; les capillaires irriguent les organes.", "ar": "القلب مضخة بأذينين وبطينين يدفع الدم في الشرايين، وتعيده الأوردة، وتروي الشعيرات الدموية الأعضاء." },
+        { "fr": "Petite circulation (cœur → poumons → cœur) : enrichissement en O₂.", "ar": "الدوران الصغير (القلب ← الرئتان ← القلب): إغناء الدم بالأكسجين." },
+        { "fr": "Grande circulation (cœur → organes → cœur) : distribution de l'O₂ et des nutriments, collecte du CO₂.", "ar": "الدوران الكبير (القلب ← الأعضاء ← القلب): توزيع الأكسجين والمغذيات وجمع ثاني أكسيد الكربون." }
+      ]
+    },
+    {
+      "titre": { "fr": "Le sang, transporteur", "ar": "الدم ناقل" },
+      "puces": [
+        { "fr": "Globules rouges : transportent l'O₂ grâce à l'hémoglobine.", "ar": "كريات الدم الحمراء: تنقل الأكسجين بفضل الهيموغلوبين." },
+        { "fr": "Globules blancs : défense de l'organisme ; plaquettes : coagulation.", "ar": "كريات الدم البيضاء: دفاع الجسم؛ والصفيحات: تخثر الدم." },
+        { "fr": "Plasma : transporte les nutriments et les déchets.", "ar": "البلازما: تنقل المغذيات والفضلات." }
+      ],
+      "exemple": {
+        "enonce": { "fr": "Quel organe reçoit le sang le plus riche en oxygène ?", "ar": "أي عضو يستقبل الدم الأغنى بالأكسجين؟" },
+        "etapes": [
+          { "fr": "Le sang oxygéné revient des poumons vers l'oreillette gauche puis le ventricule gauche, qui l'envoie vers tous les organes.", "ar": "يعود الدم المؤكسج من الرئتين إلى الأذين الأيسر ثم البطين الأيسر الذي يرسله إلى كل الأعضاء." }
+        ],
+        "resultat": { "fr": "Tous les organes reçoivent le sang oxygéné via l'aorte.", "ar": "جميع الأعضاء يستقبلون الدم المؤكسج عبر الشريان الأبهر." }
+      }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Alvéole pulmonaire", "ar": "الحويصلة الهوائية" }, "def": { "fr": "Petit sac des poumons où se fait l'échange O₂/CO₂.", "ar": "كيس صغير في الرئة يجري فيه التبادل O₂/CO₂." } },
+    { "terme": { "fr": "Hématose", "ar": "التهوية الدموية" }, "def": { "fr": "Enrichissement du sang en oxygène dans les poumons.", "ar": "إغناء الدم بالأكسجين في الرئتين." } },
+    { "terme": { "fr": "Artère / veine", "ar": "الشريان / الوريد" }, "def": { "fr": "Vaisseau qui part du cœur / vaisseau qui revient vers le cœur.", "ar": "وعاء يخرج من القلب / وعاء يعود إليه." } },
+    { "terme": { "fr": "Hémoglobine", "ar": "الهيموغلوبين" }, "def": { "fr": "Pigment des globules rouges qui fixe l'oxygène.", "ar": "صبغة كريات الدم الحمراء ترتبط بالأكسجين." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Compare l'O₂ dans l'air inspiré et expiré.", "ar": "قارن نسبة الأكسجين في الهواء المستنشق والمتنفس." },
+      "correction": { "etapes": [{ "fr": "≈ 21 % inspiré → ≈ 16 % expiré : une partie a été consommée par l'organisme.", "ar": "≈ 21% ← ≈ 16%: جزء استهلكه الجسم." }], "resultat": { "fr": "Baisse de ≈ 5 points de O₂.", "ar": "انخفاض ≈ 5 نقاط من الأكسجين." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Trace le trajet d'une molécule d'O₂ depuis le nez jusqu'au cerveau.", "ar": "تتبّع جزيء أكسجين من الأنف إلى الدماغ." },
+      "correction": { "etapes": [
+        { "fr": "Nez → trachée → bronches → alvéole → sang (globule rouge) → cœur gauche → aorte → artères → capillaires du cerveau.", "ar": "الأنف ← الرغامى ← القصبات ← الحويصلة ← الدم ← القلب الأيسر ← الأبهر ← الشرايين ← شعيرات الدماغ." }
+      ], "resultat": { "fr": "Trajet complet respiratoire + circulatoire.", "ar": "المسار التنفسي والدوراني الكامل." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Pourquoi dit-on que la respiration et la circulation sont liées à la nutrition ?", "ar": "لماذا نقول إن التنفس والدوران مرتبطان بالتغذية؟" },
+      "correction": { "etapes": [{ "fr": "Les cellules ont besoin d'O₂ + nutriments pour libérer l'énergie ; respiration et circulation les apportent et évacuent le CO₂.", "ar": "تحتاج الخلايا إلى الأكسجين والمغذيات لإنتاج الطاقة؛ التنفس والدوران يوفرانها ويخرجان CO₂." }], "resultat": { "fr": "Fonctions de nutrition associées.", "ar": "وظائف التغذية المرتبطة." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "L'échange O₂/CO₂ se fait dans…", "ar": "التبادل O₂/CO₂ يجري في…" },
+      "choix": [{ "fr": "les alvéoles", "ar": "الحويصلات" }, { "fr": "la trachée", "ar": "الرغامى" }, { "fr": "le nez", "ar": "الأنف" }], "bonne": 0, "explication": { "fr": "Parois très fines et riches en capillaires.", "ar": "جدران رقيقة غنية بالشعيرات." } },
+    { "id": "q2", "type": "courte", "q": { "fr": "CO₂ de l'air expiré (en %) ?", "ar": "نسبة CO₂ في الهواء المتنفَّس (٪)؟" }, "acceptees": ["4", "4%", "≈4%", "4 %"], "explication": { "fr": "Contre 0,03 % à l'inspiration.", "ar": "مقابل 0,03% عند الاستنشاق." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "Les artères ramènent le sang vers le cœur.", "ar": "الشرايين تعيد الدم إلى القلب." }, "bonne": false, "explication": { "fr": "Les artères partent du cœur ; les veines reviennent.", "ar": "الشرايين تخرج من القلب والأوردة تعود." } },
+    { "id": "q4", "type": "qcm", "q": { "fr": "Qui transporte l'oxygène ?", "ar": "من ينقل الأكسجين؟" },
+      "choix": [{ "fr": "les globules rouges", "ar": "كريات الدم الحمراء" }, { "fr": "les plaquettes", "ar": "الصفيحات" }, { "fr": "les globules blancs", "ar": "كريات الدم البيضاء" }], "bonne": 0, "explication": { "fr": "Via l'hémoglobine.", "ar": "عبر الهيموغلوبين." } },
+    { "id": "q5", "type": "courte", "q": { "fr": "Nom de l'enrichissement du sang en O₂ :", "ar": "اسم إغناء الدم بالأكسجين:" }, "acceptees": ["hematose", "hématose", "التهوية الدموية"], "explication": { "fr": "Dans les poumons.", "ar": "في الرئتين." } },
+    { "id": "q6", "type": "qcm", "q": { "fr": "La grande circulation va du cœur…", "ar": "الدوران الكبير يذهب من القلب…" },
+      "choix": [{ "fr": "vers tous les organes", "ar": "إلى جميع الأعضاء" }, { "fr": "vers les poumons seulement", "ar": "إلى الرئتين فقط" }, { "fr": "vers le foie seul", "ar": "إلى الكبد وحده" }], "bonne": 0, "explication": { "fr": "Petite circulation = poumons.", "ar": "الدوران الصغير للرئتين." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Air inspiré : O₂ / CO₂", "ar": "الهواء المستنشق: O₂ / CO₂" }, "verso": { "fr": "≈ 21 % O₂ / 0,03 % CO₂.", "ar": "≈ 21% O₂ / 0,03% CO₂." } },
+    { "id": "f2", "recto": { "fr": "Air expiré : O₂ / CO₂", "ar": "الهواء المتنفَّس: O₂ / CO₂" }, "verso": { "fr": "≈ 16 % O₂ / 4 % CO₂.", "ar": "≈ 16% O₂ / 4% CO₂." } },
+    { "id": "f3", "recto": { "fr": "Rôle des globules rouges", "ar": "دور كريات الدم الحمراء" }, "verso": { "fr": "Transporter l'O₂ (hémoglobine).", "ar": "نقل الأكسجين (الهيموغلوبين)." } },
+    { "id": "f4", "recto": { "fr": "Petite circulation", "ar": "الدوران الصغير" }, "verso": { "fr": "Cœur → poumons → cœur.", "ar": "القلب ← الرئتان ← القلب." } },
+    { "id": "f5", "recto": { "fr": "Hématose", "ar": "التهوية الدموية" }, "verso": { "fr": "Enrichissement du sang en O₂ aux alvéoles.", "ar": "إغناء الدم بالأكسجين في الحويصلات." } },
+    { "id": "f6", "recto": { "fr": "Rôle des plaquettes", "ar": "دور الصفيحات" }, "verso": { "fr": "Coagulation du sang.", "ar": "تخثر الدم." } }
+  ]
+}

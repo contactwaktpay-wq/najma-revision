@@ -1,0 +1,526 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-01",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 1,
+  "titre": {
+    "fr": "La phrase et ses constituants",
+    "ar": "الجملة ومكوّناتها"
+  },
+  "duree_min": 25,
+  "objectifs": {
+    "fr": [
+      "Reconnaître les types de phrases",
+      "Identifier le groupe nominal sujet et le verbe",
+      "Accorder le verbe avec son sujet"
+    ],
+    "ar": [
+      "التعرف على أنواع الجمل",
+      "تحديد المجموعة الاسمية الفاعلة والفعل",
+      "مطابقة الفعل مع فاعله"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Les types de phrases",
+        "ar": "أنواع الجمل"
+      },
+      "puces": [
+        {
+          "fr": "Déclarative : elle donne une information. (Il pleure.)",
+          "ar": "الخبرية: تقدّم معلومة. (إنه يبكي.)"
+        },
+        {
+          "fr": "Interrogative : elle pose une question. (Où vas-tu ?)",
+          "ar": "الاستفهامية: تطرح سؤالاً. (إلى أين تذهب؟)"
+        },
+        {
+          "fr": "Impérative : elle donne un ordre ou un conseil. (Écoute bien !)",
+          "ar": "الأمرية: تعطي أمراً أو نصيحة. (أنصت جيداً!)"
+        },
+        {
+          "fr": "Exclamative : elle exprime une émotion. (Quel beau paysage !)",
+          "ar": "التعجبية: تعبّر عن انفعال. (يا له من منظر جميل!)"
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Sujet et verbe",
+        "ar": "الفاعل والفعل"
+      },
+      "bloc": [
+        {
+          "fr": "Chaque phrase contient au moins un verbe conjugué. Le groupe nominal sujet (GNS) répond à la question « qui est-ce qui ? » ou « qu'est-ce qui ? » placée avant le verbe.",
+          "ar": "تحتوي كل جملة على فعل مصرَّف على الأقل. المجموعة الاسمية الفاعلة تجيب عن السؤال «من الذي؟» أو «ما الذي؟» قبل الفعل."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "« Les enfants du village jouent dans la cour. » Trouve le GNS et le verbe.",
+          "ar": "«أطفال القرية يلعبون في الساحة.» حدّد المجموعة الاسمية الفاعلة والفعل."
+        },
+        "etapes": [
+          {
+            "fr": "On pose la question : qui est-ce qui joue ? → « Les enfants du village ».",
+            "ar": "نطرح السؤال: من الذي يلعب؟ ← «أطفال القرية»."
+          },
+          {
+            "fr": "Le verbe conjugué est « jouent » (3e personne du pluriel).",
+            "ar": "الفعل المصرَّف هو «يلعبون» بصيغة الجمع."
+          }
+        ],
+        "resultat": {
+          "fr": "GNS : les enfants du village ; verbe : jouent.",
+          "ar": "الفاعل: أطفال القرية؛ الفعل: يلعبون."
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Accord sujet–verbe",
+        "ar": "مطابقة الفاعل والفعل"
+      },
+      "puces": [
+        {
+          "fr": "Le verbe s'accorde en personne et en nombre avec son sujet : « L'élève écrit / Les élèves écrivent ».",
+          "ar": "يطابق الفعل فاعله في العدد والشخص: «يكتب التلميذ / يكتب التلاميذ»."
+        },
+        {
+          "fr": "Attention aux sujets collectifs : « une foule de gens arrive » (le sujet est « foule », singulier).",
+          "ar": "انتبه للفاعل الجماعي: «حشد من الناس يصل» (الفاعل هو «حشد»، مفرد)."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Phrase",
+        "ar": "الجملة"
+      },
+      "def": {
+        "fr": "Suite de mots qui a un sens et se termine par une ponctuation forte.",
+        "ar": "مجموعة كلمات لها معنى وتنتهي بعلامة ترقيم قوية."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Verbe conjugué",
+        "ar": "الفعل المصرَّف"
+      },
+      "def": {
+        "fr": "Verbe changé selon le sujet et le temps.",
+        "ar": "فعل يتغير حسب الفاعل والزمن."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Groupe nominal sujet (GNS)",
+        "ar": "المجموعة الاسمية الفاعلة"
+      },
+      "def": {
+        "fr": "Groupe de mots qui fait l'action et répond à « qui est-ce qui ? ».",
+        "ar": "مجموعة كلمات تقوم بالفعل وتجيب عن «من الذي؟»."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Accord",
+        "ar": "المطابقة"
+      },
+      "def": {
+        "fr": "Changement de forme d'un mot pour suivre un autre (nombre, genre, personne).",
+        "ar": "تغيّر شكل الكلمة لمتابعة أخرى (العدد، الجنس، الشخص)."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Donne le type de chaque phrase : « As-tu fini tes devoirs ? » / « Quelle chaleur ! »",
+        "ar": "اذكر نوع كل جملة: «هل أنهيت واجباتك؟» / «يا للحرارة!»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "La première se termine par « ? » : interrogative.",
+            "ar": "الأولى تنتهي بـ «؟»: استفهامية."
+          },
+          {
+            "fr": "La seconde exprime une émotion : exclamative.",
+            "ar": "الثانية تعبّر عن انفعال: تعجبية."
+          }
+        ],
+        "resultat": {
+          "fr": "Interrogative ; exclamative.",
+          "ar": "استفهامية؛ تعجبية."
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Souligne le verbe et le GNS : « Les pêcheurs de Nouakchott rentrent leurs barques. »",
+        "ar": "ضع خطاً تحت الفعل والمجموعة الاسمية الفاعلة: «يعيد صيادو نواكشوط قواربهم.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Qui rentre ? → les pêcheurs de Nouakchott (GNS) ; action : rentrent.",
+            "ar": "من يعيد؟ ← صيادو نواكشوط (الفاعل)؛ الفعل: يعيد."
+          }
+        ],
+        "resultat": {
+          "fr": "GNS : les pêcheurs de Nouakchott ; verbe : rentrent.",
+          "ar": "الفاعل: صيادو نواكشوط؛ الفعل: يعيد."
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Complète avec le verbe « aller » conjugué : « Mes cousins ___ au souk chaque samedi. »",
+        "ar": "أكمل بفعل «الذهاب» المصرَّف: «أبناء عمي ___ إلى السوق كل سبت.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Sujet pluriel « mes cousins » → 3e personne du pluriel.",
+            "ar": "الفاعل جمع «أبناء عمي» ← الصيغة الجمعية."
+          }
+        ],
+        "resultat": {
+          "fr": "vont",
+          "ar": "يذهبون"
+        }
+      },
+      "acceptees": [
+        "vont"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Transforme en question : « Tu fais tes devoirs. » Puis en exclamative : « C’est une belle journée. »",
+        "ar": "حوّل إلى استفهام: «تعمل واجباتك». ثم إلى تعجبية: «يوم جميل»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "« Fais-tu tes devoirs ? »",
+            "ar": "«هل تعمل واجباتك؟»"
+          },
+          {
+            "fr": "« Quelle belle journée ! »",
+            "ar": "«ما أجمل هذا اليوم!»"
+          }
+        ],
+        "resultat": {
+          "fr": "Voir étapes",
+          "ar": "انظر الخطوات"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Écris une phrase déclarative, une interrogative et une impérative sur la rentrée scolaire.",
+        "ar": "اكتب جملة خبرية واستفهامية وأمرية عن الدخول المدرسي."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Ex. : « L’école commence en octobre. » « Quand commencent les cours ? » « Prépare ton cartable. »",
+            "ar": "مثال: «تبدأ المدرسة في أكتوبر» «متى تبدأ الحصص؟» «جهّز حقيبتك»."
+          }
+        ],
+        "resultat": {
+          "fr": "3 phrases correctes",
+          "ar": "ثلاث جمل صحيحة"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "« Ferme la porte ! » est une phrase…",
+        "ar": "«أغلق الباب!» جملة…"
+      },
+      "choix": [
+        {
+          "fr": "impérative",
+          "ar": "أمرية"
+        },
+        {
+          "fr": "déclarative",
+          "ar": "خبرية"
+        },
+        {
+          "fr": "interrogative",
+          "ar": "استفهامية"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Elle donne un ordre.",
+        "ar": "تعطي أمراً."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Dans « Le vent du désert souffle fort. », le GNS est…",
+        "ar": "في «ريح الصحراء تهب بقوة»، الفاعل هو…"
+      },
+      "choix": [
+        {
+          "fr": "Le vent du désert",
+          "ar": "ريح الصحراء"
+        },
+        {
+          "fr": "soufle fort",
+          "ar": "تهب بقوة"
+        },
+        {
+          "fr": "fort",
+          "ar": "بقوة"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Qui souffle ? le vent du désert.",
+        "ar": "من يهب؟ ريح الصحراء."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "qcm",
+      "q": {
+        "fr": "« Les élèves ___ la leçon. » (écrire)",
+        "ar": "«التلاميذ ___ الدرس.» (الكتابة)"
+      },
+      "choix": [
+        {
+          "fr": "écrivent",
+          "ar": "يكتبون"
+        },
+        {
+          "fr": "écrit",
+          "ar": "يكتب"
+        },
+        {
+          "fr": "écris",
+          "ar": "أكتب"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Sujet pluriel → -ent.",
+        "ar": "الفاعل جمع ← صيغة الجمع."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "vf",
+      "q": {
+        "fr": "Une phrase déclarative se termine toujours par un point.",
+        "ar": "الجملة الخبرية تنتهي دائماً بنقطة."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "La ponctuation forte la termine.",
+        "ar": "تنتهي بعلامة ترقيم قوية."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "À quelle question répond le GNS ?",
+        "ar": "على أي سؤال يجيب الفاعل؟"
+      },
+      "acceptees": [
+        "qui est-ce qui",
+        "qu'est-ce qui",
+        "qu est ce qui",
+        "qui",
+        "qu'est-ce"
+      ],
+      "explication": {
+        "fr": "Ou « qu'est-ce qui ».",
+        "ar": "أو «ما الذي»."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "« Quelle belle journée ! » est…",
+        "ar": "«يا لها من يوم جميل!» هي…"
+      },
+      "choix": [
+        {
+          "fr": "exclamative",
+          "ar": "تعجبية"
+        },
+        {
+          "fr": "impérative",
+          "ar": "أمرية"
+        },
+        {
+          "fr": "déclarative",
+          "ar": "خبرية"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Elle exprime une émotion.",
+        "ar": "تعبّر عن انفعال."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "« Quelle journée magnifique ! » est…",
+        "ar": "«ما أجمل هذا اليوم!» جملة…"
+      },
+      "choix": [
+        {
+          "fr": "exclamative",
+          "ar": "تعجبية"
+        },
+        {
+          "fr": "interrogative",
+          "ar": "استفهامية"
+        },
+        {
+          "fr": "déclarative",
+          "ar": "خبرية"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Point d’exclamation + émotion.",
+        "ar": "علامة التعجب والانفعال."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "Une phrase commence par une majuscule.",
+        "ar": "الجملة تبدأ بحرف كبير."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai, et finit par . ? !",
+        "ar": "صحيح، وتنتهي بنقطة أو علامة."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Les 4 types de phrases",
+        "ar": "أنواع الجمل الأربعة"
+      },
+      "verso": {
+        "fr": "Déclarative, interrogative, impérative, exclamative.",
+        "ar": "خبرية، استفهامية، أمرية، تعجبية."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Comment trouver le GNS ?",
+        "ar": "كيف نجد الفاعل؟"
+      },
+      "verso": {
+        "fr": "Poser « qui est-ce qui ? » avant le verbe.",
+        "ar": "نطرح «من الذي؟» قبل الفعل."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Accord sujet–verbe",
+        "ar": "مطابقة الفاعل والفعل"
+      },
+      "verso": {
+        "fr": "Même personne, même nombre.",
+        "ar": "الشخص والعدد نفسرهما."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Ponctuation d'une phrase interrogative",
+        "ar": "ترقيم الجملة الاستفهامية"
+      },
+      "verso": {
+        "fr": "Le point d'interrogation « ? ».",
+        "ar": "علامة الاستفهام «؟»."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Sujet collectif : « une foule de gens arrive »",
+        "ar": "الفاعل الجماعي: «حشد من الناس يصل»"
+      },
+      "verso": {
+        "fr": "Verbe au singulier (le sujet est « foule »).",
+        "ar": "الفعل مفرد (الفاعل هو «حشد»)."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Que doit contenir toute phrase ?",
+        "ar": "ماذا تحتوي كل جملة؟"
+      },
+      "verso": {
+        "fr": "Un verbe conjugué et une ponctuation forte.",
+        "ar": "فعلاً مصرَّفاً وعلامة ترقيم قوية."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Phrase exclamative",
+        "ar": "الجملة التعجبية"
+      },
+      "verso": {
+        "fr": "Exprime une émotion ; se termine par « ! ».",
+        "ar": "تعبر عن انفعال وتنتهي بـ !."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Les 4 types de phrases",
+        "ar": "أنواع الجمل الأربعة"
+      },
+      "verso": {
+        "fr": "Déclarative, interrogative, impérative, exclamative.",
+        "ar": "خبرية، استفهامية، أمرية، تعجبية."
+      }
+    }
+  ]
+}

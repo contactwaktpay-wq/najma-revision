@@ -1,0 +1,135 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-12",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 12,
+  "titre": { "fr": "Orthographe avancée : pluriels et accents", "ar": "الإملاء المتقدم: الجمع والحوامل" },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Écrire les pluriels particuliers (-al/-aux, -eau/-eu/-ou)",
+      "Placer correctement les accents (é, è, ê, ù)",
+      "Distinguer a/à et ou/où"
+    ],
+    "ar": [
+      "كتابة الجمع الخاص (-al/-aux، -eau/-eu/-ou)",
+      "وضع الحوامل في مواضعها الصحيحة (é، è، ê، ù)",
+      "التمييز بين a/à وou/où"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Les pluriels particuliers", "ar": "الجمع الخاص" },
+      "puces": [
+        { "fr": "-al → -aux : un journal → des journaux ; un animal → des animaux. (Exception : des festivals, des récitals.)", "ar": "-al ← -aux: صحيفة ← صحف؛ حيوان ← حيوانات. (استثناء: festivals، récitals.)" },
+        { "fr": "-eau, -eu → + x : un bateau → des bateaux ; un jeu → des jeux ; un cheveu → des cheveux.", "ar": "-eau، -eu ← + x: قارب ← قوارب؛ لعبة ← ألعاب؛ شعرة ← شعر." },
+        { "fr": "-ou → + s, sauf 7 mots en -oux : bijou, caillou, chou, genou, hibou, joujou, pou.", "ar": "-ou ← + s إلا 7 كلمات تنتهي بـ -oux: bijou، caillou، chou، genou، hibou، joujou، pou." },
+        { "fr": "Mots déjà en -s, -x, -z : pluriel invisible ! un mois → des mois ; une croix → des croix.", "ar": "الكلمات المنتهية بـ -s، -x، -z: الجمع غير مرئي! شهر ← شهور." }
+      ]
+    },
+    {
+      "titre": { "fr": "Les accents", "ar": "الحوامل" },
+      "puces": [
+        { "fr": "é (accent aigu) : fermé, comme dans « été », « vélo ».", "ar": "é (حاد): صوت مغلق كما في «été»، «vélo»." },
+        { "fr": "è (accent grave) : ouvert, comme dans « père », « très » ; souvent devant syllabe muette : « école », « fenêtre ».", "ar": "è (ثقيل): صوت مفتوح كما في «père»؛ وكثيراً قبل مقطع صامت: «école»، «fenêtre»." },
+        { "fr": "ê (circonflexe) : « fête », « forêt », « château ».", "ar": "ê (محدب): «فestival»، «غابة»، «قلعة»." },
+        { "fr": "ù : quasi uniquement dans « où » (le lieu).", "ar": "ù: تقريباً في «où» فقط (المكان)." }
+      ]
+    },
+    {
+      "titre": { "fr": "Homophones de la dernière ligne droite", "ar": "المتماثلات الأخيرة" },
+      "puces": [
+        { "fr": "a / à : « il a » (verbe avoir) ≠ « à » (préposition) : « Il a un vélo à Nouakchott. »", "ar": "a / à: «لديه» (فعل) ≠ «إلى/في» (حرف جر)." },
+        { "fr": "ou / où : « ou » = ou bien ; « où » = le lieu : « Tu viens ou tu restes ? Où est ta maison ? »", "ar": "ou / où: «أم» ≠ «أين» (المكان)." },
+        { "fr": "Astuce pour « où » : remplace par « dans quel lieu » ; si ça marche, garde l'accent.", "ar": "حيلة: استبدل بـ «في أي مكان»؛ إن نجحت فالضرب ثقيل." }
+      ],
+      "exemple": { "fr": "« Où vas-tu ? » → remplace par « dans quel lieu vas-tu ? » → ça marche → où.", "ar": "«إلى أين تذهب؟» ← استبدال ناجح ← نكتب où." }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Pluriel", "ar": "الجمع" }, "def": { "fr": "Forme qui désigne plusieurs choses (généralement + s).", "ar": "الصيغة التي تدل على العدد (غالباً + s)." } },
+    { "terme": { "fr": "Accent aigu (é)", "ar": "الضرب الحاد" }, "def": { "fr": "Accent qui ferme le son : é.", "ar": "ضرب يغلق الصوت: é." } },
+    { "terme": { "fr": "Accent grave (è)", "ar": "الضرب الثقيل" }, "def": { "fr": "Accent qui ouvre le son : è.", "ar": "ضرب يفتح الصوت: è." } },
+    { "terme": { "fr": "Homophone", "ar": "متماثلة" }, "def": { "fr": "Mots qui se prononcent pareil mais s'écrivent différemment.", "ar": "كلمات تُنطق متماثلة وتُكتب مختلفة." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Écris au pluriel : un journal, un animal, un bateau, un jeu, un genou.", "ar": "اكتب بالجمع: صحيفة، حيوان، قارب، لعبة، ركبة." },
+      "correction": {
+        "etapes": [
+          { "fr": "des journaux ; des animaux (-al → -aux).", "ar": "صحف؛ حيوانات." },
+          { "fr": "des bateaux ; des jeux (-eau/-eu → + x).", "ar": "قوارب؛ ألعاب." },
+          { "fr": "des genoux (un des 7 mots en -ou → -oux).", "ar": "رُكَب (من الكلمات السبع)." }
+        ],
+        "resultat": { "fr": "journaux ; animaux ; bateaux ; jeux ; genoux", "ar": "journaux؛ animaux؛ bateaux؛ jeux؛ genoux" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 1,
+      "enonce": { "fr": "Complète avec a ou à : « Il ___ un chameau ___ Ras el Ma. » / « Elle ___ deux frères. »", "ar": "أكمل بـ a أو à: «لديه جمل في رأس الماء» / «لها أخوان»." },
+      "correction": {
+        "etapes": [
+          { "fr": "Il a un chameau à Ras el Ma (verbe puis préposition).", "ar": "الأولى فعل a والثانية حرف جر à." },
+          { "fr": "Elle a deux frères (verbe avoir).", "ar": "الثانية فعل a." }
+        ],
+        "resultat": { "fr": "a ; à ; a", "ar": "a؛ à؛ a" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Choisis ou/où : « Tu manges ___ tu joues ? » / « ___ est le marché ? » / « La ville ___ je suis né. »", "ar": "اختر ou/où: «تأكل أم تلعب؟» / «أين السوق؟» / «المدينة التي وُلدت فيها»." },
+      "correction": {
+        "etapes": [
+          { "fr": "Tu manges ou tu joues ? (ou bien).", "ar": "ou (أم)." },
+          { "fr": "Où est le marché ? (le lieu).", "ar": "où (المكان)." },
+          { "fr": "La ville où je suis né.", "ar": "où." }
+        ],
+        "resultat": { "fr": "ou ; où ; où", "ar": "ou؛ où؛ où" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 2,
+      "enonce": { "fr": "Ajoute les accents manquants : « ecole », « pere », « fete », « tres », « velo », « ou (lieu) ».", "ar": "أضف الحوامل الناقصة: ecole، pere، fete، tres، velo، ou (المكان)." },
+      "correction": {
+        "etapes": [
+          { "fr": "école ; père ; fête ; très ; vélo ; où.", "ar": "école؛ père؛ fête؛ très؛ vélo؛ où." }
+        ],
+        "resultat": { "fr": "école, père, fête, très, vélo, où", "ar": "انظر أعلاه" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Corrige le texte : « les animaux du zoo ont manger des chous ; ils ont fais des bêtises a la fenetre. »", "ar": "صحّح النص: «حيوانات الحديقة أكلت ملفوفاً؛ أتلفعت في النافذة»." },
+      "correction": {
+        "etapes": [
+          { "fr": "Les animaux du zoo ont mangé des choux.", "ar": "mangé (participe)؛ choux (pluriel de chou)." },
+          { "fr": "…ils ont fait des bêtises à la fenêtre.", "ar": "fait (participe de faire)؛ à (préposition)؛ fenêtre (accent)." }
+        ],
+        "resultat": { "fr": "ont mangé ; choux ; ont fait ; à ; fenêtre", "ar": "انظر الخطوات" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Pluriel de « journal » ?", "ar": "جمع «journal»؟" }, "choix": [{ "fr": "journaux", "ar": "صحف" }, { "fr": "journals", "ar": "journals" }, { "fr": "journalx", "ar": "journalx" }], "bonne": 0, "explication": { "fr": "-al → -aux.", "ar": "-al ← -aux." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Pluriel de « jeu » ?", "ar": "جمع «jeu»؟" }, "choix": [{ "fr": "jeux", "ar": "ألعاب" }, { "fr": "jeus", "ar": "jeus" }, { "fr": "jeuxs", "ar": "jeuxs" }], "bonne": 0, "explication": { "fr": "-eu → -eux.", "ar": "-eu ← -eux." } },
+    { "id": "q3", "type": "courte", "q": { "fr": "Pluriel de « bijou » ?", "ar": "جمع «bijou»؟" }, "acceptees": ["bijoux", "حلي"], "explication": { "fr": "bijou est un des 7 mots en -oux.", "ar": "من الكلمات السبع." } },
+    { "id": "q4", "type": "vf", "q": { "fr": "« Des mois » a un pluriel visible.", "ar": "«mois» جمعه مرئي." }, "bonne": false, "explication": { "fr": "Faux : les mots en -s ne changent pas.", "ar": "خطأ: الكلمات المنتهية بـ -s لا تتغير." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "« Tu viens ___ tu restes ? »", "ar": "«تأتي ___ تبقى؟»" }, "choix": [{ "fr": "ou", "ar": "أم" }, { "fr": "où", "ar": "أين" }, { "fr": "ho", "ar": "ho" }], "bonne": 0, "explication": { "fr": "ou = ou bien.", "ar": "ou = أم." } },
+    { "id": "q6", "type": "courte", "q": { "fr": "« ___ est ta classe ? » (complète avec ou ou où)", "ar": "«___ قسمك؟» أكمل." }, "acceptees": ["où", "ou où", "où ?"], "explication": { "fr": "Le lieu → où.", "ar": "المكان ← où." } },
+    { "id": "q7", "type": "qcm", "q": { "fr": "Quel mot a un accent circonflexe ?", "ar": "أي كلمة تحمل ضرباً محدباً؟" }, "choix": [{ "fr": "fête", "ar": "fête" }, { "fr": "père", "ar": "père" }, { "fr": "vélo", "ar": "vélo" }], "bonne": 0, "explication": { "fr": "fête (ê).", "ar": "fête." } },
+    { "id": "q8", "type": "vf", "q": { "fr": "« Il a » (verbe) s'écrit avec accent grave.", "ar": "«il a» (الفعل) تُكتب بضرب ثقيل." }, "bonne": false, "explication": { "fr": "Faux : il a (sans accent) ; à avec accent = préposition.", "ar": "خطأ: الفعل بلا ضرب؛ الحرف الجري هو à." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Pluriel des mots en -al ?", "ar": "جمع الكلمات بـ -al؟" }, "verso": { "fr": "-aux (journaux, animaux)", "ar": "-aux" } },
+    { "id": "f2", "recto": { "fr": "Pluriel des mots en -eau/-eu ?", "ar": "جمع الكلمات بـ -eau/-eu؟" }, "verso": { "fr": "+ x (bateaux, jeux)", "ar": "+ x" } },
+    { "id": "f3", "recto": { "fr": "Les 7 mots en -ou → -oux ?", "ar": "الكلمات السبع -ou ← -oux؟" }, "verso": { "fr": "bijou, caillou, chou, genou, hibou, joujou, pou", "ar": "bijou، caillou، chou، genou، hibou، joujou، pou" } },
+    { "id": "f4", "recto": { "fr": "Mots en -s, -x, -z au pluriel ?", "ar": "الكلمات بـ -s، -x، -z في الجمع؟" }, "verso": { "fr": "Invariables (des mois, des croix).", "ar": "لا تتغير." } },
+    { "id": "f5", "recto": { "fr": "é ou è ?", "ar": "é أم è؟" }, "verso": { "fr": "é = son fermé (été) ; è = son ouvert (père).", "ar": "é مغلق؛ è مفتوح." } },
+    { "id": "f6", "recto": { "fr": "Astuce pour « où » ?", "ar": "حيلة كلمة où؟" }, "verso": { "fr": "Remplacer par « dans quel lieu » → si ça marche, écrire où.", "ar": "استبدل بـ «في أي مكان»." } },
+    { "id": "f7", "recto": { "fr": "a ou à : « Il ___ faim » ?", "ar": "a أم à: «جائع»؟" }, "verso": { "fr": "Il a faim (verbe avoir, sans accent).", "ar": "الفعل بلا ضرب." } },
+    { "id": "f8", "recto": { "fr": "Pluriel de « chou » ?", "ar": "جمع «chou»؟" }, "verso": { "fr": "choux", "ar": "choux" } }
+  ]
+}

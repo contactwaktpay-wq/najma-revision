@@ -1,0 +1,550 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-07",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 7,
+  "titre": {
+    "fr": "Périmètres et aires",
+    "ar": "المحيطات والمساحات"
+  },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Calculer le périmètre d'un carré, d'un rectangle et d'un triangle",
+      "Calculer l'aire d'un carré, d'un rectangle et d'un triangle",
+      "Distinguer périmètre (en m) et aire (en m²)"
+    ],
+    "ar": [
+      "حساب محيط المربع والمستطيل والمثلث",
+      "حساب مساحة المربع والمستطيل والمثلث",
+      "التمييز بين المحيط (م) والمساحة (م²)"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Le périmètre : le tour de la figure",
+        "ar": "المحيط: محيط الشكل"
+      },
+      "puces": [
+        {
+          "fr": "Le périmètre est la longueur du tour d'une figure. On l'exprime en cm ou en m.",
+          "ar": "المحيط هو طول دورة الشكل. يُقاس بالسنتيمتر أو المتر."
+        },
+        {
+          "fr": "Carré : P = 4 × côté. Rectangle : P = 2 × (longueur + largeur).",
+          "ar": "المربع: P = 4 × الضلع. المستطيل: P = 2 × (الطول + العرض)."
+        },
+        {
+          "fr": "Triangle : P = côté 1 + côté 2 + côté 3.",
+          "ar": "المثلث: P = الضلع الأول + الثاني + الثالث."
+        },
+        {
+          "fr": "Pour clôturer un jardin, encadrer une porte, poser une bordure : on utilise le périmètre.",
+          "ar": "لتسييج حديقة أو تأطير باب: نستعمل المحيط."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "L'aire : la surface de la figure",
+        "ar": "المساحة: سطح الشكل"
+      },
+      "puces": [
+        {
+          "fr": "L'aire mesure la surface occupée par la figure. On l'exprime en cm² ou en m².",
+          "ar": "المساحة تقيس السطح الذي يشغله الشكل. تُقاس بسم² أو م²."
+        },
+        {
+          "fr": "Carré : A = côté × côté. Rectangle : A = longueur × largeur.",
+          "ar": "المربع: A = الضلع × الضلع. المستطيل: A = الطول × العرض."
+        },
+        {
+          "fr": "Triangle : A = (base × hauteur) ÷ 2.",
+          "ar": "المثلث: A = (القاعدة × الارتفاع) ÷ 2."
+        },
+        {
+          "fr": "Pour peindre un mur, semer un champ, poser du carrelage : on utilise l'aire.",
+          "ar": "لطباعة جدار أو زراعة حقل أو تمديد بلاط: نستعمل المساحة."
+        }
+      ],
+      "formules": [
+        {
+          "fr": "P carré = 4 × c",
+          "ar": "P مربع = 4 × ج"
+        },
+        {
+          "fr": "P rectangle = 2 × (L + l)",
+          "ar": "P مستطيل = 2 × (ط + ع)"
+        },
+        {
+          "fr": "A carré = c × c",
+          "ar": "A مربع = ج × ج"
+        },
+        {
+          "fr": "A rectangle = L × l",
+          "ar": "A مستطيل = ط × ع"
+        },
+        {
+          "fr": "A triangle = (b × h) ÷ 2",
+          "ar": "A مثلث = (ق × ا) ÷ 2"
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Unités d'aire et attention aux pièges",
+        "ar": "وحدات المساحة وانتبه للفخاخ"
+      },
+      "puces": [
+        {
+          "fr": "1 m² = 100 dm² = 10 000 cm² (on multiplie par 100 à chaque « carré » de conversion).",
+          "ar": "1 م² = 100 دم² = 10 000 سم² (نضرب في 100 عند كل درجة تحويل مربعة)."
+        },
+        {
+          "fr": "Le périmètre s'écrit en m, l'aire en m² : ne jamais mélanger les deux !",
+          "ar": "المحيط يُكتب بالمتر والمساحة بالمتر المربع: لا تخلط بينهما أبداً!"
+        },
+        {
+          "fr": "Une figure peut avoir un grand périmètre et une petite aire (terrain très étroit).",
+          "ar": "قد يكون لمساحة محيط كبير ومساحة صغيرة (حقل ضيق جداً)."
+        }
+      ],
+      "exemple": {
+        "fr": "Jardin de 12 m sur 8 m : P = 2 × (12 + 8) = 40 m ; A = 12 × 8 = 96 m².",
+        "ar": "حديقة 12 م × 8 م: المحيط = 2 × (12 + 8) = 40 م؛ المساحة = 12 × 8 = 96 م²."
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Périmètre",
+        "ar": "المحيط"
+      },
+      "def": {
+        "fr": "Longueur du tour d'une figure géométrique.",
+        "ar": "طول دورة الشكل الهندسي."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Aire (surface)",
+        "ar": "المساحة"
+      },
+      "def": {
+        "fr": "Mesure de la surface intérieure d'une figure, en unités carrées.",
+        "ar": "قياس السطح الداخلي للشكل بوحدات مربعة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Base et hauteur",
+        "ar": "القاعدة والارتفاع"
+      },
+      "def": {
+        "fr": "Côté de référence du triangle et distance perpendiculaire au sommet opposé.",
+        "ar": "ضلع المثلث المرجعي والمسافة العمودية إلى الرأس المقابل."
+      }
+    },
+    {
+      "terme": {
+        "fr": "m² (mètre carré)",
+        "ar": "م² (متر مربع)"
+      },
+      "def": {
+        "fr": "Aire d'un carré de 1 m de côté.",
+        "ar": "مساحة مربع ضلعه 1 م."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Figure composite",
+        "ar": "شكل مركب"
+      },
+      "def": {
+        "fr": "Figure formée de plusieurs rectangles ou triangles collés.",
+        "ar": "شكل يتكون من عدة مستطيلات أو مثلثات متلاصقة."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Un carré a un côté de 7 cm. Calcule son périmètre puis son aire.",
+        "ar": "مربع ضلعه 7 سم. احسب محيطه ثم مساحته."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "P = 4 × 7 = 28 cm.",
+            "ar": "المحيط = 4 × 7 = 28 سم."
+          },
+          {
+            "fr": "A = 7 × 7 = 49 cm².",
+            "ar": "المساحة = 7 × 7 = 49 سم²."
+          }
+        ],
+        "resultat": {
+          "fr": "P = 28 cm ; A = 49 cm²",
+          "ar": "المحيط = 28 سم؛ المساحة = 49 سم²"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Un rectangle mesure 12 cm sur 5 cm. Calcule P et A.",
+        "ar": "مستطيل 12 سم × 5 سم. احسب المحيط والمساحة."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "P = 2 × (12 + 5) = 2 × 17 = 34 cm.",
+            "ar": "المحيط = 2 × (12 + 5) = 34 سم."
+          },
+          {
+            "fr": "A = 12 × 5 = 60 cm².",
+            "ar": "المساحة = 12 × 5 = 60 سم²."
+          }
+        ],
+        "resultat": {
+          "fr": "P = 34 cm ; A = 60 cm²",
+          "ar": "المحيط = 34 سم؛ المساحة = 60 سم²"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Un triangle a une base de 14 cm et une hauteur de 8 cm. Calcule son aire.",
+        "ar": "مثلث قاعدته 14 سم وارتفاعه 8 سم. احسب مساحته."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "A = (14 × 8) ÷ 2 = 112 ÷ 2 = 56 cm².",
+            "ar": "المساحة = (14 × 8) ÷ 2 = 56 سم²."
+          }
+        ],
+        "resultat": {
+          "fr": "A = 56 cm²",
+          "ar": "المساحة = 56 سم²"
+        }
+      },
+      "acceptees": [
+        "56"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un terrain rectangulaire de 25 m sur 16 m doit être clôturé. La clôture coûte 800 MRU le mètre. Calcule l'aire du terrain et le prix de la clôture.",
+        "ar": "مسألة: حقل مستطيل 25 م × 16 م يجب تسييجه. ثمن المتر الواحد من التسييج 800 أوقية. احسب مساحة الحقل وثمن التسييج."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Aire : A = 25 × 16 = 400 m².",
+            "ar": "المساحة = 25 × 16 = 400 م²."
+          },
+          {
+            "fr": "Périmètre : P = 2 × (25 + 16) = 2 × 41 = 82 m.",
+            "ar": "المحيط = 2 × (25 + 16) = 82 م."
+          },
+          {
+            "fr": "Prix : 82 × 800 = 65 600 MRU.",
+            "ar": "الثمن = 82 × 800 = 65 600 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "A = 400 m² ; clôture = 65 600 MRU",
+          "ar": "المساحة = 400 م²؛ التسييج = 65 600 أوقية"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Une pièce en L est formée d'un rectangle de 8 m × 6 m et d'un rectangle de 4 m × 3 m. Calcule l'aire totale puis son périmètre (celui du rectangle qui l'entoure : 8 m × 6 m).",
+        "ar": "غرفة على شكل L تتكون من مستطيل 8 م × 6 م ومستطيل 4 م × 3 م. احسب المساحة الكلية ثم المحيط (محيط المستطيل المحيط بها: 8 م × 6 م)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Aire 1 : 8 × 6 = 48 m² ; aire 2 : 4 × 3 = 12 m².",
+            "ar": "المساحة الأولى = 48 م²؛ الثانية = 12 م²."
+          },
+          {
+            "fr": "Aire totale : 48 + 12 = 60 m².",
+            "ar": "المساحة الكلية = 60 م²."
+          },
+          {
+            "fr": "Périmètre : P = 2 × (8 + 6) = 28 m.",
+            "ar": "المحيط = 2 × (8 + 6) = 28 م."
+          }
+        ],
+        "resultat": {
+          "fr": "A = 60 m² ; P = 28 m",
+          "ar": "المساحة = 60 م²؛ المحيط = 28 م"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Le périmètre d'un carré de côté 7 cm est…",
+        "ar": "محيط مربع ضلعه 7 سم هو…"
+      },
+      "choix": [
+        {
+          "fr": "28 cm",
+          "ar": "28 سم"
+        },
+        {
+          "fr": "49 cm",
+          "ar": "49 سم"
+        },
+        {
+          "fr": "14 cm",
+          "ar": "14 سم"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "P = 4 × 7 = 28 cm.",
+        "ar": "المحيط = 4 × 7 = 28 سم."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "L'aire d'un rectangle de 6 cm sur 5 cm est…",
+        "ar": "مساحة مستطيل 6 سم × 5 سم هي…"
+      },
+      "choix": [
+        {
+          "fr": "30 cm²",
+          "ar": "30 سم²"
+        },
+        {
+          "fr": "22 cm",
+          "ar": "22 سم"
+        },
+        {
+          "fr": "11 cm²",
+          "ar": "11 سم²"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "A = 6 × 5 = 30 cm².",
+        "ar": "المساحة = 6 × 5 = 30 سم²."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "L'aire s'exprime en mètres carrés (m²).",
+        "ar": "تُقاس المساحة بالمتر المربع (م²)."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Oui, le périmètre en m, l'aire en m².",
+        "ar": "نعم، المحيط بالمتر والمساحة بالمتر المربع."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "calcul",
+      "q": {
+        "fr": "Calcule le périmètre d'un rectangle de 9 m sur 4 m (en m).",
+        "ar": "احسب محيط مستطيل 9 م × 4 م (بالأمتار)."
+      },
+      "acceptees": [
+        "26",
+        "26 m"
+      ],
+      "explication": {
+        "fr": "P = 2 × (9 + 4) = 26 m.",
+        "ar": "المحيط = 2 × (9 + 4) = 26 م."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "calcul",
+      "q": {
+        "fr": "Calcule l'aire d'un carré de côté 11 m (en m²).",
+        "ar": "احسب مساحة مربع ضلعه 11 م (بالمتر المربع)."
+      },
+      "acceptees": [
+        "121",
+        "121 m²"
+      ],
+      "explication": {
+        "fr": "A = 11 × 11 = 121 m².",
+        "ar": "المساحة = 11 × 11 = 121 م²."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Aire d'un triangle : A = (base × …) ÷ 2. Complète.",
+        "ar": "مساحة المثلث: A = (القاعدة × …) ÷ 2. أكمل."
+      },
+      "acceptees": [
+        "hauteur",
+        "la hauteur",
+        "الارتفاع"
+      ],
+      "explication": {
+        "fr": "A = (base × hauteur) ÷ 2.",
+        "ar": "A = (القاعدة × الارتفاع) ÷ 2."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "1 m² = ?",
+        "ar": "1 م² = ؟"
+      },
+      "choix": [
+        {
+          "fr": "10 000 cm²",
+          "ar": "10 000 سم²"
+        },
+        {
+          "fr": "100 cm²",
+          "ar": "100 سم²"
+        },
+        {
+          "fr": "1 000 cm²",
+          "ar": "1 000 سم²"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "100 cm × 100 cm = 10 000 cm².",
+        "ar": "100 سم × 100 سم = 10 000 سم²."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "Un triangle de base 10 cm et hauteur 6 cm a une aire de 30 cm².",
+        "ar": "مثلث قاعدته 10 سم وارتفاعه 6 سم مساحته 30 سم²."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "(10 × 6) ÷ 2 = 30 cm². Vrai.",
+        "ar": "(10 × 6) ÷ 2 = 30 سم². صحيح."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Périmètre du carré ?",
+        "ar": "محيط المربع؟"
+      },
+      "verso": {
+        "fr": "P = 4 × côté",
+        "ar": "المحيط = 4 × الضلع"
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Périmètre du rectangle ?",
+        "ar": "محيط المستطيل؟"
+      },
+      "verso": {
+        "fr": "P = 2 × (longueur + largeur)",
+        "ar": "المحيط = 2 × (الطول + العرض)"
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Aire du carré ?",
+        "ar": "مساحة المربع؟"
+      },
+      "verso": {
+        "fr": "A = côté × côté",
+        "ar": "المساحة = الضلع × الضلع"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Aire du rectangle ?",
+        "ar": "مساحة المستطيل؟"
+      },
+      "verso": {
+        "fr": "A = longueur × largeur",
+        "ar": "المساحة = الطول × العرض"
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Aire du triangle ?",
+        "ar": "مساحة المثلث؟"
+      },
+      "verso": {
+        "fr": "A = (base × hauteur) ÷ 2",
+        "ar": "المساحة = (القاعدة × الارتفاع) ÷ 2"
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "1 m² = combien de cm² ?",
+        "ar": "1 م² كم سم²؟"
+      },
+      "verso": {
+        "fr": "10 000 cm²",
+        "ar": "10 000 سم²"
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Périmètre ou aire pour clôturer ?",
+        "ar": "للتسييج: محيط أم مساحة؟"
+      },
+      "verso": {
+        "fr": "Le périmètre (le tour du terrain).",
+        "ar": "المحيط (دورة الحقل)."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Périmètre ou aire pour semer ?",
+        "ar": "للزراعة: محيط أم مساحة؟"
+      },
+      "verso": {
+        "fr": "L'aire (la surface semée).",
+        "ar": "المساحة (السطح المزروع)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-09",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 9,
+  "titre": {
+    "fr": "Volumes et contenances",
+    "ar": "الحجوم والمساحات الحجمية"
+  },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Calculer le volume d'un cube et d'un pavé droit",
+      "Convertir les unités de volume et de contenance",
+      "Résoudre des problèmes (citerne d'eau, aquarium)"
+    ],
+    "ar": [
+      "حساب حجم المكعب ومتوازي المستطيلات",
+      "التحويل بين وحدات الحجم والمساحة الحجمية",
+      "حل مسائل (خزان ماء، حوض سمك)"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Le volume : ce que contient un solide",
+        "ar": "الحجم: ما يتسع له المجسم"
+      },
+      "puces": [
+        {
+          "fr": "Le volume mesure l'espace intérieur d'un solide, en cm³, dm³ ou m³.",
+          "ar": "الحجم يقيس الفراغ الداخلي للمجسم: سم³، دم³ أو م³."
+        },
+        {
+          "fr": "Cube : V = côté × côté × côté = c³.",
+          "ar": "المكعب: الحجم = الضلع × الضلع × الضلع."
+        },
+        {
+          "fr": "Pavé droit (brique, carton) : V = longueur × largeur × hauteur.",
+          "ar": "متوازي المستطيلات (آجر، صندوق): الحجم = الطول × العرض × الارتفاع."
+        }
+      ],
+      "formules": [
+        {
+          "fr": "V cube = c × c × c",
+          "ar": "حجم المكعب = ج × ج × ج"
+        },
+        {
+          "fr": "V pavé = L × l × h",
+          "ar": "حجم متوازي المستطيلات = ط × ع × ا"
+        },
+        {
+          "fr": "1 L = 1 dm³",
+          "ar": "1 لتر = 1 دم³"
+        },
+        {
+          "fr": "1 m³ = 1 000 dm³ = 1 000 L",
+          "ar": "1 م³ = 1 000 دم³ = 1 000 لتر"
+        },
+        {
+          "fr": "1 dm³ = 1 000 cm³",
+          "ar": "1 دم³ = 1 000 سم³"
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Volumes et contenances : le lien magique",
+        "ar": "الحجوم والمساحات الحجمية: الرابط الذهبي"
+      },
+      "puces": [
+        {
+          "fr": "1 litre d'eau remplit exactement un cube de 1 dm de côté.",
+          "ar": "لتر واحد من الماء يملأ تماماً مكعباً ضلعه 1 دم."
+        },
+        {
+          "fr": "Une citerne de 2 m × 1,5 m × 1 m : V = 3 m³ = 3 000 litres d'eau !",
+          "ar": "خزان 2 م × 1,5 م × 1 م: الحجم = 3 م³ = 3 000 لتر من الماء!"
+        },
+        {
+          "fr": "Le jerrican courant en Mauritanie contient 20 L ; une bassine 10 à 15 L.",
+          "ar": "الجريكان المعتاد في موريتانيا يتسع لـ 20 لتراً؛ والمغرفة 10 إلى 15 لتراً."
+        }
+      ],
+      "exemple": {
+        "fr": "Aquarium de 40 cm × 25 cm × 20 cm : V = 20 000 cm³ = 20 dm³ = 20 L.",
+        "ar": "حوض سمك 40 سم × 25 سم × 20 سم: الحجم = 20 000 سم³ = 20 دم³ = 20 لتر."
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Volume",
+        "ar": "الحجم"
+      },
+      "def": {
+        "fr": "Espace occupé par un solide, en unités cubiques.",
+        "ar": "الفراغ الذي يشغله المجسم بوحدات مكعبة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Contenance",
+        "ar": "المساحة الحجمية"
+      },
+      "def": {
+        "fr": "Quantité de liquide que peut contenir un récipient (litres).",
+        "ar": "كمية السائل التي يتسع لها إناء (باللترات)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Pavé droit",
+        "ar": "متوازي المستطيلات"
+      },
+      "def": {
+        "fr": "Solide à 6 faces rectangulaires (comme une brique).",
+        "ar": "مجسم له 6 أوجه مستطيلة (كالآجر)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "dm³",
+        "ar": "دم³"
+      },
+      "def": {
+        "fr": "Volume d'un cube de 1 dm de côté ; vaut 1 litre.",
+        "ar": "حجم مكعب ضلعه 1 دم؛ ويساوي لتراً واحداً."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Calcule le volume d'un cube d'arête 4 cm.",
+        "ar": "احسب حجم مكعب حرفه 4 سم."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "V = 4 × 4 × 4 = 64 cm³.",
+            "ar": "الحجم = 4 × 4 × 4 = 64 سم³."
+          }
+        ],
+        "resultat": {
+          "fr": "64 cm³",
+          "ar": "64 سم³"
+        }
+      },
+      "acceptees": [
+        "64"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Calcule le volume d'un pavé droit de 5 cm × 3 cm × 2 cm.",
+        "ar": "احسب حجم متوازي مستطيلات 5 سم × 3 سم × 2 سم."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "V = 5 × 3 × 2 = 30 cm³.",
+            "ar": "الحجم = 5 × 3 × 2 = 30 سم³."
+          }
+        ],
+        "resultat": {
+          "fr": "30 cm³",
+          "ar": "30 سم³"
+        }
+      },
+      "acceptees": [
+        "30"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Une citerne mesure 3 m × 2 m × 1,5 m. Quelle est sa contenance en litres ?",
+        "ar": "خزان 3 م × 2 م × 1,5 م. ما مساحته الحجمية باللترات؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "V = 3 × 2 × 1,5 = 9 m³.",
+            "ar": "الحجم = 3 × 2 × 1,5 = 9 م³."
+          },
+          {
+            "fr": "9 m³ = 9 000 dm³ = 9 000 L.",
+            "ar": "9 م³ = 9 000 دم³ = 9 000 لتر."
+          }
+        ],
+        "resultat": {
+          "fr": "9 000 L",
+          "ar": "9 000 لتر"
+        }
+      },
+      "acceptees": [
+        "9000"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Pour remplir une citerne de 2 m³, on utilise des jerricans de 20 L. Combien de jerricans faut-il ?",
+        "ar": "مسألة: لملء خزان 2 م³ نستعمل جريكانات من 20 لتراً. كم جريكاناً نحتاج؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "2 m³ = 2 000 L.",
+            "ar": "2 م³ = 2 000 لتر."
+          },
+          {
+            "fr": "2 000 ÷ 20 = 100 jerricans.",
+            "ar": "2 000 ÷ 20 = 100 جريكان."
+          }
+        ],
+        "resultat": {
+          "fr": "100 jerricans",
+          "ar": "100 جريكان"
+        }
+      },
+      "acceptees": [
+        "100"
+      ]
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un aquarium de 50 cm × 30 cm × 30 cm. Chaque poisson a besoin de 3 L d'eau. Combien de poissons au maximum ?",
+        "ar": "مسألة: حوض سمك 50 سم × 30 سم × 30 سم. كل سمكة تحتاج 3 لترات من الماء. كم سمكة في الحد الأقصى؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "V = 50 × 30 × 30 = 45 000 cm³ = 45 dm³ = 45 L.",
+            "ar": "الحجم = 45 000 سم³ = 45 لتر."
+          },
+          {
+            "fr": "45 ÷ 3 = 15 poissons.",
+            "ar": "45 ÷ 3 = 15 سمكة."
+          }
+        ],
+        "resultat": {
+          "fr": "15 poissons",
+          "ar": "15 سمكة"
+        }
+      },
+      "acceptees": [
+        "15"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Volume d'un cube d'arête 3 cm ?",
+        "ar": "حجم مكعب حرفه 3 سم؟"
+      },
+      "choix": [
+        {
+          "fr": "27 cm³",
+          "ar": "27 سم³"
+        },
+        {
+          "fr": "9 cm³",
+          "ar": "9 سم³"
+        },
+        {
+          "fr": "27 cm²",
+          "ar": "27 سم²"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "V = 3 × 3 × 3 = 27 cm³.",
+        "ar": "الحجم = 27 سم³."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "1 litre = ?",
+        "ar": "1 لتر = ؟"
+      },
+      "choix": [
+        {
+          "fr": "1 dm³",
+          "ar": "1 دم³"
+        },
+        {
+          "fr": "1 m³",
+          "ar": "1 م³"
+        },
+        {
+          "fr": "1 cm³",
+          "ar": "1 سم³"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "1 L = 1 dm³ exactement.",
+        "ar": "1 لتر = 1 دم³ بالضبط."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "calcul",
+      "q": {
+        "fr": "Volume d'un pavé de 6 m × 4 m × 2 m (en m³) ?",
+        "ar": "حجم متوازي مستطيلات 6 م × 4 م × 2 م (م³)؟"
+      },
+      "acceptees": [
+        "48",
+        "48 m³"
+      ],
+      "explication": {
+        "fr": "6 × 4 × 2 = 48 m³.",
+        "ar": "6 × 4 × 2 = 48 م³."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "calcul",
+      "q": {
+        "fr": "Convertis 5 m³ en litres.",
+        "ar": "حوّل 5 م³ إلى لترات."
+      },
+      "acceptees": [
+        "5000",
+        "5 000",
+        "5 000 L"
+      ],
+      "explication": {
+        "fr": "1 m³ = 1 000 L → 5 000 L.",
+        "ar": "1 م³ = 1 000 لتر ← 5 000 لتر."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "vf",
+      "q": {
+        "fr": "Le volume s'exprime en unités cubiques (cm³, m³).",
+        "ar": "يُقاس الحجم بوحدات مكعبة (سم³، م³)."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Oui : cm³, dm³, m³.",
+        "ar": "نعم: سم³، دم³، م³."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Formule du pavé droit : V = L × l × … . Complète.",
+        "ar": "صيغة متوازي المستطيلات: الحجم = ط × ع × … أكمل."
+      },
+      "acceptees": [
+        "h",
+        "hauteur",
+        "الارتفاع"
+      ],
+      "explication": {
+        "fr": "V = longueur × largeur × hauteur.",
+        "ar": "الحجم = الطول × العرض × الارتفاع."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Un jerrican de 20 L remplit combien de fois une bassine de 5 L ?",
+        "ar": "جريكان 20 لتر يملأ كم مرة مغرفة 5 لترات؟"
+      },
+      "choix": [
+        {
+          "fr": "4 fois",
+          "ar": "4 مرات"
+        },
+        {
+          "fr": "5 fois",
+          "ar": "5 مرات"
+        },
+        {
+          "fr": "15 fois",
+          "ar": "15 مرة"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "20 ÷ 5 = 4.",
+        "ar": "20 ÷ 5 = 4."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "1 m³ = 1 000 L.",
+        "ar": "1 م³ = 1 000 لتر."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai : 1 m³ = 1 000 dm³ = 1 000 L.",
+        "ar": "صحيح: 1 م³ = 1 000 دم³ = 1 000 لتر."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Volume du cube ?",
+        "ar": "حجم المكعب؟"
+      },
+      "verso": {
+        "fr": "V = côté × côté × côté",
+        "ar": "الحجم = الضلع × الضلع × الضلع"
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Volume du pavé droit ?",
+        "ar": "حجم متوازي المستطيلات؟"
+      },
+      "verso": {
+        "fr": "V = L × l × h",
+        "ar": "الحجم = الطول × العرض × الارتفاع"
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "1 L = ?",
+        "ar": "1 لتر = ؟"
+      },
+      "verso": {
+        "fr": "1 dm³",
+        "ar": "1 دم³"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "1 m³ = ? L",
+        "ar": "1 م³ = ؟ لتر"
+      },
+      "verso": {
+        "fr": "1 000 L",
+        "ar": "1 000 لتر"
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Contenance d'un jerrican courant ?",
+        "ar": "مساحة جريكان معتاد؟"
+      },
+      "verso": {
+        "fr": "20 L",
+        "ar": "20 لتراً"
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "1 dm³ = ? cm³",
+        "ar": "1 دم³ = ؟ سم³"
+      },
+      "verso": {
+        "fr": "1 000 cm³",
+        "ar": "1 000 سم³"
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Volume ou aire pour une citerne ?",
+        "ar": "للخزان: حجم أم مساحة؟"
+      },
+      "verso": {
+        "fr": "Le volume (ce qu'elle contient).",
+        "ar": "الحجم (ما تتسع له)."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Cube d'arête 2 cm : volume ?",
+        "ar": "مكعب حرفه 2 سم: الحجم؟"
+      },
+      "verso": {
+        "fr": "8 cm³",
+        "ar": "8 سم³"
+      }
+    }
+  ]
+}

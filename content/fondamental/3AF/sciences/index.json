@@ -1,0 +1,9 @@
+{
+  "schema": "najma.index@1",
+  "statut": "A_RELIRE",
+  "note": {
+    "fr": "Matière en préparation : ajoutez vos unités ici (voir content/_GUIDE.md).",
+    "ar": "مادة قيد الإعداد: أضف دروسك هنا (انظر content/_GUIDE.md)."
+  },
+  "unites": []
+}

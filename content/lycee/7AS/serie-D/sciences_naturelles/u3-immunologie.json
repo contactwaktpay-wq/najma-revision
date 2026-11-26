@@ -1,0 +1,81 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-svn-03",
+  "niveau": "7AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 3,
+  "titre": { "fr": "Immunologie : le maintien de l'intégrité du soi", "ar": "المناعة: الحفاظ على ذاتية الجسم" },
+  "duree_min": 40,
+  "objectifs": {
+    "fr": ["Distinguer immunité innée et immunité acquise", "Décrire la réponse humorale (lymphocytes B, anticorps) et cellulaire (lymphocytes T)", "Expliquer vaccination, sérothérapie et prévention du SIDA"],
+    "ar": ["التمييز بين المناعة الفطرية والمكتسبة", "وصف الاستجابة الخلطية والخلوية", "شرح التطعيم والعلاج بالمصليات والوقاية من السيدا"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Immunité innée", "ar": "المناعة الفطرية" },
+      "puces": [
+        { "fr": "Barrières : peau, muqueuses, larmes, pH de l'estomac, flore.", "ar": "الحواجز: الجلد، الأغشية المخاطية، الدموع، حموضة المعدة، الجراثيم النافعة." },
+        { "fr": "Réponse non spécifique immédiate : inflammation (rougeur, chaleur, gonflement) et phagocytose par les macrophages (PNN).", "ar": "استجابة فورية غير نوعية: الالتهاب والبلعمة بواسطة البالعات." }
+      ]
+    },
+    {
+      "titre": { "fr": "Immunité acquise : deux réponses", "ar": "المناعة المكتسبة: استجابتان" },
+      "bloc": [{ "fr": "Reconnaissance du non-soi : les antigènes (Ag) de l'agent étranger sont reconnus par des lymphocytes spécifiques.", "ar": "التعرف على غير الذات: المستضدات تُعرَف بخلايا ليمفاوية نوعية." }],
+      "puces": [
+        { "fr": "Réponse humorale : LB → plasmocytes → anticorps (Ac) spécifiques qui neutralisent l'Ag (complexes immuns).", "ar": "الاستجابة الخلطية: الخلايا اللمفاوية B ← الخلايا البلازمية ← أجسام مضادة نوعية تحيّد المستضد." },
+        { "fr": "Réponse cellulaire : LT cytotoxiques détruisent les cellules infectées ; LT4 (auxiliaires) coordonnent par l'interleukine 2.", "ar": "الاستجابة الخلوية: الخلايا اللمفاوية T القاتلة تدمّر الخلايا المصابة؛ و LT4 تنسّق عبر الأنترلوكين 2." },
+        { "fr": "Mémoire immunitaire : LB et LT mémoire → réponse plus rapide lors d'une seconde rencontre.", "ar": "الذاكرة المناعية: خلايا ذاكرة ← استجابة أسرع عند اللقاء الثاني." }
+      ]
+    },
+    {
+      "titre": { "fr": "Vaccination, sérothérapie, SIDA", "ar": "التطعيم والمصليات والسيدا" },
+      "puces": [
+        { "fr": "Vaccination = immunisation active : Ag atténué/inactivé → production d'Ac + mémoire (protection durable).", "ar": "التطعيم مناعة نشطة: مستضد مخفف ← أجسام مضادة وذاكرة (حماية دائمة)." },
+        { "fr": "Sérothérapie = immunisation passive : injection d'Ac prêts (sérum) — protection immédiate mais courte (ex. sérum antitétanique).", "ar": "العلاج بالمصليات مناعة سلبية: حقن أجسام مضادة جاهزة — حماية فورية قصيرة." },
+        { "fr": "VIH détruit les LT4 → déficit immunitaire (SIDA). Prévention : préservatif, dépistage, pas de partage d'objets souillés.", "ar": "فيروس نقص المناعة يدمّر LT4 ← عوز مناعي (السيدا). الوقاية: الواقي، الفحص، عدم مشاركة الأدوات الملوثة." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Antigène (Ag)", "ar": "المستضد" }, "def": { "fr": "Molécule étrangère reconnue par le système immunitaire.", "ar": "جزيء أجنبي يتعرف عليه الجهاز المناعي." } },
+    { "terme": { "fr": "Anticorps (Ac)", "ar": "الجسم المضاد" }, "def": { "fr": "Protéine (immunoglobuline) produite par les plasmocytes, spécifique d'un Ag.", "ar": "بروتين تنتجه الخلايا البلازمية نوعي لمستضد معين." } },
+    { "terme": { "fr": "Phagocytose", "ar": "البلعمة" }, "def": { "fr": "Absorption et digestion de particules par les macrophages.", "ar": "ابتلاع وهضم الجزيئات من البالعات." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Cite deux barrières de l'immunité innée.", "ar": "اذكر حاجزين من حواجز المناعة الفطرية." },
+      "correction": { "etapes": [{ "fr": "Peau, muqueuses (ou larmes, pH gastrique, flore).", "ar": "الجلد والأغشية المخاطية (أو الدموع، حموضة المعدة، الجراثيم النافعة)." }], "resultat": { "fr": "Deux barrières correctes.", "ar": "حاجزان صحيحان." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Quelle cellule produit les anticorps ?", "ar": "أي خلية تنتج الأجسام المضادة؟" },
+      "correction": { "etapes": [{ "fr": "Les plasmocytes, issus de la différenciation des LB.", "ar": "الخلايا البلازمية الناتجة عن تمايز الخلايا B." }], "resultat": { "fr": "Plasmocytes.", "ar": "الخلايا البلازمية." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Compare vaccination et sérothérapie.", "ar": "قارن بين التطعيم والعلاج بالمصليات." },
+      "correction": { "etapes": [
+        { "fr": "Vaccination : active, durable, le corps fabrique ses Ac + mémoire.", "ar": "التطعيم: نشط ودائم، الجسم يصنع أجسامه المضادة والذاكرة." },
+        { "fr": "Sérothérapie : passive, immédiate, courte durée (Ac injectés).", "ar": "المصليات: سلبية وفورية وقصيرة (أجسام مضادة محقونة)." }
+      ], "resultat": { "fr": "Active/durable vs passive/immédiate.", "ar": "نشط/دائم مقابل سلبية/فورية." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Les anticorps sont produits par :", "ar": "الأجسام المضادة تنتجها:" },
+      "choix": [{ "fr": "les plasmocytes", "ar": "الخلايا البلازمية" }, { "fr": "les LT8", "ar": "الخلايا T8" }, { "fr": "les globules rouges", "ar": "كريات الدم الحمراء" }], "bonne": 0, "explication": { "fr": "Différenciation des LB.", "ar": "تمايز الخلايا B." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Le VIH détruit :", "ar": "فيروس نقص المناعة يدمّر:" },
+      "choix": [{ "fr": "les LT4", "ar": "الخلايا T4" }, { "fr": "les hématies", "ar": "كريات الدم الحمراء" }, { "fr": "les plaquettes", "ar": "الصفيحات" }], "bonne": 0, "explication": { "fr": "Coordonnateurs de la réponse immunitaire.", "ar": "منسقو الاستجابة المناعية." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "La phagocytose est une réponse spécifique.", "ar": "البلعمة استجابة نوعية." }, "bonne": false, "explication": { "fr": "C'est une réponse innée, non spécifique.", "ar": "إنها استجابة فطرية غير نوعية." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Molécule de coordination sécrétée par LT4 :", "ar": "الجزيء المنسق الذي تفرزه T4:" }, "acceptees": ["interleukine 2", "il2", "interleukine-2"], "explication": { "fr": "IL2 stimule la prolifération.", "ar": "IL2 تحفّز التكاثر." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Sérothérapie = immunisation…", "ar": "العلاج بالمصليات = مناعة…" },
+      "choix": [{ "fr": "passive", "ar": "سلبية" }, { "fr": "active", "ar": "نشطة" }, { "fr": "naturelle longue", "ar": "طبيعية طويلة" }], "bonne": 0, "explication": { "fr": "Ac prêts injectés.", "ar": "أجسام مضادة جاهزة." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "La mémoire immunitaire accélère la 2e réponse.", "ar": "الذاكرة المناعية تُسرّع الاستجابة الثانية." }, "bonne": true, "explication": { "fr": "LB/LT mémoire prêts.", "ar": "خلايا الذاكرة جاهزة." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Immunité innée vs acquise", "ar": "المناعة الفطرية مقابل المكتسبة" }, "verso": { "fr": "Immédiate/non spécifique vs lente/spécifique + mémoire.", "ar": "فورية غير نوعية مقابل بطيئة نوعية مع ذاكرة." } },
+    { "id": "f2", "recto": { "fr": "Réponse humorale : acteurs", "ar": "الاستجابة الخلطية: الفاعلون" }, "verso": { "fr": "LB → plasmocytes → anticorps.", "ar": "B ← بلازمية ← أجسام مضادة." } },
+    { "id": "f3", "recto": { "fr": "Réponse cellulaire : acteurs", "ar": "الاستجابة الخلوية: الفاعلون" }, "verso": { "fr": "LTc détruisent les cellules infectées.", "ar": "الخلايا القاتلة تدمّر الخلايا المصابة." } },
+    { "id": "f4", "recto": { "fr": "Rôle de LT4", "ar": "دور الخلايا T4" }, "verso": { "fr": "Coordination via IL2.", "ar": "التنسيق عبر IL2." } },
+    { "id": "f5", "recto": { "fr": "Vaccination", "ar": "التطعيم" }, "verso": { "fr": "Immunité active et durable (mémoire).", "ar": "مناعة نشطة دائمة (ذاكرة)." } },
+    { "id": "f6", "recto": { "fr": "Cible du VIH", "ar": "هدف فيروس نقص المناعة" }, "verso": { "fr": "Les LT4.", "ar": "الخلايا T4." } }
+  ],
+  "notes_editeur": [
+    { "fr": "Immunologie 7AS D : vérifier l'étendue officielle (cinétique de la réponse primaire/secondaire exigée ou non).", "ar": "المناعة: التحقق من المدى الرسمي (هل يُطلب رسم دينامية الاستجابة الأولية والثانوية)." }
+  ]
+}

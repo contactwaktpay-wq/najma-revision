@@ -1,0 +1,581 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-08",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 8,
+  "titre": {
+    "fr": "Mesures agraires : ares, hectares",
+    "ar": "القياسات الفلاحية: الآر والهكتار"
+  },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Connaître l'are, le centiare et l'hectare",
+      "Convertir entre m², ares et hectares",
+      "Résoudre des problèmes de terres agricoles (rendement, prix)"
+    ],
+    "ar": [
+      "معرفة الآر والسنتيار والهكتار",
+      "التحويل بين م² والآر والهكتار",
+      "حل مسائل الأراضي الفلاحية (الإنتاج، الثمن)"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Les unités de terres agricoles",
+        "ar": "وحدات قياس الأراضي الفلاحية"
+      },
+      "puces": [
+        {
+          "fr": "1 centiare (ca) = 1 m² : c'est l'unité la plus petite.",
+          "ar": "1 سنتيار (ca) = 1 م²: وهي أصغر وحدة."
+        },
+        {
+          "fr": "1 are (a) = 100 m² : un carré de 10 m sur 10 m.",
+          "ar": "1 آر (a) = 100 م²: مربع 10 م × 10 م."
+        },
+        {
+          "fr": "1 hectare (ha) = 100 ares = 10 000 m² : un carré de 100 m sur 100 m.",
+          "ar": "1 هكتار (ha) = 100 آر = 10 000 م²: مربع 100 م × 100 م."
+        },
+        {
+          "fr": "Les paysans du fleuve Sénégal (Rosso, Kaédi) mesurent leurs périmètres irrigués en hectares.",
+          "ar": "يقيس الفلاحون بجهة نهر السنغال (روصو، كيهيدي) حقولهم المسقية بالهكتار."
+        }
+      ],
+      "tableau": {
+        "entetes": {
+          "fr": [
+            "Unité",
+            "Valeur"
+          ],
+          "ar": [
+            "الوحدة",
+            "القيمة"
+          ]
+        },
+        "lignes": [
+          {
+            "fr": [
+              "1 centiare (ca)",
+              "1 m²"
+            ],
+            "ar": [
+              "1 سنتيار",
+              "1 م²"
+            ]
+          },
+          {
+            "fr": [
+              "1 are (a)",
+              "100 m² = 100 ca"
+            ],
+            "ar": [
+              "1 آر",
+              "100 م² = 100 سنتيار"
+            ]
+          },
+          {
+            "fr": [
+              "1 hectare (ha)",
+              "100 ares = 10 000 m²"
+            ],
+            "ar": [
+              "1 هكتار",
+              "100 آر = 10 000 م²"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "titre": {
+        "fr": "Convertir sans erreur",
+        "ar": "التحويل بلا خطأ"
+      },
+      "puces": [
+        {
+          "fr": "m² → ares : diviser par 100. Ares → m² : multiplier par 100.",
+          "ar": "م² ← آر: نقسم على 100. آر ← م²: نضرب في 100."
+        },
+        {
+          "fr": "ares → hectares : diviser par 100. Hectares → ares : multiplier par 100.",
+          "ar": "آر ← هكتار: نقسم على 100. هكتار ← آر: نضرب في 100."
+        },
+        {
+          "fr": "Exemple : 2,5 ha = 250 ares = 25 000 m².",
+          "ar": "مثال: 2,5 هكتار = 250 آر = 25 000 م²."
+        }
+      ],
+      "formules": [
+        {
+          "fr": "1 ha = 100 a",
+          "ar": "1 هكتار = 100 آر"
+        },
+        {
+          "fr": "1 a = 100 ca (m²)",
+          "ar": "1 آر = 100 سنتيار (م²)"
+        },
+        {
+          "fr": "A d'un rectangle = L × l (en m²) → ares = m² ÷ 100",
+          "ar": "مساحة المستطيل = ط × ع (م²) ← الآر = م² ÷ 100"
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Problèmes typiques du terrain",
+        "ar": "مسائل نموذجية من الواقع"
+      },
+      "puces": [
+        {
+          "fr": "Parcelle de 50 m sur 20 m : A = 1 000 m² = 10 ares = 0,1 ha.",
+          "ar": "قطعة 50 م × 20 م: المساحة = 1 000 م² = 10 آر = 0,1 هكتار."
+        },
+        {
+          "fr": "Champ de riz de 3 ha : rendement 4 t/ha → 3 × 4 = 12 tonnes de riz.",
+          "ar": "حقل أرز 3 هكتار: الإنتاج 4 طن/هكتار ← 3 × 4 = 12 طن من الأرز."
+        },
+        {
+          "fr": "Un jardin d'oasis de 0,5 ha = 5 000 m² peut nourrir une famille.",
+          "ar": "حديقة واحة 0,5 هكتار = 5 000 م² تكفي لتغذية عائلة."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Are (a)",
+        "ar": "الآر"
+      },
+      "def": {
+        "fr": "Unité de surface : 1 are = 100 m².",
+        "ar": "وحدة مساحة: 1 آر = 100 م²."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Hectare (ha)",
+        "ar": "الهكتار"
+      },
+      "def": {
+        "fr": "Grande unité agraire : 1 ha = 100 ares = 10 000 m².",
+        "ar": "وحدة فلاحية كبيرة: 1 هكتار = 100 آر = 10 000 م²."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Centiare (ca)",
+        "ar": "السنتيار"
+      },
+      "def": {
+        "fr": "1 centiare = 1 m².",
+        "ar": "1 سنتيار = 1 م²."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Périmètre irrigué",
+        "ar": "الحيّز المسقي"
+      },
+      "def": {
+        "fr": "Zone agricole aménagée pour l'irrigation (fleuve Sénégal).",
+        "ar": "منطقة فلاحية مهيأة للسقي (نهر السنغال)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Rendement",
+        "ar": "الإنتاجية"
+      },
+      "def": {
+        "fr": "Quantité produite par hectare (t/ha).",
+        "ar": "الكمية المنتجة لكل هكتار (طن/هكتار)."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Convertis : 250 m² en ares et centiares.",
+        "ar": "حوّل: 250 م² إلى آر وسنتيار."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "250 ÷ 100 = 2 ares, reste 50 m² = 50 ca.",
+            "ar": "250 ÷ 100 = 2 آر ويتبقى 50 م² = 50 سنتيار."
+          }
+        ],
+        "resultat": {
+          "fr": "2 a 50 ca",
+          "ar": "2 آر و50 سنتيار"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Convertis : 4 ha en ares puis en m².",
+        "ar": "حوّل: 4 هكتار إلى آر ثم إلى م²."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "4 × 100 = 400 ares.",
+            "ar": "4 × 100 = 400 آر."
+          },
+          {
+            "fr": "400 × 100 = 40 000 m².",
+            "ar": "400 × 100 = 40 000 م²."
+          }
+        ],
+        "resultat": {
+          "fr": "400 a ; 40 000 m²",
+          "ar": "400 آر؛ 40 000 م²"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Un terrain mesure 120 m sur 80 m. Exprime son aire en m², ares et hectares.",
+        "ar": "أرض 120 م × 80 م. عبّر عن مساحتها بالمتر المربع والآر والهكتار."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "A = 120 × 80 = 9 600 m².",
+            "ar": "المساحة = 9 600 م²."
+          },
+          {
+            "fr": "9 600 ÷ 100 = 96 ares.",
+            "ar": "9 600 ÷ 100 = 96 آر."
+          },
+          {
+            "fr": "96 ÷ 100 = 0,96 ha.",
+            "ar": "96 ÷ 100 = 0,96 هكتار."
+          }
+        ],
+        "resultat": {
+          "fr": "9 600 m² = 96 a = 0,96 ha",
+          "ar": "9 600 م² = 96 آر = 0,96 هكتار"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un lotissement vend le terrain de 0,5 ha au prix de 15 000 MRU l'are. Quel est le prix total ?",
+        "ar": "مسألة: يُباع أرض 0,5 هكتار بثمن 15 000 أوقية للآر. ما الثمن الكلي؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "0,5 ha = 50 ares.",
+            "ar": "0,5 هكتار = 50 آر."
+          },
+          {
+            "fr": "50 × 15 000 = 750 000 MRU.",
+            "ar": "50 × 15 000 = 750 000 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "750 000 MRU",
+          "ar": "750 000 أوقية"
+        }
+      },
+      "acceptees": [
+        "750000"
+      ]
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un champ de riz de 2 ha produit 3,5 tonnes par hectare. Le riz est mis en sacs de 50 kg. Combien de sacs ?",
+        "ar": "مسألة: حقل أرز 2 هكتار ينتج 3,5 طن في الهكتار. يُوضع الأرز في أكياس من 50 كلغ. كم كيساً؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Production : 2 × 3,5 = 7 t = 7 000 kg.",
+            "ar": "الإنتاج = 2 × 3,5 = 7 طن = 7 000 كلغ."
+          },
+          {
+            "fr": "Sacs : 7 000 ÷ 50 = 140 sacs.",
+            "ar": "الأكياس = 7 000 ÷ 50 = 140 كيساً."
+          }
+        ],
+        "resultat": {
+          "fr": "140 sacs",
+          "ar": "140 كيساً"
+        }
+      },
+      "acceptees": [
+        "140"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "1 hectare = ?",
+        "ar": "1 هكتار = ؟"
+      },
+      "choix": [
+        {
+          "fr": "10 000 m²",
+          "ar": "10 000 م²"
+        },
+        {
+          "fr": "1 000 m²",
+          "ar": "1 000 م²"
+        },
+        {
+          "fr": "100 m²",
+          "ar": "100 م²"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "1 ha = 100 ares × 100 m² = 10 000 m².",
+        "ar": "1 هكتار = 100 آر × 100 م² = 10 000 م²."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "1 are = ?",
+        "ar": "1 آر = ؟"
+      },
+      "choix": [
+        {
+          "fr": "100 m²",
+          "ar": "100 م²"
+        },
+        {
+          "fr": "10 m²",
+          "ar": "10 م²"
+        },
+        {
+          "fr": "1 000 m²",
+          "ar": "1 000 م²"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "1 are = 100 m² (carré de 10 m × 10 m).",
+        "ar": "1 آر = 100 م² (مربع 10 م × 10 م)."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "calcul",
+      "q": {
+        "fr": "Convertis 3,2 ha en ares.",
+        "ar": "حوّل 3,2 هكتار إلى آر."
+      },
+      "acceptees": [
+        "320",
+        "320 a"
+      ],
+      "explication": {
+        "fr": "3,2 × 100 = 320 ares.",
+        "ar": "3,2 × 100 = 320 آر."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "calcul",
+      "q": {
+        "fr": "Convertis 45 ares en m².",
+        "ar": "حوّل 45 آر إلى م²."
+      },
+      "acceptees": [
+        "4500",
+        "4 500",
+        "4 500 m²"
+      ],
+      "explication": {
+        "fr": "45 × 100 = 4 500 m².",
+        "ar": "45 × 100 = 4 500 م²."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "vf",
+      "q": {
+        "fr": "Un hectare est plus grand qu'un are.",
+        "ar": "الهكتار أكبر من الآر."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "1 ha = 100 ares.",
+        "ar": "1 هكتار = 100 آر."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "1 centiare = … m². Complète avec le nombre.",
+        "ar": "1 سنتيار = … م². أكمل بالعدد."
+      },
+      "acceptees": [
+        "1",
+        "un",
+        "واحد"
+      ],
+      "explication": {
+        "fr": "1 ca = 1 m².",
+        "ar": "1 سنتيار = 1 م²."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Un carré de 10 m sur 10 m mesure…",
+        "ar": "مربع 10 م × 10 م يبلغ…"
+      },
+      "choix": [
+        {
+          "fr": "1 are",
+          "ar": "1 آر"
+        },
+        {
+          "fr": "1 hectare",
+          "ar": "1 هكتار"
+        },
+        {
+          "fr": "1 centiare",
+          "ar": "1 سنتيار"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "10 × 10 = 100 m² = 1 are.",
+        "ar": "10 × 10 = 100 م² = 1 آر."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "calcul",
+      "q": {
+        "fr": "Un champ de 5 ha produit 3 t/ha de blé. Quelle production totale (en tonnes) ?",
+        "ar": "حقل 5 هكتار ينتج 3 طن/هكتار قمحاً. ما الإنتاج الكلي (بالطنان)؟"
+      },
+      "acceptees": [
+        "15",
+        "15 t"
+      ],
+      "explication": {
+        "fr": "5 × 3 = 15 tonnes.",
+        "ar": "5 × 3 = 15 طن."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "1 are = ? m²",
+        "ar": "1 آر = ؟ م²"
+      },
+      "verso": {
+        "fr": "100 m²",
+        "ar": "100 م²"
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "1 hectare = ? ares",
+        "ar": "1 هكتار = ؟ آر"
+      },
+      "verso": {
+        "fr": "100 ares",
+        "ar": "100 آر"
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "1 hectare = ? m²",
+        "ar": "1 هكتار = ؟ م²"
+      },
+      "verso": {
+        "fr": "10 000 m²",
+        "ar": "10 000 م²"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "1 centiare = ?",
+        "ar": "1 سنتيار = ؟"
+      },
+      "verso": {
+        "fr": "1 m²",
+        "ar": "1 م²"
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "m² → ares : quelle opération ?",
+        "ar": "التحويل من م² إلى آر؟"
+      },
+      "verso": {
+        "fr": "Diviser par 100",
+        "ar": "القسمة على 100"
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "ha → ares : quelle opération ?",
+        "ar": "التحويل من هكتار إلى آر؟"
+      },
+      "verso": {
+        "fr": "Multiplier par 100",
+        "ar": "الضرب في 100"
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Que mesure le rendement ?",
+        "ar": "ماذا تقيس الإنتاجية؟"
+      },
+      "verso": {
+        "fr": "La production par hectare (t/ha).",
+        "ar": "الإنتاج لكل هكتار (طن/هكتار)."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "0,5 ha en m² ?",
+        "ar": "0,5 هكتار بم²؟"
+      },
+      "verso": {
+        "fr": "5 000 m²",
+        "ar": "5 000 م²"
+      }
+    }
+  ]
+}

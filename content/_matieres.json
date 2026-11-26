@@ -1,0 +1,72 @@
+{
+  "arabe": {
+    "label": {
+      "fr": "Arabe (langue nationale)",
+      "ar": "العربية (اللغة الوطنية)"
+    },
+    "icone": "letters"
+  },
+  "francais": {
+    "label": {
+      "fr": "Français",
+      "ar": "الفرنسية"
+    },
+    "icone": "book"
+  },
+  "mathematiques": {
+    "label": {
+      "fr": "Mathématiques",
+      "ar": "الرياضيات"
+    },
+    "icone": "math"
+  },
+  "sciences": {
+    "label": {
+      "fr": "Sciences (éveil)",
+      "ar": "العلوم"
+    },
+    "icone": "leaf"
+  },
+  "sciences_naturelles": {
+    "label": {
+      "fr": "Sciences Naturelles",
+      "ar": "العلوم الطبيعية"
+    },
+    "icone": "leaf"
+  },
+  "physique_chimie": {
+    "label": {
+      "fr": "Physique-Chimie",
+      "ar": "الفيزياء والكيمياء"
+    },
+    "icone": "flask"
+  },
+  "histoire_geo": {
+    "label": {
+      "fr": "Histoire-Géographie",
+      "ar": "التاريخ والجغرافيا"
+    },
+    "icone": "globe"
+  },
+  "education_islamique": {
+    "label": {
+      "fr": "Éducation islamique",
+      "ar": "التربية الإسلامية"
+    },
+    "icone": "mosque"
+  },
+  "anglais": {
+    "label": {
+      "fr": "Anglais",
+      "ar": "الإنجليزية"
+    },
+    "icone": "globe"
+  },
+  "philosophie": {
+    "label": {
+      "fr": "Philosophie",
+      "ar": "الفلسفة"
+    },
+    "icone": "book"
+  }
+}

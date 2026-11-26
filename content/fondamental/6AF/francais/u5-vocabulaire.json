@@ -1,0 +1,538 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-05",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 5,
+  "titre": {
+    "fr": "Vocabulaire : sens des mots et familles de mots",
+    "ar": "المفردات: معاني الكلمات وعائلات الكلمات"
+  },
+  "duree_min": 25,
+  "objectifs": {
+    "fr": [
+      "Utiliser synonymes et antonymes",
+      "Construire des familles de mots avec préfixes et suffixes",
+      "Distinguer sens propre et sens figuré",
+      "Se servir d'un dictionnaire"
+    ],
+    "ar": [
+      "استعمال المرادفات والأضداد",
+      "بناء عائلات الكلمات بالسوابق واللواحق",
+      "التمييز بين المعنى الحقيقي والمجازي",
+      "استعمال القاموس"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Synonymes et antonymes",
+        "ar": "المرادفات والأضداد"
+      },
+      "puces": [
+        {
+          "fr": "Synonyme : mot de sens proche (joindre ≈ réunir). Choisis le synonyme adapté au contexte.",
+          "ar": "المرادف: كلمة قريبة المعنى. اختر المرادف المناسب للسياق."
+        },
+        {
+          "fr": "Antonyme : mot de sens contraire (montée ↔ descente ; chaud ↔ froid).",
+          "ar": "الضد: كلمة معاكسة المعنى."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Préfixes et suffixes",
+        "ar": "السوابق واللواحق"
+      },
+      "puces": [
+        {
+          "fr": "Préfixe « re- » = encore une fois : refaire, relire. Préfixe « in-/im- » = contraire : impossible, injuste.",
+          "ar": "السابقة «re-» = مرة أخرى. السابقة «in-/im-» = العكس."
+        },
+        {
+          "fr": "Suffixes courants : -tion (action), -able (portable), -eux (heureux, courageux).",
+          "ar": "لواحق شائعة: -tion، -able، -eux."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Familles de « mer » : maritime, marin, émar… Trouve deux mots de la même famille.",
+          "ar": "عائلة «mer»: maritime، marin… اذكر كلمتين من العائلة نفسها."
+        },
+        "etapes": [
+          {
+            "fr": "Mots construits sur le même radical : marin, maritime.",
+            "ar": "كلمات مبنية على الجذع نفسه: marin، maritime."
+          }
+        ],
+        "resultat": {
+          "fr": "marin, maritime (aussi : marée, amarrer)",
+          "ar": "marin، maritime (أيضاً: marée، amarrer)"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Sens propre et sens figuré",
+        "ar": "المعنى الحقيقي والمجازي"
+      },
+      "puces": [
+        {
+          "fr": "Sens propre : sens direct (une étoile dans le ciel).",
+          "ar": "المعنى الحقيقي: المعنى المباشر (نجمة في السماء)."
+        },
+        {
+          "fr": "Sens figuré : image (cette élève est une étoile = elle brille par ses résultats).",
+          "ar": "المعنى المجازي: صورة (هذا التلميذ نجمة = يتفوق)."
+        }
+      ],
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "Expression",
+            "ar": "العبارة"
+          },
+          {
+            "fr": "Sens figuré",
+            "ar": "المعنى المجازي"
+          }
+        ],
+        "lignes": [
+          [
+            "« avoir le cœur d'or »",
+            {
+              "fr": "être très bon",
+              "ar": "أن يكون طيباً جداً"
+            }
+          ],
+          [
+            "« un océan de patience »",
+            {
+              "fr": "beaucoup de patience",
+              "ar": "كثير من الصبر"
+            }
+          ],
+          [
+            "« brûler les étapes »",
+            {
+              "fr": "aller trop vite",
+              "ar": "أن يسير بسرعة زائدة"
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Synonyme",
+        "ar": "مرادف"
+      },
+      "def": {
+        "fr": "Mot de sens voisin.",
+        "ar": "كلمة قريبة المعنى."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Antonyme",
+        "ar": "ضد"
+      },
+      "def": {
+        "fr": "Mot de sens contraire.",
+        "ar": "كلمة معاكسة المعنى."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Famille de mots",
+        "ar": "عائلة الكلمات"
+      },
+      "def": {
+        "fr": "Mots formés sur le même radical.",
+        "ar": "كلمات مبنية على الجذع نفسه."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Dictionnaire",
+        "ar": "القاموس"
+      },
+      "def": {
+        "fr": "Ouvrage qui donne le sens, la nature et l'orthographe des mots, par ordre alphabétique.",
+        "ar": "كتاب يعطي المعنى والنوع والكتابة الصحيحة للكلمات بترتيب ألفبائي."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Donne un antonyme de « monter ».",
+        "ar": "اذكر ضد «الصعود»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Sens contraire de monter.",
+            "ar": "المعنى المعاكس للصعود."
+          }
+        ],
+        "resultat": {
+          "fr": "descendre",
+          "ar": "الهبوط"
+        }
+      },
+      "acceptees": [
+        "descendre"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Construis le mot contraire avec un préfixe : « possible », « juste », « heureux ».",
+        "ar": "ابنِ الكلمة المعاكسة بسابقة: possible، juste، heureux."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Préfixe in-/im- selon le son : impossible, injuste, malheureux (cas particulier).",
+            "ar": "سابقة in-/im- حسب الصوت: impossible، injuste، malheureux (حالة خاصة)."
+          }
+        ],
+        "resultat": {
+          "fr": "impossible ; injuste ; malheureux",
+          "ar": "impossible ؛ injuste ؛ malheureux"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Sens propre ou figuré : « un torrent de paroles » ; « nager dans la rivière » ?",
+        "ar": "حقيقي أم مجازي: «سيل من الكلام» ؛ «السباحة في النهر»؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "« Torrent de paroles » = beaucoup de mots (figuré) ; « nager » = action réelle (propre).",
+            "ar": "«سيل من الكلام» = مجازي؛ «السباحة» = حقيقية."
+          }
+        ],
+        "resultat": {
+          "fr": "figuré ; propre",
+          "ar": "مجازي ؛ حقيقي"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Donne 2 synonymes de « rapide » et 2 de « travail ».",
+        "ar": "أعط مترادفين لـ «rapide» واثنين لـ «travail»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "rapide : vite, pressé ; travail : ouvrage, tâche.",
+            "ar": "rapide: vite؛ travail: ouvrage."
+          }
+        ],
+        "resultat": {
+          "fr": "vite/pressé ; ouvrage/tâche",
+          "ar": "انظر الخطوات"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Construis le champ lexical de « la mer » (4 mots minimum).",
+        "ar": "ابنِ الحقل الدلالي لـ «البحر» (4 كلمات على الأقل)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Ex. : pêcheur, bateau, vague, poisson, port, salé.",
+            "ar": "مثال: صياد، قارب، موجة، سمك، ميناء، مالح."
+          }
+        ],
+        "resultat": {
+          "fr": "4+ mots liés à la mer",
+          "ar": "أربع كلمات فأكثر"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Synonyme de « rapide » :",
+        "ar": "مرادف «سريع»:"
+      },
+      "choix": [
+        {
+          "fr": "vif",
+          "ar": "نشيط"
+        },
+        {
+          "fr": "lent",
+          "ar": "بطيء"
+        },
+        {
+          "fr": "fort",
+          "ar": "قوي"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Vif = rapide.",
+        "ar": "نشيط = سريع."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "Antonyme de « chaude » :",
+        "ar": "ضد «حارة»:"
+      },
+      "acceptees": [
+        "froide",
+        "fraiche",
+        "fraîche"
+      ],
+      "explication": {
+        "fr": "Sens contraire.",
+        "ar": "المعنى المعاكس."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "« in » dans « injuste » exprime la négation.",
+        "ar": "«in» في «injuste» تعني النفي."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Préfixe privatif.",
+        "ar": "سابقة نافية."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "q": {
+        "fr": "« Il a un cœur d'or » signifie :",
+        "ar": "«له قلب من ذهب» تعني:"
+      },
+      "choix": [
+        {
+          "fr": "il est très généreux",
+          "ar": "سخي جداً"
+        },
+        {
+          "fr": "il porte de l'or",
+          "ar": "يحمل ذهباً"
+        },
+        {
+          "fr": "son cœur est lourd",
+          "ar": "قلبه ثقيل"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Sens figuré : la bonté.",
+        "ar": "المعنى المجازي: الطيبة."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Un mot de la famille de « pain » :",
+        "ar": "كلمة من عائلة «pain»:"
+      },
+      "acceptees": [
+        "boulangerie",
+        "panier",
+        "pénitent"
+      ],
+      "explication": {
+        "fr": "Même radical « pain » (ou « pan- »).",
+        "ar": "الجذع نفسه."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Dans le dictionnaire, avant « chameau » on trouve :",
+        "ar": "في القاموس، قبل «chameau» نجدها:"
+      },
+      "choix": [
+        {
+          "fr": "cahier",
+          "ar": "cahier"
+        },
+        {
+          "fr": "chameau",
+          "ar": "chameau"
+        },
+        {
+          "fr": "dromadaire",
+          "ar": "dromadaire"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Ordre alphabétique : « ca » avant « cha ».",
+        "ar": "الترتيب الألفبائي: «ca» قبل «cha»."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel mot n’appartient pas au champ lexical de l’école ?",
+        "ar": "أي كلمة لا تنتمي لحقل «المدرسة»؟"
+      },
+      "choix": [
+        {
+          "fr": "cantine",
+          "ar": "مطعم المدرسة"
+        },
+        {
+          "fr": "pirogue",
+          "ar": "قارب"
+        },
+        {
+          "fr": "cartable",
+          "ar": "حقيبة"
+        }
+      ],
+      "bonne": 1,
+      "explication": {
+        "fr": "pirogue = bateau.",
+        "ar": "pirogue = قارب."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "courte",
+      "q": {
+        "fr": "Synonyme de « beau » ?",
+        "ar": "مترادف «beau»؟"
+      },
+      "acceptees": [
+        "joli",
+        "magnifique"
+      ],
+      "explication": {
+        "fr": "joli, magnifique…",
+        "ar": "joli…"
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Synonyme de « content »",
+        "ar": "مرادف «سعيد»"
+      },
+      "verso": {
+        "fr": "Heureux, joyeux.",
+        "ar": "فرح، مبتهج."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Préfixe « im- »",
+        "ar": "سابقة «im-»"
+      },
+      "verso": {
+        "fr": "Contraire (impossible).",
+        "ar": "العكس (impossible)."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Sens figuré d'« une étoile »",
+        "ar": "المعنى المجازي لـ «نجمة»"
+      },
+      "verso": {
+        "fr": "Une personne brillante.",
+        "ar": "شخص متفوق."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Ordre alphabétique",
+        "ar": "الترتيب الألفبائي"
+      },
+      "verso": {
+        "fr": "Lettre par lettre, du début du mot.",
+        "ar": "حرفاً بحرف من بداية الكلمة."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Suffixe « -tion »",
+        "ar": "لاحقة «-tion»"
+      },
+      "verso": {
+        "fr": "Nom d'action (navigation).",
+        "ar": "اسم فعل (navigation)."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Antonyme de « rare »",
+        "ar": "ضد «نادر»"
+      },
+      "verso": {
+        "fr": "Fréquent, courant.",
+        "ar": "شائع، متوافر."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Champ lexical",
+        "ar": "الحقل الدلالي"
+      },
+      "verso": {
+        "fr": "Ensemble de mots liés au même thème.",
+        "ar": "مجموعة كلمات من الموضوع نفسه."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Synonyme",
+        "ar": "المترادف"
+      },
+      "verso": {
+        "fr": "Mot de sens proche.",
+        "ar": "كلمة قريبة المعنى."
+      }
+    }
+  ]
+}

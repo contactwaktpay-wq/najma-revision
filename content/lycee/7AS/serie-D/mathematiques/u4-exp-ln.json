@@ -1,0 +1,420 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-math-04",
+  "niveau": "7AS",
+  "matiere": "mathematiques",
+  "ordre": 4,
+  "titre": {
+    "fr": "Fonctions logarithme népérien et exponentielle",
+    "ar": "الدالتان اللوغاريتمية النيبيرية والأسية"
+  },
+  "duree_min": 40,
+  "objectifs": {
+    "fr": [
+      "Utiliser les propriétés algébriques de ln et exp",
+      "Résoudre équations et inéquations avec ln et exp",
+      "Connaître les limites et la dérivée de ces fonctions"
+    ],
+    "ar": [
+      "استعمال الخصائص الجبرية للوغاريتم والأسية",
+      "حل المعادلات والمتراجحات بالوغاريتم والأسية",
+      "معرفة النهايات والمشتقات"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Propriétés algébriques",
+        "ar": "الخصائص الجبرية"
+      },
+      "formules": [
+        "ln(ab) = ln a + ln b",
+        "ln(a/b) = ln a − ln b",
+        "ln(aⁿ) = n·ln a",
+        "e^(a+b) = eᵃ × eᵇ",
+        "e^(−a) = 1/eᵃ",
+        "ln x = y ⇔ x = eʸ"
+      ],
+      "puces": [
+        {
+          "fr": "ln est définie sur ]0, +∞[ ; exp sur ℝ ; ln(e) = 1 ; ln(1) = 0.",
+          "ar": "الدالة ln معرفة على ]0، +∞[ و exp على ℝ ؛ ln(e) = 1 ؛ ln(1) = 0."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Limites et dérivées",
+        "ar": "النهايات والمشتقات"
+      },
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "f",
+            "ar": "f"
+          },
+          {
+            "fr": "Limites",
+            "ar": "النهايات"
+          },
+          {
+            "fr": "f′",
+            "ar": "f′"
+          }
+        ],
+        "lignes": [
+          [
+            "ln x",
+            {
+              "fr": "x→0⁺ : −∞ ; x→+∞ : +∞",
+              "ar": "x→0⁺: −∞ ؛ x→+∞: +∞"
+            },
+            "1/x"
+          ],
+          [
+            "eˣ",
+            {
+              "fr": "x→−∞ : 0 ; x→+∞ : +∞",
+              "ar": "x→−∞: 0 ؛ x→+∞: +∞"
+            },
+            "eˣ"
+          ]
+        ]
+      },
+      "puces": [
+        {
+          "fr": "Croissance comparée : lim x→+∞ eˣ/xⁿ = +∞ et lim x→+∞ ln x/x = 0 (exp l'emporte sur les puissances, ln est négligeable devant x).",
+          "ar": "المقارنة في النمو: exp تسود على القوى، و ln مهملة أمام x."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Résous : ln(x + 2) = 3.",
+          "ar": "حل المعادلة: ln(x + 2) = 3."
+        },
+        "etapes": [
+          {
+            "fr": "x + 2 = e³ (et x + 2 > 0 ✓).",
+            "ar": "x + 2 = e³ (والشرط محقق)."
+          },
+          {
+            "fr": "x = e³ − 2 ≈ 18,09.",
+            "ar": "x = e³ − 2 ≈ 18,09."
+          }
+        ],
+        "resultat": {
+          "fr": "x = e³ − 2 ≈ 18,09",
+          "ar": "x = e³ − 2 ≈ 18,09"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Équations et inéquations",
+        "ar": "المعادلات والمتراجحات"
+      },
+      "puces": [
+        {
+          "fr": "eᵃ = eᵇ ⇔ a = b ; eᵃ > 0 toujours. ln a = ln b ⇔ a = b (a, b > 0).",
+          "ar": "eᵃ = eᵇ ⇔ a = b ؛ و eᵃ > 0 دائماً. ln a = ln b ⇔ a = b (a، b > 0)."
+        },
+        {
+          "fr": "Domaine obligatoire : x > 0 pour ln avant toute résolution.",
+          "ar": "المجال إلزامي: x > 0 لـ ln قبل أي حل."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "ln",
+        "ar": "اللوغاريتم النيبيري"
+      },
+      "def": {
+        "fr": "Réciproque de exp : ln(eˣ) = x, e^(ln x) = x.",
+        "ar": "الدالة العكسية للأسية: ln(eˣ) = x و e^(ln x) = x."
+      }
+    },
+    {
+      "terme": {
+        "fr": "e",
+        "ar": "العدد e"
+      },
+      "def": {
+        "fr": "≈ 2,718 ; base de l'exponentielle naturelle.",
+        "ar": "≈ 2,718؛ أساس الدالة الأسية الطبيعية."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Croissance comparée",
+        "ar": "المقارنة في النمو"
+      },
+      "def": {
+        "fr": "Comparaison des vitesses de croissance d'eˣ, xⁿ, ln x.",
+        "ar": "مقارنة سرعات نمو الدوال."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Simplifie : ln 8 + ln 2 − ln 4.",
+        "ar": "بسّط: ln 8 + ln 2 − ln 4."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "ln(8×2/4) = ln 4.",
+            "ar": "ln(8×2/4) = ln 4."
+          }
+        ],
+        "resultat": {
+          "fr": "ln 4",
+          "ar": "ln 4"
+        }
+      },
+      "acceptees": [
+        "4"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Résous : e^(2x) = 5.",
+        "ar": "حل: e^(2x) = 5."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "2x = ln 5 → x = (ln 5)/2.",
+            "ar": "2x = ln 5 ← x = (ln 5)/2."
+          }
+        ],
+        "resultat": {
+          "fr": "x = (ln 5)/2 ≈ 0,80",
+          "ar": "x = (ln 5)/2 ≈ 0,80"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Dérive f(x) = ln(x)/x.",
+        "ar": "اشتق الدالة f(x) = ln(x)/x."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "(u/v)′ avec u = ln x, v = x : f′(x) = (1 − ln x)/x².",
+            "ar": "بصيغة النسبة: f′(x) = (1 − ln x)/x²."
+          }
+        ],
+        "resultat": {
+          "fr": "(1 − ln x)/x²",
+          "ar": "(1 − ln x)/x²"
+        }
+      },
+      "acceptees": [
+        "1"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "ln(ab) = ?",
+        "ar": "ln(ab) = ؟"
+      },
+      "choix": [
+        {
+          "fr": "ln a + ln b",
+          "ar": "ln a + ln b"
+        },
+        {
+          "fr": "ln a × ln b",
+          "ar": "ln a × ln b"
+        },
+        {
+          "fr": "ln(a+b)",
+          "ar": "ln(a+b)"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Propriété du produit.",
+        "ar": "خاصية الضرب."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "ln 1 = ?",
+        "ar": "ln 1 = ؟"
+      },
+      "acceptees": [
+        "0"
+      ],
+      "explication": {
+        "fr": "e⁰ = 1.",
+        "ar": "e⁰ = 1."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "courte",
+      "q": {
+        "fr": "Résous ln(x + 2) = 3 : x = ?",
+        "ar": "حل ln(x + 2) = 3: ما x؟"
+      },
+      "acceptees": [
+        "e^3-2",
+        "e³−2",
+        "18,09",
+        "18.09"
+      ],
+      "explication": {
+        "fr": "x = e³ − 2.",
+        "ar": "x = e³ − 2."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "vf",
+      "q": {
+        "fr": "ln x est définie pour x < 0.",
+        "ar": "الدالة ln معرفة لـ x < 0."
+      },
+      "bonne": false,
+      "explication": {
+        "fr": "Uniquement sur ]0, +∞[.",
+        "ar": "فقط على ]0، +∞[."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Dérivée de ln x :",
+        "ar": "مشتقة ln x:"
+      },
+      "acceptees": [
+        "1/x"
+      ],
+      "explication": {
+        "fr": "Dérivée usuelle.",
+        "ar": "مشتقة أساسية."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "lim x→+∞ ln x / x =",
+        "ar": "lim x→+∞ ln x / x ="
+      },
+      "choix": [
+        {
+          "fr": "0",
+          "ar": "0"
+        },
+        {
+          "fr": "1",
+          "ar": "1"
+        },
+        {
+          "fr": "+∞",
+          "ar": "+∞"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Croissance comparée : ln négligeable devant x.",
+        "ar": "ln مهملة أمام x."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "ln(a/b)",
+        "ar": "ln(a/b)"
+      },
+      "verso": {
+        "fr": "ln a − ln b.",
+        "ar": "ln a − ln b."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "e^(a+b)",
+        "ar": "e^(a+b)"
+      },
+      "verso": {
+        "fr": "eᵃ × eᵇ.",
+        "ar": "eᵃ × eᵇ."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Domaine de ln",
+        "ar": "مجال ln"
+      },
+      "verso": {
+        "fr": "]0, +∞[.",
+        "ar": "]0، +∞[."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "ln x = y ⇔",
+        "ar": "ln x = y ⇔"
+      },
+      "verso": {
+        "fr": "x = eʸ.",
+        "ar": "x = eʸ."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "lim x→+∞ ln x / x",
+        "ar": "lim x→+∞ ln x / x"
+      },
+      "verso": {
+        "fr": "0.",
+        "ar": "0."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "(ln x)′",
+        "ar": "(ln x)′"
+      },
+      "verso": {
+        "fr": "1/x.",
+        "ar": "1/x."
+      }
+    }
+  ],
+  "notes_editeur": [
+    {
+      "fr": "Vérifier la progression officielle mauritanienne 7AS D : place exacte de exp/ln dans le programme (contenu standard des programmes francophones du sous-région).",
+      "ar": "التحقق من التدرج الرسمي الموريتاني للسنة السابعة شعبة D: موقع exp/ln في البرنامج (محتوى قياسي في البرامج الفرنكفونية للمنطقة)."
+    }
+  ]
+}

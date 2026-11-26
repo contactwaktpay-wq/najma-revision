@@ -1,0 +1,553 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-04",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 4,
+  "titre": {
+    "fr": "Proportionnalité et pourcentages",
+    "ar": "التناسب والنسبة المئوية"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Reconnaître et compléter un tableau de proportionnalité",
+      "Utiliser la règle de trois (produit en croix)",
+      "Calculer des pourcentages simples et une vitesse moyenne"
+    ],
+    "ar": [
+      "التعرف على جدول التناسب وإكماله",
+      "استعمال قاعدة الثلاثة (الضرب التبادلي)",
+      "حساب النسب المئوية البسيطة والسرعة المتوسطة"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Tableau de proportionnalité",
+        "ar": "جدول التناسب"
+      },
+      "bloc": [
+        {
+          "fr": "Deux grandeurs sont proportionnelles quand on multiplie toujours la seconde par le même nombre pour obtenir la première. Ce nombre est le coefficient de proportionnalité.",
+          "ar": "تكون كميتان متناسبتين إذا كنا نضرب الثانية في العدد نفسه للحصول على الأولى. هذا العدد هو معامل التناسب."
+        }
+      ],
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "Cahiers",
+            "ar": "الكراسات"
+          },
+          {
+            "fr": "Prix (MRU)",
+            "ar": "الثمن (أوقية)"
+          }
+        ],
+        "lignes": [
+          [
+            "2",
+            "60"
+          ],
+          [
+            "4",
+            "120"
+          ],
+          [
+            "6",
+            "180"
+          ]
+        ]
+      },
+      "exemple": {
+        "enonce": {
+          "fr": "2 cahiers coûtent 60 MRU. Combien coûtent 5 cahiers ?",
+          "ar": "ثمن كراسين 60 أوقية. ما ثمن 5 كراسات؟"
+        },
+        "etapes": [
+          {
+            "fr": "Un cahier coûte 60 ÷ 2 = 30 MRU ; donc 5 cahiers : 30 × 5 = 150 MRU.",
+            "ar": "ثمن الكراس الواحد 60 ÷ 2 = 30 أوقية، إذن 5 كراسات: 30 × 5 = 150 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "150 MRU",
+          "ar": "150 أوقية"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Pourcentages simples",
+        "ar": "النسب المئوية البسيطة"
+      },
+      "puces": [
+        {
+          "fr": "Un pourcentage est une fraction sur 100 : 25 % = 25/100.",
+          "ar": "النسبة المئوية كسر مقامه 100: 25% = 25/100."
+        },
+        {
+          "fr": "10 % d'un nombre = ÷10 ; 25 % = ÷4 ; 50 % = ÷2 ; 75 % = 3/4.",
+          "ar": "10% من عدد = ÷10 ؛ 25% = ÷4 ؛ 50% = ÷2 ؛ 75% = 3/4."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Une remise de 10 % sur un prix de 2 000 MRU ?",
+          "ar": "تخفيض بنسبة 10% على ثمن قدره 2 000 أوقية؟"
+        },
+        "etapes": [
+          {
+            "fr": "2 000 ÷ 10 = 200 → remise de 200 MRU ; prix payé : 1 800 MRU.",
+            "ar": "2 000 ÷ 10 = 200 ← التخفيض 200 أوقية، والثمن المدفوع 1 800 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "Remise : 200 MRU ; payé : 1 800 MRU",
+          "ar": "التخفيض: 200 أوقية؛ المدفوع: 1 800 أوقية"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Vitesse moyenne",
+        "ar": "السرعة المتوسطة"
+      },
+      "formules": [
+        "vitesse = distance ÷ temps",
+        "distance = vitesse × temps"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Une voiture parcourt 120 km en 2 h. Vitesse moyenne ?",
+          "ar": "قطعت سيارة 120 كلم في ساعتين. ما سرعتها المتوسطة؟"
+        },
+        "etapes": [
+          {
+            "fr": "120 ÷ 2 = 60.",
+            "ar": "120 ÷ 2 = 60."
+          }
+        ],
+        "resultat": {
+          "fr": "60 km/h",
+          "ar": "60 كلم/سا"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Proportionnalité",
+        "ar": "التناسب"
+      },
+      "def": {
+        "fr": "Situation où les grandeurs augmentent dans le même rapport.",
+        "ar": "وضعية تتزايد فيها الكميات في النسبة نفسها."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Coefficient",
+        "ar": "معامل التناسب"
+      },
+      "def": {
+        "fr": "Nombre par lequel on multiplie pour passer d'une ligne à l'autre.",
+        "ar": "العدد الذي نضرب فيه للانتقال من سطر إلى آخر."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Pourcentage",
+        "ar": "نسبة مئوية"
+      },
+      "def": {
+        "fr": "Fraction sur 100 : 10 %, 25 %, 50 %…",
+        "ar": "كسر مقامه 100: 10%، 25%، 50%…"
+      }
+    },
+    {
+      "terme": {
+        "fr": "Règle de trois",
+        "ar": "قاعدة الثلاثة"
+      },
+      "def": {
+        "fr": "Méthode du produit en croix pour trouver la 4e valeur.",
+        "ar": "طريقة الضرب التبادلي لإيجاد القيمة الرابعة."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Complète : 3 stylos coûtent 45 MRU. Prix de 7 stylos ?",
+        "ar": "أكمل: ثمن 3 أقلام 45 أوقية. ما ثمن 7 أقلام؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "45 ÷ 3 = 15 MRU le stylo ; 15 × 7 = 105.",
+            "ar": "45 ÷ 3 = 15 أوقية للقلم ؛ 15 × 7 = 105."
+          }
+        ],
+        "resultat": {
+          "fr": "105 MRU",
+          "ar": "105 أوقية"
+        }
+      },
+      "acceptees": [
+        "105"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Calcule 25 % de 480.",
+        "ar": "احسب 25% من 480."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "480 ÷ 4 = 120.",
+            "ar": "480 ÷ 4 = 120."
+          }
+        ],
+        "resultat": {
+          "fr": "120",
+          "ar": "120"
+        }
+      },
+      "acceptees": [
+        "120"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Un car roule à 60 km/h pendant 1 h 30. Quelle distance parcourt-il ?",
+        "ar": "يسير حافل بسرعة 60 كلم/سا لمدة ساعة ونصف. ما المسافة المقطوعة؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "1 h 30 = 1,5 h ; 60 × 1,5 = 90.",
+            "ar": "ساعة ونصف = 1,5 سا ؛ 60 × 1,5 = 90."
+          }
+        ],
+        "resultat": {
+          "fr": "90 km",
+          "ar": "90 كلم"
+        }
+      },
+      "acceptees": [
+        "90"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "3 stylos coûtent 150 MRU. Prix de 7 stylos ?",
+        "ar": "3 أقلام بـ 150 أوقية. ثمن 7 أقلام؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "1 stylo : 150 ÷ 3 = 50 MRU.",
+            "ar": "القلم الواحد: 50 أوقية."
+          },
+          {
+            "fr": "7 stylos : 7 × 50 = 350 MRU.",
+            "ar": "7 أقلام: 350 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "350 MRU",
+          "ar": "350 أوقية"
+        }
+      },
+      "acceptees": [
+        "350"
+      ]
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Calcule 25 % de 800 MRU ; puis 50 % de 2 000 MRU.",
+        "ar": "احسب 25% من 800؛ ثم 50% من 2 000."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "25 % = quart : 800 ÷ 4 = 200 MRU.",
+            "ar": "25% = الربع: 200 أوقية."
+          },
+          {
+            "fr": "50 % = moitié : 2 000 ÷ 2 = 1 000 MRU.",
+            "ar": "50% = النصف: 1 000 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "200 MRU ; 1 000 MRU",
+          "ar": "200؛ 1 000"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "10 % de 350 ?",
+        "ar": "10% من 350؟"
+      },
+      "acceptees": [
+        "35"
+      ],
+      "explication": {
+        "fr": "÷10.",
+        "ar": "نقسم على 10."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "2 kg de dattes coûtent 800 MRU. Prix de 5 kg ?",
+        "ar": "ثمن 2 كغ من التمر 800 أوقية. ما ثمن 5 كغ؟"
+      },
+      "choix": [
+        {
+          "fr": "2 000 MRU",
+          "ar": "2 000 أوقية"
+        },
+        {
+          "fr": "1 600 MRU",
+          "ar": "1 600 أوقية"
+        },
+        {
+          "fr": "2 400 MRU",
+          "ar": "2 400 أوقية"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "400 MRU/kg × 5.",
+        "ar": "400 أوقية للكيلو × 5."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "50 % = la moitié.",
+        "ar": "50% تعني النصف."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "50/100 = 1/2.",
+        "ar": "50/100 = 1/2."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Distance parcourue en 3 h à 50 km/h ?",
+        "ar": "المسافة المقطوعة في 3 سا بسرعة 50 كلم/سا؟"
+      },
+      "acceptees": [
+        "150",
+        "150 km",
+        "150 km/h"
+      ],
+      "explication": {
+        "fr": "50 × 3.",
+        "ar": "50 × 3."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "75 % d'un nombre, c'est…",
+        "ar": "75% من عدد تعني…"
+      },
+      "choix": [
+        {
+          "fr": "ses 3/4",
+          "ar": "ثلاثة أرباعه"
+        },
+        {
+          "fr": "sa moitié",
+          "ar": "نصفه"
+        },
+        {
+          "fr": "son double",
+          "ar": "ضعفه"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "75/100 = 3/4.",
+        "ar": "75/100 = 3/4."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "6 cahiers coûtent 180 MRU. Prix d'un cahier ?",
+        "ar": "ثمن 6 كراسات 180 أوقية. ما ثمن الكراس الواحد؟"
+      },
+      "acceptees": [
+        "30",
+        "30 MRU"
+      ],
+      "explication": {
+        "fr": "180 ÷ 6.",
+        "ar": "180 ÷ 6."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "calcul",
+      "q": {
+        "fr": "50 % de 4 000 MRU ?",
+        "ar": "50% من 4 000 أوقية؟"
+      },
+      "acceptees": [
+        "2000",
+        "2 000"
+      ],
+      "explication": {
+        "fr": "La moitié.",
+        "ar": "النصف."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "qcm",
+      "q": {
+        "fr": "4 tickets = 2 000 MRU. Combien pour 6 tickets ?",
+        "ar": "4 تذاكر = 2 000 أوقية. ثمن 6 تذاكر؟"
+      },
+      "choix": [
+        {
+          "fr": "3 000 MRU",
+          "ar": "3 000"
+        },
+        {
+          "fr": "2 500 MRU",
+          "ar": "2 500"
+        },
+        {
+          "fr": "4 000 MRU",
+          "ar": "4 000"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "1 ticket = 500 MRU → 6 × 500 = 3 000.",
+        "ar": "التذكرة 500 ← 3 000."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Règle de trois",
+        "ar": "قاعدة الثلاثة"
+      },
+      "verso": {
+        "fr": "Produit en croix puis ÷ par la valeur restante.",
+        "ar": "الضرب التبادلي ثم القسمة على القيمة الباقية."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "25 % d'un nombre",
+        "ar": "25% من عدد"
+      },
+      "verso": {
+        "fr": "÷4.",
+        "ar": "نقسم على 4."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Formule de la vitesse",
+        "ar": "صيغة السرعة"
+      },
+      "verso": {
+        "fr": "v = d ÷ t.",
+        "ar": "v = d ÷ t."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Coefficient de proportionnalité",
+        "ar": "معامل التناسب"
+      },
+      "verso": {
+        "fr": "Multiplicateur constant entre les deux grandeurs.",
+        "ar": "المضرب الثابت بين الكميتين."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "10 % = ",
+        "ar": "10% ="
+      },
+      "verso": {
+        "fr": "un dixième (÷10).",
+        "ar": "العُشر (÷10)."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "1 h 30 en heures décimales",
+        "ar": "ساعة ونصف بالساعات العشرية"
+      },
+      "verso": {
+        "fr": "1,5 h.",
+        "ar": "1,5 سا."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "25 %",
+        "ar": "25%"
+      },
+      "verso": {
+        "fr": "Un quart : diviser par 4.",
+        "ar": "الربع: القسمة على 4."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Coefficient",
+        "ar": "المعامل"
+      },
+      "verso": {
+        "fr": "Nombre par lequel on multiplie (1 ticket = 500 → ×500).",
+        "ar": "العدد الذي نضرب فيه."
+      }
+    }
+  ]
+}

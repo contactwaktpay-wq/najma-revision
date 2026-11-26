@@ -1,0 +1,563 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-06",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 6,
+  "titre": {
+    "fr": "Mesures : longueurs, aires, volumes, temps et monnaie",
+    "ar": "القياسات: الأطوال والمساحات والأحجام والزمن والنقود"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Convertir longueurs, masses et capacités",
+      "Calculer périmètres, aires et volumes usuels",
+      "Utiliser le temps et la monnaie mauritanienne (ouguiya / khoums)"
+    ],
+    "ar": [
+      "التحويل بين وحدات الأطوال والكتل والسعات",
+      "حساب المحيطات والمساحات والأحجام المألوفة",
+      "استعمال الزمن والنقود الموريتانية (الأوقية / الخميس)"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Unités et conversions",
+        "ar": "الوحدات والتحويلات"
+      },
+      "puces": [
+        {
+          "fr": "Longueurs : km, hm, dam, m, dm, cm, mm — chaque pas ×10.",
+          "ar": "الأطوال: كلم، هكتومتر، ديكامتر، م، دسم، سم، مم — كل خطوة ×10."
+        },
+        {
+          "fr": "Masses : 1 kg = 1 000 g ; 1 tonne = 1 000 kg.",
+          "ar": "الكتل: 1 كغ = 1 000 غ ؛ 1 طن = 1 000 كغ."
+        },
+        {
+          "fr": "Capacités : 1 L = 1 000 mL.",
+          "ar": "السعات: 1 ل = 1 000 مل."
+        }
+      ],
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "km",
+            "ar": "كلم"
+          },
+          {
+            "fr": "hm",
+            "ar": "هكتوم"
+          },
+          {
+            "fr": "dam",
+            "ar": "ديكام"
+          },
+          {
+            "fr": "m",
+            "ar": "م"
+          },
+          {
+            "fr": "dm",
+            "ar": "دسم"
+          },
+          {
+            "fr": "cm",
+            "ar": "سم"
+          },
+          {
+            "fr": "mm",
+            "ar": "مم"
+          }
+        ],
+        "lignes": [
+          [
+            "×10 →",
+            "×10 →",
+            "×10 →",
+            "×10 →",
+            "×10 →",
+            "×10 →",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "titre": {
+        "fr": "Périmètres, aires et volumes",
+        "ar": "المحيطات والمساحات والأحجام"
+      },
+      "formules": [
+        "P carré = c × 4",
+        "P rectangle = (L + l) × 2",
+        "A carré = c × c",
+        "A rectangle = L × l",
+        "A triangle = (b × h) ÷ 2",
+        "V cube = a³",
+        "V pavé = L × l × h"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Aire d'un rectangle de 8 m sur 3 m ? Volume d'un cube d'arête 2 cm ?",
+          "ar": "مساحة مستطيل بطول 8 م وعرض 3 م؟ وحجم مكعب حرفه 2 سم؟"
+        },
+        "etapes": [
+          {
+            "fr": "Aire : 8 × 3 = 24 m².",
+            "ar": "المساحة: 8 × 3 = 24 م²."
+          },
+          {
+            "fr": "Volume : 2 × 2 × 2 = 8 cm³.",
+            "ar": "الحجم: 2 × 2 × 2 = 8 سم³."
+          }
+        ],
+        "resultat": {
+          "fr": "24 m² et 8 cm³",
+          "ar": "24 م² و 8 سم³"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Temps et monnaie",
+        "ar": "الزمن والنقود"
+      },
+      "puces": [
+        {
+          "fr": "1 h = 60 min ; 1 min = 60 s ; 1 jour = 24 h.",
+          "ar": "1 سا = 60 د ؛ 1 د = 60 ث ؛ 1 يوم = 24 سا."
+        },
+        {
+          "fr": "En Mauritanie : 1 ouguiya (MRU) = 5 khoums. Un prix de 20 MRU 3 khoums = 20,6 MRU.",
+          "ar": "في موريتانيا: 1 أوقية = 5 خميسات. الثمن 20 أوقية و3 خميسات = 20,6 أوقية."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Un cours dure 45 min et finit à 10 h 30. À quelle heure a-t-il commencé ?",
+          "ar": "استغرقت حصة 45 دقيقة وانتهت في 10:30. متى بدأت؟"
+        },
+        "etapes": [
+          {
+            "fr": "10 h 30 − 45 min = 9 h 45.",
+            "ar": "10:30 − 45 د = 9:45."
+          }
+        ],
+        "resultat": {
+          "fr": "9 h 45",
+          "ar": "9:45"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Périmètre",
+        "ar": "المحيط"
+      },
+      "def": {
+        "fr": "Longueur du tour complet d'une figure.",
+        "ar": "طول الدوران الكامل حول الشكل."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Aire",
+        "ar": "المساحة"
+      },
+      "def": {
+        "fr": "Mesure de la surface (en m², cm²…).",
+        "ar": "قياس السطح (بـ م²، سم²…)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Volume",
+        "ar": "الحجم"
+      },
+      "def": {
+        "fr": "Mesure de l'espace occupé (en m³, cm³, L…).",
+        "ar": "قياس الحيز المشغول (بـ م³، سم³، ل…)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Khoums",
+        "ar": "الخميس"
+      },
+      "def": {
+        "fr": "Cinquième de l'ouguiya (1 MRU = 5 khoums).",
+        "ar": "خُمس الأوقية (1 أوقية = 5 خميسات)."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Converts : 3,5 kg en grammes ; 250 cm en mètres.",
+        "ar": "حوّل: 3,5 كغ إلى غرامات ؛ 250 سم إلى أمتار."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "3,5 × 1 000 = 3 500 g.",
+            "ar": "3,5 × 1 000 = 3 500 غ."
+          },
+          {
+            "fr": "250 ÷ 100 = 2,5 m.",
+            "ar": "250 ÷ 100 = 2,5 م."
+          }
+        ],
+        "resultat": {
+          "fr": "3 500 g ; 2,5 m",
+          "ar": "3 500 غ ؛ 2,5 م"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Périmètre et aire d'un carré de côté 7 cm.",
+        "ar": "محيط ومساحة مربع ضلعه 7 سم."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "P = 7 × 4 = 28 cm ; A = 7 × 7 = 49 cm².",
+            "ar": "P = 7 × 4 = 28 سم ؛ A = 7 × 7 = 49 سم²."
+          }
+        ],
+        "resultat": {
+          "fr": "P = 28 cm ; A = 49 cm²",
+          "ar": "P = 28 سم ؛ A = 49 سم²"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Un marchand vend du thé à 15 MRU 2 khoums le verre. Prix de 4 verres (en MRU décimaux) ?",
+        "ar": "يبيع تاجر الشاي بـ 15 أوقية و2 خميس للكأس. ما ثمن 4 كؤوس (بالأوقيات العشرية)؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "2 khoums = 2/5 = 0,4 MRU → 15,4 MRU le verre ; 15,4 × 4 = 61,6.",
+            "ar": "خميسان = 2/5 = 0,4 أوقية ← 15,4 أوقية للكأس ؛ 15,4 × 4 = 61,6."
+          }
+        ],
+        "resultat": {
+          "fr": "61,6 MRU (61 MRU 3 khoums)",
+          "ar": "61,6 أوقية (61 أوقية و3 خميسات)"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Convertis : 3,5 kg en grammes ; 250 cm en mètres.",
+        "ar": "حوّل: 3,5 كلغ إلى غرامات؛ 250 سم إلى أمتار."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "3,5 × 1 000 = 3 500 g.",
+            "ar": "3,5 × 1 000 = 3 500 غ."
+          },
+          {
+            "fr": "250 ÷ 100 = 2,5 m.",
+            "ar": "250 ÷ 100 = 2,5 م."
+          }
+        ],
+        "resultat": {
+          "fr": "3 500 g ; 2,5 m",
+          "ar": "3 500 غ؛ 2,5 م"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Un marchand vend du thé : 500 g coûtent 600 MRU. Prix de 1 kg ? Et de 250 g ?",
+        "ar": "بائع يبيع الشاي: 500 غ بـ 600 أوقية. ثمن الكيلو؟ وثمن 250 غ؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "1 kg = 2 × 500 g → 1 200 MRU.",
+            "ar": "الكلغ = 2 × 500 غ ← 1 200 أوقية."
+          },
+          {
+            "fr": "250 g = moitié de 500 g → 300 MRU.",
+            "ar": "250 غ = النصف ← 300 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "1 200 MRU ; 300 MRU",
+          "ar": "1 200؛ 300"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "1 kg = ? g",
+        "ar": "1 كغ = ؟ غ"
+      },
+      "acceptees": [
+        "1000",
+        "1 000"
+      ],
+      "explication": {
+        "fr": "1 kg = 1 000 g.",
+        "ar": "1 كغ = 1 000 غ."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Aire d'un rectangle 6 m × 4 m ?",
+        "ar": "مساحة مستطيل 6 م × 4 م؟"
+      },
+      "choix": [
+        {
+          "fr": "24 m²",
+          "ar": "24 م²"
+        },
+        {
+          "fr": "20 m",
+          "ar": "20 م"
+        },
+        {
+          "fr": "10 m²",
+          "ar": "10 م²"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "L × l = 6 × 4.",
+        "ar": "L × l = 6 × 4."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "1 ouguiya = 5 khoums.",
+        "ar": "الأوقية الواحدة = 5 خميسات."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Monnaie officielle mauritanienne.",
+        "ar": "العملة الموريتانية الرسمية."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Volume d'un pavé 5 × 4 × 3 cm ?",
+        "ar": "حجم متوازي مستطيلات 5 × 4 × 3 سم؟"
+      },
+      "acceptees": [
+        "60",
+        "60 cm3",
+        "60 cm³"
+      ],
+      "explication": {
+        "fr": "5 × 4 × 3.",
+        "ar": "5 × 4 × 3."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "250 mL = ?",
+        "ar": "250 مل = ؟"
+      },
+      "choix": [
+        {
+          "fr": "0,25 L",
+          "ar": "0,25 ل"
+        },
+        {
+          "fr": "2,5 L",
+          "ar": "2,5 ل"
+        },
+        {
+          "fr": "25 L",
+          "ar": "25 ل"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "1 L = 1 000 mL.",
+        "ar": "1 ل = 1 000 مل."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "30 MRU = ? khoums",
+        "ar": "30 أوقية = ؟ خميس"
+      },
+      "acceptees": [
+        "150"
+      ],
+      "explication": {
+        "fr": "30 × 5.",
+        "ar": "30 × 5."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "calcul",
+      "q": {
+        "fr": "1 250 MRU = combien de khoums ?",
+        "ar": "1 250 أوقية كم خمساً؟"
+      },
+      "acceptees": [
+        "6250",
+        "6 250"
+      ],
+      "explication": {
+        "fr": "× 5 (1 MRU = 5 khoums).",
+        "ar": "× 5."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "qcm",
+      "q": {
+        "fr": "2 L de lait = ?",
+        "ar": "2 لتر حليب = ؟"
+      },
+      "choix": [
+        {
+          "fr": "20 dL",
+          "ar": "20 دل"
+        },
+        {
+          "fr": "2 000 mL",
+          "ar": "2 000 مل"
+        },
+        {
+          "fr": "200 mL",
+          "ar": "200 مل"
+        }
+      ],
+      "bonne": 1,
+      "explication": {
+        "fr": "1 L = 1 000 mL → 2 L = 2 000 mL.",
+        "ar": "2 لتر = 2 000 مل."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Aire du triangle",
+        "ar": "مساحة المثلث"
+      },
+      "verso": {
+        "fr": "(b × h) ÷ 2.",
+        "ar": "(b × h) ÷ 2."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Volume du cube",
+        "ar": "حجم المكعب"
+      },
+      "verso": {
+        "fr": "a × a × a.",
+        "ar": "a × a × a."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "1 tonne = ?",
+        "ar": "1 طن = ؟"
+      },
+      "verso": {
+        "fr": "1 000 kg.",
+        "ar": "1 000 كغ."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Périmètre du carré",
+        "ar": "محيط المربع"
+      },
+      "verso": {
+        "fr": "c × 4.",
+        "ar": "c × 4."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "1 ouguiya en khoums",
+        "ar": "الأوقية بالخميس"
+      },
+      "verso": {
+        "fr": "5 khoums.",
+        "ar": "5 خميسات."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "1 h 30 min = ? min",
+        "ar": "ساعة ونصف = ؟ دقيقة"
+      },
+      "verso": {
+        "fr": "90 min.",
+        "ar": "90 دقيقة."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "1 kg = ? g",
+        "ar": "1 كلغ = ؟ غ"
+      },
+      "verso": {
+        "fr": "1 000 g.",
+        "ar": "1 000 غرام."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "1 MRU = ? khoums",
+        "ar": "1 أوقية = ؟ خمس"
+      },
+      "verso": {
+        "fr": "5 khoums (la monnaie mauritanienne).",
+        "ar": "5 خمس (العملة الموريتانية)."
+      }
+    }
+  ]
+}

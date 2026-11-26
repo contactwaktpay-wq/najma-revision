@@ -1,0 +1,547 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-02",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 2,
+  "titre": {
+    "fr": "Les quatre opérations et les multiples",
+    "ar": "العمليات الأربع والمضاعفات"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Poser et maîtriser addition, soustraction et multiplication",
+      "Connaître la division euclidienne (quotient et reste)",
+      "Utiliser les multiples, diviseurs et critères de divisibilité"
+    ],
+    "ar": [
+      "إنجاز الجمع والطرح والضرب بإتقان",
+      "استعمال القسمة الإقليدية (الحاصل والباقي)",
+      "استعمال المضاعفات والقواسم وقابلية القسمة"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Techniques opératoires",
+        "ar": "تقنيات العمليات"
+      },
+      "puces": [
+        {
+          "fr": "Addition : on aligne les unités sous les unités, puis on additionne colonne par colonne avec les retenues.",
+          "ar": "الجمع: نوائم الوحدات تحت الوحدات ثم نجمع عموداً بعمود مع الحفظ."
+        },
+        {
+          "fr": "Soustraction : même alignement ; on vérifie le résultat par une addition (a − b + b = a).",
+          "ar": "الطرح: نفس التواائم؛ نتحقق من الناتج بالجمع (a − b + b = a)."
+        },
+        {
+          "fr": "Multiplication : on multiplie par chaque chiffre du multiplicateur, en décalant d'une colonne à chaque ligne.",
+          "ar": "الضرب: نضرب في كل رقم من المضرب فيه مع تزحزح عمود لكل سطر."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Calcule 4 086 + 2 957, puis 64 × 25.",
+          "ar": "احسب 4 086 + 2 957 ثم 64 × 25."
+        },
+        "etapes": [
+          {
+            "fr": "Addition : 6+7=13 (pose 3, retenue 1) ; 8+5+1=14 ; 0+9+1=10 ; 4+2+1=7 → 7 043.",
+            "ar": "الجمع: 6+7=13 (نكتب 3 ونحفظ 1) ؛ 8+5+1=14 ؛ 0+9+1=10 ؛ 4+2+1=7 ← 7 043."
+          },
+          {
+            "fr": "Multiplication : 64 × 25 = 64 × 100 ÷ 4 = 6 400 ÷ 4 = 1 600.",
+            "ar": "الضرب: 64 × 25 = 64 × 100 ÷ 4 = 6 400 ÷ 4 = 1 600."
+          }
+        ],
+        "resultat": {
+          "fr": "4 086 + 2 957 = 7 043 ; 64 × 25 = 1 600",
+          "ar": "4 086 + 2 957 = 7 043 ؛ 64 × 25 = 1 600"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "La division euclidienne",
+        "ar": "القسمة الإقليدية"
+      },
+      "bloc": [
+        {
+          "fr": "Diviser 83 par 7, c'est chercher le plus grand quotient possible et un reste : 83 = 7 × 11 + 6. Le reste est toujours inférieur au diviseur.",
+          "ar": "قسمة 83 على 7 هي البحث عن أكبر حاصل ممكن وباقٍ: 83 = 7 × 11 + 6. الباقي دائماً أصغر من القاسم."
+        }
+      ],
+      "formules": [
+        "dividende = diviseur × quotient + reste",
+        "reste < diviseur"
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Multiples, diviseurs et divisibilité",
+        "ar": "المضاعفات والقواسم وقابلية القسمة"
+      },
+      "puces": [
+        {
+          "fr": "Divisibilité par 2 : le chiffre des unités est 0, 2, 4, 6 ou 8.",
+          "ar": "القسمة على 2: رقم الوحدات هو 0 أو 2 أو 4 أو 6 أو 8."
+        },
+        {
+          "fr": "Divisibilité par 5 : le chiffre des unités est 0 ou 5.",
+          "ar": "القسمة على 5: رقم الوحدات هو 0 أو 5."
+        },
+        {
+          "fr": "Divisibilité par 3 (ou 9) : la somme des chiffres est divisible par 3 (ou par 9).",
+          "ar": "القسمة على 3 (أو 9): مجموع الأرقام يقبل القسمة على 3 (أو 9)."
+        },
+        {
+          "fr": "Divisibilité par 10 : le chiffre des unités est 0.",
+          "ar": "القسمة على 10: رقم الوحدات هو 0."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "1 275 est-il divisible par 3 ? par 5 ? par 9 ?",
+          "ar": "هل العدد 1 275 يقبل القسمة على 3؟ على 5؟ على 9؟"
+        },
+        "etapes": [
+          {
+            "fr": "Somme des chiffres : 1+2+7+5 = 15 ; 15 est divisible par 3 mais pas par 9.",
+            "ar": "مجموع الأرقام: 1+2+7+5 = 15 ؛ 15 يقبل القسمة على 3 لكن ليس على 9."
+          },
+          {
+            "fr": "Le chiffre des unités est 5 → divisible par 5.",
+            "ar": "رقم الوحدات هو 5 ← يقبل القسمة على 5."
+          }
+        ],
+        "resultat": {
+          "fr": "Oui par 3 et par 5 ; non par 9.",
+          "ar": "نعم على 3 وعلى 5 ؛ لا على 9."
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Multiple",
+        "ar": "مضاعف"
+      },
+      "def": {
+        "fr": "12 est un multiple de 3 car 12 = 3 × 4.",
+        "ar": "12 مضاعف للعدد 3 لأن 12 = 3 × 4."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Diviseur",
+        "ar": "قاسم"
+      },
+      "def": {
+        "fr": "3 est un diviseur de 12 car la division tombe juste.",
+        "ar": "3 قاسم للعدد 12 لأن القسمة تنقسم تماماً."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Quotient / reste",
+        "ar": "الحاصل / الباقي"
+      },
+      "def": {
+        "fr": "Résultat entier de la division euclidienne / ce qui n'a pas pu être divisé.",
+        "ar": "الناتج الصحيح للقسمة الإقليدية / ما لم يقبل القسمة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Ordre de grandeur",
+        "ar": "الرتبة الكبرى للتقدير"
+      },
+      "def": {
+        "fr": "Approximation rapide qui permet de vérifier un calcul (ex. 2 957 ≈ 3 000).",
+        "ar": "تقريب سريع للتحقق من عملية حسابية (مثال: 2 957 ≈ 3 000)."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Pose et calcule : 7 305 − 2 876.",
+        "ar": "أجرِ العملية واحسب: 7 305 − 2 876."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Alignement puis soustraction avec retenues.",
+            "ar": "التواائم ثم الطرح مع الحفظ."
+          }
+        ],
+        "resultat": {
+          "fr": "4 429",
+          "ar": "4 429"
+        }
+      },
+      "acceptees": [
+        "4429"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Effectue la division euclidienne de 95 par 6.",
+        "ar": "أجرِ القسمة الإقليدية للعدد 95 على 6."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "6 × 15 = 90 ; 95 − 90 = 5 ; reste 5 < 6.",
+            "ar": "6 × 15 = 90 ؛ 95 − 90 = 5 ؛ الباقي 5 < 6."
+          }
+        ],
+        "resultat": {
+          "fr": "quotient 15, reste 5",
+          "ar": "الحاصل 15 والباقي 5"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Une librairie reçoit 240 cahiers et les met en paquets égaux de 8. Combien de paquets ? Reste-t-il des cahiers ?",
+        "ar": "استلمت مكتبة 240 كراساً ورتبتها في حزم متساوية من 8. كم حزمة؟ وهل بقيت كراسات؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "240 ÷ 8 = 30, reste 0 → division exacte.",
+            "ar": "240 ÷ 8 = 30 والباقي 0 ← قسمة تمامية."
+          }
+        ],
+        "resultat": {
+          "fr": "30 paquets, aucun reste.",
+          "ar": "30 حزمة وبلا بقيّة."
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Calcule en réfléchi : 25 × 8 ; 498 + 997.",
+        "ar": "احسب بذكاء: 25 × 8؛ 498 + 997."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "25 × 8 = 25 × 4 × 2 = 100 × 2 = 200.",
+            "ar": "25 × 8 = 200."
+          },
+          {
+            "fr": "498 + 997 = 500 + 1 000 − 2 − 3 = 1 495.",
+            "ar": "498 + 997 = 1 495."
+          }
+        ],
+        "resultat": {
+          "fr": "200 ; 1 495",
+          "ar": "200؛ 1 495"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : L’école achète 8 paquets de 25 cahiers à 175 MRU le cahier. Coût total ?",
+        "ar": "مسألة: تشتري المدرسة 8 حزم من 25 كراساً بـ 175 أوقية للكراس. ما الكلفة الكلية؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Cahiers : 8 × 25 = 200 cahiers.",
+            "ar": "الكراسات: 8 × 25 = 200 كراس."
+          },
+          {
+            "fr": "Coût : 200 × 175 = 35 000 MRU.",
+            "ar": "الكلفة: 200 × 175 = 35 000 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "35 000 MRU",
+          "ar": "35 000 أوقية"
+        }
+      },
+      "acceptees": [
+        "35000"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Dans 83 = 7 × 11 + 6, que vaut le reste ?",
+        "ar": "في المساواة 83 = 7 × 11 + 6، ما قيمة الباقي؟"
+      },
+      "choix": [
+        {
+          "fr": "7",
+          "ar": "7"
+        },
+        {
+          "fr": "11",
+          "ar": "11"
+        },
+        {
+          "fr": "6",
+          "ar": "6"
+        }
+      ],
+      "bonne": 2,
+      "explication": {
+        "fr": "Le reste est le nombre ajouté après le produit.",
+        "ar": "الباقي هو العدد المضاف بعد الضرب."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "Calcule 64 × 25.",
+        "ar": "احسب 64 × 25."
+      },
+      "acceptees": [
+        "1600",
+        "1 600",
+        "1.600"
+      ],
+      "explication": {
+        "fr": "64 × 25 = 6 400 ÷ 4.",
+        "ar": "64 × 25 = 6 400 ÷ 4."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "9 540 est divisible par 10.",
+        "ar": "العدد 9 540 يقبل القسمة على 10."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Il se termine par 0.",
+        "ar": "ينتهي بالرقم 0."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel nombre est divisible par 9 ?",
+        "ar": "أي الأعداد يقبل القسمة على 9؟"
+      },
+      "choix": [
+        {
+          "fr": "2 349 (somme 18)",
+          "ar": "2 349 (المجموع 18)"
+        },
+        {
+          "fr": "1 234 (somme 10)",
+          "ar": "1 234 (المجموع 10)"
+        },
+        {
+          "fr": "5 555 (somme 20)",
+          "ar": "5 555 (المجموع 20)"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Somme des chiffres divisible par 9 → divisible par 9.",
+        "ar": "إذا كان مجموع الأرقام يقبل القسمة على 9 فالعدد كذلك."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Quel est le quotient de 95 ÷ 6 ?",
+        "ar": "ما هو حاصل قسمة 95 ÷ 6؟"
+      },
+      "acceptees": [
+        "15",
+        "15 reste 5",
+        "15r5"
+      ],
+      "explication": {
+        "fr": "6 × 15 = 90, reste 5.",
+        "ar": "6 × 15 = 90 والباقي 5."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "7 305 − 2 876 = ?",
+        "ar": "7 305 − 2 876 = ؟"
+      },
+      "choix": [
+        {
+          "fr": "4 429",
+          "ar": "4 429"
+        },
+        {
+          "fr": "4 431",
+          "ar": "4 431"
+        },
+        {
+          "fr": "5 429",
+          "ar": "5 429"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Vérification : 4 429 + 2 876 = 7 305.",
+        "ar": "التحقق: 4 429 + 2 876 = 7 305."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Calcule : 5 + 3 × 2 = ?",
+        "ar": "احسب: 5 + 3 × 2 = ؟"
+      },
+      "choix": [
+        {
+          "fr": "11",
+          "ar": "11"
+        },
+        {
+          "fr": "16",
+          "ar": "16"
+        },
+        {
+          "fr": "13",
+          "ar": "13"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "La multiplication avant l’addition : 5 + 6 = 11.",
+        "ar": "الضرب قبل الجمع: 11."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "calcul",
+      "q": {
+        "fr": "Calcule : 125 × 4.",
+        "ar": "احسب: 125 × 4."
+      },
+      "acceptees": [
+        "500"
+      ],
+      "explication": {
+        "fr": "125 × 4 = 500.",
+        "ar": "125 × 4 = 500."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Division euclidienne de a par b",
+        "ar": "القسمة الإقليدية لـ a على b"
+      },
+      "verso": {
+        "fr": "a = b × q + r avec r < b.",
+        "ar": "a = b × q + r حيث r < b."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Critère de divisibilité par 3",
+        "ar": "قاعدة القسمة على 3"
+      },
+      "verso": {
+        "fr": "Somme des chiffres divisible par 3.",
+        "ar": "مجموع الأرقام يقبل القسمة على 3."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Comment vérifier une soustraction ?",
+        "ar": "كيف نتحقق من عملية الطرح؟"
+      },
+      "verso": {
+        "fr": "En ajoutant le résultat au nombre soustrait.",
+        "ar": "بجمع الناتج إلى العدد المطروح."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Multiple de 5 : chiffre des unités",
+        "ar": "مضاعف 5: رقم الوحدات"
+      },
+      "verso": {
+        "fr": "0 ou 5.",
+        "ar": "0 أو 5."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "64 × 25 astuce",
+        "ar": "حيلة حساب 64 × 25"
+      },
+      "verso": {
+        "fr": "×100 puis ÷4.",
+        "ar": "نضرب في 100 ثم نقسم على 4."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Le reste est-il toujours < diviseur ?",
+        "ar": "هل الباقي دائماً أصغر من القاسم؟"
+      },
+      "verso": {
+        "fr": "Oui, sinon le quotient peut encore augmenter.",
+        "ar": "نعم، وإلا أمكن زيادة الحاصل."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Ordre des opérations",
+        "ar": "ترتيب العمليات"
+      },
+      "verso": {
+        "fr": "La multiplication avant l’addition/soustraction.",
+        "ar": "الضرب قبل الجمع والطرح."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Astuce ×25",
+        "ar": "حيلة الضرب في 25"
+      },
+      "verso": {
+        "fr": "× 25 = × 100 puis ÷ 4.",
+        "ar": "اضرب في 100 ثم اقسم على 4."
+      }
+    }
+  ]
+}

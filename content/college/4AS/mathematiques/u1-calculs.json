@@ -1,0 +1,411 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-math-01",
+  "niveau": "4AS",
+  "matiere": "mathematiques",
+  "ordre": 1,
+  "titre": {
+    "fr": "Nombres et calculs : puissances, racines, ensembles de nombres",
+    "ar": "الأعداد والحساب: القوى والجذور ومجموعات الأعداد"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Maîtriser les règles sur les puissances",
+      "Utiliser les propriétés des racines carrées",
+      "Situer un nombre dans ℕ, ℤ, ℚ et écrire une notation scientifique"
+    ],
+    "ar": [
+      "إتقان قواعد القوى",
+      "استعمال خاصيات الجذور التربيعية",
+      "تموضع العدد في ℕ و ℤ و ℚ وكتابة الصورة العلمية"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Puissances",
+        "ar": "القوى"
+      },
+      "formules": [
+        "aᵐ × aⁿ = aᵐ⁺ⁿ",
+        "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+        "(aᵐ)ⁿ = aᵐˣⁿ",
+        "a⁰ = 1 (a ≠ 0)",
+        "a⁻ⁿ = 1/aⁿ"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Simplifie 2³ × 2⁴.",
+          "ar": "بسّط 2³ × 2⁴."
+        },
+        "etapes": [
+          {
+            "fr": "Même base : on additionne les exposants : 2³⁺⁴ = 2⁷.",
+            "ar": "الأساس نفسه: نجمع الأسس: 2³⁺⁴ = 2⁷."
+          }
+        ],
+        "resultat": {
+          "fr": "2⁷ = 128",
+          "ar": "2⁷ = 128"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Racines carrées",
+        "ar": "الجذور التربيعية"
+      },
+      "puces": [
+        {
+          "fr": "√a est le nombre positif dont le carré est a : √49 = 7.",
+          "ar": "√a هو العدد الموجب الذي مربعه a: √49 = 7."
+        }
+      ],
+      "formules": [
+        "√(a×b) = √a × √b (a ≥ 0, b ≥ 0)",
+        "√(a/b) = √a / √b (b ≠ 0)"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Simplifie √72.",
+          "ar": "بسّط √72."
+        },
+        "etapes": [
+          {
+            "fr": "72 = 36 × 2 → √72 = √36 × √2 = 6√2.",
+            "ar": "72 = 36 × 2 ← √72 = 6√2."
+          }
+        ],
+        "resultat": {
+          "fr": "6√2",
+          "ar": "6√2"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Ensembles de nombres et notation scientifique",
+        "ar": "مجموعات الأعداد والصورة العلمية"
+      },
+      "puces": [
+        {
+          "fr": "ℕ (entiers naturels) ⊂ ℤ (entiers relatifs) ⊂ ℚ (quotients) ⊂ ℝ.",
+          "ar": "ℕ (الأعداد الطبيعية) ⊂ ℤ (الأعداد الصحيحة) ⊂ ℚ (الأعداد النسبية) ⊂ ℝ."
+        },
+        {
+          "fr": "−7 ∉ ℕ mais −7 ∈ ℤ ; 2/3 ∈ ℚ mais √2 ∉ ℚ.",
+          "ar": "−7 ∉ ℕ لكن −7 ∈ ℤ ؛ 2/3 ∈ ℚ لكن √2 ∉ ℚ."
+        },
+        {
+          "fr": "Notation scientifique : a × 10ⁿ avec 1 ≤ a < 10. Ex. 45 000 = 4,5 × 10⁴ ; 0,00037 = 3,7 × 10⁻⁴.",
+          "ar": "الصورة العلمية: a × 10ⁿ حيث 1 ≤ a < 10. مثال: 45 000 = 4,5 × 10⁴ ؛ 0,00037 = 3,7 × 10⁻⁴."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Puissance",
+        "ar": "قوة"
+      },
+      "def": {
+        "fr": "Produit d'un nombre par lui-même n fois : 5³ = 5×5×5.",
+        "ar": "ضرب العدد في نفسه n مرة: 5³ = 5×5×5."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Racine carrée",
+        "ar": "الجذر التربيعي"
+      },
+      "def": {
+        "fr": "Nombre positif dont le carré donne le nombre de départ.",
+        "ar": "العدد الموجب الذي مربعه هو العدد المعطى."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Nombre irrationnel",
+        "ar": "عدد غير نسبي"
+      },
+      "def": {
+        "fr": "Nombre qui ne s'écrit pas comme un quotient (√2, π).",
+        "ar": "عدد لا يُكتب على صورة نسبة (√2، π)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Notation scientifique",
+        "ar": "الصورة العلمية"
+      },
+      "def": {
+        "fr": "Écriture a × 10ⁿ avec 1 ≤ a < 10.",
+        "ar": "كتابة a × 10ⁿ حيث 1 ≤ a < 10."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Calcule : 3⁴ et √81.",
+        "ar": "احسب: 3⁴ و √81."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "3⁴ = 3×3×3×3 = 81 ; √81 = 9.",
+            "ar": "3⁴ = 81 ؛ √81 = 9."
+          }
+        ],
+        "resultat": {
+          "fr": "81 ; 9",
+          "ar": "81 ؛ 9"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Simplifie : √50 × √2.",
+        "ar": "بسّط: √50 × √2."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "√(50×2) = √100 = 10.",
+            "ar": "√(50×2) = √100 = 10."
+          }
+        ],
+        "resultat": {
+          "fr": "10",
+          "ar": "10"
+        }
+      },
+      "acceptees": [
+        "10"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Écris en notation scientifique : 0,000 56 et 720 000.",
+        "ar": "اكتب بالصورة العلمية: 0,000 56 و 720 000."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "0,000 56 = 5,6 × 10⁻⁴ ; 720 000 = 7,2 × 10⁵.",
+            "ar": "0,000 56 = 5,6 × 10⁻⁴ ؛ 720 000 = 7,2 × 10⁵."
+          }
+        ],
+        "resultat": {
+          "fr": "5,6 × 10⁻⁴ ; 7,2 × 10⁵",
+          "ar": "5,6 × 10⁻⁴ ؛ 7,2 × 10⁵"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "2⁵ = ?",
+        "ar": "2⁵ = ؟"
+      },
+      "acceptees": [
+        "32"
+      ],
+      "explication": {
+        "fr": "2×2×2×2×2.",
+        "ar": "2×2×2×2×2."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "√49 = ?",
+        "ar": "√49 = ؟"
+      },
+      "choix": [
+        {
+          "fr": "7",
+          "ar": "7"
+        },
+        {
+          "fr": "−7",
+          "ar": "−7"
+        },
+        {
+          "fr": "24,5",
+          "ar": "24,5"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "7² = 49 et √ désigne la valeur positive.",
+        "ar": "7² = 49 و √ تعني القيمة الموجبة."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "√2 est un nombre rationnel.",
+        "ar": "√2 عدد نسبي."
+      },
+      "bonne": false,
+      "explication": {
+        "fr": "√2 est irrationnel (démonstration classique).",
+        "ar": "√2 غير نسبي."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Simplifie √72 (forme a√b).",
+        "ar": "بسّط √72 بالصورة a√b."
+      },
+      "acceptees": [
+        "6√2",
+        "6racine2",
+        "6 * sqrt(2)"
+      ],
+      "explication": {
+        "fr": "72 = 36 × 2.",
+        "ar": "72 = 36 × 2."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "0,00037 en notation scientifique :",
+        "ar": "0,00037 بالصورة العلمية:"
+      },
+      "choix": [
+        {
+          "fr": "3,7 × 10⁻⁴",
+          "ar": "3,7 × 10⁻⁴"
+        },
+        {
+          "fr": "37 × 10⁻⁵",
+          "ar": "37 × 10⁻⁵"
+        },
+        {
+          "fr": "3,7 × 10⁴",
+          "ar": "3,7 × 10⁴"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "a doit vérifier 1 ≤ a < 10.",
+        "ar": "يجب أن يكون 1 ≤ a < 10."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Lequel appartient à ℤ mais pas à ℕ ?",
+        "ar": "أي العدد ينتمي إلى ℤ لا إلى ℕ؟"
+      },
+      "choix": [
+        {
+          "fr": "−4",
+          "ar": "−4"
+        },
+        {
+          "fr": "9",
+          "ar": "9"
+        },
+        {
+          "fr": "3/5",
+          "ar": "3/5"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "ℤ contient les négatifs.",
+        "ar": "ℤ تحتوي الأعداد السالبة."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "aᵐ × aⁿ",
+        "ar": "aᵐ × aⁿ"
+      },
+      "verso": {
+        "fr": "aᵐ⁺ⁿ.",
+        "ar": "aᵐ⁺ⁿ."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "(aᵐ)ⁿ",
+        "ar": "(aᵐ)ⁿ"
+      },
+      "verso": {
+        "fr": "aᵐˣⁿ.",
+        "ar": "aᵐˣⁿ."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "√(a×b)",
+        "ar": "√(a×b)"
+      },
+      "verso": {
+        "fr": "√a × √b (a, b ≥ 0).",
+        "ar": "√a × √b (a، b ≥ 0)."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "a⁰ = ? (a ≠ 0)",
+        "ar": "a⁰ = ؟ (a ≠ 0)"
+      },
+      "verso": {
+        "fr": "1.",
+        "ar": "1."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "a⁻ⁿ = ?",
+        "ar": "a⁻ⁿ = ؟"
+      },
+      "verso": {
+        "fr": "1/aⁿ.",
+        "ar": "1/aⁿ."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Chaîne d'inclusion des ensembles",
+        "ar": "سلسلة تضمين المجموعات"
+      },
+      "verso": {
+        "fr": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.",
+        "ar": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ."
+      }
+    }
+  ]
+}

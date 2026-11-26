@@ -1,0 +1,60 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "XX-matiere-XX",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 1,
+  "titre": { "fr": "Titre du chapitre (français)", "ar": "عنوان الدرس (بالعربية)" },
+  "duree_min": 25,
+  "objectifs": {
+    "fr": ["Objectif 1 — verbe d'action + contenu précis", "Objectif 2", "Objectif 3"],
+    "ar": ["الهدف الأول", "الهدف الثاني", "الهدف الثالث"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Section 1 de la fiche de synthèse", "ar": "القسم الأول" },
+      "bloc": [{ "fr": "Paragraphe d'exposé, court et clair.", "ar": "فقرة الشرح." }],
+      "puces": [{ "fr": "Point clé à retenir", "ar": "نقطة أساسية" }],
+      "formules": ["P = (L + l) × 2"],
+      "tableau": {
+        "entetes": [{ "fr": "Colonne A", "ar": "العمود أ" }, { "fr": "Colonne B", "ar": "العمود ب" }],
+        "lignes": [["valeur 1", "valeur 2"]]
+      },
+      "exemple": {
+        "enonce": { "fr": "Énoncé de l'exemple résolu", "ar": "نص المثال" },
+        "etapes": [{ "fr": "Étape 1 du raisonnement", "ar": "الخطوة 1" }, { "fr": "Étape 2", "ar": "الخطوة 2" }],
+        "resultat": { "fr": "Réponse finale", "ar": "الجواب النهائي" }
+      }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Terme clé", "ar": "المصطلح" }, "def": { "fr": "Définition rigoureuse et courte.", "ar": "تعريف دقيق ومختصر." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": { "fr": "Énoncé de l'exercice (direct, application)", "ar": "نص التمرين" },
+      "correction": {
+        "etapes": [{ "fr": "Étape de résolution détaillée", "ar": "خطوة الحل" }],
+        "resultat": { "fr": "Réponse", "ar": "الجواب" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Question à choix multiples", "ar": "سؤال اختيار من متعدد" },
+      "choix": [{ "fr": "Proposition A", "ar": "اختيار أ" }, { "fr": "Proposition B", "ar": "اختيار ب" }],
+      "bonne": 0, "explication": { "fr": "Pourquoi cette réponse est juste.", "ar": "لماذا هذه الإجابة صحيحة." } },
+    { "id": "q2", "type": "vf", "q": { "fr": "Affirmation à juger", "ar": "عبارة للحكم" },
+      "bonne": true, "explication": { "fr": "Justification", "ar": "التعليل" } },
+    { "id": "q3", "type": "courte", "q": { "fr": "Question à réponse écrite", "ar": "سؤال بإجابة مكتوبة" },
+      "acceptees": ["réponse 1", "réponse 2"], "explication": { "fr": "Justification", "ar": "التعليل" } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Question / notion au recto", "ar": "الوجه الأول" }, "verso": { "fr": "Réponse au verso", "ar": "الوجه الثاني" } }
+  ],
+  "notes_editeur": [
+    { "fr": "Point à vérifier côté programme mauritanien (facultatif).", "ar": "نقطة للتحقق (اختياري)." }
+  ]
+}

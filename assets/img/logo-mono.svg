@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Najma — monochrome">
+  <!-- Najma · نجمة — Variante monochrome (encre unique, toutes utilisations) -->
+  <g fill="none" stroke="#0D3B66" stroke-width="2.4">
+    <circle cx="32" cy="32" r="28"/>
+    <path d="M32,10 L36.6,24.4 L51,26.5 L39.8,34.4 L43.4,49 L32,40.6 L20.6,49 L24.2,34.4 L13,26.5 L27.4,24.4 Z"
+          fill="#0D3B66" stroke="none"/>
+    <path d="M4,50 Q14,42 26,49 Q38,56 50,48 Q56,44 60,47" stroke-width="3" stroke-linecap="round"/>
+    <path d="M4,55 Q16,49 30,55 Q44,61 60,53" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

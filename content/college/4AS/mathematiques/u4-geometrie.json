@@ -1,0 +1,416 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-math-04",
+  "niveau": "4AS",
+  "matiere": "mathematiques",
+  "ordre": 4,
+  "titre": {
+    "fr": "Géométrie : Pythagore, Thalès et volumes",
+    "ar": "الهندسة: فيثاغورس، طاليس والأحجام"
+  },
+  "duree_min": 35,
+  "objectifs": {
+    "fr": [
+      "Appliquer le théorème de Pythagore et sa réciproque",
+      "Utiliser le théorème de Thalès dans un triangle",
+      "Calculer volumes et aires des solides usuels"
+    ],
+    "ar": [
+      "تطبيق مبرهنة فيثاغورس وعكسها",
+      "استعمال مبرهنة طاليس في مثلث",
+      "حساب أحجام ومساحات الأجسام المألوفة"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Théorème de Pythagore",
+        "ar": "مبرهنة فيثاغورس"
+      },
+      "bloc": [
+        {
+          "fr": "Dans un triangle rectangle en A : BC² = AB² + AC² (le côté BC est l'hypoténuse, le plus long).",
+          "ar": "في مثلث قائم في A: BC² = AB² + AC² (الضلع BC هو الوتر، وهو الأطول)."
+        }
+      ],
+      "formules": [
+        "BC² = AB² + AC²"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "ABC rectangle en A, AB = 6 cm, AC = 8 cm. Combien vaut BC ?",
+          "ar": "المثلث ABC قائم في A و AB = 6 سم و AC = 8 سم. ما قيمة BC؟"
+        },
+        "etapes": [
+          {
+            "fr": "BC² = 6² + 8² = 36 + 64 = 100.",
+            "ar": "BC² = 6² + 8² = 36 + 64 = 100."
+          },
+          {
+            "fr": "BC = √100 = 10 cm.",
+            "ar": "BC = √100 = 10 سم."
+          }
+        ],
+        "resultat": {
+          "fr": "BC = 10 cm",
+          "ar": "BC = 10 سم"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Réciproque de Pythagore",
+        "ar": "عكس مبرهنة فيثاغورس"
+      },
+      "puces": [
+        {
+          "fr": "Si BC² = AB² + AC², alors le triangle est rectangle en A. C'est le test du triangle rectangle par les longueurs (ex. 3-4-5).",
+          "ar": "إذا كانت BC² = AB² + AC² فالمثلث قائم في A. هذا اختبار قائم الزاوية بالأطوال (مثل 3-4-5)."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Théorème de Thalès",
+        "ar": "مبرهنة طاليس"
+      },
+      "bloc": [
+        {
+          "fr": "Si M ∈ (AB), N ∈ (AC) et (MN) ∥ (BC), alors : AM/AB = AN/AC = MN/BC. On l'utilise pour calculer des longueurs ou prouver des droites parallèles.",
+          "ar": "إذا كانت M ∈ (AB) و N ∈ (AC) و (MN) ∥ (BC) فإن: AM/AB = AN/AC = MN/BC. تُستعمل لحساب الأطوال أو إثبات التوازي."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "AM = 9, AB = 12, AN = 6 et (MN) ∥ (BC). Trouve AC.",
+          "ar": "AM = 9 و AB = 12 و AN = 6 و (MN) ∥ (BC). أوجد AC."
+        },
+        "etapes": [
+          {
+            "fr": "AM/AB = AN/AC → 9/12 = 6/AC.",
+            "ar": "AM/AB = AN/AC ← 9/12 = 6/AC."
+          },
+          {
+            "fr": "AC = 6 × 12 ÷ 9 = 8.",
+            "ar": "AC = 6 × 12 ÷ 9 = 8."
+          }
+        ],
+        "resultat": {
+          "fr": "AC = 8",
+          "ar": "AC = 8"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Volumes des solides usuels",
+        "ar": "أحجام الأجسام المألوفة"
+      },
+      "formules": [
+        "V cube = a³",
+        "V pavé = L × l × h",
+        "V cylindre = π × r² × h",
+        "A latérale cylindre = 2πrh"
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Volume d'un cylindre de rayon 3 cm et hauteur 5 cm (on garde π).",
+          "ar": "حجم أسطوانة نصف قطرها 3 سم وارتفاعها 5 سم (نُبقي π)."
+        },
+        "etapes": [
+          {
+            "fr": "V = π × 3² × 5 = 45π ≈ 141,4 cm³.",
+            "ar": "V = π × 3² × 5 = 45π ≈ 141,4 سم³."
+          }
+        ],
+        "resultat": {
+          "fr": "45π ≈ 141,4 cm³",
+          "ar": "45π ≈ 141,4 سم³"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Hypoténuse",
+        "ar": "الوتر"
+      },
+      "def": {
+        "fr": "Côté opposé à l'angle droit, le plus long du triangle rectangle.",
+        "ar": "الضلع المقابل للزاوية القائمة، وهو الأطول في المثلث القائم."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Configurations de Thalès",
+        "ar": "أوضاع طاليس"
+      },
+      "def": {
+        "fr": "Triangles emboîtés ou papillon avec une droite parallèle.",
+        "ar": "مثلثات متداخلة أو شكل فراشة مع مستقيم موازٍ."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Unités de volume",
+        "ar": "وحدات الحجم"
+      },
+      "def": {
+        "fr": "cm³, m³… ; 1 L = 1 dm³.",
+        "ar": "سم³، م³… ؛ 1 ل = 1 دم³."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Un triangle a des côtés 3 cm, 4 cm et 5 cm. Est-il rectangle ? Justifie.",
+        "ar": "مثلث أضلاعه 3 سم و 4 سم و 5 سم. هل هو قائم؟ علّل."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "5² = 25 et 3² + 4² = 9 + 16 = 25 → égalité → rectangle.",
+            "ar": "5² = 25 و 3² + 4² = 25 ← تساوي ← قائم."
+          }
+        ],
+        "resultat": {
+          "fr": "Oui, rectangle.",
+          "ar": "نعم، قائم."
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "ABC rectangle en B : AB = 9 cm, BC = 12 cm. Calcule AC.",
+        "ar": "المثلث ABC قائم في B و AB = 9 سم و BC = 12 سم. احسب AC."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "AC² = 9² + 12² = 81 + 144 = 225 → AC = 15 cm.",
+            "ar": "AC² = 81 + 144 = 225 ← AC = 15 سم."
+          }
+        ],
+        "resultat": {
+          "fr": "AC = 15 cm",
+          "ar": "AC = 15 سم"
+        }
+      },
+      "acceptees": [
+        "15"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Volume d'un réservoir cylindrique de rayon 1 m et de hauteur 2 m (π ≈ 3,14).",
+        "ar": "حجم خزان أسطواني نصف قطره 1 م وارتفاعه 2 م (π ≈ 3,14)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "V = π × 1² × 2 = 2π ≈ 6,28 m³ ≈ 6 280 L.",
+            "ar": "V = π × 1 × 2 = 2π ≈ 6,28 م³ ≈ 6 280 ل."
+          }
+        ],
+        "resultat": {
+          "fr": "≈ 6,28 m³ (≈ 6 280 litres)",
+          "ar": "≈ 6,28 م³ (≈ 6 280 لتر)"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Dans un triangle rectangle, l'hypoténuse est…",
+        "ar": "في المثلث القائم، الوتر هو…"
+      },
+      "choix": [
+        {
+          "fr": "le plus long côté",
+          "ar": "أطول ضلع"
+        },
+        {
+          "fr": "le plus court",
+          "ar": "أقصر ضلع"
+        },
+        {
+          "fr": "un angle",
+          "ar": "زاوية"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Face à l'angle droit.",
+        "ar": "مقابل الزاوية القائمة."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "ABC rectangle en A : AB = 6, AC = 8. BC = ?",
+        "ar": "المثلث ABC قائم في A و AB = 6 و AC = 8. ما BC؟"
+      },
+      "acceptees": [
+        "10",
+        "10 cm"
+      ],
+      "explication": {
+        "fr": "√(36+64).",
+        "ar": "√(36+64)."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Un triangle de côtés 5, 12, 13 est rectangle.",
+        "ar": "المثلث بأضلاع 5 و 12 و 13 قائم."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "13² = 169 = 25 + 144.",
+        "ar": "13² = 169 = 25 + 144."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Thalès : AM = 9, AB = 12, AN = 6. AC = ?",
+        "ar": "طاليس: AM = 9، AB = 12، AN = 6. ما AC؟"
+      },
+      "acceptees": [
+        "8"
+      ],
+      "explication": {
+        "fr": "6 × 12 ÷ 9.",
+        "ar": "6 × 12 ÷ 9."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Volume d'un cube d'arête 3 cm ?",
+        "ar": "حجم مكعب حرفه 3 سم؟"
+      },
+      "acceptees": [
+        "27",
+        "27 cm3",
+        "27 cm³"
+      ],
+      "explication": {
+        "fr": "3³.",
+        "ar": "3³."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "V cylindre (r=3, h=5) :",
+        "ar": "حجم أسطوانة (r=3، h=5):"
+      },
+      "choix": [
+        {
+          "fr": "45π",
+          "ar": "45π"
+        },
+        {
+          "fr": "15π",
+          "ar": "15π"
+        },
+        {
+          "fr": "30π",
+          "ar": "30π"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "π × 9 × 5.",
+        "ar": "π × 9 × 5."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Théorème de Pythagore",
+        "ar": "مبرهنة فيثاغورس"
+      },
+      "verso": {
+        "fr": "BC² = AB² + AC² (rectangle en A).",
+        "ar": "BC² = AB² + AC² (قائم في A)."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Réciproque sert à…",
+        "ar": "العكس يُستعمل لـ…"
+      },
+      "verso": {
+        "fr": "Prouver qu'un triangle est rectangle.",
+        "ar": "إثبات أن مثلث قائم."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Thalès : rapport",
+        "ar": "طاليس: النسبة"
+      },
+      "verso": {
+        "fr": "AM/AB = AN/AC = MN/BC.",
+        "ar": "AM/AB = AN/AC = MN/BC."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "V du cylindre",
+        "ar": "حجم الأسطوانة"
+      },
+      "verso": {
+        "fr": "π × r² × h.",
+        "ar": "π × r² × h."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "1 L en volume",
+        "ar": "اللتر بالحجم"
+      },
+      "verso": {
+        "fr": "1 dm³.",
+        "ar": "1 دم³."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Triplet pythagoricien classique",
+        "ar": "ثلاثية فيثاغورس الشهيرة"
+      },
+      "verso": {
+        "fr": "3-4-5 (ou 5-12-13).",
+        "ar": "3-4-5 (أو 5-12-13)."
+      }
+    }
+  ]
+}

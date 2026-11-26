@@ -1,0 +1,82 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-svn-01",
+  "niveau": "7AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 1,
+  "titre": { "fr": "Reproduction humaine et régulation hormonale", "ar": "التكاثر عند الإنسان والتنظيم الهرموني" },
+  "duree_min": 40,
+  "objectifs": {
+    "fr": ["Décrire la gamétogenèse et les cycles sexuels", "Expliquer la régulation hormonale du cycle (axe hypothalamo-hypophysaire)", "Relier fécondation, grossesse et contraception responsable"],
+    "ar": ["وصف تكوين الأمشاج والدورات الجنسية", "شرح التنظيم الهرموني للدورة", "ربط الإلقاح والحمل وسائل منع الحمل المسؤول"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Gamétogenèse", "ar": "تكوين الأمشاج" },
+      "puces": [
+        { "fr": "Spermatogenèse (testicule, continue dès la puberté) : cellules souches → spermatocytes → 4 spermatozoïdes par méiose.", "ar": "تكوين النطائف (الخصية، مستمر منذ البلوغ): خلايا جذرية ← خلايا منوية ← 4 نطائف بالانقسام المنصف." },
+        { "fr": "Ovogenèse (ovaire, commence avant la naissance, s'achève après fécondation) : 1 ovule + 3 globules polaires.", "ar": "تكوين البويضات (المبيض، يبدأ قبل الولادة وينتهي بعد الإلقاح): بويضة واحدة + 3 اجسام قطبية." }
+      ]
+    },
+    {
+      "titre": { "fr": "Cycle menstruel et hormones", "ar": "الدورة الشهرية والهرمونات" },
+      "bloc": [{ "fr": "Le cycle (≈ 28 jours) est piloté par l'axe hypothalamus → hypophyse → gonades : GnRH stimule l'hypophyse qui libère FSH et LH ; celles-ci agissent sur l'ovaire (follicules, œstrogènes, progestérone). Le pic de LH déclenche l'ovulation vers le 14e jour.", "ar": "تُدار الدورة (نحو 28 يوماً) بمحور: الوطاء ← النخامية ← الغدد التناسلية: GnRH تحفّز النخامية التي تفرز FSH و LH؛ وتعملان على المبيض (جريبات، إستروجين، بروجستيرون). ذروة LH تُطلق التبويض نحو اليوم 14." }],
+      "tableau": {
+        "entetes": [{ "fr": "Phase", "ar": "المرحلة" }, { "fr": "Jours", "ar": "الأيام" }, { "fr": "Événement clé", "ar": "الحدث الأساسي" }],
+        "lignes": [
+          [{ "fr": "Folliculaire", "ar": "الجريبية" }, "1 → 13", { "fr": "croissance du follicule, œstrogènes ↑", "ar": "نمو الجريب، ارتفاع الإستروجين" }],
+          [{ "fr": "Ovulation", "ar": "التبويض" }, "≈ 14", { "fr": "pic de LH, libération de l'ovule", "ar": "ذروة LH، تحرر البويضة" }],
+          [{ "fr": "Lutéale", "ar": "الجسم الأصفر" }, "15 → 28", { "fr": "corps jaune, progestérone ↑", "ar": "الجسم الأصفر، ارتفاع البروجستيرون" }]
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Fécondation, grossesse, contraception", "ar": "الإلقاح والحمل ووسائل منع الحمل" },
+      "puces": [
+        { "fr": "Fécondation dans la trompe ; l'œuf migre et s'implante (nidation) dans l'utérus ; HCG (hormone de grossesse) est sécrétée.", "ar": "الإلقاح في الأنبوب؛ تهاجر البيضة وتنغرس في الرحم؛ وتُفرز هرمون الحمل HCG." },
+        { "fr": "Contraception : méthodes hormonales (pilule), barrière (préservatif — protège aussi des IST), mécaniques.", "ar": "منع الحمل: وسائل هرمونية (القرص)، حائل (الواقي — يحمي كذلك من الأمراض المنقولة جنسياً)، ميكانيكية." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Méiose", "ar": "الانقسام المنصف" }, "def": { "fr": "Division qui réduit le nombre de chromosomes (2n → n) et crée la diversité.", "ar": "انقسام يخفض عدد الكروموسومات (2n ← n) ويولّد التنوع." } },
+    { "terme": { "fr": "Ovulation", "ar": "التبويض" }, "def": { "fr": "Libération de l'ovule par l'ovaire sous l'effet du pic de LH.", "ar": "تحرر البويضة من المبيض تحت تأثير ذروة LH." } },
+    { "terme": { "fr": "Nidation", "ar": "الانغراس" }, "def": { "fr": "Implantation de l'embryon dans la muqueuse utérine.", "ar": "انغراس الجنين في بطانة الرحم." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Quelle hormone déclenche l'ovulation ?", "ar": "أي هرمون يُطلق التبويض؟" },
+      "correction": { "etapes": [{ "fr": "Le pic de LH (hormone lutéinisante) au jour ≈ 14.", "ar": "ذروة LH نحو اليوم 14." }], "resultat": { "fr": "LH.", "ar": "LH." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Compare spermatogenèse et ovogenèse (continuité, produit).", "ar": "قارن بين تكوين النطائف والبويضات (الاستمرار والناتج)." },
+      "correction": { "etapes": [
+        { "fr": "Spermatogenèse : continue à partir de la puberté, 4 spermatozoïdes.", "ar": "تكوين النطائف: مستمر، 4 نطائف." },
+        { "fr": "Ovogenèse : bloquée puis achevée après fécondation, 1 ovule + 3 globules polaires.", "ar": "تكوين البويضات: متوقف ثم يكتمل بعد الإلقاح، بويضة + 3 اجسام قطبية." }
+      ], "resultat": { "fr": "Deux gamétogenèses asymétriques.", "ar": "تكوّنان غير متناظرين." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Pourquoi le préservatif est-il dit « double protection » ?", "ar": "لماذا يوصف الواقي بـ «الحماية المزدوجة»؟" },
+      "correction": { "etapes": [{ "fr": "Il évite la grossesse non désirée ET la transmission des IST (VIH…).", "ar": "يمنع الحمل غير المرغوب وأيضاً انتقال الأمراض المنقولة جنسياً." }], "resultat": { "fr": "Contraception + prévention des IST.", "ar": "منع الحمل + الوقاية من الأمراض المنقولة جنسياً." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "courte", "q": { "fr": "Hormone de l'ovulation :", "ar": "هرمون التبويض:" }, "acceptees": ["lh"], "explication": { "fr": "Pic de LH.", "ar": "ذروة LH." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Durée du cycle menstruel :", "ar": "مدة الدورة الشهرية:" },
+      "choix": [{ "fr": "≈ 28 jours", "ar": "نحو 28 يوماً" }, { "fr": "≈ 7 jours", "ar": "نحو 7 أيام" }, { "fr": "≈ 90 jours", "ar": "نحو 90 يوماً" }], "bonne": 0, "explication": { "fr": "Valeur moyenne.", "ar": "قيمة متوسطة." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "La méiose réduit le nombre de chromosomes de moitié.", "ar": "الانقسام المنصف يخفض عدد الكروموسومات إلى النصف." }, "bonne": true, "explication": { "fr": "2n → n.", "ar": "2n ← n." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Hormone de grossesse détectée par les tests :", "ar": "هرمون الحمل الذي تكشفه الاختبارات:" }, "acceptees": ["hcg"], "explication": { "fr": "HCG sécrétée dès la nidation.", "ar": "HCG تُفرز منذ الانغراس." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "La nidation a lieu dans :", "ar": "الانغراس يجري في:" },
+      "choix": [{ "fr": "l'utérus", "ar": "الرحم" }, { "fr": "la trompe", "ar": "الأنبوب" }, { "fr": "l'ovaire", "ar": "المبيض" }], "bonne": 0, "explication": { "fr": "Muqueuse utérine.", "ar": "بطانة الرحم." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "La progestérone est sécrétée par le corps jaune.", "ar": "البروجستيرون يُفرز من الجسم الأصفر." }, "bonne": true, "explication": { "fr": "Phase lutéale.", "ar": "المرحلة الجسمية الأصفرية." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Axe hormonal du cycle", "ar": "المحور الهرموني للدورة" }, "verso": { "fr": "Hypothalamus → hypophyse (FSH, LH) → ovaire.", "ar": "الوطاء ← النخامية (FSH، LH) ← المبيض." } },
+    { "id": "f2", "recto": { "fr": "Pic de LH →", "ar": "ذروة LH ←" }, "verso": { "fr": "Ovulation (≈ J14).", "ar": "التبويض (نحو اليوم 14)." } },
+    { "id": "f3", "recto": { "fr": "Produit de l'ovogenèse", "ar": "ناتج تكوين البويضات" }, "verso": { "fr": "1 ovule + 3 globules polaires.", "ar": "بويضة + 3 اجسام قطبية." } },
+    { "id": "f4", "recto": { "fr": "Méiose", "ar": "الانقسام المنصف" }, "verso": { "fr": "2n → n + brassage génétique.", "ar": "2n ← n + خلط وراثي." } },
+    { "id": "f5", "recto": { "fr": "HCG", "ar": "HCG" }, "verso": { "fr": "Hormone de grossesse.", "ar": "هرمون الحمل." } },
+    { "id": "f6", "recto": { "fr": "Préservatif : double rôle", "ar": "الواقي: دور مزدوج" }, "verso": { "fr": "Contraception + protection IST.", "ar": "منع الحمل + الوقاية من الأمراض المنقولة جنسياً." } }
+  ],
+  "notes_editeur": [
+    { "fr": "Programme de reproduction humaine 7AS D : vérifier l'étendue exacte exigée (schémas officiels, terminologie locale).", "ar": "برنامج التكاثر عند الإنسان: التحقق من المدى المطلوب بالضبط (الرسوم الرسمية، المصطلح المحلي)." }
+  ]
+}

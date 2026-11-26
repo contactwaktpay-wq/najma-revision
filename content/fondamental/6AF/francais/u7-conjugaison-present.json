@@ -1,0 +1,145 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-07",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 7,
+  "titre": { "fr": "Conjugaison : le présent de l'indicatif", "ar": "التصريف: زمن الحاضر الم فهوم" },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Conjuguer les verbes en -er au présent",
+      "Conjuguer être, avoir, aller, faire, prendre",
+      "Utiliser l'impératif pour donner des consignes"
+    ],
+    "ar": [
+      "تصريف أفعال المجموعة الأولى (تنتهي بـ -er) في الحاضر",
+      "تصريف être وavoir وaller وfaire وprendre",
+      "استعمال الأمر لإعطاء التعليمات"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Le présent des verbes en -er", "ar": "حاضر الأفعال المنتهية بـ -er" },
+      "puces": [
+        { "fr": "Je garde le radical (chanter → chant-) et j'ajoute les terminaisons : -e, -es, -e, -ons, -ez, -ent.", "ar": "أُبقي على الجذر (chanter ← chant-) وأضيف النهايات: -e، -es، -e، -ons، -ez، -ent." },
+        { "fr": "Je chante, tu chantes, il/elle chante, nous chantons, vous chantez, ils/elles chantent.", "ar": "أُغني، تُغني، يُغني، نُغني، تُغنون، يُغنون." },
+        { "fr": "Les terminaisons -e, -es, -e, -ent ne se prononcent pas (chantent = chant).", "ar": "النهايات -e، -es، -e، -ent لا تُنطق." }
+      ],
+      "tableau": {
+        "entetes": { "fr": ["Personne", "Terminaison", "Exemple (jouer)"], "ar": ["الضمير", "النهاية", "مثال (اللعب)"] },
+        "lignes": [
+          { "fr": ["je", "-e", "je joue"], "ar": ["أنا", "-e", "ألعب"] },
+          { "fr": ["tu", "-es", "tu joues"], "ar": ["أنت", "-es", "تلعب"] },
+          { "fr": ["il / elle / on", "-e", "il joue"], "ar": ["هو / هي", "-e", "يلعب"] },
+          { "fr": ["nous", "-ons", "nous jouons"], "ar": ["نحن", "-ons", "نلعب"] },
+          { "fr": ["vous", "-ez", "vous jouez"], "ar": ["أنتم", "-ez", "تلعبون"] },
+          { "fr": ["ils / elles", "-ent", "ils jouent"], "ar": ["هم / هن", "-ent", "يلعبون"] }
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Les 4 verbes indispensables", "ar": "الأفعال الأربعة الأساسية" },
+      "puces": [
+        { "fr": "être : je suis, tu es, il est, nous sommes, vous êtes, ils sont.", "ar": "être: أنا أكون، أنت تكون، هو يكون، نحن نكون، أنتم تكونون، هم يكونون." },
+        { "fr": "avoir : j'ai, tu as, il a, nous avons, vous avez, ils ont.", "ar": "avoir: عندي، عندك، عنده، عندنا، عندكم، عندهم." },
+        { "fr": "aller : je vais, tu vas, il va, nous allons, vous allez, ils vont.", "ar": "aller: أذهب، تذهب، يذهب، نذهب، تذهبون، يذهبون." },
+        { "fr": "faire : je fais, tu fais, il fait, nous faisons, vous faites, ils font.", "ar": "faire: أعمل، تعمل، يعمل، نعمل، تعملون، يعملون." }
+      ],
+      "exemple": { "fr": "Aujourd'hui, je vais à l'école, j'apprends ma leçon et je fais mes devoirs.", "ar": "اليوم أذهب إلى المدرسة، أتعلم درسي وأنجز واجباتي." }
+    },
+    {
+      "titre": { "fr": "L'impératif : donner un ordre ou un conseil", "ar": "الأمر: إعطاء أمر أو نصيحة" },
+      "puces": [
+        { "fr": "L'impératif n'a pas de sujet : « Finis ton devoir ! », « Écoutons la maîtresse. », « Fermez la porte. »", "ar": "الأمر بلا ضمير: «أنهِ واجبك!»، «نصغي للمعلمة»، «أغلقوا الباب»." },
+        { "fr": "Pour les verbes en -er : e, ons, ez → « Mange ! Mangeons ! Mangez ! »", "ar": "للأفعال المنتهية بـ -er: e، ons، ez ← «كُل! نأكل! كُلوا!»" },
+        { "fr": "être : sois, soyons, soyez ; avoir : aie, ayons, ayez.", "ar": "être: sois، soyons، soyez؛ avoir: aie، ayons، ayez." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Radical", "ar": "الجذر" }, "def": { "fr": "Partie du verbe qui ne change pas (dans chant-er : chant-).", "ar": "الجزء الثابت من الفعل (في chant-er: chant-)." } },
+    { "terme": { "fr": "Terminaison", "ar": "النهاية" }, "def": { "fr": "Lettres ajoutées au radical selon la personne.", "ar": "الحروف المضافة للجذر حسب الضمير." } },
+    { "terme": { "fr": "Verbe conjugué", "ar": "الفعل المصرف" }, "def": { "fr": "Verbe changé selon la personne et le temps.", "ar": "الفعل المتغير حسب الضمير والزمن." } },
+    { "terme": { "fr": "Impératif", "ar": "صيغة الأمر" }, "def": { "fr": "Mode qui exprime un ordre, un conseil ou une interdiction.", "ar": "صيغة تعبر عن الأمر أو النصيحة أو المنع." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Conjugue « chanter » au présent avec toutes les personnes.", "ar": "صرّف الفعل chanter في الحاضر مع جميع الضمائر." },
+      "correction": {
+        "etapes": [
+          { "fr": "Radical : chant- + terminaisons -e, -es, -e, -ons, -ez, -ent.", "ar": "الجذر: chant- + النهايات." },
+          { "fr": "Je chante, tu chantes, il chante, nous chantons, vous chantez, ils chantent.", "ar": "أُغني، تُغني، يُغني، نُغني، تُغنون، يُغنون." }
+        ],
+        "resultat": { "fr": "Voir étape 2", "ar": "انظر الخطوة 2" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 1,
+      "enonce": { "fr": "Complète avec être ou avoir : « Je ___ fatigué ; je ___ faim ; nous ___ en classe ; ils ___ un ballon. »", "ar": "أكمل بـ être أو avoir: «أنا متعب؛ أنا جائع؛ نحن في القسم؛ عندهم كرة.»" },
+      "correction": {
+        "etapes": [
+          { "fr": "fatigué → je suis ; faim → j'ai ; en classe → nous sommes ; un ballon → ils ont.", "ar": "متعب ← suis؛ جائع ← ai؛ في القسم ← sommes؛ كرة ← ont." }
+        ],
+        "resultat": { "fr": "suis ; ai ; sommes ; ont", "ar": "suis؛ ai؛ sommes؛ ont" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Corrige les conjugaisons fausses : « il vas », « nous mange », « vous faites » (est-ce juste ?), « ils prendent ».", "ar": "صحّح التصريفات الخاطئة: «il vas»، «nous mange»، «vous faites» (هل هي صحيحة؟)، «ils prendent»." },
+      "correction": {
+        "etapes": [
+          { "fr": "il vas → il va.", "ar": "il vas ← il va." },
+          { "fr": "nous mange → nous mangeons.", "ar": "nous mange ← nous mangeons." },
+          { "fr": "vous faites est correct ; ils prendent → ils prennent.", "ar": "vous faites صحيحة؛ ils prendent ← ils prennent." }
+        ],
+        "resultat": { "fr": "il va ; nous mangeons ; vous faites (correct) ; ils prennent", "ar": "il va؛ nous mangeons؛ vous faites (صحيح)؛ ils prennent" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 2,
+      "enonce": { "fr": "Écris une phrase avec « aller » au présent et une phrase avec « faire » au présent.", "ar": "اكتب جملة بفعل aller في الحاضر وجملة بفعل faire في الحاضر." },
+      "correction": {
+        "etapes": [
+          { "fr": "Exemples : « Nous allons au marché de Nouakchott. » « Tu fais tes devoirs chaque soir. »", "ar": "مثالان: «نذهب إلى سوق نواكشوط» «تعمل واجباتك كل مساء»." },
+          { "fr": "Barème : 1 pt par phrase correcte (sujet + verbe bien conjugué).", "ar": "التنقيط: نقطة لكل جملة صحيحة." }
+        ],
+        "resultat": { "fr": "Deux phrases complètes correctes", "ar": "جملتان كاملتان صحيحتان" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Mets à l'impératif : « Tu finis ton travail. » / « Vous fermez la porte. » / « Nous écoutons la leçon. »", "ar": "حوّل إلى الأمر: «أنهي عملي» / «أغلقون الباب» / «نُصغي للدرس»." },
+      "correction": {
+        "etapes": [
+          { "fr": "« Finis ton travail ! »", "ar": "«أنهِ عملك!»" },
+          { "fr": "« Fermez la porte ! »", "ar": "«أغلقوا الباب!»" },
+          { "fr": "« Écoutons la leçon ! »", "ar": "«نُصغي للدرس!»" }
+        ],
+        "resultat": { "fr": "Finis ! / Fermez ! / Écoutons !", "ar": "أنهِ! أغلقوا! نُصغي!" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Nous ___ (jouer) au ballon.", "ar": "نحن ___ (اللعب) بالكرة." }, "choix": [{ "fr": "jouons", "ar": "نلعب" }, { "fr": "jouez", "ar": "تلعبون" }, { "fr": "jouent", "ar": "يلعبون" }], "bonne": 0, "explication": { "fr": "nous → -ons.", "ar": "نحن ← -ons." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Ils ___ (être) contents.", "ar": "هم ___ (être) سعداء." }, "choix": [{ "fr": "sont", "ar": "يكونون" }, { "fr": "ont", "ar": "عندهم" }, { "fr": "somm" }], "bonne": 0, "explication": { "fr": "ils sont.", "ar": "هم يكونون (sont)." } },
+    { "id": "q3", "type": "courte", "q": { "fr": "Conjugue : je ___ (aller) à l'école.", "ar": "صرّف: أنا ___ (aller) إلى المدرسة." }, "acceptees": ["vais", "je vais", "أذهب"], "explication": { "fr": "je vais.", "ar": "أنا أذهب (vais)." } },
+    { "id": "q4", "type": "vf", "q": { "fr": "Avec « vous », les verbes en -er finissent en -ez.", "ar": "مع الضمير vous تنتهي أفعال -er بـ -ez." }, "bonne": true, "explication": { "fr": "Vrai : vous chantez.", "ar": "صحيح: vous chantez." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Quel est l'impératif de « finir » (tu) ?", "ar": "ما أمر الفعل finir (أنت)؟" }, "choix": [{ "fr": "Finis !", "ar": "أنهِ!" }, { "fr": "Finit !", "ar": "Finit!" }, { "fr": "Finissez !", "ar": "أنهوا!" }], "bonne": 0, "explication": { "fr": "Tu → Finis !", "ar": "أنت ← Finis!" } },
+    { "id": "q6", "type": "courte", "q": { "fr": "Conjugue : tu ___ (avoir) dix ans.", "ar": "صرّف: أنت ___ (avoir) عشر سنوات." }, "acceptees": ["as", "tu as", "لديك"], "explication": { "fr": "tu as.", "ar": "أنت لديك (as)." } },
+    { "id": "q7", "type": "qcm", "q": { "fr": "Nous ___ (faire) nos devoirs.", "ar": "نحن ___ (faire) واجباتنا." }, "choix": [{ "fr": "faisons", "ar": "نعمل" }, { "fr": "faites", "ar": "تعملون" }, { "fr": "font", "ar": "يعملون" }], "bonne": 0, "explication": { "fr": "nous faisons.", "ar": "نحن نعمل (faisons)." } },
+    { "id": "q8", "type": "vf", "q": { "fr": "À l'impératif, on garde le sujet (tu, nous, vous).", "ar": "في الأمر نُبقي على الضمير (tu، nous، vous)." }, "bonne": false, "explication": { "fr": "Faux : pas de sujet à l'impératif.", "ar": "خطأ: الأمر بلا ضمير." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Terminaisons du présent en -er ?", "ar": "نهايات الحاضر للأفعال بـ -er؟" }, "verso": { "fr": "-e, -es, -e, -ons, -ez, -ent", "ar": "-e، -es، -e، -ons، -ez، -ent" } },
+    { "id": "f2", "recto": { "fr": "être au présent (je, tu, il) ?", "ar": "تصريف être (أنا، أنت، هو)؟" }, "verso": { "fr": "Je suis, tu es, il est", "ar": "suis، es، est" } },
+    { "id": "f3", "recto": { "fr": "avoir au présent (nous, vous, ils) ?", "ar": "تصريف avoir (نحن، أنتم، هم)؟" }, "verso": { "fr": "Nous avons, vous avez, ils ont", "ar": "avons، avez، ont" } },
+    { "id": "f4", "recto": { "fr": "aller au présent (je, nous) ?", "ar": "تصريف aller (أنا، نحن)؟" }, "verso": { "fr": "Je vais, nous allons", "ar": "vais، allons" } },
+    { "id": "f5", "recto": { "fr": "faire au présent (il, ils) ?", "ar": "تصريف faire (هو، هم)؟" }, "verso": { "fr": "Il fait, ils font", "ar": "fait، font" } },
+    { "id": "f6", "recto": { "fr": "Impératif de « manger » (tu) ?", "ar": "أمر الفعل manger (أنت)؟" }, "verso": { "fr": "Mange !", "ar": "كُل!" } },
+    { "id": "f7", "recto": { "fr": "Radical de « jouer » ?", "ar": "جذر الفعل jouer؟" }, "verso": { "fr": "jou-", "ar": "jou-" } },
+    { "id": "f8", "recto": { "fr": "« ils » + verbe en -er : terminaison ?", "ar": "الضمير ils + فعل بـ -er: النهاية؟" }, "verso": { "fr": "-ent (non prononcée)", "ar": "-ent (لا تُنطق)" } }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "sehil.examen@1",
+  "statut": "PUBLIE",
+  "id": "EX-7ASD",
+  "niveau": "7AS",
+  "serie": "D",
+  "type": "BAC",
+  "titre": { "fr": "Bac blanc série D — Mathématiques", "ar": "بكالوريا تجريبية شعبة D — الرياضيات" },
+  "matiere": "mathematiques",
+  "duree_min": 240,
+  "note_max": 20,
+  "consignes": {
+    "fr": [
+      "Épreuve de 4 heures : environ 1 heure par exercice, rédaction comptée dans le barème.",
+      "Justifie chaque résultat : un résultat juste sans justification perd la moitié des points.",
+      "Les réponses numériques tolèrent ±0,05.",
+      "Questions de rédaction : corrige-toi avec le corrigé, compte honnêtement."
+    ],
+    "ar": [
+      "امتحان من 4 ساعات: نحو ساعة لكل تمرين، والتحرير يدخل في التنقيط.",
+      "علّل كل نتيجة: النتيجة الصحيحة بلا تعليل تفقد نصف النقط.",
+      "تقبل الإجابات العددية بخطأ ±0,05.",
+      "أسئلة التحرير: صحّح نفسك بالمصحح واحسب بصدق."
+    ]
+  },
+  "sections": [
+    {
+      "titre": { "fr": "Exercice 1 — Limites et continuité (5 points)", "ar": "التمرين 1 — النهايات والاتصال (5 نقاط)" },
+      "points": 5,
+      "questions": [
+        { "id": "A1", "type": "courte", "points": 1,
+          "enonce": { "fr": "Calcule lim x→1 (2x² − 3x + 1)/(x − 1).", "ar": "احسب lim x→1 (2x² − 3x + 1)/(x − 1)." },
+          "acceptees": ["1"],
+          "correction": { "etapes": [
+            { "fr": "Forme 0/0 : on factorise 2x² − 3x + 1 = (2x − 1)(x − 1).", "ar": "صورة 0/0: نحلل المقدار." },
+            { "fr": "On simplifie par (x − 1) puis on remplace : 2 × 1 − 1 = 1.", "ar": "نبسّط ثم نعوض: 1." }
+          ], "resultat": { "fr": "1", "ar": "1" } } },
+        { "id": "A2", "type": "courte", "points": 1,
+          "enonce": { "fr": "Calcule lim x→+∞ (3x² − 5)/(x² + 1).", "ar": "احسب lim x→+∞ (3x² − 5)/(x² + 1)." },
+          "acceptees": ["3"],
+          "correction": { "etapes": [
+            { "fr": "Rappel : en +∞, un quotient de polynômes a la limite du rapport des termes de plus haut degré.", "ar": "تذكير: نسبة الحدود الأعلى درجة." },
+            { "fr": "3x² ÷ x² = 3.", "ar": "3." }
+          ], "resultat": { "fr": "3", "ar": "3" } } },
+        { "id": "A3", "type": "redaction", "points": 2,
+          "enonce": { "fr": "Montre que l'équation x³ + x − 4 = 0 admet une unique solution α dans ]1 ; 2[.", "ar": "بيّن أن المعادلة x³ + x − 4 = 0 تقبل حلاً وحيداً α في ]1؛ 2[." },
+          "consigne": { "fr": "Pense à : continuité (polynôme), dérivée positive (fonction croissante), valeurs aux bornes, théorème des valeurs intermédiaires.", "ar": "فكّر في: الاتصال، تزايد الدالة، القيم عند الأطراف، مبرهنة القيم الوسطية." },
+          "correction": {
+            "etapes": [
+              { "fr": "g(x) = x³ + x − 4 est un polynôme → continue sur [1 ; 2].", "ar": "الدالة متصلة على المجال." },
+              { "fr": "g′(x) = 3x² + 1 > 0 → g strictement croissante.", "ar": "المشتقة موجبة ← الدالة تزايدية تماماً." },
+              { "fr": "g(1) = −2 < 0 et g(2) = 6 > 0 → d'après le TVI, l'équation admet une unique solution α ∈ ]1 ; 2[.", "ar": "مبرهنة القيم الوسطية ← حل وحيد." }
+            ],
+            "resultat": { "fr": "Unique solution α ≈ 1,38.", "ar": "حل وحيد α ≈ 1,38." }
+          } },
+        { "id": "A4", "type": "courte", "points": 1,
+          "enonce": { "fr": "Encadre α (solution de x³ + x − 4 = 0) à 0,1 près.", "ar": "أطّر α بمقدار 0,1." },
+          "acceptees": ["1,3 ; 1,4", "1.3 < alpha < 1.4", "1,3<α<1,4", "1,3<α<1,4 "],
+          "correction": { "etapes": [
+            { "fr": "g(1,3) = 1,3³ + 1,3 − 4 = 2,197 + 1,3 − 4 = −0,503 < 0.", "ar": "g(1,3) سالبة." },
+            { "fr": "g(1,4) = 2,744 + 1,4 − 4 = 0,144 > 0 → 1,3 < α < 1,4.", "ar": "g(1,4) موجبة ← التأطير." }
+          ], "resultat": { "fr": "1,3 < α < 1,4", "ar": "1,3 < α < 1,4" } } }
+      ]
+    },
+    {
+      "titre": { "fr": "Exercice 2 — Suites numériques (5 points)", "ar": "التمرين 2 — المتتاليات (5 نقاط)" },
+      "points": 5,
+      "questions": [
+        { "id": "B1", "type": "calcul", "points": 1,
+          "enonce": { "fr": "u₀ = 2 et uₙ₊₁ = 0,5·uₙ + 3 : calcule u₁.", "ar": "u₀ = 2 و uₙ₊₁ = 0,5·uₙ + 3: احسب u₁." },
+          "acceptees": ["4"],
+          "correction": { "etapes": [{ "fr": "u₁ = 0,5 × 2 + 3 = 4.", "ar": "u₁ = 4." }], "resultat": { "fr": "4", "ar": "4" } } },
+        { "id": "B2", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Calcule u₂.", "ar": "احسب u₂." },
+          "acceptees": ["5"],
+          "correction": { "etapes": [{ "fr": "u₂ = 0,5 × 4 + 3 = 5.", "ar": "u₂ = 5." }], "resultat": { "fr": "5", "ar": "5" } } },
+        { "id": "B3", "type": "redaction", "points": 2,
+          "enonce": { "fr": "Montre que vₙ = uₙ − 6 est géométrique ; précise sa raison et son premier terme.", "ar": "بيّن أن vₙ = uₙ − 6 هندسية؛ حدد أساسها وحدتها الأولى." },
+          "consigne": { "fr": "Calcule vₙ₊₁ en fonction de vₙ, puis conclus : v géométrique si vₙ₊₁ = q · vₙ.", "ar": "احسب vₙ₊₁ بدلالة vₙ ثم استنتج." },
+          "correction": {
+            "etapes": [
+              { "fr": "vₙ₊₁ = uₙ₊₁ − 6 = 0,5·uₙ + 3 − 6 = 0,5·uₙ − 3 = 0,5(uₙ − 6) = 0,5·vₙ.", "ar": "vₙ₊₁ = 0,5·vₙ." },
+              { "fr": "Donc v est géométrique de raison q = 1/2 et v₀ = u₀ − 6 = −4.", "ar": "إذن v هندسية أساسها 1/2 وحدتها الأولى −4." }
+            ],
+            "resultat": { "fr": "v géométrique, q = 1/2, v₀ = −4.", "ar": "v هندسية، q = 1/2، v₀ = −4." }
+          } },
+        { "id": "B4", "type": "courte", "points": 1,
+          "enonce": { "fr": "En déduire lim uₙ quand n → +∞.", "ar": "استنتج نهاية المتتالية u." },
+          "acceptees": ["6"],
+          "correction": { "etapes": [
+            { "fr": "vₙ = −4 × (1/2)ⁿ → 0 car |q| < 1.", "ar": "vₙ ← 0 لأن |q| < 1." },
+            { "fr": "uₙ = vₙ + 6 → 6.", "ar": "uₙ ← 6." }
+          ], "resultat": { "fr": "lim uₙ = 6", "ar": "lim uₙ = 6" } } }
+      ]
+    },
+    {
+      "titre": { "fr": "Exercice 3 — Probabilités (5 points)", "ar": "التمرين 3 — الاحتمالات (5 نقاط)" },
+      "points": 5,
+      "questions": [
+        { "id": "C1", "type": "courte", "points": 1,
+          "enonce": { "fr": "Une urne contient 5 boules rouges et 3 bleues. On tire 2 boules sans remise. P(2 rouges) = ? (fraction)", "ar": "كيس فيه 5 كرات حمراء و 3 زرقاء. نسحب كرتين دون إرجاع. ما احتمال الحمراوين؟" },
+          "acceptees": ["5/14", "10/28", "0,36", "0.36"],
+          "correction": { "etapes": [
+            { "fr": "Au 1er tirage : 5/8. Au 2e (sans remise) : 4/7.", "ar": "السحبة الأولى 5/8 والثانية 4/7." },
+            { "fr": "P = 5/8 × 4/7 = 20/56 = 5/14 ≈ 0,36.", "ar": "الاحتمال = 5/14." }
+          ], "resultat": { "fr": "5/14", "ar": "5/14" } } },
+        { "id": "C2", "type": "courte", "points": 1,
+          "enonce": { "fr": "P(au moins une bleue) = ?", "ar": "ما احتمال زرقاء واحدة على الأقل؟" },
+          "acceptees": ["9/14", "0,64", "0.64"],
+          "correction": { "etapes": [
+            { "fr": "Astuce : « au moins une » = 1 − « aucune » = 1 − P(2 rouges).", "ar": "حيلة: واحد ناقص احتمال الحمراوين." },
+            { "fr": "P = 1 − 5/14 = 9/14.", "ar": "9/14." }
+          ], "resultat": { "fr": "9/14", "ar": "9/14" } } },
+        { "id": "C3", "type": "courte", "points": 2,
+          "enonce": { "fr": "P(une rouge et une bleue, dans n'importe quel ordre) = ?", "ar": "ما احتمال حمراء وزرقاء بأي ترتيب؟" },
+          "acceptees": ["15/28", "30/56", "0,54", "0.54"],
+          "correction": { "etapes": [
+            { "fr": "Deux cas : rouge puis bleue (5/8 × 3/7) et bleue puis rouge (3/8 × 5/7).", "ar": "حالتان: حمراء ثم زرقاء والعكس." },
+            { "fr": "Chaque cas vaut 15/56 ; total = 30/56 = 15/28 ≈ 0,54.", "ar": "المجموع 15/28." }
+          ], "resultat": { "fr": "15/28", "ar": "15/28" } } },
+        { "id": "C4", "type": "vf", "points": 1,
+          "enonce": { "fr": "Dans ce tirage sans remise, les deux tirages sont indépendants.", "ar": "في هذا السحب دون إرجاع، السحبان مستقلان." },
+          "bonne": false,
+          "correction": { "etapes": [
+            { "fr": "Sans remise, la composition de l'urne change après le 1er tirage.", "ar": "دون إرجاع يتغير تركيب الكيس." },
+            { "fr": "Les tirages sont donc dépendants.", "ar": "إذن السحبان مترابطان." }
+          ], "resultat": { "fr": "Faux.", "ar": "خطأ." } } }
+      ]
+    },
+    {
+      "titre": { "fr": "Problème — Autour de la fonction x·ln(x) (5 points)", "ar": "المسألة — حول الدالة x·ln(x) (5 نقاط)" },
+      "points": 5,
+      "questions": [
+        { "id": "D1", "type": "courte", "points": 1,
+          "enonce": { "fr": "Soit f(x) = x·ln(x) sur ]0 ; +∞[. Calcule f′(x).", "ar": "ليكن f(x) = x·ln(x). احسب f′(x)." },
+          "acceptees": ["1+ln(x)", "1+lnx", "1 + ln x", "ln(x)+1"],
+          "correction": { "etapes": [
+            { "fr": "Produit : (u·v)′ = u′v + uv′ avec u = x, v = ln x.", "ar": "بصيغة الضرب." },
+            { "fr": "f′(x) = 1 × ln(x) + x × (1/x) = ln(x) + 1.", "ar": "f′(x) = ln(x) + 1." }
+          ], "resultat": { "fr": "f′(x) = 1 + ln(x)", "ar": "f′(x) = 1 + ln(x)" } } },
+        { "id": "D2", "type": "courte", "points": 1,
+          "enonce": { "fr": "En déduire une primitive de g(x) = 1 + ln(x) sur ]0 ; +∞[.", "ar": "استنتج دالة أصلية للدالة g(x) = 1 + ln(x)." },
+          "acceptees": ["x·ln(x)", "xlnx", "x*ln(x)", "x ln(x)"],
+          "correction": { "etapes": [
+            { "fr": "D1 montre que (x·ln(x))′ = 1 + ln(x).", "ar": "السؤال الأول يعطي النتيجة مباشرة." },
+            { "fr": "Donc une primitive de g est F(x) = x·ln(x).", "ar": "إذن F(x) = x·ln(x)." }
+          ], "resultat": { "fr": "F(x) = x·ln(x)", "ar": "F(x) = x·ln(x)" } } },
+        { "id": "D3", "type": "calcul", "points": 2,
+          "enonce": { "fr": "Calcule ∫₁^e (1 + ln x) dx.", "ar": "احسب ∫₁^e (1 + ln x) dx." },
+          "acceptees": ["e", "2,718", "2.718", "e ≈ 2,718"],
+          "correction": { "etapes": [
+            { "fr": "∫ = F(e) − F(1) avec F(x) = x·ln(x).", "ar": "نطبق الدالة الأصلية على الطرفين." },
+            { "fr": "F(e) = e·ln(e) = e × 1 = e ; F(1) = 1 × ln(1) = 0.", "ar": "F(e) = e و F(1) = 0." },
+            { "fr": "∫ = e − 0 = e ≈ 2,718 unités d'aire.", "ar": "التكامل = e ≈ 2,718." }
+          ], "resultat": { "fr": "e ≈ 2,718", "ar": "e ≈ 2,718" } } },
+        { "id": "D4", "type": "redaction", "points": 1,
+          "enonce": { "fr": "Interprète graphiquement le résultat de D3.", "ar": "فسّر هندسياً نتيجة السؤال السابق." },
+          "consigne": { "fr": "Une phrase suffit : que représente ∫₁^e g(x) dx sur la courbe de g ?", "ar": "جملة واحدة تكفي." },
+          "correction": {
+            "etapes": [
+              { "fr": "Corrigé type : « ∫₁^e g(x) dx représente l'aire, en unités d'aire, du domaine compris entre la courbe de g, l'axe des abscisses et les droites x = 1 et x = e ; cette aire vaut environ 2,718. »", "ar": "«التكامل يمثل مساحة المجال بين منحنى الدالة ومحور الفواصل والمستقيمين x=1 و x=e، وتساوي نحو 2,718.»" }
+            ],
+            "resultat": { "fr": "Aire ≈ e unités d'aire.", "ar": "المساحة ≈ e وحدة مساحة." }
+          } }
+      ]
+    }
+  ],
+  "notes_editeur": [
+    { "fr": "Structure type bac D : 2 exercices d'analyse + probabilités + problème progressif (dérivée → primitive → intégrale → interprétation). Coefficients indicatifs à ajuster selon le barème officiel du bac mauritanien série D.", "ar": "بنية قياسية لبكالوريا D: تمرينان للتحليل + احتمالات + مسألة تصاعدية. المعاملات استرشادية تُعدّل وفق السلّم الرسمي." }
+  ]
+}

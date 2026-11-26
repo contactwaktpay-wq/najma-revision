@@ -1,0 +1,482 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-04",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 4,
+  "titre": {
+    "fr": "Orthographe : homophones et accords",
+    "ar": "الإملاء: المتجانسات والمطابقات"
+  },
+  "duree_min": 25,
+  "objectifs": {
+    "fr": [
+      "Distinguer les homophones fréquents (a/à, et/est, on/ont, son/sont, ou/où)",
+      "Écrire correctement le pluriel des noms et adjectifs",
+      "Accorder le participe passé avec être"
+    ],
+    "ar": [
+      "التمييز بين المتجانسات الشائعة (a/à، et/est، on/ont، son/sont، ou/où)",
+      "كتابة جمع الأسماء والصفات صحيحاً",
+      "مطابقة اسم المفعول مع être"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Les homophones pièges",
+        "ar": "المتجانسات الفخاخ"
+      },
+      "puces": [
+        {
+          "fr": "a = verbe avoir (il a). à = préposition (à Nouakchott). Test : remplace par « avait ».",
+          "ar": "a = فعل avoir. à = حرف جر. الاختبار: استبدلها بـ «avait»."
+        },
+        {
+          "fr": "est = verbe être (il est grand). et = conjonction (le pain et le lait). Test : remplace par « était ».",
+          "ar": "est = فعل être. et = عطف. الاختبار: استبدلها بـ «était»."
+        },
+        {
+          "fr": "on = pronom (on part). ont = verbe avoir (ils ont). Test : « avaient ».",
+          "ar": "on = ضمير. ont = فعل avoir. الاختبار: «avaient»."
+        },
+        {
+          "fr": "son = possessif (son livre). sont = verbe être (ils sont). Test : « étaient ».",
+          "ar": "son = ملكية. sont = فعل être. الاختبار: «étaient»."
+        },
+        {
+          "fr": "ou = choix (thé ou café). où = lieu (où vas-tu ?).",
+          "ar": "ou = اختيار. où = مكان."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Accords à maîtriser",
+        "ar": "مطابقات يجب إتقانها"
+      },
+      "puces": [
+        {
+          "fr": "Adjectif pluriel déjà vu : + s ou + x selon la terminaison.",
+          "ar": "الصفة الجمعية: + s أو + x حسب النهاية."
+        },
+        {
+          "fr": "Participe passé avec être : « elles sont arrivées » (féminin pluriel → -ées).",
+          "ar": "اسم المفعول مع être: «elles sont arrivées» (مؤنث جمع ← -ées)."
+        },
+        {
+          "fr": "Verbe + sujet collectif : « le troupeau passe » (singulier).",
+          "ar": "الفعل مع الفاعل الجماعي: «القطيع يعبر» (مفرد)."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Choisis la bonne forme : « Les dattes (son/sont) mûres ; le dromadaire (a/à) soif. »",
+          "ar": "اختر الصيغة الصحيحة: «التمر (son/sont) ناضج ؛ الجمل (a/à) عطش.»"
+        },
+        "etapes": [
+          {
+            "fr": "« dattes » pluriel + adjectif → verbe être : sont.",
+            "ar": "«التمر» جمع + صفة ← فعل être: sont."
+          },
+          {
+            "fr": "« soif » = avoir quelque chose → a.",
+            "ar": "«عطش» = avoir شيئاً ← a."
+          }
+        ],
+        "resultat": {
+          "fr": "sont ; a",
+          "ar": "sont ؛ a"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Homophone",
+        "ar": "متجانس سمعي"
+      },
+      "def": {
+        "fr": "Mots qui se prononcent pareil mais s'écrivent différemment.",
+        "ar": "كلمات تُنطق بنفس الطريقة لكن تُكتب مختلفة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Préposition",
+        "ar": "حرف جر"
+      },
+      "def": {
+        "fr": "Mot-outil (à, de, sur, dans) qui relie des mots.",
+        "ar": "أداة (à، de، sur، dans) تربط الكلمات."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Conjonction",
+        "ar": "حرف عطف"
+      },
+      "def": {
+        "fr": "Mot qui relie (et, ou, mais, donc).",
+        "ar": "كلمة تربط (et، ou، mais، donc)."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Complète : « Il ___ dix ans. » / « Elle habite ___ Rosso. »",
+        "ar": "أكمل: «___ له عشر سنوات.» / «تسكن ___ في روسو.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "a (avait) ; à (lieu).",
+            "ar": "a (avait) ؛ à (مكان)."
+          }
+        ],
+        "resultat": {
+          "fr": "a ; à",
+          "ar": "a ؛ à"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Choisis : « Ils (on/ont) fini » et « Le mendiant (son/sont) sac est plein ».",
+        "ar": "اختر: «إنهم (on/ont) أنهوا» و«الفقير (son/sont) كيسه ممتلئ»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "avaient → ont ; son sac (possessif).",
+            "ar": "avaient ← ont ؛ son sac (ملكية)."
+          }
+        ],
+        "resultat": {
+          "fr": "ont ; son",
+          "ar": "ont ؛ son"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Accorde : « Les élèves sont (parti, partis, parties) au stade. » (mixte)",
+        "ar": "طبّق المطابقة: «التلاميذ (parti/partis/parties) إلى الملعب.» (مختلط)"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Sujets masculins pluriel → partis.",
+            "ar": "فاعل مذكر جمع ← partis."
+          }
+        ],
+        "resultat": {
+          "fr": "partis",
+          "ar": "partis"
+        }
+      },
+      "acceptees": [
+        "partis"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Complète avec et/est : « Le désert ___ vaste ___ chaud. » Puis son/sont : « Ils ___ amis ; c’est ___ frère. »",
+        "ar": "أكمل بـ et/est ثم son/sont."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "est (verbe) ; et (et-liaison).",
+            "ar": "est فعل؛ et ربط."
+          },
+          {
+            "fr": "sont (ils) ; son (le sien).",
+            "ar": "sont؛ son."
+          }
+        ],
+        "resultat": {
+          "fr": "est ; et ; sont ; son",
+          "ar": "est؛ et؛ sont؛ son"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Corrige : « les eleve son entrain de lire, il son content ».",
+        "ar": "صحّح: «التلاميذ يقرأون، هم سعداء»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Les élèves sont en train de lire ; ils sont contents.",
+            "ar": "Les élèves sont… ils sont contents."
+          }
+        ],
+        "resultat": {
+          "fr": "Voir étapes",
+          "ar": "انظر الخطوات"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "« Les élèves ___ dans la classe. »",
+        "ar": "«التلاميذ ___ في القسم.»"
+      },
+      "choix": [
+        {
+          "fr": "sont",
+          "ar": "sont"
+        },
+        {
+          "fr": "son",
+          "ar": "son"
+        },
+        {
+          "fr": "ont",
+          "ar": "ont"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "étaient → sont.",
+        "ar": "avaient ← sont."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "« Tu viens ___ la fin ? »",
+        "ar": "«تأتي ___ في النهاية؟»"
+      },
+      "choix": [
+        {
+          "fr": "à",
+          "ar": "à"
+        },
+        {
+          "fr": "a",
+          "ar": "a"
+        },
+        {
+          "fr": "as",
+          "ar": "as"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Préposition de temps.",
+        "ar": "حرف جر زمني."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "« ou » et « où » s'écrivent pareil.",
+        "ar": "«ou» و«où» تُكتبان بنفس الطريقة."
+      },
+      "bonne": false,
+      "explication": {
+        "fr": "où porte un accent (lieu).",
+        "ar": "où عليها تشديد (مكان)."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Complète : « elles sont arriv___ (féminin pluriel). »",
+        "ar": "أكمل: «elles sont arriv___ (مؤنث جمع).»"
+      },
+      "acceptees": [
+        "ées",
+        "arrivees",
+        "arrivées"
+      ],
+      "explication": {
+        "fr": "Participe passé avec être, accordé.",
+        "ar": "اسم المفعول مع être مع المطابقة."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "« Le thé (et/est) le lait » :",
+        "ar": "«الشاي (et/est) الحليب»:"
+      },
+      "choix": [
+        {
+          "fr": "et",
+          "ar": "et"
+        },
+        {
+          "fr": "est",
+          "ar": "est"
+        },
+        {
+          "fr": "ait",
+          "ar": "ait"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Conjonction de liaison.",
+        "ar": "حرف عطف ربط."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Choisis : « Ils ___ soif. » (on/ont)",
+        "ar": "اختر: «إنهم ___ عطشى.» (on/ont)"
+      },
+      "acceptees": [
+        "ont"
+      ],
+      "explication": {
+        "fr": "avaient → ont.",
+        "ar": "avaient ← ont."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "courte",
+      "q": {
+        "fr": "« ___ mangent » : on/son/sont ? (choisis l’homophone correct)",
+        "ar": "«___ يأكلون»: اختر المتماثلة الصحيحة."
+      },
+      "acceptees": [
+        "sont"
+      ],
+      "explication": {
+        "fr": "Ils mangent → « sont » ne convient pas ici ; « ils » + verbe. Réponse : sont ne va pas avec mangent… la bonne phrase : « Ils mangent ».",
+        "ar": "الجملة الصحيحة: «Ils mangent»."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "« son » peut remplacer « le sien ».",
+        "ar": "«son» تعني «له»."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai : son livre = le livre à lui.",
+        "ar": "صحيح."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Test pour a / à",
+        "ar": "اختبار a / à"
+      },
+      "verso": {
+        "fr": "Remplacer par « avait » → a.",
+        "ar": "الاستبدال بـ «avait» ← a."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Test pour est / et",
+        "ar": "اختبار est / et"
+      },
+      "verso": {
+        "fr": "Remplacer par « était » → est.",
+        "ar": "الاستبدال بـ «était» ← est."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "où vs ou",
+        "ar": "où مقابل ou"
+      },
+      "verso": {
+        "fr": "où = lieu ; ou = choix.",
+        "ar": "où = مكان؛ ou = اختيار."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Accord du participe avec être",
+        "ar": "مطابقة اسم المفعول مع être"
+      },
+      "verso": {
+        "fr": "Genre + nombre (partie, partis, parties).",
+        "ar": "الجنس + العدد."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "on vs ont",
+        "ar": "on مقابل ont"
+      },
+      "verso": {
+        "fr": "« avaient » → ont.",
+        "ar": "«avaient» ← ont."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Sujets collectifs : accord",
+        "ar": "الفاعل الجماعي: المطابقة"
+      },
+      "verso": {
+        "fr": "Singulier (le troupeau passe).",
+        "ar": "مفرد (القطيع يعبر)."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "et ou est ?",
+        "ar": "et أم est؟"
+      },
+      "verso": {
+        "fr": "est = verbe être ; et = « et aussi ».",
+        "ar": "est فعل؛ et = «و»."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "son ou sont ?",
+        "ar": "son أم sont؟"
+      },
+      "verso": {
+        "fr": "sont = ils sont (verbe) ; son = le sien (déterminant).",
+        "ar": "sont فعل؛ son ملكية."
+      }
+    }
+  ]
+}

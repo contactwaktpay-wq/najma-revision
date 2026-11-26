@@ -1,0 +1,77 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-svn-04",
+  "niveau": "4AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 4,
+  "titre": { "fr": "Puberté et reproduction humaine", "ar": "البلوغ والتكاثر عند الإنسان" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Décrire les transformations de la puberté chez le garçon et la fille", "Nommer les organes génitaux et leur rôle", "Expliquer fécondation et grossesse et adopter des comportements responsables"],
+    "ar": ["وصف تحولات البلوغ عند الفتى والفتاة", "تسمية الأعضاء التناسلية وأدوارها", "شرح الإلقاح والحمل وتبنّي سلوكات مسؤولة"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "La puberté", "ar": "البلوغ" },
+      "bloc": [{ "fr": "La puberté (≈ 12-15 ans) marque le passage à l'âge adulte : le corps se transforme sous l'effet des hormones sexuelles produites par les gonades (testicules chez le garçon, ovaires chez la fille).", "ar": "البلوغ (نحو 12-15 سنة) يمثل الانتقال إلى سن الرشد: يتحول الجسم تحت تأثير الهرمونات الجنسية التي تنتجها الغدد التناسلية (الخصيتان عند الفتى، المبيضان عند الفتاة)." }],
+      "puces": [
+        { "fr": "Garçon : voix plus grave, pilosité, épaules élargies, première émission de sperme.", "ar": "الفتى: تغيّر الصوت، نمو الشعر، اتساع الأكتاف، أول انبعاث للسائل المنوي." },
+        { "fr": "Fille : seins, hanches élargies, premières règles (cycles menstruels).", "ar": "الفتاة: نمو الثديين، اتساع الحوض، أول دورة شهرية." },
+        { "fr": "Conduite : hygiène corporelle stricte, respect de soi et des autres, éviter toute grossesse précoce.", "ar": "السلوك: نظافة شخصية صارمة، احترام الذات والآخرين، وتجنب أي حمل مبكر." }
+      ]
+    },
+    {
+      "titre": { "fr": "Les organes génitaux", "ar": "الأعضاء التناسلية" },
+      "puces": [
+        { "fr": "Homme : testicules (fabriquent les spermatozoïdes et la testostérone), voies génitales, pénis.", "ar": "الرجل: الخصيتان (تصنعان النطائف وهرمون التستوستيرون)، الطرق التناسلية، القضيب." },
+        { "fr": "Femme : ovaires (libèrent un ovule à chaque cycle et produisent les hormones), trompes, utérus (accueille l'embryon), vagin.", "ar": "المرأة: المبيضان (يحرران بويضة في كل دورة وينتجان الهرمونات)، الأنبوبان، الرحم (يستقبل الجنين)، المهبل." }
+      ]
+    },
+    {
+      "titre": { "fr": "De la fécondation à la naissance", "ar": "من الإلقاح إلى الولادة" },
+      "bloc": [{ "fr": "La fécondation = rencontre du spermatozoïde et de l'ovule dans une trompe. L'œuf formé s'implante dans l'utérus : c'est le début de la grossesse (≈ 9 mois), à la fin de laquelle le bébé naît par l'accouchement.", "ar": "الإلقاح = لقاء النطفة بالبويضة في أحد الأنبوبين. تنغرس البيضة الملقحة في الرحم: بداية الحمل (نحو 9 أشهر) الذي ينتهي بالولادة." }],
+      "exemple": {
+        "enonce": { "fr": "Où a lieu la fécondation ?", "ar": "أين يحدث الإلقاح؟" },
+        "etapes": [{ "fr": "Dans la trompe de Fallope (voies génitales de la femme).", "ar": "في أنبوب فالوب (الطرق التناسلية للمرأة)." }],
+        "resultat": { "fr": "Dans la trompe.", "ar": "في الأنبوب." }
+      }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Spermatozoïde", "ar": "النطفة" }, "def": { "fr": "Cellule reproductive mâle, mobile.", "ar": "خلية تناسلية ذكرية متحركة." } },
+    { "terme": { "fr": "Ovule", "ar": "البويضة" }, "def": { "fr": "Cellule reproductive femelle, libérée par l'ovaire.", "ar": "خلية تناسلية أنثوية يُحررها المبيض." } },
+    { "terme": { "fr": "Fécondation", "ar": "الإلقاح" }, "def": { "fr": "Fusion du spermatozoïde et de l'ovule.", "ar": "اندماج النطفة والبويضة." } },
+    { "terme": { "fr": "Cycle menstruel", "ar": "الدورة الشهرية" }, "def": { "fr": "Période régulière (≈ 28 jours) au cours de laquelle un ovule est libéré et la muqueuse utérine se renouvelle.", "ar": "فترة منتظمة (نحو 28 يوماً) يُحرر فيها المبيض بويضة وتتجدد بطانة الرحم." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Cite deux transformations de la puberté chez la fille.", "ar": "اذكر تحولين للبلوغ عند الفتاة." },
+      "correction": { "etapes": [{ "fr": "Développement des seins ; premières règles.", "ar": "نمو الثديين؛ أول دورة شهرية." }], "resultat": { "fr": "Deux transformations correctes.", "ar": "تحولان صحيحان." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Relie chaque organe à son rôle : testicule / ovule ; ovaire / spermatozoïde.", "ar": "اربط كل عضو بوظيفته: الخصية / البويضة ؛ المبيض / النطفة." },
+      "correction": { "etapes": [{ "fr": "Testicule → spermatozoïdes ; ovaire → ovule.", "ar": "الخصية ← النطائف ؛ المبيض ← البويضة." }], "resultat": { "fr": "Correspondances correctes.", "ar": "المطابقات صحيحة." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Propose trois comportements responsables pour un adolescent.", "ar": "اقترح ثلاثة سلوكات مسؤولة لمراهق." },
+      "correction": { "etapes": [{ "fr": "Hygiène (douches régulières), sport et sommeil, éviter toute relation sexuelle précoce et toute grossesse non désirée ; parler à un adulte de confiance.", "ar": "النظافة (حمّامات منتظمة)، الرياضة والنوم، تجنب أي علاقة مبكرة وأي حمل غير مرغوب، والتحدث إلى شخص بالغ موثوق." }], "resultat": { "fr": "Hygiène + santé + responsabilité.", "ar": "نظافة + صحة + مسؤولية." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Les spermatozoïdes sont fabriqués par :", "ar": "النطائف تُصنع في:" },
+      "choix": [{ "fr": "les testicules", "ar": "الخصيتين" }, { "fr": "les ovaires", "ar": "المبيضين" }, { "fr": "l'utérus", "ar": "الرحم" }], "bonne": 0, "explication": { "fr": "Gonade mâle.", "ar": "الغدة التناسلية الذكرية." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "La fécondation a lieu…", "ar": "يحدث الإلقاح…" },
+      "choix": [{ "fr": "dans la trompe", "ar": "في الأنبوب" }, { "fr": "dans le vagin", "ar": "في المهبل" }, { "fr": "dans l'ovaire", "ar": "في المبيض" }], "bonne": 0, "explication": { "fr": "Rencontre spermatozoïde + ovule.", "ar": "لقاء النطفة والبويضة." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "La puberté est déclenchée par des hormones.", "ar": "البلوغ يُثار بالهرمونات." }, "bonne": true, "explication": { "fr": "Hormones sexuelles des gonades.", "ar": "هرمونات الغدد التناسلية." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Durée approximative de la grossesse (mois) ?", "ar": "مدة الحمل التقريبية (بالأشهر)؟" }, "acceptees": ["9", "9 mois"], "explication": { "fr": "≈ 9 mois.", "ar": "نحو 9 أشهر." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Où s'implante l'œuf ?", "ar": "أين تنغرس البيضة الملقحة؟" },
+      "choix": [{ "fr": "dans l'utérus", "ar": "في الرحم" }, { "fr": "dans l'ovaire", "ar": "في المبيض" }, { "fr": "dans la trompe", "ar": "في الأنبوب" }], "bonne": 0, "explication": { "fr": "Muqueuse utérine.", "ar": "بطانة الرحم." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "Une grossesse précoce présente des risques pour l'adolescente.", "ar": "الحمل المبكر يشكل خطراً على المراهقة." }, "bonne": true, "explication": { "fr": "Corps non prêt + interruption d'études.", "ar": "الجسم غير مستعد + قطع الدراسة." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Gonades femelles", "ar": "الغدد التناسلية الأنثوية" }, "verso": { "fr": "Ovaires → ovules + hormones.", "ar": "المبيضان ← البويضات + الهرمونات." } },
+    { "id": "f2", "recto": { "fr": "Gonades mâles", "ar": "الغدد التناسلية الذكرية" }, "verso": { "fr": "Testicules → spermatozoïdes + testostérone.", "ar": "الخصيتان ← النطائف + التستوستيرون." } },
+    { "id": "f3", "recto": { "fr": "Lieu de la fécondation", "ar": "مكان الإلقاح" }, "verso": { "fr": "La trompe de Fallope.", "ar": "أنبوب فالوب." } },
+    { "id": "f4", "recto": { "fr": "Signes de la puberté (garçon)", "ar": "علامات البلوغ (الفتى)" }, "verso": { "fr": "Voix grave, pilosité, épaules élargies.", "ar": "صوت غليظ، شعر، أكتاف عريضة." } },
+    { "id": "f5", "recto": { "fr": "Cycle menstruel ≈", "ar": "الدورة الشهرية ≈" }, "verso": { "fr": "28 jours.", "ar": "28 يوماً." } },
+    { "id": "f6", "recto": { "fr": "Rôle de l'utérus", "ar": "دور الرحم" }, "verso": { "fr": "Accueillir et nourrir l'embryon.", "ar": "استقبال الجنين وتغذيته." } }
+  ]
+}

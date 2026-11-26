@@ -1,0 +1,81 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-svn-06",
+  "niveau": "4AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 6,
+  "titre": { "fr": "Équilibres naturels et protection de l'environnement", "ar": "التوازنات الطبيعية وحماية البيئة" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Construire des chaînes et réseaux alimentaires", "Décrire les causes de la désertification au Sahel", "Proposer des actions de protection de l'environnement"],
+    "ar": ["بناء السلاسل والشبكات الغذائية", "وصف أسباب التصحر في الساحل", "اقتراح إجراءات لحماية البيئة"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Chaînes et réseaux alimentaires", "ar": "السلاسل والشبكات الغذائية" },
+      "bloc": [{ "fr": "Une chaîne alimentaire relie des êtres vivants selon qui mange qui. Elle commence par un producteur (plante verte) et se poursuit par des consommateurs. Plusieurs chaînes se croisent en un réseau alimentaire.", "ar": "السلسلة الغذائية تربط الكائنات الحية حسب من يأكل من. تبدأ بمنتج (نبات أخضر) وتتابع بمستهلكين. تتقاطع عدة سلاسل في شبكة غذائية." }],
+      "exemple": {
+        "enonce": { "fr": "Construis une chaîne : herbe → gazelle → lion. Qu'est-ce que le producteur ?", "ar": "ابنِ سلسلة: العشب ← الغزال ← الأسد. ما هو المنتج؟" },
+        "etapes": [
+          { "fr": "Le producteur fabrique sa matière organique par photosynthèse (herbe).", "ar": "المنتج يصنع مادته العضوية بالتمثيل الضوئي (العشب)." },
+          { "fr": "La gazelle (consommateur de premier ordre) mange l'herbe ; le lion (consommateur de 2e ordre) mange la gazelle.", "ar": "الغزال (مستهلك أول) يأكل العشب؛ والأسد (مستهلك ثانٍ) يأكل الغزال." }
+        ],
+        "resultat": { "fr": "Producteur = l'herbe.", "ar": "المنتج = العشب." }
+      }
+    },
+    {
+      "titre": { "fr": "Désertification au Sahel", "ar": "التصحر في الساحل" },
+      "puces": [
+        { "fr": "Causes naturelles : sécheresses répétées, aridité du climat sahélien.", "ar": "أسباب طبيعية: الجفاف المتكرر وجفاف مناخ الساحل." },
+        { "fr": "Causes humaines : déboisement (bois de chauffe), surpâturage des troupeaux, cultures sur sols fragiles.", "ar": "أسباب بشرية: إزالة الغابات (الحطب)، الرعي الجائر، الزراعة على تربة هشة." },
+        { "fr": "Conséquences : sols nus, avancée du désert, perte de terres cultivables et de pâturages.", "ar": "النتائج: تربة عارية، تقدم الصحراء، فقدان الأراضي الزراعية والمراعي." }
+      ]
+    },
+    {
+      "titre": { "fr": "Protéger l'environnement", "ar": "حماية البيئة" },
+      "puces": [
+        { "fr": "Reboiser (jachère, programmes de plantation), limiter le surpâturage par rotation des pâturages.", "ar": "إعادة التشجير (الراحة، برامج الغراسة)، والحد من الرعي الجائر بتناوب المراعي." },
+        { "fr": "Protéger la faune (zones protégées : Banc d'Arguin), gérer l'eau, limiter les déchets.", "ar": "حماية الحيوان (المحميات: بارك بانك دأرقوان)، تدبير الماء، الحد من النفايات." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Producteur", "ar": "المنتج" }, "def": { "fr": "Être vivant qui fabrique sa matière (plante verte).", "ar": "كائن يصنع مادته العضوية (نبات أخضر)." } },
+    { "terme": { "fr": "Consommateur", "ar": "المستهلك" }, "def": { "fr": "Être vivant qui se nourrit d'autres êtres vivants.", "ar": "كائن يتغذى على كائنات أخرى." } },
+    { "terme": { "fr": "Désertification", "ar": "التصحر" }, "def": { "fr": "Extension des zones désertiques, dégradation des terres en zones arides.", "ar": "توسع المناطق الصحراوية وتدهور الأراضي في المناطق الجافة." } },
+    { "terme": { "fr": "Photosynthèse", "ar": "التمثيل الضوئي" }, "def": { "fr": "Fabrication de matière organique par la plante avec lumière, CO₂ et eau.", "ar": "صنع مادة عضوية من النبات بضوء و CO₂ وماء." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Complète la chaîne : acacia → ___ → hyène.", "ar": "أكمل السلسلة: أكاسيا ← ___ ← ضبع." },
+      "correction": { "etapes": [{ "fr": "Un herbivore mange l'acacia (feuilles, gousses) : ex. gazelle ou dromadaire sauvage.", "ar": "حيوان عاشب يأكل الأكاسيا (الأوراق والقرون): مثل الغزال." }], "resultat": { "fr": "acacia → gazelle → hyène", "ar": "أكاسيا ← غزال ← ضبع" } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Donne deux causes humaines de la désertification.", "ar": "اذكر سببين بشريين للتصحر." },
+      "correction": { "etapes": [{ "fr": "Déboisement excessif ; surpâturage (ou cultures sur sol fragile).", "ar": "إزالة الغابات المفرطة؛ الرعي الجائر (أو الزراعة على تربة هشة)." }], "resultat": { "fr": "Deux causes humaines justes.", "ar": "سببان بشريان صحيحان." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Que se passe-t-il si toutes les plantes d'une région disparaissent ?", "ar": "ماذا يحدث إذا اختفت كل النباتات من منطقة ما؟" },
+      "correction": { "etapes": [
+        { "fr": "Les herbivores perdent leur nourriture et diminuent ; les carnivores aussi ; toute la chaîne s'effondre → désertification accélérée.", "ar": "يفقد العواشب غذاءها وتنقص أعدادها، وكذلك اللواحم؛ تنهار السلسلة كلها ← تسارع التصحر." }
+      ], "resultat": { "fr": "Effondrement de l'écosystème.", "ar": "انهيار النظام البيئي." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Une chaîne alimentaire commence toujours par :", "ar": "تبدأ السلسلة الغذائية دائماً بـ:" },
+      "choix": [{ "fr": "un producteur", "ar": "منتج" }, { "fr": "un carnivore", "ar": "لوحم" }, { "fr": "un décomposeur", "ar": "محلل" }], "bonne": 0, "explication": { "fr": "Plante verte = base de la chaîne.", "ar": "النبات الأخضر أساس السلسلة." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Dans « herbe → gazelle → lion », la gazelle est :", "ar": "في «عشب ← غزال ← أسد»، الغزال:" },
+      "choix": [{ "fr": "consommateur de 1er ordre", "ar": "مستهلك أول" }, { "fr": "producteur", "ar": "منتج" }, { "fr": "décomposeur", "ar": "محلل" }], "bonne": 0, "explication": { "fr": "Elle mange le producteur.", "ar": "تأكل المنتج." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "Le surpâturage favorise la désertification.", "ar": "الرعي الجائر يعزز التصحر." }, "bonne": true, "explication": { "fr": "Il dénude les sols.", "ar": "يجرد التربة." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Nom d'un parc national mauritanien célèbre :", "ar": "اسم محمية موريتانية شهيرة:" }, "acceptees": ["banc d'arguin", "banc d arguin", "بانك دأرقوان"], "explication": { "fr": "Patrimoine mondial UNESCO, oiseaux et poissons.", "ar": "تراث عالمي، طيور وأسماك." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Action efficace contre la désertification :", "ar": "إجراء فعال ضد التصحر:" },
+      "choix": [{ "fr": "reboiser", "ar": "إعادة التشجير" }, { "fr": "couper plus de bois", "ar": "قطع مزيد من الحطب" }, { "fr": "augmenter les troupeaux", "ar": "زيادة القطعان" }], "bonne": 0, "explication": { "fr": "Les racines fixent le sol.", "ar": "الجذور تثبّت التربة." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "Les décomposeurs recyclent la matière organique.", "ar": "المحللات تعيد تدوير المادة العضوية." }, "bonne": true, "explication": { "fr": "Champignons, bactéries, vers.", "ar": "فطريات، بكتيريا، ديدان." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Chaîne alimentaire", "ar": "السلسلة الغذائية" }, "verso": { "fr": "Producteur → consommateurs, selon qui mange qui.", "ar": "منتج ← مستهلكون حسب من يأكل من." } },
+    { "id": "f2", "recto": { "fr": "Producteur", "ar": "المنتج" }, "verso": { "fr": "Plante verte (photosynthèse).", "ar": "نبات أخضر (تمثيل ضوئي)." } },
+    { "id": "f3", "recto": { "fr": "3 causes de désertification", "ar": "ثلاث أسباب للتصحر" }, "verso": { "fr": "Sécheresse, déboisement, surpâturage.", "ar": "جفاف، إزالة غابات، رعي جائر." } },
+    { "id": "f4", "recto": { "fr": "Réseau alimentaire", "ar": "الشبكة الغذائية" }, "verso": { "fr": "Ensemble de chaînes qui se croisent.", "ar": "مجموعة سلاسل متقاطعة." } },
+    { "id": "f5", "recto": { "fr": "Banc d'Arguin", "ar": "بانك دأرقوان" }, "verso": { "fr": "Parc national mauritannien (UNESCO).", "ar": "محمية موريتانية (يونسكو)." } },
+    { "id": "f6", "recto": { "fr": "Rôle des racines des arbres", "ar": "دور جذور الأشجار" }, "verso": { "fr": "Fixer le sol et retenir l'eau.", "ar": "تثبيت التربة واحتجاز الماء." } }
+  ]
+}

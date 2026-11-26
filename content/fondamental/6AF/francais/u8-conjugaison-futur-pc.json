@@ -1,0 +1,148 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-08",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 8,
+  "titre": { "fr": "Conjugaison : le futur et le passé composé", "ar": "التصريف: المستقبل والماضي المركب" },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Conjuguer les verbes au futur simple",
+      "Former le passé composé avec avoir",
+      "Choisir entre futur (demain) et passé composé (hier)"
+    ],
+    "ar": [
+      "تصريف الأفعال في المستقبل البسيط",
+      "تكوين الماضي المركب بفعل avoir",
+      "الاختيار بين المستقبل (غداً) والماضي المركب (أمس)"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Le futur simple : ce qui va arriver", "ar": "المستقبل البسيط: ما سيحدث" },
+      "puces": [
+        { "fr": "Verbes en -er : infinitif + -ai, -as, -a, -ons, -ez, -ont.", "ar": "الأفعال المنتهية بـ -er: المصدر + -ai، -as، -a، -ons، -ez، -ont." },
+        { "fr": "Je mangerai, tu mangeras, il mangera, nous mangerons, vous mangerez, ils mangeront.", "ar": "سآكل، ستأكل، سيأكل، سنأكل، ستأكلون، سيأكلون." },
+        { "fr": "Verbes irréguliers : être → ser- (je serai) ; avoir → aur- (j'aurai) ; aller → ir- (j'irai) ; faire → fer- (je ferai).", "ar": "الأفعال الشاذة: être ← ser-؛ avoir ← aur-؛ aller ← ir-؛ faire ← fer-." },
+        { "fr": "Mots indicateurs : demain, dans une heure, la semaine prochaine, bientôt.", "ar": "كلمات دالة: غداً، بعد ساعة، الأسبوع القادم، قريباً." }
+      ],
+      "tableau": {
+        "entetes": { "fr": ["Verbe", "Futur (je)"], "ar": ["الفعل", "المستقبل (أنا)"] },
+        "lignes": [
+          { "fr": ["regarder", "je regarderai"], "ar": ["regarder", "سأنظر"] },
+          { "fr": ["être", "je serai"], "ar": ["être", "سأكون"] },
+          { "fr": ["avoir", "j'aurai"], "ar": ["avoir", "سأملك"] },
+          { "fr": ["aller", "j'irai"], "ar": ["aller", "سأذهب"] },
+          { "fr": ["faire", "je ferai"], "ar": ["faire", "سأفعل"] }
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Le passé composé : ce qui est déjà fini", "ar": "الماضي المركب: ما انتهى" },
+      "puces": [
+        { "fr": "Formule : avoir au présent + participe passé.", "ar": "الصيغة: avoir في الحاضر + اسم المفعول." },
+        { "fr": "Participes passés : -er → é (mangé) ; être → été ; faire → fait ; prendre → pris ; voir → vu.", "ar": "أسماء المفعول: -er ← é؛ être ← été؛ faire ← fait؛ prendre ← pris؛ voir ← vu." },
+        { "fr": "J'ai mangé, tu as joué, il a fini, nous avons travaillé, vous avez vu, ils ont pris.", "ar": "أكلتُ، لعبتَ، أنهى، عملنا، رأيتم، أخذوا." },
+        { "fr": "Mots indicateurs : hier, ce matin, l'année passée, déjà.", "ar": "كلمات دالة: أمس، هذا الصباح، السنة الماضية، أصلاً." }
+      ]
+    },
+    {
+      "titre": { "fr": "Ne pas confondre", "ar": "لا تخلط" },
+      "puces": [
+        { "fr": "Hier, j'ai visité le musée (passé composé : c'est fini).", "ar": "أمس زرت المتحف (ماضٍ مركب: انتهى)." },
+        { "fr": "Demain, je visiterai le musée (futur : pas encore arrivé).", "ar": "غداً سأزور المتحف (مستقبل: لم يحصل بعد)." },
+        { "fr": "Le participe passé du verbe en -er s'écrit é (j'ai dansé) — ne pas confondre avec la terminaison du futur (je danserai).", "ar": "اسم المفعول للفعل بـ -er يُكتب é (j'ai dansé) — لا تخلط بنهاية المستقبل (je danserai)." }
+      ],
+      "exemple": { "fr": "Ce matin, j'ai révisé mes leçons ; demain, je réussirai mon exercice.", "ar": "هذا الصباح راجعت دروسي؛ وغداً سأنجح في تمريضي." }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Futur simple", "ar": "المستقبل البسيط" }, "def": { "fr": "Temps qui exprime une action qui viendra.", "ar": "زمن يعبر عن حدث سيقع." } },
+    { "terme": { "fr": "Passé composé", "ar": "الماضي المركب" }, "def": { "fr": "Temps qui exprime une action finie : avoir au présent + participe passé.", "ar": "زمن يعبر عن حدث منتهٍ: avoir في الحاضر + اسم المفعول." } },
+    { "terme": { "fr": "Participe passé", "ar": "اسم المفعول" }, "def": { "fr": "Forme du verbe utilisée dans le passé composé (é pour les verbes en -er).", "ar": "صيغة الفعل المستعملة في الماضي المركب (é للأفعال بـ -er)." } },
+    { "terme": { "fr": "Auxiliaire", "ar": "الفعل المساعد" }, "def": { "fr": "Verbe qui accompagne un autre (avoir, être).", "ar": "فعل يرافق فعل آخر (avoir، être)." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Conjugue « danser » au futur simple avec toutes les personnes.", "ar": "صرّف الفعل danser في المستقبل البسيط مع جميع الضمائر." },
+      "correction": {
+        "etapes": [
+          { "fr": "Infinitif danser + terminaisons de futur.", "ar": "المصدر danser + نهايات المستقبل." },
+          { "fr": "Je danserai, tu danseras, il dansera, nous danserons, vous danserez, ils danseront.", "ar": "سأرقص، سترقص، سيرقص، سنرقص، سترقصون، سيرقصون." }
+        ],
+        "resultat": { "fr": "Voir étape 2", "ar": "انظر الخطوة 2" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 1,
+      "enonce": { "fr": "Mets au passé composé : « je (manger) une pomme » / « nous (jouer) au foot » / « elle (finir) son travail ».", "ar": "حوّل إلى الماضي المركب: «أنا آتفة» / «نحن نلعب الكرة» / «هي أنهت عملها»." },
+      "correction": {
+        "etapes": [
+          { "fr": "J'ai mangé une pomme.", "ar": "أكلتُ تفاحة (J'ai mangé)." },
+          { "fr": "Nous avons joué au foot.", "ar": "لعبنا الكرة." },
+          { "fr": "Elle a fini son travail.", "ar": "أنهت عملها." }
+        ],
+        "resultat": { "fr": "ai mangé ; avons joué ; a fini", "ar": "ai mangé؛ avons joué؛ a fini" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Conjugue au futur : je (être) content, tu (avoir) dix ans, il (aller) à Kaédi, nous (faire) un match.", "ar": "صرّف في المستقبل: سأكون سعيداً، ستكون في العاشرة، سيذهب إلى كيهيدي، سنلعب مباراة." },
+      "correction": {
+        "etapes": [
+          { "fr": "Je serai content.", "ar": "Je serai content." },
+          { "fr": "Tu auras dix ans.", "ar": "Tu auras dix ans." },
+          { "fr": "Il ira à Kaédi ; nous ferons un match.", "ar": "Il ira à Kaédi؛ nous ferons un match." }
+        ],
+        "resultat": { "fr": "serai ; auras ; ira ; ferons", "ar": "serai؛ auras؛ ira؛ ferons" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 2,
+      "enonce": { "fr": "Corrige : « hier j'ai mangé une pomme » (est-ce juste ?), « demain je mangeré », « nous a joué ».", "ar": "صحّح: «hier j'ai mangé une pomme» (هل صحيح؟)، «demain je mangeré»، «nous a joué»." },
+      "correction": {
+        "etapes": [
+          { "fr": "« Hier j'ai mangé une pomme » est correct.", "ar": "الأولى صحيحة." },
+          { "fr": "« Demain je mangerai » (futur, pas de participe).", "ar": "الصحيح: «demain je mangerai»." },
+          { "fr": "« Nous avons joué » (avoir conjugué à nous).", "ar": "الصحيح: «nous avons joué»." }
+        ],
+        "resultat": { "fr": "correct ; je mangerai ; nous avons joué", "ar": "صحيح؛ je mangerai؛ nous avons joué" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Écris deux phrases au futur (avec « demain ») et une phrase au passé composé (avec « hier ») sur ta journée d'école.", "ar": "اكتب جملتين في المستقبل (مع «غداً») وجملة في الماضي المركب (مع «أمس») عن يومك المدرسي." },
+      "correction": {
+        "etapes": [
+          { "fr": "Exemples : « Demain, je lirai ma leçon de maths. » « Demain, nous écrirons une dictée. »", "ar": "مثالان: «غداً سأقرأ درس الرياضيات» «غداً سنكتب إملاء»." },
+          { "fr": "« Hier, j'ai appris les mesures agraires. »", "ar": "«أمس تعلمت القياسات الفلاحية»." },
+          { "fr": "Barème : 1 pt par phrase avec verbe bien conjugué.", "ar": "التنقيط: نقطة لكل جملة مصرفة صحيحة." }
+        ],
+        "resultat": { "fr": "3 phrases correctes", "ar": "ثلاث جمل صحيحة" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Demain, nous ___ (partir) tôt.", "ar": "غداً نحن ___ (partir) مبكراً." }, "choix": [{ "fr": "partirons", "ar": "سننطلق" }, { "fr": "partons", "ar": "ننطلق" }, { "fr": "sommes partis", "ar": "انطلقنا" }], "bonne": 0, "explication": { "fr": "« Demain » → futur : nous partirons.", "ar": "«غداً» ← مستقبل: nous partirons." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Hier, elle ___ (jouer) au cache-cache.", "ar": "أمس هي ___ (jouer) بالغاية." }, "choix": [{ "fr": "a joué", "ar": "لعبت" }, { "fr": "jouera", "ar": "ستلعب" }, { "fr": "joue", "ar": "تلعب" }], "bonne": 0, "explication": { "fr": "« Hier » → passé composé : a joué.", "ar": "«أمس» ← ماضٍ مركب: a joué." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "Le futur de « aller » est « j'irai ».", "ar": "مستقبل الفعل aller هو «j'irai»." }, "bonne": true, "explication": { "fr": "Vrai : radical ir-.", "ar": "صحيح: الجذر ir-." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Participe passé de « faire » ?", "ar": "اسم المفعول للفعل faire؟" }, "acceptees": ["fait", "فعل"], "explication": { "fr": "fait (j'ai fait).", "ar": "fait." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Au futur, « être » devient…", "ar": "في المستقبل يصبح الفعل être…" }, "choix": [{ "fr": "serai", "ar": "serai" }, { "fr": "seré", "ar": "seré" }, { "fr": "éterai", "ar": "éterai" }], "bonne": 0, "explication": { "fr": "être → ser- + ai = je serai.", "ar": "être ← ser- + ai." } },
+    { "id": "q6", "type": "courte", "q": { "fr": "Conjugue au futur : nous ___ (avoir) beaucoup de travail.", "ar": "صرّف في المستقبل: نحن ___ (avoir) عملاً كثيراً." }, "acceptees": ["aurons", "nous aurons", "سنكون عندينا"], "explication": { "fr": "nous aurons.", "ar": "نحن سنكون عندينا (aurons)." } },
+    { "id": "q7", "type": "vf", "q": { "fr": "Le passé composé se forme avec avoir au présent + participe passé.", "ar": "الماضي المركب يُكوَّن بـ avoir في الحاضر + اسم المفعول." }, "bonne": true, "explication": { "fr": "Vrai.", "ar": "صحيح." } },
+    { "id": "q8", "type": "qcm", "q": { "fr": "Je ___ (regarder) la télévision au futur.", "ar": "أنا ___ (regarder) التلفاز في المستقبل." }, "choix": [{ "fr": "regarderai", "ar": "سأشاهد" }, { "fr": "regardé", "ar": "شاهدت" }, { "fr": "regarde", "ar": "أشاهد" }], "bonne": 0, "explication": { "fr": "regarder + ai = regarderai.", "ar": "regarder + ai = regarderai." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Terminaisons du futur simple ?", "ar": "نهايات المستقبل البسيط؟" }, "verso": { "fr": "-ai, -as, -a, -ons, -ez, -ont", "ar": "-ai، -as، -a، -ons، -ez، -ont" } },
+    { "id": "f2", "recto": { "fr": "Futur de être ?", "ar": "مستقبل être؟" }, "verso": { "fr": "Je serai (ser-)", "ar": "serai" } },
+    { "id": "f3", "recto": { "fr": "Futur de avoir ?", "ar": "مستقبل avoir؟" }, "verso": { "fr": "J'aurai (aur-)", "ar": "aurai" } },
+    { "id": "f4", "recto": { "fr": "Futur de aller ?", "ar": "مستقبل aller؟" }, "verso": { "fr": "J'irai (ir-)", "ar": "irai" } },
+    { "id": "f5", "recto": { "fr": "Passé composé : formule ?", "ar": "الماضي المركب: الصيغة؟" }, "verso": { "fr": "avoir au présent + participe passé", "ar": "avoir في الحاضر + اسم المفعول" } },
+    { "id": "f6", "recto": { "fr": "Participe passé de prendre ?", "ar": "اسم مفعول prendre؟" }, "verso": { "fr": "pris (j'ai pris)", "ar": "pris" } },
+    { "id": "f7", "recto": { "fr": "Participe passé des verbes en -er ?", "ar": "اسم مفعول الأفعال بـ -er؟" }, "verso": { "fr": "é (mangé, joué, dansé)", "ar": "é" } },
+    { "id": "f8", "recto": { "fr": "« Demain » indique quel temps ?", "ar": "«غداً» تدل على أي زمن؟" }, "verso": { "fr": "Le futur simple", "ar": "المستقبل البسيط" } }
+  ]
+}

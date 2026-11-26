@@ -1,0 +1,389 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-math-03",
+  "niveau": "4AS",
+  "matiere": "mathematiques",
+  "ordre": 3,
+  "titre": {
+    "fr": "Équations et inéquations du premier degré",
+    "ar": "المعادلات والمتراجحات من الدرجة الأولى"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Résoudre une équation du premier degré à une inconnue",
+      "Mettre en équation un problème",
+      "Résoudre une inéquation et représenter les solutions sur une droite graduée"
+    ],
+    "ar": [
+      "حل معادلة من الدرجة الأولى بمجهول واحد",
+      "ترجمة مسألة إلى معادلة",
+      "حل متراجحة وتمثيل الحلول على مستقيم مدرج"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Résoudre une équation",
+        "ar": "حل المعادلة"
+      },
+      "bloc": [
+        {
+          "fr": "Une équation est une égalité contenant une inconnue. Résoudre, c'est trouver toutes les valeurs qui la rendent vraie. On transforme l'égalité sans la changer : on additionne/ soustrait la même quantité des deux côtés, ou on multiplie/ divise par un même nombre non nul.",
+          "ar": "المعادلة مساواة تحتوي مجهولاً. الحل هو إيجاد جميع القيم التي تجعلها صحيحة. نحوّل المساواة دون تغييرها: نجمع أو نطرح الكمية نفسها من الطرفين، أو نضرب أو نقسم على عدد غير معدوم."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Résous : 3x − 5 = 10.",
+          "ar": "حل: 3x − 5 = 10."
+        },
+        "etapes": [
+          {
+            "fr": "3x = 10 + 5 = 15.",
+            "ar": "3x = 10 + 5 = 15."
+          },
+          {
+            "fr": "x = 15 ÷ 3 = 5.",
+            "ar": "x = 15 ÷ 3 = 5."
+          }
+        ],
+        "resultat": {
+          "fr": "S = {5}",
+          "ar": "S = {5}"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Mettre en équation",
+        "ar": "الترجمة إلى معادلة"
+      },
+      "bloc": [
+        {
+          "fr": "On choisit l'inconnue (souvent x = la quantité demandée), on traduit l'énoncé par une égalité, puis on résout et on vérifie la cohérence.",
+          "ar": "نختار المجهول (غالباً x = الكمية المطلوبة)، نترجم النص إلى مساواة، ثم نحل ونتحقق من منطقية النتيجة."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Une salle de fête coûte 15 000 MRU fixe plus 800 MRU par invité. Combien d'invités pour un total de 39 000 MRU ?",
+          "ar": "إيجار قاعة حفلات 15 000 أوقية ثابتة زائد 800 أوقية عن كل مدعو. كم مدعو للحصول على مجموع 39 000 أوقية؟"
+        },
+        "etapes": [
+          {
+            "fr": "Soit x le nombre d'invités : 15 000 + 800x = 39 000.",
+            "ar": "ليكن x عدد المدعوين: 15 000 + 800x = 39 000."
+          },
+          {
+            "fr": "800x = 24 000 → x = 30.",
+            "ar": "800x = 24 000 ← x = 30."
+          }
+        ],
+        "resultat": {
+          "fr": "30 invités",
+          "ar": "30 مدعواً"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Inéquations",
+        "ar": "المتراجحات"
+      },
+      "puces": [
+        {
+          "fr": "Mêmes règles que les équations, MAIS si on multiplie ou divise par un nombre négatif, on change le sens du symbole (< devient >).",
+          "ar": "قواعد المعادلات نفسها، لكن عند الضرب أو القسمة على عدد سالب نغيّر اتجاه الرمز (< تصبح >)."
+        },
+        {
+          "fr": "Solutions représentées par une demi-droite sur la droite graduée ; point plein si ≤ ou ≥.",
+          "ar": "الحلول يمثلها شعاع على المستقيم المدرج؛ نقطة مملوءة إذا كانت ≤ أو ≥."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Inconnue",
+        "ar": "المجهول"
+      },
+      "def": {
+        "fr": "Lettre (x) dont on cherche la valeur.",
+        "ar": "حرف (x) نبحث عن قيمته."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Solution d'une équation",
+        "ar": "حل المعادلة"
+      },
+      "def": {
+        "fr": "Valeur qui rend l'égalité vraie.",
+        "ar": "القيمة التي تجعل المساواة صحيحة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Inéquation",
+        "ar": "متراجحة"
+      },
+      "def": {
+        "fr": "Inégalité avec une inconnue (3x < 12).",
+        "ar": "متباينة بمجهول (3x < 12)."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Résous : 2x + 7 = 19.",
+        "ar": "حل: 2x + 7 = 19."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "2x = 12 → x = 6.",
+            "ar": "2x = 12 ← x = 6."
+          }
+        ],
+        "resultat": {
+          "fr": "S = {6}",
+          "ar": "S = {6}"
+        }
+      },
+      "acceptees": [
+        "6"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Résous : 5x − 3 = 2x + 12.",
+        "ar": "حل: 5x − 3 = 2x + 12."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "5x − 2x = 12 + 3 → 3x = 15 → x = 5.",
+            "ar": "5x − 2x = 12 + 3 ← 3x = 15 ← x = 5."
+          }
+        ],
+        "resultat": {
+          "fr": "S = {5}",
+          "ar": "S = {5}"
+        }
+      },
+      "acceptees": [
+        "5"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Résous et représente : −2x + 4 ≥ 10.",
+        "ar": "حل وتمثّل: −2x + 4 ≥ 10."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "−2x ≥ 6 → division par −2 : on inverse → x ≤ −3.",
+            "ar": "−2x ≥ 6 ← القسمة على −2 مع عكس الاتجاه ← x ≤ −3."
+          }
+        ],
+        "resultat": {
+          "fr": "x ≤ −3 (demi-droite vers la gauche)",
+          "ar": "x ≤ −3 (شعاع نحو اليسار)"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "Résous : 2x + 7 = 19. x = ?",
+        "ar": "حل: 2x + 7 = 19. x = ؟"
+      },
+      "acceptees": [
+        "6"
+      ],
+      "explication": {
+        "fr": "2x = 12.",
+        "ar": "2x = 12."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Si on multiplie une inéquation par −3, alors…",
+        "ar": "إذا ضربنا متراجحة في −3 فإن…"
+      },
+      "choix": [
+        {
+          "fr": "on inverse le sens du symbole",
+          "ar": "نعكس اتجاه الرمز"
+        },
+        {
+          "fr": "rien ne change",
+          "ar": "لا يتغير شيء"
+        },
+        {
+          "fr": "on ajoute 3",
+          "ar": "نضيف 3"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Règle du nombre négatif.",
+        "ar": "قاعدة العدد السالب."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "courte",
+      "q": {
+        "fr": "Invités pour 39 000 MRU (15 000 + 800x) ?",
+        "ar": "عدد المدعوين لمجموع 39 000 أوقية (15 000 + 800x)؟"
+      },
+      "acceptees": [
+        "30"
+      ],
+      "explication": {
+        "fr": "800x = 24 000.",
+        "ar": "800x = 24 000."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "vf",
+      "q": {
+        "fr": "x = 3 est solution de 4x − 5 = 7.",
+        "ar": "x = 3 حل للمعادلة 4x − 5 = 7."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "4×3 − 5 = 7 ✓.",
+        "ar": "4×3 − 5 = 7 ✓."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Résous : 5x − 3 = 2x + 12.",
+        "ar": "حل: 5x − 3 = 2x + 12."
+      },
+      "acceptees": [
+        "5"
+      ],
+      "explication": {
+        "fr": "3x = 15.",
+        "ar": "3x = 15."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Solutions de x > 2 sur la droite graduée :",
+        "ar": "حلول x > 2 على المستقيم المدرج:"
+      },
+      "choix": [
+        {
+          "fr": "point vide après 2",
+          "ar": "نقطة فارغة بعد 2"
+        },
+        {
+          "fr": "point plein sur 2",
+          "ar": "نقطة مملوءة على 2"
+        },
+        {
+          "fr": "rien",
+          "ar": "لا شيء"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Strict : point vide.",
+        "ar": "متباينة تامة ← نقطة فارغة."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Règle clé des équations",
+        "ar": "القاعدة الأساسية للمعادلات"
+      },
+      "verso": {
+        "fr": "Même opération des deux côtés.",
+        "ar": "نفس العملية في الطرفين."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Multiplication par un négatif dans une inéquation",
+        "ar": "الضرب على سالب في متراجحة"
+      },
+      "verso": {
+        "fr": "On inverse le symbole.",
+        "ar": "نعكس الرمز."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Mettre en équation : étapes",
+        "ar": "خطوات الترجمة إلى معادلة"
+      },
+      "verso": {
+        "fr": "Choisir x, traduire, résoudre, vérifier.",
+        "ar": "اختيار x، الترجمة، الحل، التحقق."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Point plein sur la droite graduée",
+        "ar": "النقطة المملوءة على المستقيم المدرج"
+      },
+      "verso": {
+        "fr": "Symbole ≤ ou ≥.",
+        "ar": "الرمز ≤ أو ≥."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Vérifier une solution",
+        "ar": "التحقق من الحل"
+      },
+      "verso": {
+        "fr": "Remplacer dans l'équation d'origine.",
+        "ar": "التعويض في المعادلة الأصلية."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "S = {5} signifie",
+        "ar": "S = {5} تعني"
+      },
+      "verso": {
+        "fr": "L'unique solution est 5.",
+        "ar": "الحل الوحيد هو 5."
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Najma — نجمة">
+  <!-- Najma · نجمة — Logo couleur (cercle bleu Atlantique, étoile or, dunes) -->
+  <circle cx="32" cy="32" r="31" fill="#0D3B66"/>
+  <circle cx="32" cy="32" r="27" fill="#092A4A"/>
+  <circle cx="14" cy="17" r="1.5" fill="#FAF7F0" opacity=".85"/>
+  <circle cx="49" cy="14" r="1.2" fill="#FAF7F0" opacity=".85"/>
+  <circle cx="52" cy="24" r="1" fill="#FAF7F0" opacity=".7"/>
+  <path d="M32,10 L36.6,24.4 L51,26.5 L39.8,34.4 L43.4,49 L32,40.6 L20.6,49 L24.2,34.4 L13,26.5 L27.4,24.4 Z"
+        fill="#F0C75E" stroke="#D9A032" stroke-width="1.4" stroke-linejoin="round"/>
+  <circle cx="32" cy="28" r="3.4" fill="#FAF7F0"/>
+  <path d="M4,50 Q14,42 26,49 Q38,56 50,48 Q56,44 60,47 L60,60 Q32,66 4,60 Z"
+        fill="#C77B3F" opacity=".9"/>
+  <path d="M4,54 Q16,48 30,54 Q44,60 60,52 L60,60 Q32,66 4,60 Z"
+        fill="#F2E8D5"/>
+</svg>

@@ -1,0 +1,81 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-svn-02",
+  "niveau": "4AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 2,
+  "titre": { "fr": "L'alimentation et la digestion", "ar": "التغذية والهضم" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Identifier les groupes d'aliments et leurs rôles", "Décrire le trajet des aliments dans le tube digestif", "Expliquer la digestion mécanique et chimique puis l'absorption"],
+    "ar": ["التعرف على مجموعات الأغذية وأدوارها", "وصف مسار الأغذية في القناة الهضمية", "شرح الهضم الميكانيكي والكيميائي ثم الامتصاص"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Les groupes d'aliments", "ar": "مجموعات الأغذية" },
+      "puces": [
+        { "fr": "Glucides (riz, dattes, pain) : principale source d'énergie.", "ar": "السكريات (الأرز، التمر، الخبز): المصدر الأساسي للطاقة." },
+        { "fr": "Lipides (huile, arachide) : énergie de réserve.", "ar": "الدهون (الزيت، الفول السوداني): طاقة احتياطية." },
+        { "fr": "Protéines (viande, poisson, œufs, lentilles) : croissance et réparation.", "ar": "البروتينات (اللحم، السمك، البيض، العدس): النمو والترميم." },
+        { "fr": "Eau, sels minéraux et vitamines : protection et bon fonctionnement du corps.", "ar": "الماء والأملاح المعدنية والفيتامينات: الحماية وحسن عمل الجسم." }
+      ]
+    },
+    {
+      "titre": { "fr": "Le tube digestif", "ar": "القناة الهضمية" },
+      "bloc": [{ "fr": "Bouche → œsophage → estomac → intestin grêle (duodénum puis jéjuno-iléon) → gros intestin → anus. Le foie et le pancréas déversent leurs sucs dans le duodénum.", "ar": "الفم ← المريء ← المعدة ← المعي الدقيق (الاثنا عشري ثم الصائم واللفائفي) ← المعي الغليظ ← الشرج. يصبّ الكبد والبنكرياس عصارتهما في الاثنا عشري." }],
+      "puces": [
+        { "fr": "Digestion mécanique : mastication, brassage dans l'estomac.", "ar": "الهضم الميكانيكي: المضغ، الخلط في المعدة." },
+        { "fr": "Digestion chimique : enzymes qui transforment les aliments en nutriments simples.", "ar": "الهضم الكيميائي: إنزيمات تحوّل الأغذية إلى مغذيات بسيطة." }
+      ]
+    },
+    {
+      "titre": { "fr": "Absorption intestinale", "ar": "الامتصاص المعوي" },
+      "bloc": [{ "fr": "Les nutriments (glucose, acides gras, acides aminés) passent dans le sang à travers la paroi de l'intestin grêle, riches en villosités qui augmentent la surface d'absorption. Le sang les distribue à tous les organes.", "ar": "المغذيات (الغلوكوز، الأحماض الدهنية، الأحماض الأمينية) تمر إلى الدم عبر جدار المعي الدقيق الغني بالزغابات التي تزيد سطح الامتصاص. يوزّع الدمها على جميع الأعضاء." }],
+      "exemple": {
+        "enonce": { "fr": "Que devient le pain au cours de la digestion ?", "ar": "ماذا يصبح الخبز أثناء الهضم؟" },
+        "etapes": [
+          { "fr": "Dans la bouche, l'amylase salivaire commence à couper l'amidon.", "ar": "في الفم يبدأ إنزيم الأميلاز اللعابي بتقطيع النشاء." },
+          { "fr": "Dans l'intestin grêle, l'amidon est entièrement transformé en glucose, absorbé par le sang.", "ar": "في المعي الدقيق يتحول النشاء كلياً إلى غلوكوز يُمتص في الدم." }
+        ],
+        "resultat": { "fr": "Glucose absorbé dans le sang.", "ar": "غلوكوز يُمتص في الدم." }
+      }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Nutriment", "ar": "المغذّي" }, "def": { "fr": "Molécule simple issue de la digestion, utilisable par les cellules.", "ar": "جزيء بسيط ناتج عن الهضم تستخدمه الخلايا." } },
+    { "terme": { "fr": "Enzyme", "ar": "الإنزيم" }, "def": { "fr": "Substance qui accélère une transformation chimique de la digestion.", "ar": "مادة تُسرّع تحويلاً كيميائياً في الهضم." } },
+    { "terme": { "fr": "Villosités intestinales", "ar": "زغابات معوية" }, "def": { "fr": "Petits plis de l'intestin qui augmentent la surface d'absorption.", "ar": "طيات صغيرة في المعي تزيد سطح الامتصاص." } },
+    { "terme": { "fr": "Ration alimentaire", "ar": "الحصة الغذائية" }, "def": { "fr": "Ensemble et quantité d'aliments consommés par jour.", "ar": "مجموع وكمية الأغذية المستهلكة في اليوم." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Classe : riz, huile, œuf, orange — groupe alimentaire de chacun.", "ar": "صنّف: الأرز، الزيت، البيضة، البرتقال — مجموعة كل منها." },
+      "correction": { "etapes": [{ "fr": "Riz = glucides ; huile = lipides ; œuf = protéines ; orange = vitamines (et eau).", "ar": "الأرز = سكريات ؛ الزيت = دهون ؛ البيضة = بروتينات ؛ البرتقال = فيتامينات وماء." }], "resultat": { "fr": "Glucides ; lipides ; protéines ; vitamines.", "ar": "سكريات ؛ دهون ؛ بروتينات ؛ فيتامينات." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Cite, dans l'ordre, les organes du tube digestif.", "ar": "اذكر بالترتيب أعضاء القناة الهضمية." },
+      "correction": { "etapes": [{ "fr": "Bouche → œsophage → estomac → intestin grêle → gros intestin → anus.", "ar": "الفم ← المريء ← المعدة ← المعي الدقيق ← المعي الغليظ ← الشرج." }], "resultat": { "fr": "Ordre correct des six organes.", "ar": "الترتيب الصحيح للأعضاء الستة." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Pourquoi les villosités sont-elles indispensables à l'absorption ?", "ar": "لماذا الزغابات المعوية ضرورية للامتصاص؟" },
+      "correction": { "etapes": [{ "fr": "Elles multiplient la surface de contact entre les nutriments et le sang → absorption plus rapide et complète.", "ar": "تضاعف سطح التماس بين المغذيات والدم ← امتصاص أسرع وأكمل." }], "resultat": { "fr": "Augmentation de la surface d'absorption.", "ar": "زيادة سطح الامتصاص." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Principale source d'énergie :", "ar": "المصدر الأساسي للطاقة:" },
+      "choix": [{ "fr": "glucides", "ar": "السكريات" }, { "fr": "vitamines", "ar": "الفيتامينات" }, { "fr": "eau", "ar": "الماء" }], "bonne": 0, "explication": { "fr": "Glucides = carburant quotidien.", "ar": "السكريات وقود كل يوم." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "Où se termine la digestion chimique ?", "ar": "أين ينتهي الهضم الكيميائي؟" },
+      "choix": [{ "fr": "intestin grêle", "ar": "المعي الدقيق" }, { "fr": "bouche", "ar": "الفم" }, { "fr": "gros intestin", "ar": "المعي الغليظ" }], "bonne": 0, "explication": { "fr": "Sucs pancréatiques et intestinaux y achèvent le travail.", "ar": "تُكمل العصارات عملها هناك." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "Les protéines servent surtout à la croissance.", "ar": "البروتينات تخدم النمو بالأساس." }, "bonne": true, "explication": { "fr": "Construisent et réparent le corps.", "ar": "تبني وترمم الجسم." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Que devient l'amidon du pain ?", "ar": "إلى ماذا يتحول النشاء في الخبز؟" }, "acceptees": ["glucose", "du glucose"], "explication": { "fr": "Digestion des glucides.", "ar": "هضم السكريات." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Les villosités se trouvent…", "ar": "الزغابات المعوية توجد…" },
+      "choix": [{ "fr": "dans l'intestin grêle", "ar": "في المعي الدقيق" }, { "fr": "dans l'estomac", "ar": "في المعدة" }, { "fr": "dans la bouche", "ar": "في الفم" }], "bonne": 0, "explication": { "fr": "Siège de l'absorption.", "ar": "مقر الامتصاص." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "La mastication est une digestion mécanique.", "ar": "المضغ هضم ميكانيكي." }, "bonne": true, "explication": { "fr": "Réduction physique des aliments.", "ar": "تقسيم فيزيائي للأغذية." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "3 rôles des groupes alimentaires", "ar": "أدوار المجموعات الغذائية الثلاثة" }, "verso": { "fr": "Énergie (glucides/lipides) ; construction (protéines) ; protection (vitamines/minéraux).", "ar": "طاقة (سكريات/دهون)؛ بناء (بروتينات)؛ حماية (فيتامينات/أملاح)." } },
+    { "id": "f2", "recto": { "fr": "Trajet des aliments", "ar": "مسار الأغذية" }, "verso": { "fr": "Bouche → œsophage → estomac → intestin grêle → gros intestin → anus.", "ar": "الفم ← المريء ← المعدة ← المعي الدقيق ← المعي الغليظ ← الشرج." } },
+    { "id": "f3", "recto": { "fr": "Rôle des enzymes", "ar": "دور الإنزيمات" }, "verso": { "fr": "Transformer les aliments en nutriments simples.", "ar": "تحويل الأغذية إلى مغذيات بسيطة." } },
+    { "id": "f4", "recto": { "fr": "Siège de l'absorption", "ar": "مقر الامتصاص" }, "verso": { "fr": "Intestin grêle (villosités).", "ar": "المعي الدقيق (الزغابات)." } },
+    { "id": "f5", "recto": { "fr": "Nutriment du riz", "ar": "المغذّي الأساسي في الأرز" }, "verso": { "fr": "Glucose (issu de l'amidon).", "ar": "الغلوكوز (من النشاء)." } },
+    { "id": "f6", "recto": { "fr": "Digestion mécanique vs chimique", "ar": "الهضم الميكانيكي مقابل الكيميائي" }, "verso": { "fr": "Broyage/trituration vs transformation par enzymes.", "ar": "الطحن والخلط مقابل التحويل بالإنزيمات." } }
+  ]
+}

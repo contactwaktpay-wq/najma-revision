@@ -1,0 +1,504 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-05",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 5,
+  "titre": {
+    "fr": "Géométrie : droites, angles et figures",
+    "ar": "الهندسة: المستقيمات والزوايا والأشكال"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Reconnaître droites perpendiculaires et parallèles, mesurer et classer des angles",
+      "Décrire triangles, quadrilatères et cercle (rayon, diamètre)",
+      "Utiliser la symétrie axiale"
+    ],
+    "ar": [
+      "التعرف على المستقيمات المتعامدة والمتوازية، وقياس الزوايا وتصنيفها",
+      "وصف المثلثات والمضلعات الرباعية والدائرة (نصف القطر والقطر)",
+      "استعمال التناظر المحوري"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Droites et angles",
+        "ar": "المستقيمات والزوايا"
+      },
+      "puces": [
+        {
+          "fr": "Deux droites perpendiculaires forment un angle droit (90°).",
+          "ar": "المستقيمان المتعامدان يشكلان زاوية قائمة (90°)."
+        },
+        {
+          "fr": "Deux droites parallèles ne se croisent jamais.",
+          "ar": "المستقيمان المتوازيان لا يتقاطعان أبداً."
+        },
+        {
+          "fr": "Angle aigu : moins de 90° ; angle obtus : entre 90° et 180°.",
+          "ar": "الزاوية الحادة: أقل من 90°؛ الزاوية المنفرجة: بين 90° و 180°."
+        }
+      ],
+      "formules": [
+        "angle droit = 90°",
+        "somme des angles d'un triangle = 180°"
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Polygones usuels",
+        "ar": "المضلعات المألوفة"
+      },
+      "puces": [
+        {
+          "fr": "Triangle rectangle : possède un angle droit. Triangle équilatéral : 3 côtés égaux, 3 angles de 60°.",
+          "ar": "المثلث القائم: له زاوية قائمة. المثلث المتساوي الأضلاع: 3 أضلاع متساوية و3 زوايا بحجم 60°."
+        },
+        {
+          "fr": "Carré : 4 côtés égaux, 4 angles droits. Rectangle : côtés opposés égaux, 4 angles droits.",
+          "ar": "المربع: 4 أضلاع متساوية و4 زوايا قائمة. المستطيل: الأضلاع المتقابلة متساوية و4 زوايا قائمة."
+        },
+        {
+          "fr": "Cercle : le rayon va du centre au cercle ; le diamètre = 2 × rayon.",
+          "ar": "الدائرة: نصف القطر يمتد من المركز إلى الدائرة؛ والقطر = 2 × نصف القطر."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Un cercle a un rayon de 4 cm. Quel est son diamètre ?",
+          "ar": "دائرة نصف قطرها 4 سم. ما قطرها؟"
+        },
+        "etapes": [
+          {
+            "fr": "Diamètre = 2 × rayon = 2 × 4.",
+            "ar": "القطر = 2 × نصف القطر = 2 × 4."
+          }
+        ],
+        "resultat": {
+          "fr": "8 cm",
+          "ar": "8 سم"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Symétrie axiale",
+        "ar": "التناظر المحوري"
+      },
+      "bloc": [
+        {
+          "fr": "Un point et son symétrique par rapport à un axe sont à la même distance de cet axe, sur la même perpendiculaire. Les figures du quotidien (papillons, tuiles) sont souvent symétriques.",
+          "ar": "النقطة ونظيرتها بالنسبة إلى محور تبعدان المسافة نفسه عنه، على نفس المستقيم المتعامد. كثير من الأشكال اليومية (الفراشة، البلاط) متناظرة."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Angle droit",
+        "ar": "الزاوية القائمة"
+      },
+      "def": {
+        "fr": "Angle de 90°, marqué d'un petit carré.",
+        "ar": "زاوية بحجم 90°، تُرمز بمربع صغير."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Rayon",
+        "ar": "نصف القطر"
+      },
+      "def": {
+        "fr": "Segment du centre du cercle à un point du cercle.",
+        "ar": "القطعة الممتدة من مركز الدائرة إلى نقطة عليها."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Diamètre",
+        "ar": "القطر"
+      },
+      "def": {
+        "fr": "Corde passant par le centre : le plus grand segment du cercle.",
+        "ar": "الوتر المار بالمركز: أكبر قطعة في الدائرة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Axe de symétrie",
+        "ar": "محور التناظر"
+      },
+      "def": {
+        "fr": "Droite qui partage une figure en deux parties superposables.",
+        "ar": "المستقيم الذي يقسم الشكل إلى جزأين متطابقين."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Trace un segment AB de 5 cm puis, au compas, un cercle de centre A passant par B. Quel est le rayon ?",
+        "ar": "ارسم قطعة AB طولها 5 سم ثم ارسم ببركار دائرة مركزها A تمر بـ B. ما نصف القطر؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Le cercle passe par B et son centre est A : rayon = AB = 5 cm.",
+            "ar": "الدائرة تمر بـ B ومركزها A: نصف القطر = AB = 5 سم."
+          }
+        ],
+        "resultat": {
+          "fr": "5 cm",
+          "ar": "5 سم"
+        }
+      },
+      "acceptees": [
+        "5"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Dans un triangle, deux angles mesurent 65° et 45°. Mesure du 3e angle ?",
+        "ar": "في مثلث يبلغ قياس زاويتين 65° و 45°. ما قياس الزاوية الثالثة؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "180 − (65 + 45) = 180 − 110 = 70.",
+            "ar": "180 − (65 + 45) = 180 − 110 = 70."
+          }
+        ],
+        "resultat": {
+          "fr": "70°",
+          "ar": "70°"
+        }
+      },
+      "acceptees": [
+        "70"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Un rectangle a un périmètre de 24 cm et une longueur de 8 cm. Quelle est sa largeur ?",
+        "ar": "مستطيل محيطه 24 سم وطوله 8 سم. ما عرضه؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "P = (L + l) × 2 → L + l = 12 ; l = 12 − 8 = 4.",
+            "ar": "P = (L + l) × 2 ← L + l = 12 ؛ l = 12 − 8 = 4."
+          }
+        ],
+        "resultat": {
+          "fr": "4 cm",
+          "ar": "4 سم"
+        }
+      },
+      "acceptees": [
+        "4"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Un cercle a un rayon de 6 cm. Quel est son diamètre ? Et si le diamètre est 20 cm, quel est le rayon ?",
+        "ar": "دائرة نصف قطرها 6 سم. ما قطرها؟ وإذا كان القطر 20 سم فما نصف القطر؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Diamètre = 2 × rayon = 12 cm.",
+            "ar": "القطر = 2 × نصف القطر = 12 سم."
+          },
+          {
+            "fr": "Rayon = diamètre ÷ 2 = 10 cm.",
+            "ar": "نصف القطر = 10 سم."
+          }
+        ],
+        "resultat": {
+          "fr": "12 cm ; 10 cm",
+          "ar": "12 سم؛ 10 سم"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Vrai ou faux, puis justifie : « Deux droites qui ne se coupent pas sont toujours parallèles. »",
+        "ar": "صواب أو خطأ مع التعليل: «المستقيمان اللذان لا يتقاطعان متوازيان دائماً»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Faux : dans le plan oui, mais il faut préciser qu’elles sont dans le même plan.",
+            "ar": "خطأ: يجب أن يكونا في المستوى نفسه."
+          }
+        ],
+        "resultat": {
+          "fr": "Faux (même plan requis)",
+          "ar": "خطأ (المستوى نفسه)"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Un angle de 45° est…",
+        "ar": "الزاوية التي قياسها 45° هي…"
+      },
+      "choix": [
+        {
+          "fr": "aigu",
+          "ar": "حادة"
+        },
+        {
+          "fr": "droit",
+          "ar": "قائمة"
+        },
+        {
+          "fr": "obtus",
+          "ar": "منفرجة"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "45° < 90°.",
+        "ar": "45° < 90°."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "Rayon 6 cm : diamètre ?",
+        "ar": "نصف القطر 6 سم: ما القطر؟"
+      },
+      "acceptees": [
+        "12",
+        "12 cm"
+      ],
+      "explication": {
+        "fr": "2 × 6.",
+        "ar": "2 × 6."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "La somme des angles d'un triangle vaut 180°.",
+        "ar": "مجموع زوايا المثلث يساوي 180°."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Propriété fondamentale du triangle.",
+        "ar": "خاصية أساسية للمثلث."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "qcm",
+      "q": {
+        "fr": "Le carré possède combien d'axes de symétrie ?",
+        "ar": "كم عدد محاور تناظر المربع؟"
+      },
+      "choix": [
+        {
+          "fr": "4",
+          "ar": "4"
+        },
+        {
+          "fr": "2",
+          "ar": "2"
+        },
+        {
+          "fr": "8",
+          "ar": "8"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Deux diagonales + deux médiatrices des côtés.",
+        "ar": "قطران + عمودان على الأضلاع."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Deux droites parallèles…",
+        "ar": "المستقيمان المتوازيان…"
+      },
+      "choix": [
+        {
+          "fr": "ne se croisent jamais",
+          "ar": "لا يتقاطعان أبداً"
+        },
+        {
+          "fr": "forment un angle droit",
+          "ar": "يشكلان زاوية قائمة"
+        },
+        {
+          "fr": "se coupent en un point",
+          "ar": "يتقاطعان في نقطة"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Définition du parallélisme.",
+        "ar": "تعريف التوازي."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Triangle équilatéral : mesure de chaque angle ?",
+        "ar": "المثلث المتساوي الأضلاع: ما قياس كل زاوية؟"
+      },
+      "acceptees": [
+        "60",
+        "60°",
+        "60 deg"
+      ],
+      "explication": {
+        "fr": "180 ÷ 3.",
+        "ar": "180 ÷ 3."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "courte",
+      "q": {
+        "fr": "Rayon d’un cercle de diamètre 14 cm ?",
+        "ar": "نصف قطر دائرة قطرها 14 سم؟"
+      },
+      "acceptees": [
+        "7",
+        "7 cm"
+      ],
+      "explication": {
+        "fr": "14 ÷ 2 = 7 cm.",
+        "ar": "14 ÷ 2 = 7 سم."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "Un carré a 4 angles droits.",
+        "ar": "للمربع 4 زوايا قائمة."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai.",
+        "ar": "صحيح."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Angle aigu vs obtus",
+        "ar": "الزاوية الحادة مقابل المنفرجة"
+      },
+      "verso": {
+        "fr": "Aigu < 90° ; obtus entre 90° et 180°.",
+        "ar": "الحادة < 90°؛ المنفرجة بين 90° و 180°."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Diamètre d'un cercle",
+        "ar": "قطر الدائرة"
+      },
+      "verso": {
+        "fr": "2 × rayon.",
+        "ar": "2 × نصف القطر."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Somme des angles d'un triangle",
+        "ar": "مجموع زوايا المثلث"
+      },
+      "verso": {
+        "fr": "180°.",
+        "ar": "180°."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Rectangle : côtés opposés",
+        "ar": "المستطيل: الأضلاع المتقابلة"
+      },
+      "verso": {
+        "fr": "De même longueur, 4 angles droits.",
+        "ar": "بنفس الطول و4 زوايا قائمة."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Définition de la symétrie axiale",
+        "ar": "تعريف التناظر المحوري"
+      },
+      "verso": {
+        "fr": "Même distance de l'axe, de part et d'autre.",
+        "ar": "المسافة نفسها من المحور على الجانبين."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Périmètre d'un rectangle",
+        "ar": "محيط المستطيل"
+      },
+      "verso": {
+        "fr": "(L + l) × 2.",
+        "ar": "(L + l) × 2."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Diamètre et rayon",
+        "ar": "القطر ونصف القطر"
+      },
+      "verso": {
+        "fr": "Diamètre = 2 × rayon.",
+        "ar": "القطر = 2 × نصف القطر."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Perpendiculaires",
+        "ar": "المتعامدات"
+      },
+      "verso": {
+        "fr": "Deux droites qui forment un angle droit (90°).",
+        "ar": "مستقيمان يشكلان زاوية قائمة."
+      }
+    }
+  ]
+}

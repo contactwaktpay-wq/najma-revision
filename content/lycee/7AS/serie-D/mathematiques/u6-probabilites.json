@@ -1,0 +1,397 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-math-06",
+  "niveau": "7AS",
+  "matiere": "mathematiques",
+  "ordre": 6,
+  "titre": {
+    "fr": "Probabilités et dénombrement",
+    "ar": "الاحتمالات والعد"
+  },
+  "duree_min": 35,
+  "objectifs": {
+    "fr": [
+      "Calculer des probabilités dans un univers fini",
+      "Utiliser les probabilités conditionnelles et l'indépendance (arbre)",
+      "Connaître la loi binomiale et son espérance"
+    ],
+    "ar": [
+      "حساب الاحتمالات في فضاء منتهٍ",
+      "استعمال الاحتمالات الشرطية والاستقلال (الشجرة)",
+      "معرفة القانون ذات الحدين وقيمة الأمل"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Univers, événements, probabilités",
+        "ar": "الفضاء والأحداث والاحتمالات"
+      },
+      "puces": [
+        {
+          "fr": "Univers Ω : ensemble des issues. P(A) = (cas favorables)/(cas possibles) si équiprobable.",
+          "ar": "الفضاء Ω: مجموعة النواتج. P(A) = (الحالات المواتية)/(الحالات الممكنة) عند تكافؤ الفرص."
+        },
+        {
+          "fr": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B). P(Ā) = 1 − P(A).",
+          "ar": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B) ؛ P(Ā) = 1 − P(A)."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Urne : 5 boules rouges, 3 bleues. On tire 2 boules sans remise. P(2 rouges) ?",
+          "ar": "كيس: 5 كرات حمراء و 3 زرقاء. نسحب كرتين دون إرجاع. ما احتمال الحمراوين؟"
+        },
+        "etapes": [
+          {
+            "fr": "C(8,2) = 28 tirages possibles ; C(5,2) = 10 favorables.",
+            "ar": "عدد الحالات الممكنة 28 والمواتية 10."
+          },
+          {
+            "fr": "P = 10/28 = 5/14.",
+            "ar": "الاحتمال = 5/14."
+          }
+        ],
+        "resultat": {
+          "fr": "5/14 ≈ 0,36",
+          "ar": "5/14 ≈ 0,36"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Probabilités conditionnelles",
+        "ar": "الاحتمالات الشرطية"
+      },
+      "formules": [
+        "P(A/B) = P(A ∩ B)/P(B)",
+        "P(A ∩ B) = P(B) × P(A/B)",
+        "indépendance : P(A ∩ B) = P(A) × P(B)"
+      ],
+      "puces": [
+        {
+          "fr": "Arbre pondéré : les probabilités sur les branches se multiplient le long du chemin ; les branches d'un même nœud se somment.",
+          "ar": "الشجرة الموزونة: تُضرب الاحتمالات على طول المسار، وتُجمع الاحتمالات في نقطة التفرع نفسها."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Loi binomiale",
+        "ar": "القانون ذو الحدين"
+      },
+      "puces": [
+        {
+          "fr": "Schéma de Bernoulli : n épreuves identiques et indépendantes, succès de probabilité p.",
+          "ar": "مخطط برنولي: n اختباراً متطابقاً ومستقلاً باحتمال نجاح p."
+        },
+        {
+          "fr": "X ~ B(n, p) : P(X = k) = C(n,k) pᵏ (1−p)ⁿ⁻ᵏ ; espérance E(X) = n×p.",
+          "ar": "X تتبع B(n، p): P(X = k) = C(n,k) pᵏ (1−p)ⁿ⁻ᵏ ؛ و E(X) = n×p."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Événement contraire",
+        "ar": "الحدث المعاكس"
+      },
+      "def": {
+        "fr": "Ā : P(Ā) = 1 − P(A).",
+        "ar": "الحدث Ā: احتماله 1 − P(A)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Indépendance",
+        "ar": "الاستقلال"
+      },
+      "def": {
+        "fr": "P(A ∩ B) = P(A) × P(B).",
+        "ar": "P(A ∩ B) = P(A) × P(B)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Espérance",
+        "ar": "قيمة الأمل"
+      },
+      "def": {
+        "fr": "Moyenne théorique : E(X) = Σ xᵢ·P(X = xᵢ).",
+        "ar": "المتوسط النظري: E(X) = Σ xᵢ·P(X = xᵢ)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Combinaison C(n,k)",
+        "ar": "التوفيق C(n,k)"
+      },
+      "def": {
+        "fr": "Nombre de façons de choisir k éléments parmi n, sans ordre.",
+        "ar": "عدد طرائق اختيار k عنصراً من n دون ترتيب."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Dé : P(nombre pair) ?",
+        "ar": "نرد: ما احتمال العدد الزوجي؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "3 pairs sur 6 → 1/2.",
+            "ar": "ثلاثة أزواج من ستة ← 1/2."
+          }
+        ],
+        "resultat": {
+          "fr": "1/2",
+          "ar": "1/2"
+        }
+      },
+      "acceptees": [
+        "1/2"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Tirage de 2 boules sans remise (5 rouges, 3 bleues) : P(au moins 1 bleue) ?",
+        "ar": "سحب كرتين دون إرجاع (5 حمراء، 3 زرقاء): ما احتمال زرقاء واحدة على الأقل؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "P(au moins 1 bleue) = 1 − P(2 rouges) = 1 − 5/14 = 9/14.",
+            "ar": "الاحتمال = 1 − 5/14 = 9/14."
+          }
+        ],
+        "resultat": {
+          "fr": "9/14 ≈ 0,64",
+          "ar": "9/14 ≈ 0,64"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "X ~ B(3, 0,5) : P(X = 2) ?",
+        "ar": "X ~ B(3، 0,5): ما P(X = 2)؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "C(3,2) × 0,5² × 0,5 = 3 × 0,25 × 0,5 = 0,375.",
+            "ar": "C(3,2) × 0,5² × 0,5 = 0,375."
+          }
+        ],
+        "resultat": {
+          "fr": "0,375 (3/8)",
+          "ar": "0,375 (3/8)"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "Dé : P(6) = ?",
+        "ar": "نرد: ما P(6)؟"
+      },
+      "acceptees": [
+        "1/6",
+        "0.167",
+        "0,167"
+      ],
+      "explication": {
+        "fr": "Équiprobabilité.",
+        "ar": "تكافؤ الفرص."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "courte",
+      "q": {
+        "fr": "Tirage 2 sans remise : P(2 rouges) ?",
+        "ar": "سحب 2 دون إرجاع: ما P(حمراوين)؟"
+      },
+      "acceptees": [
+        "5/14",
+        "0,36",
+        "0.36"
+      ],
+      "explication": {
+        "fr": "C(5,2)/C(8,2).",
+        "ar": "C(5,2)/C(8,2)."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "qcm",
+      "q": {
+        "fr": "Sur l'arbre pondéré, on…",
+        "ar": "في الشجرة الموزونة ن…"
+      },
+      "choix": [
+        {
+          "fr": "multiplie le long du chemin",
+          "ar": "نضرب على طول المسار"
+        },
+        {
+          "fr": "divise",
+          "ar": "نقسم"
+        },
+        {
+          "fr": "soustrait",
+          "ar": "نطرح"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Règle de l'arbre.",
+        "ar": "قاعدة الشجرة."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "vf",
+      "q": {
+        "fr": "E(X) d'une binomiale = n × p.",
+        "ar": "قيمة الأمل لذات الحدين = n × p."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Espérance de la binomiale.",
+        "ar": "أمل ذات الحدين."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "P(X=2) pour B(3, 0,5) :",
+        "ar": "P(X=2) لقانون B(3، 0,5):"
+      },
+      "acceptees": [
+        "0,375",
+        "0.375",
+        "3/8"
+      ],
+      "explication": {
+        "fr": "C(3,2)·0,5³·3? Non : 3 × 0,125 = 0,375.",
+        "ar": "3 × 0,125 = 0,375."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Si A et B indépendants :",
+        "ar": "إذا كان A و B مستقلين:"
+      },
+      "choix": [
+        {
+          "fr": "P(A∩B) = P(A)×P(B)",
+          "ar": "P(A∩B) = P(A)×P(B)"
+        },
+        {
+          "fr": "P(A∩B) = 0",
+          "ar": "P(A∩B) = 0"
+        },
+        {
+          "fr": "P(A∪B) = 1",
+          "ar": "P(A∪B) = 1"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Définition de l'indépendance.",
+        "ar": "تعريف الاستقلال."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "P(Ā)",
+        "ar": "P(Ā)"
+      },
+      "verso": {
+        "fr": "1 − P(A).",
+        "ar": "1 − P(A)."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "P(A/B)",
+        "ar": "P(A/B)"
+      },
+      "verso": {
+        "fr": "P(A ∩ B)/P(B).",
+        "ar": "P(A ∩ B)/P(B)."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Binomiale : P(X=k)",
+        "ar": "ذات الحدين: P(X=k)"
+      },
+      "verso": {
+        "fr": "C(n,k) pᵏ (1−p)ⁿ⁻ᵏ.",
+        "ar": "C(n,k) pᵏ (1−p)ⁿ⁻ᵏ."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Espérance binomiale",
+        "ar": "أمل ذات الحدين"
+      },
+      "verso": {
+        "fr": "E(X) = n·p.",
+        "ar": "E(X) = n·p."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "« Au moins un » : astuce",
+        "ar": "«واحد على الأقل»: الحيلة"
+      },
+      "verso": {
+        "fr": "1 − P(aucun).",
+        "ar": "1 − P(لا شيء)."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "C(n,k)",
+        "ar": "C(n,k)"
+      },
+      "verso": {
+        "fr": "n!/(k!(n−k)!).",
+        "ar": "n!/(k!(n−k)!)."
+      }
+    }
+  ],
+  "notes_editeur": [
+    {
+      "fr": "Vérifier si la loi binomiale figure explicitement au programme mauritanien 7AS D (standard sous-régional : oui pour le Sénégal).",
+      "ar": "التحقق من وجود القانون ذي الحدين في البرنامج الموريتاني للسنة السابعة شعبة D (قياسي في السنغال)."
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-03",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 3,
+  "titre": {
+    "fr": "Les temps du récit : présent, futur, imparfait",
+    "ar": "أزمنة السرد: الحاضر والمستقبل والناقص"
+  },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": [
+      "Conjuguer les verbes usuels au présent, au futur et à l'imparfait",
+      "Choisir le temps adapté à un récit",
+      "Utiliser le passé composé dans un récit court"
+    ],
+    "ar": [
+      "تصريف الأفعال المألوفة في الحاضر والمستقبل والناقص",
+      "اختيار الزمن المناسب للسرد",
+      "استعمال الماضي المركب في قصة قصيرة"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Le présent de l'indicatif",
+        "ar": "زمن الحاضر"
+      },
+      "bloc": [
+        {
+          "fr": "Le présent sert à décrire ce qui se passe maintenant, ou ce qui est général. Verbes clés : je fais, tu vas, il/elle prend, nous sommes, vous avez, ils/elles vont.",
+          "ar": "يُستعمل الحاضر لوصف ما يجري الآن أو القواعد العامة. أفعال أساسية: je fais، tu vas، il/elle prend، nous sommes، vous avez، ils/elles vont."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Le futur simple",
+        "ar": "المستقبل البسيط"
+      },
+      "bloc": [
+        {
+          "fr": "Le futur exprime une action qui viendra. On garde l'infinitif et on ajoute : -ai, -as, -a, -ons, -ez, -ont. Futurs irréguliers à mémoriser : être → je serai ; avoir → j'aurai ; aller → j'irai ; faire → je ferai.",
+          "ar": "يعبّر المستقبل عن حدث قادم. نُبقي المصدر ونضيف: -ai، -as، -a، -ons، -ez، -ont. مستقبلات شاذة للحفظ: être ← je serai ؛ avoir ← j'aurai ؛ aller ← j'irai ؛ faire ← je ferai."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Conjugue « visiter » au futur : nous ___",
+          "ar": "صرّف «visiter» في المستقبل: nous ___"
+        },
+        "etapes": [
+          {
+            "fr": "Infinitif « visiter » + -ons → « nous visiterons ».",
+            "ar": "المصدر visiter + -ons ← nous visiterons."
+          }
+        ],
+        "resultat": {
+          "fr": "nous visiterons",
+          "ar": "سنزور"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "L'imparfait, temps du récit",
+        "ar": "الناقص، زمن السرد"
+      },
+      "bloc": [
+        {
+          "fr": "L'imparfait décrit le décor et les habitudes dans un récit au passé. Radical du présent « nous » + terminaisons : -ais, -ais, -ait, -ions, -iez, -aient.",
+          "ar": "يصف الناقص المشهد والعادات في السرد بالماضي. الجذع من صيغة «nous» في الحاضر + النهايات: -ais، -ais، -ait، -ions، -iez، -aient."
+        }
+      ],
+      "puces": [
+        {
+          "fr": "« Le soleil brillait, les pêcheurs préparaient leurs filets. »",
+          "ar": "«كانت الشمس تلمع، وكان الصيادون يجهزون شباكهم.»"
+        },
+        {
+          "fr": "Exception : « être » → j'étais, tu étais, il était, nous étions…",
+          "ar": "الاستثناء: être ← j'étais، tu étais، il était، nous étions…"
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "À quel temps : « quand j'étais petit, nous jouions au football » ?",
+          "ar": "في أي زمن: «عندما كنت صغيراً كنا نلعب الكرة»؟"
+        },
+        "etapes": [
+          {
+            "fr": "Décor + habitude du passé → imparfait.",
+            "ar": "مشهد وعادة في الماضي ← الناقص."
+          }
+        ],
+        "resultat": {
+          "fr": "imparfait",
+          "ar": "الناقص"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Le passé composé (initiation)",
+        "ar": "الماضي المركب (تمهيد)"
+      },
+      "puces": [
+        {
+          "fr": "avoir/être au présent + participe passé : j'ai mangé, il est allé(e).",
+          "ar": "avoir/être في الحاضر + اسم المفعول: j'ai mangé، il est allé(e)."
+        },
+        {
+          "fr": "Avec « être », le participe s'accorde : elle est partie.",
+          "ar": "مع être تطابق اسم المفعول: elle est partie."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Imparfait",
+        "ar": "الناقص"
+      },
+      "def": {
+        "fr": "Temps du passé pour décrire et exprimer l'habitude.",
+        "ar": "زمن ماضٍ للوصف والتعبير عن العادة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Futur simple",
+        "ar": "المستقبل البسيط"
+      },
+      "def": {
+        "fr": "Temps des actions à venir.",
+        "ar": "زمن الأحداث القادمة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Participe passé",
+        "ar": "اسم المفعول"
+      },
+      "def": {
+        "fr": "Forme du verbe utilisée avec avoir/être (mangé, fini, parti).",
+        "ar": "صيغة الفعل مع avoir/être (mangé، fini، parti)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Récit",
+        "ar": "السرد"
+      },
+      "def": {
+        "fr": "Texte qui raconte des événements, au présent ou au passé.",
+        "ar": "نص يحكي أحداثاً بالحاضر أو الماضي."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Conjugue au futur : « Demain, je ___ (aller) au marché. »",
+        "ar": "صرّف في المستقبل: «غداً ___ إلى السوق.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Futur irrégulier d'aller : j'irai.",
+            "ar": "مستقبل aller الشاذ: j'irai."
+          }
+        ],
+        "resultat": {
+          "fr": "j'irai",
+          "ar": "سأذهب"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Conjugue à l'imparfait : « Nous ___ (être) contents quand le car ___ (arriver). »",
+        "ar": "صرّف في الناقص: «كنا سعداء عندما ___ الحافلة.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "être → nous étions ; arriver → le car arrivait.",
+            "ar": "être ← nous étions ؛ arriver ← الوصول كان يجري."
+          }
+        ],
+        "resultat": {
+          "fr": "nous étions ; arrivait",
+          "ar": "كنّا ؛ كانت تصل"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Transforme au passé composé : « Elle part tôt. »",
+        "ar": "حوّل إلى الماضي المركب: «تنصرف مبكراً.»"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "partir (verbe de mouvement) → être + partie ; accord féminin.",
+            "ar": "partir (فعل حركة) ← être + partie؛ مطابقة المؤنث."
+          }
+        ],
+        "resultat": {
+          "fr": "Elle est partie tôt.",
+          "ar": "انصرفت مبكراً."
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Imparfait ou passé composé ? « Ce matin, il ___ (pleuvoir) pendant une heure ; ensuite le soleil ___ (revenir). »",
+        "ar": "مضارع مستمر أم ماضٍ: «صباحاً أمطرت ساعة؛ ثم عادت الشمس»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "il pleuvait (description) ; le soleil est revenu (action ponctuelle).",
+            "ar": "pleuvait للوصف؛ est revenu للحدث."
+          }
+        ],
+        "resultat": {
+          "fr": "pleuvait ; est revenu",
+          "ar": "pleuvait؛ est revenu"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Continue ce récit au passé (2 phrases) : « Hier, nous sommes allés au fleuve… »",
+        "ar": "أكمل القصة بالماضي (جملتان): «أمس ذهبنا إلى النهر…»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Ex. : « …Nous avons vu des pirogues. L’eau coulait doucement. »",
+            "ar": "مثال: «…رأينا قوارب. كان الماء يجري بهدوء»."
+          }
+        ],
+        "resultat": {
+          "fr": "2 phrases au passé cohérentes",
+          "ar": "جملتان بالماضي متناسقتان"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Futur de « faire » : je…",
+        "ar": "مستقبل «faire»: je…"
+      },
+      "choix": [
+        {
+          "fr": "ferai",
+          "ar": "سأفعل"
+        },
+        {
+          "fr": "faisai",
+          "ar": "فعلت"
+        },
+        {
+          "fr": "faisrai",
+          "ar": "سأفعلr"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Radical irrégulier « fer- ».",
+        "ar": "جذع شاذ «fer-»."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "« Nous ___ à la plage hier. » (aller, passé composé)",
+        "ar": "«___ إلى الشاطئ أمس.» (aller بالماضي المركب)"
+      },
+      "choix": [
+        {
+          "fr": "sommes allés",
+          "ar": "ذهبنا"
+        },
+        {
+          "fr": "avons allé",
+          "ar": "ذهبنا aux"
+        },
+        {
+          "fr": "allions",
+          "ar": "كنا نذهب"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Aller = verbe de mouvement → être.",
+        "ar": "aller فعل حركة ← être."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "L'imparfait exprime une habitude passée.",
+        "ar": "الناقص يعبر عن عادة ماضية."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "C'est sa valeur principale.",
+        "ar": "هي وظيفته الأساسية."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Imparfait de « jouer » avec ils :",
+        "ar": "الناقص لـ «jouer» مع ils:"
+      },
+      "acceptees": [
+        "jouaient"
+      ],
+      "explication": {
+        "fr": "-aient.",
+        "ar": "-aient."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "« Le soleil brillait » est…",
+        "ar": "«كانت الشمس تلمع» في زمن…"
+      },
+      "choix": [
+        {
+          "fr": "l'imparfait",
+          "ar": "الناقص"
+        },
+        {
+          "fr": "le futur",
+          "ar": "المستقبل"
+        },
+        {
+          "fr": "le présent",
+          "ar": "الحاضر"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "-ait = imparfait.",
+        "ar": "-ait = الناقص."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Futur de « être » : nous…",
+        "ar": "مستقبل «être»: nous…"
+      },
+      "acceptees": [
+        "serons"
+      ],
+      "explication": {
+        "fr": "Radical « ser- ».",
+        "ar": "الجذع «ser-»."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "« Quand il était petit, il ___ souvent au fleuve. »",
+        "ar": "«في صغره كان كثيراً ___ إلى النهر»."
+      },
+      "choix": [
+        {
+          "fr": "allait",
+          "ar": "يذهب"
+        },
+        {
+          "fr": "est allé",
+          "ar": "ذهب"
+        },
+        {
+          "fr": "ira",
+          "ar": "سيذهب"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Habitude dans le passé → imparfait.",
+        "ar": "عادة في الماضي ← الماضي المستمر."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "Le passé composé exprime une action finie.",
+        "ar": "الماضي المركب يعبر عن حدث منتهٍ."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai.",
+        "ar": "صحيح."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Terminaisons du futur simple",
+        "ar": "نهايات المستقبل البسيط"
+      },
+      "verso": {
+        "fr": "-ai, -as, -a, -ons, -ez, -ont.",
+        "ar": "-ai، -as، -a، -ons، -ez، -ont."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Imparfait : radical + terminaisons",
+        "ar": "الناقص: الجذع + النهايات"
+      },
+      "verso": {
+        "fr": "-ais, -ais, -ait, -ions, -iez, -aient.",
+        "ar": "-ais، -ais، -ait، -ions، -iez، -aient."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "aller au futur",
+        "ar": "aller في المستقبل"
+      },
+      "verso": {
+        "fr": "j'irai, tu iras, il ira…",
+        "ar": "سأذهب، ستذهب، سيذهب…"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Passé composé avec être : accord ?",
+        "ar": "الماضي المركب مع être: المطابقة؟"
+      },
+      "verso": {
+        "fr": "Oui : elle est part-ie.",
+        "ar": "نعم: انصرفت."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Valeur de l'imparfait",
+        "ar": "وظيفة الناقص"
+      },
+      "verso": {
+        "fr": "Description + habitude au passé.",
+        "ar": "الوصف + العادة في الماضي."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "être à l'imparfait",
+        "ar": "être في الناقص"
+      },
+      "verso": {
+        "fr": "j'étais, tu étais, il était, nous étions…",
+        "ar": "كنت، كنت، كان، كنا…"
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Imparfait : usage",
+        "ar": "استعمال الماضي المستمر"
+      },
+      "verso": {
+        "fr": "Description et habitudes dans le passé.",
+        "ar": "الوصف والعادات في الماضي."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Passé composé : usage",
+        "ar": "استعمال الماضي المركب"
+      },
+      "verso": {
+        "fr": "Actions ponctuelles, terminées.",
+        "ar": "الأحداث المنتهية."
+      }
+    }
+  ]
+}

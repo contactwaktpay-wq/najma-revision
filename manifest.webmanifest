@@ -1,0 +1,25 @@
+{
+  "name": "Najma — Révisions scolaires Mauritanie",
+  "short_name": "Najma",
+  "description": "Révisions bilingues (Français / العربية) du 1AF au Baccalauréat : fiches, quiz, flashcards, examens blancs, planificateur. Fonctionne hors ligne.",
+  "lang": "fr",
+  "dir": "auto",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0D3B66",
+  "theme_color": "#0D3B66",
+  "categories": ["education"],
+  "icons": [
+    { "src": "assets/img/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/img/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/img/icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/img/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Examens blancs", "short_name": "Examens", "url": "./index.html#/examens" },
+    { "name": "Planificateur de révision", "short_name": "Planning", "url": "./index.html#/planning" },
+    { "name": "Carnet d'erreurs", "short_name": "Carnet", "url": "./index.html#/carnet" }
+  ]
+}

@@ -1,0 +1,1008 @@
+{
+  "schema": "najma.catalogue@1",
+  "genere": "2026-11-24",
+  "matieres": {
+    "arabe": {
+      "label": {
+        "fr": "Arabe (langue nationale)",
+        "ar": "العربية (اللغة الوطنية)"
+      },
+      "icone": "letters"
+    },
+    "francais": {
+      "label": {
+        "fr": "Français",
+        "ar": "الفرنسية"
+      },
+      "icone": "book"
+    },
+    "mathematiques": {
+      "label": {
+        "fr": "Mathématiques",
+        "ar": "الرياضيات"
+      },
+      "icone": "math"
+    },
+    "sciences": {
+      "label": {
+        "fr": "Sciences (éveil)",
+        "ar": "العلوم"
+      },
+      "icone": "leaf"
+    },
+    "sciences_naturelles": {
+      "label": {
+        "fr": "Sciences Naturelles",
+        "ar": "العلوم الطبيعية"
+      },
+      "icone": "leaf"
+    },
+    "physique_chimie": {
+      "label": {
+        "fr": "Physique-Chimie",
+        "ar": "الفيزياء والكيمياء"
+      },
+      "icone": "flask"
+    },
+    "histoire_geo": {
+      "label": {
+        "fr": "Histoire-Géographie",
+        "ar": "التاريخ والجغرافيا"
+      },
+      "icone": "globe"
+    },
+    "education_islamique": {
+      "label": {
+        "fr": "Éducation islamique",
+        "ar": "التربية الإسلامية"
+      },
+      "icone": "mosque"
+    },
+    "anglais": {
+      "label": {
+        "fr": "Anglais",
+        "ar": "الإنجليزية"
+      },
+      "icone": "globe"
+    },
+    "philosophie": {
+      "label": {
+        "fr": "Philosophie",
+        "ar": "الفلسفة"
+      },
+      "icone": "book"
+    }
+  },
+  "niveaux": [
+    {
+      "id": "1AF",
+      "cycle": "fondamental",
+      "ordre": 1,
+      "label": {
+        "fr": "1AF · 1re année fondamental",
+        "ar": "السنة الأولى أساسي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "education_islamique"
+      ]
+    },
+    {
+      "id": "2AF",
+      "cycle": "fondamental",
+      "ordre": 2,
+      "label": {
+        "fr": "2AF · 2e année fondamental",
+        "ar": "السنة الثانية أساسي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "education_islamique"
+      ]
+    },
+    {
+      "id": "3AF",
+      "cycle": "fondamental",
+      "ordre": 3,
+      "label": {
+        "fr": "3AF · 3e année fondamental",
+        "ar": "السنة الثالثة أساسي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "education_islamique",
+        "sciences"
+      ]
+    },
+    {
+      "id": "4AF",
+      "cycle": "fondamental",
+      "ordre": 4,
+      "label": {
+        "fr": "4AF · 4e année fondamental",
+        "ar": "السنة الرابعة أساسي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "education_islamique",
+        "sciences"
+      ]
+    },
+    {
+      "id": "5AF",
+      "cycle": "fondamental",
+      "ordre": 5,
+      "label": {
+        "fr": "5AF · 5e année fondamental",
+        "ar": "السنة الخامسة أساسي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "education_islamique",
+        "sciences",
+        "histoire_geo"
+      ]
+    },
+    {
+      "id": "6AF",
+      "cycle": "fondamental",
+      "ordre": 6,
+      "label": {
+        "fr": "6AF · 6e année fondamental (Concours)",
+        "ar": "السنة السادسة أساسي (المباراة)"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "education_islamique",
+        "sciences",
+        "histoire_geo"
+      ]
+    },
+    {
+      "id": "1AS",
+      "cycle": "college",
+      "ordre": 7,
+      "label": {
+        "fr": "1AS · 1re année secondaire (collège)",
+        "ar": "السنة الأولى إعدادي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "sciences_naturelles",
+        "histoire_geo",
+        "education_islamique"
+      ]
+    },
+    {
+      "id": "2AS",
+      "cycle": "college",
+      "ordre": 8,
+      "label": {
+        "fr": "2AS · 2e année secondaire (collège)",
+        "ar": "السنة الثانية إعدادي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "sciences_naturelles",
+        "histoire_geo",
+        "education_islamique"
+      ]
+    },
+    {
+      "id": "3AS",
+      "cycle": "college",
+      "ordre": 9,
+      "label": {
+        "fr": "3AS · 3e année secondaire (collège)",
+        "ar": "السنة الثالثة إعدادي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "sciences_naturelles",
+        "physique_chimie",
+        "histoire_geo",
+        "education_islamique",
+        "anglais"
+      ]
+    },
+    {
+      "id": "4AS",
+      "cycle": "college",
+      "ordre": 10,
+      "label": {
+        "fr": "4AS · 4e année secondaire (Brevet/BEPC)",
+        "ar": "السنة الرابعة إعدادي (شهادة البريفيه)"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "sciences_naturelles",
+        "physique_chimie",
+        "histoire_geo",
+        "education_islamique",
+        "anglais"
+      ]
+    },
+    {
+      "id": "5AS",
+      "cycle": "lycee",
+      "ordre": 11,
+      "label": {
+        "fr": "5AS · 1re année lycée (2nd cycle)",
+        "ar": "السنة الخامسة ثانوي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "sciences_naturelles",
+        "physique_chimie",
+        "histoire_geo",
+        "education_islamique",
+        "anglais"
+      ]
+    },
+    {
+      "id": "6AS",
+      "cycle": "lycee",
+      "ordre": 12,
+      "label": {
+        "fr": "6AS · 2e année lycée",
+        "ar": "السنة السادسة ثانوي"
+      },
+      "matieres": [
+        "arabe",
+        "francais",
+        "mathematiques",
+        "sciences_naturelles",
+        "physique_chimie",
+        "histoire_geo",
+        "education_islamique",
+        "anglais"
+      ]
+    },
+    {
+      "id": "7AS",
+      "cycle": "lycee",
+      "ordre": 13,
+      "label": {
+        "fr": "7AS · Année du Baccalauréat",
+        "ar": "السنة السابعة ثانوي (البكالوريا)"
+      },
+      "matieres": [
+        "francais",
+        "histoire_geo",
+        "education_islamique",
+        "anglais",
+        "philosophie"
+      ]
+    }
+  ],
+  "series": {
+    "7AS": [
+      {
+        "id": "A",
+        "label": {
+          "fr": "Série A — Lettres & langues",
+          "ar": "الشعبة الآداب واللغات"
+        },
+        "matieresExtra": [
+          "arabe",
+          "mathematiques",
+          "physique_chimie"
+        ]
+      },
+      {
+        "id": "C",
+        "label": {
+          "fr": "Série C — Mathématiques & sciences physiques",
+          "ar": "الشعبة الرياضية والفيزياء"
+        },
+        "matieresExtra": [
+          "arabe",
+          "mathematiques",
+          "sciences_naturelles",
+          "physique_chimie"
+        ]
+      },
+      {
+        "id": "D",
+        "label": {
+          "fr": "Série D — Sciences expérimentales (SVT)",
+          "ar": "الشعبة العلمية (علوم الحياة والأرض)"
+        },
+        "matieresExtra": [
+          "mathematiques",
+          "sciences_naturelles",
+          "physique_chimie"
+        ]
+      }
+    ]
+  },
+  "unites": [
+    {
+      "id": "4AS-math-01",
+      "niveau": "4AS",
+      "matiere": "mathematiques",
+      "ordre": 1,
+      "path": "college/4AS/mathematiques/u1-calculs.json",
+      "titre": {
+        "fr": "Nombres et calculs : puissances, racines, ensembles de nombres",
+        "ar": "الأعداد والحساب: القوى والجذور ومجموعات الأعداد"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-math-02",
+      "niveau": "4AS",
+      "matiere": "mathematiques",
+      "ordre": 2,
+      "path": "college/4AS/mathematiques/u2-calcul-litteral.json",
+      "titre": {
+        "fr": "Calcul littéral et identités remarquables",
+        "ar": "الحساب الحرفي والمتطابقات الشهيرة"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-math-03",
+      "niveau": "4AS",
+      "matiere": "mathematiques",
+      "ordre": 3,
+      "path": "college/4AS/mathematiques/u3-equations.json",
+      "titre": {
+        "fr": "Équations et inéquations du premier degré",
+        "ar": "المعادلات والمتراجحات من الدرجة الأولى"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-math-04",
+      "niveau": "4AS",
+      "matiere": "mathematiques",
+      "ordre": 4,
+      "path": "college/4AS/mathematiques/u4-geometrie.json",
+      "titre": {
+        "fr": "Géométrie : Pythagore, Thalès et volumes",
+        "ar": "الهندسة: فيثاغورس، طاليس والأحجام"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 35
+    },
+    {
+      "id": "4AS-math-05",
+      "niveau": "4AS",
+      "matiere": "mathematiques",
+      "ordre": 5,
+      "path": "college/4AS/mathematiques/u5-trigonometrie.json",
+      "titre": {
+        "fr": "Trigonométrie dans le triangle rectangle",
+        "ar": "المثلثات في المثلث القائم"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-math-06",
+      "niveau": "4AS",
+      "matiere": "mathematiques",
+      "ordre": 6,
+      "path": "college/4AS/mathematiques/u6-statistiques.json",
+      "titre": {
+        "fr": "Statistiques et pourcentages",
+        "ar": "الإحصاء والنسب المئوية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-svn-01",
+      "niveau": "4AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 1,
+      "path": "college/4AS/sciences_naturelles/u1-classification.json",
+      "titre": {
+        "fr": "Unité et diversité du vivant : la classification",
+        "ar": "وحدة الكائن الحي وتنوعه: التصنيف"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-svn-02",
+      "niveau": "4AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 2,
+      "path": "college/4AS/sciences_naturelles/u2-alimentation-digestion.json",
+      "titre": {
+        "fr": "L'alimentation et la digestion",
+        "ar": "التغذية والهضم"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-svn-03",
+      "niveau": "4AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 3,
+      "path": "college/4AS/sciences_naturelles/u3-respiration-circulation.json",
+      "titre": {
+        "fr": "La respiration et la circulation sanguine",
+        "ar": "التنفس والدوران الدموي"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-svn-04",
+      "niveau": "4AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 4,
+      "path": "college/4AS/sciences_naturelles/u4-puberte-reproduction.json",
+      "titre": {
+        "fr": "Puberté et reproduction humaine",
+        "ar": "البلوغ والتكاثر عند الإنسان"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-svn-05",
+      "niveau": "4AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 5,
+      "path": "college/4AS/sciences_naturelles/u5-sante-maladies.json",
+      "titre": {
+        "fr": "Santé et maladies : agents, transmission, prévention",
+        "ar": "الصحة والأمراض: العوامل والانتقال والوقاية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "4AS-svn-06",
+      "niveau": "4AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 6,
+      "path": "college/4AS/sciences_naturelles/u6-equilibres-naturels.json",
+      "titre": {
+        "fr": "Équilibres naturels et protection de l'environnement",
+        "ar": "التوازنات الطبيعية وحماية البيئة"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-isl-01",
+      "niveau": "6AF",
+      "matiere": "education_islamique",
+      "ordre": 1,
+      "path": "fondamental/6AF/education_islamique/u1-sourates-courtes.json",
+      "titre": {
+        "fr": "Les sourates courtes et leurs enseignements",
+        "ar": "السور القصيرة ومقاصدها"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 25
+    },
+    {
+      "id": "6AF-fr-01",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 1,
+      "path": "fondamental/6AF/francais/u1-phrase.json",
+      "titre": {
+        "fr": "La phrase et ses constituants",
+        "ar": "الجملة ومكوّناتها"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 25
+    },
+    {
+      "id": "6AF-fr-02",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 2,
+      "path": "fondamental/6AF/francais/u2-noms-et-determinants.json",
+      "titre": {
+        "fr": "Noms, déterminants et adjectifs",
+        "ar": "الأسماء والمحددات والصفات"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 25
+    },
+    {
+      "id": "6AF-fr-03",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 3,
+      "path": "fondamental/6AF/francais/u3-temps-du-recit.json",
+      "titre": {
+        "fr": "Les temps du récit : présent, futur, imparfait",
+        "ar": "أزمنة السرد: الحاضر والمستقبل والناقص"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-fr-04",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 4,
+      "path": "fondamental/6AF/francais/u4-orthographe-homophones.json",
+      "titre": {
+        "fr": "Orthographe : homophones et accords",
+        "ar": "الإملاء: المتجانسات والمطابقات"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 25
+    },
+    {
+      "id": "6AF-fr-05",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 5,
+      "path": "fondamental/6AF/francais/u5-vocabulaire.json",
+      "titre": {
+        "fr": "Vocabulaire : sens des mots et familles de mots",
+        "ar": "المفردات: معاني الكلمات وعائلات الكلمات"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 25
+    },
+    {
+      "id": "6AF-fr-06",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 6,
+      "path": "fondamental/6AF/francais/u6-production-ecrite.json",
+      "titre": {
+        "fr": "Production d'écrit : raconter, décrire, écrire une lettre",
+        "ar": "التعبير الكتابي: السرد والوصف وكتابة رسالة"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 35
+    },
+    {
+      "id": "6AF-fr-07",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 7,
+      "path": "fondamental/6AF/francais/u7-conjugaison-present.json",
+      "titre": {
+        "fr": "Conjugaison : le présent de l'indicatif",
+        "ar": "التصريف: زمن الحاضر الم فهوم"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-fr-08",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 8,
+      "path": "fondamental/6AF/francais/u8-conjugaison-futur-pc.json",
+      "titre": {
+        "fr": "Conjugaison : le futur et le passé composé",
+        "ar": "التصريف: المستقبل والماضي المركب"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-fr-09",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 9,
+      "path": "fondamental/6AF/francais/u9-adjectifs.json",
+      "titre": {
+        "fr": "L'adjectif qualificatif",
+        "ar": "النعت الوصفي"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-fr-10",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 10,
+      "path": "fondamental/6AF/francais/u10-pronoms-prepositions.json",
+      "titre": {
+        "fr": "Pronoms et prépositions",
+        "ar": "الضمائر وحروف الجر"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-fr-11",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 11,
+      "path": "fondamental/6AF/francais/u11-vocabulaire-avance.json",
+      "titre": {
+        "fr": "Vocabulaire : familles de mots et sens",
+        "ar": "المعجم: عائلات الكلمات والمعاني"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-fr-12",
+      "niveau": "6AF",
+      "matiere": "francais",
+      "ordre": 12,
+      "path": "fondamental/6AF/francais/u12-orthographe-avance.json",
+      "titre": {
+        "fr": "Orthographe avancée : pluriels et accents",
+        "ar": "الإملاء المتقدم: الجمع والحوامل"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-math-01",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 1,
+      "path": "fondamental/6AF/mathematiques/u1-nombres.json",
+      "titre": {
+        "fr": "Les nombres entiers et décimaux",
+        "ar": "الأعداد الصحيحة والعشرية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 25
+    },
+    {
+      "id": "6AF-math-02",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 2,
+      "path": "fondamental/6AF/mathematiques/u2-operations.json",
+      "titre": {
+        "fr": "Les quatre opérations et les multiples",
+        "ar": "العمليات الأربع والمضاعفات"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-math-03",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 3,
+      "path": "fondamental/6AF/mathematiques/u3-fractions.json",
+      "titre": {
+        "fr": "Les fractions",
+        "ar": "الكسور"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-math-04",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 4,
+      "path": "fondamental/6AF/mathematiques/u4-proportionnalite.json",
+      "titre": {
+        "fr": "Proportionnalité et pourcentages",
+        "ar": "التناسب والنسبة المئوية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-math-05",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 5,
+      "path": "fondamental/6AF/mathematiques/u5-geometrie.json",
+      "titre": {
+        "fr": "Géométrie : droites, angles et figures",
+        "ar": "الهندسة: المستقيمات والزوايا والأشكال"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-math-06",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 6,
+      "path": "fondamental/6AF/mathematiques/u6-mesures.json",
+      "titre": {
+        "fr": "Mesures : longueurs, aires, volumes, temps et monnaie",
+        "ar": "القياسات: الأطوال والمساحات والأحجام والزمن والنقود"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 30
+    },
+    {
+      "id": "6AF-math-07",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 7,
+      "path": "fondamental/6AF/mathematiques/u7-perimetres-aires.json",
+      "titre": {
+        "fr": "Périmètres et aires",
+        "ar": "المحيطات والمساحات"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-math-08",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 8,
+      "path": "fondamental/6AF/mathematiques/u8-mesures-agraires.json",
+      "titre": {
+        "fr": "Mesures agraires : ares, hectares",
+        "ar": "القياسات الفلاحية: الآر والهكتار"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-math-09",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 9,
+      "path": "fondamental/6AF/mathematiques/u9-volumes.json",
+      "titre": {
+        "fr": "Volumes et contenances",
+        "ar": "الحجوم والمساحات الحجمية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 45
+    },
+    {
+      "id": "6AF-math-10",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 10,
+      "path": "fondamental/6AF/mathematiques/u10-temps-durees.json",
+      "titre": {
+        "fr": "Temps, heures et durées",
+        "ar": "الزمن والساعات والمدد"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 40
+    },
+    {
+      "id": "6AF-math-11",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 11,
+      "path": "fondamental/6AF/mathematiques/u11-symetrie.json",
+      "titre": {
+        "fr": "Symétrie et figures",
+        "ar": "التناظر والأشكال"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 40
+    },
+    {
+      "id": "6AF-math-12",
+      "niveau": "6AF",
+      "matiere": "mathematiques",
+      "ordre": 12,
+      "path": "fondamental/6AF/mathematiques/u12-problemes-synthese.json",
+      "titre": {
+        "fr": "Problèmes de synthèse",
+        "ar": "مسائل تركيبية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 50
+    },
+    {
+      "id": "7ASD-math-01",
+      "niveau": "7AS",
+      "matiere": "mathematiques",
+      "ordre": 1,
+      "path": "lycee/7AS/serie-D/mathematiques/u1-limites-continuite.json",
+      "titre": {
+        "fr": "Limites et continuité",
+        "ar": "النهايات والاتصال"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 40
+    },
+    {
+      "id": "7ASD-math-02",
+      "niveau": "7AS",
+      "matiere": "mathematiques",
+      "ordre": 2,
+      "path": "lycee/7AS/serie-D/mathematiques/u2-derivations.json",
+      "titre": {
+        "fr": "Dérivation et étude de fonctions",
+        "ar": "الاشتقاق ودراسة الدوال"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 40
+    },
+    {
+      "id": "7ASD-math-03",
+      "niveau": "7AS",
+      "matiere": "mathematiques",
+      "ordre": 3,
+      "path": "lycee/7AS/serie-D/mathematiques/u3-suites.json",
+      "titre": {
+        "fr": "Suites numériques",
+        "ar": "المتتاليات العددية"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 40
+    },
+    {
+      "id": "7ASD-math-04",
+      "niveau": "7AS",
+      "matiere": "mathematiques",
+      "ordre": 4,
+      "path": "lycee/7AS/serie-D/mathematiques/u4-exp-ln.json",
+      "titre": {
+        "fr": "Fonctions logarithme népérien et exponentielle",
+        "ar": "الدالتان اللوغاريتمية النيبيرية والأسية"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 40
+    },
+    {
+      "id": "7ASD-math-05",
+      "niveau": "7AS",
+      "matiere": "mathematiques",
+      "ordre": 5,
+      "path": "lycee/7AS/serie-D/mathematiques/u5-integration.json",
+      "titre": {
+        "fr": "Primitives et calcul intégral",
+        "ar": "الدوال الأصلية وحساب التكامل"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 35
+    },
+    {
+      "id": "7ASD-math-06",
+      "niveau": "7AS",
+      "matiere": "mathematiques",
+      "ordre": 6,
+      "path": "lycee/7AS/serie-D/mathematiques/u6-probabilites.json",
+      "titre": {
+        "fr": "Probabilités et dénombrement",
+        "ar": "الاحتمالات والعد"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 35
+    },
+    {
+      "id": "7ASD-svn-01",
+      "niveau": "7AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 1,
+      "path": "lycee/7AS/serie-D/sciences_naturelles/u1-reproduction-humaine.json",
+      "titre": {
+        "fr": "Reproduction humaine et régulation hormonale",
+        "ar": "التكاثر عند الإنسان والتنظيم الهرموني"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 40
+    },
+    {
+      "id": "7ASD-svn-02",
+      "niveau": "7AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 2,
+      "path": "lycee/7AS/serie-D/sciences_naturelles/u2-genetique.json",
+      "titre": {
+        "fr": "Génétique : de l'ADN aux lois de Mendel",
+        "ar": "الوراثة: من الحمض النووي إلى قوانين مندل"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 45
+    },
+    {
+      "id": "7ASD-svn-03",
+      "niveau": "7AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 3,
+      "path": "lycee/7AS/serie-D/sciences_naturelles/u3-immunologie.json",
+      "titre": {
+        "fr": "Immunologie : le maintien de l'intégrité du soi",
+        "ar": "المناعة: الحفاظ على ذاتية الجسم"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 40
+    },
+    {
+      "id": "7ASD-svn-04",
+      "niveau": "7AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 4,
+      "path": "lycee/7AS/serie-D/sciences_naturelles/u4-glycemie.json",
+      "titre": {
+        "fr": "Régulation de la glycémie",
+        "ar": "تنظيم سكر الدم"
+      },
+      "statut": "PUBLIE",
+      "duree_min": 35
+    },
+    {
+      "id": "7ASD-svn-05",
+      "niveau": "7AS",
+      "matiere": "sciences_naturelles",
+      "ordre": 5,
+      "path": "lycee/7AS/serie-D/sciences_naturelles/u5-evolution-biodiversite.json",
+      "titre": {
+        "fr": "Évolution et biodiversité",
+        "ar": "التطور والتنوع البيولوجي"
+      },
+      "statut": "A_RELIRE",
+      "duree_min": 35
+    }
+  ],
+  "examens": [
+    {
+      "id": "EX-4AS",
+      "niveau": "4AS",
+      "serie": null,
+      "path": "examens/EX-4AS-brevet.json",
+      "titre": {
+        "fr": "Brevet blanc (BEPC) — Mathématiques",
+        "ar": "بريفيه تجريبي (شهادة نهاية الإعدادي) — الرياضيات"
+      },
+      "duree_min": 120,
+      "note_max": 20,
+      "statut": "PUBLIE"
+    },
+    {
+      "id": "EX-6AF",
+      "niveau": "6AF",
+      "serie": null,
+      "path": "examens/EX-6AF-concours.json",
+      "titre": {
+        "fr": "Concours d'entrée en secondaire — fin de 6AF (blanc)",
+        "ar": "مباراة الدخول إلى الثانوي — نهاية السنة السادسة أساسي (تجريبي)"
+      },
+      "duree_min": 90,
+      "note_max": 20,
+      "statut": "PUBLIE"
+    },
+    {
+      "id": "EX-7ASD",
+      "niveau": "7AS",
+      "serie": "D",
+      "path": "examens/EX-7ASD-bac.json",
+      "titre": {
+        "fr": "Bac blanc série D — Mathématiques",
+        "ar": "بكالوريا تجريبية شعبة D — الرياضيات"
+      },
+      "duree_min": 240,
+      "note_max": 20,
+      "statut": "PUBLIE"
+    }
+  ]
+}

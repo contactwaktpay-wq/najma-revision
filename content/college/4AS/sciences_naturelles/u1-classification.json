@@ -1,0 +1,82 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "4AS-svn-01",
+  "niveau": "4AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 1,
+  "titre": { "fr": "Unité et diversité du vivant : la classification", "ar": "وحدة الكائن الحي وتنوعه: التصنيف" },
+  "duree_min": 30,
+  "objectifs": {
+    "fr": ["Caractériser les êtres vivants", "Classer les êtres vivants selon des critères emboîtés", "Distinguer espèce, genre et famille à partir d'une clé de détermination"],
+    "ar": ["تمييز خصائص الكائن الحي", "تصنيف الكائنات الحية وفق معايير متداخلة", "التمييز بين النوع والجنس والعائلة بمساعدة مفتاح التعيين"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Caractères du vivant", "ar": "خصائص الكائن الحي" },
+      "puces": [
+        { "fr": "Les êtres vivants naissent, se nourrissent, respirent, grandissent, se reproduisent et meurent.", "ar": "الكائنات الحية تولد، وتتغذى، وتتنفس، وتنمو، وتتكاثر، وتموت." },
+        { "fr": "L'unité du vivant : tous les êtres vivants sont faits de cellules (microscopiques), contiennent de l'eau et des matières organiques.", "ar": "وحدة الكائن الحي: تتكون جميع الكائنات الحية من خلايا مجهرية، وتحتوي ماءً ومواد عضوية." }
+      ]
+    },
+    {
+      "titre": { "fr": "La classification emboîtée", "ar": "التصنيف المتداخل" },
+      "bloc": [{ "fr": "On classe les êtres vivants en groupes de plus en plus restreints : règne → embranchement → classe → ordre → famille → genre → espèce. Plus les groupes sont proches, plus les êtres se ressemblent.", "ar": "نصنّف الكائنات الحية في مجموعات متتالية الضيق: المملكة ← الشعبة ← الطائفة ← الرتبة ← العائلة ← الجنس ← النوع. كلما قاربت المجموعات، تشابهت الكائنات أكثر." }],
+      "exemple": {
+        "enonce": { "fr": "Le dromadaire (camel) : règne animal, classe des mammifères, ordre des ongulés, famille des camélidés, genre Camelus, espèce dromedarius.", "ar": "الجمل: مملكة الحيوان، طائفة الثدييات، رتبة المجترات؟ لا: رتبة شفعيات الأصابع، عائلة الجمال، جنس Camelus، نوع dromedarius." },
+        "etapes": [
+          { "fr": "Critère 1 : il allaite ses petits → mammifère.", "ar": "المعيار 1: يرضع صغاره ← ثديي." },
+          { "fr": "Critère 2 : un seul bosse + adaptation au désert → dromadaire (espèce du Sahara).", "ar": "المعيار 2: سنام واحد + تكيّف صحراوي ← الجمل العربي (نوع صحراوي)." }
+        ],
+        "resultat": { "fr": "Camelus dromedarius", "ar": "Camelus dromedarius (الجمل العربي)" }
+      }
+    },
+    {
+      "titre": { "fr": "Espèce et clé de détermination", "ar": "النوع ومفتاح التعيين" },
+      "puces": [
+        { "fr": "Une espèce regroupe des individus qui se ressemblent, se reproduisent entre eux et donnent une descendance fertile.", "ar": "النوع يجمع أفراداً متشابهين يتكاثرون فيما بينهم وتعطي نسلاً خصباً." },
+        { "fr": "Une clé de détermination est une suite de questions à deux réponses (oui/non) qui mène au nom de l'espèce.", "ar": "مفتاح التعيين سلسلة أسئلة ثنائية (نعم/لا) تنتهي باسم النوع." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Cellule", "ar": "الخلية" }, "def": { "fr": "Plus petite unité structurelle et fonctionnelle du vivant.", "ar": "أصغر وحدة بنائية ووظيفية للكائن الحي." } },
+    { "terme": { "fr": "Espèce", "ar": "النوع" }, "def": { "fr": "Groupe d'individus fertiles entre eux.", "ar": "مجموعة أفراد خصبة فيما بينهم." } },
+    { "terme": { "fr": "Clé de détermination", "ar": "مفتاح التعيين" }, "def": { "fr": "Outil à questions successives pour identifier un être vivant.", "ar": "أداة بأسئلة متتالية لتعيين الكائن الحي." } },
+    { "terme": { "fr": "Mammifère", "ar": "ثديي" }, "def": { "fr": "Vertébré qui allaite ses petits et a des poils.", "ar": "فقاري يرضع صغاره ولديه شعر." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Cite trois caractères communs à tous les êtres vivants.", "ar": "اذكر ثلاث خصائص مشتركة لكل الكائنات الحية." },
+      "correction": { "etapes": [{ "fr": "Naissance, nutrition, respiration, croissance, reproduction, mort (3 suffisent).", "ar": "الولادة، التغذية، التنفس، النمو، التكاثر، الموت (ثلاثة تكفي)." }], "resultat": { "fr": "Ex. se nourrir, respirer, se reproduire.", "ar": "مثلاً: التغذية، التنفس، التكاثر." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Le chien et le loup appartiennent-ils à la même espèce ? Même genre ?", "ar": "هل ينتمي الكلب والذئب إلى النوع نفسه؟ وإلى الجنس نفسه؟" },
+      "correction": { "etapes": [{ "fr": "Ils appartiennent au même genre (Canis) mais à deux espèces différentes (familiaris / lupus).", "ar": "الجنس نفسه (Canis) لكن نوعين مختلفين (familiaris / lupus)." }], "resultat": { "fr": "Même genre, espèces différentes.", "ar": "الجنس نفسه ونوعان مختلفان." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Construis une mini-clé (3 questions) pour distinguer : poisson, oiseau, mammifère.", "ar": "ابنِ مفتاحاً مصغراً (3 أسئلة) للتمييز بين: سمكة، طائر، ثديي." },
+      "correction": { "etapes": [
+        { "fr": "1) Corps couvert d'écailles et vie aquatique → poisson.", "ar": "1) جسم مغطى بحراشف وحياة مائية ← سمكة." },
+        { "fr": "2) Corps couvert de plumes → oiseau ; sinon (poils, allaitement) → mammifère.", "ar": "2) جسم مغطى بالريش ← طائر؛ وإلا (شعر ورضاعة) ← ثديي." }
+      ], "resultat": { "fr": "Clé fonctionnelle à 2-3 étapes.", "ar": "مفتاح عملي من خطوتين إلى ثلاث." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Le plus petit rang de la classification est :", "ar": "أصغر مرتبة في التصنيف هي:" },
+      "choix": [{ "fr": "l'espèce", "ar": "النوع" }, { "fr": "la famille", "ar": "العائلة" }, { "fr": "le règne", "ar": "المملكة" }], "bonne": 0, "explication": { "fr": "Espèce < genre < famille < … < règne.", "ar": "النوع أصغر ثم الجنس ثم العائلة…" } },
+    { "id": "q2", "type": "vf", "q": { "fr": "Tous les êtres vivants sont constitués de cellules.", "ar": "جميع الكائنات الحية مكونة من خلايا." }, "bonne": true, "explication": { "fr": "Unité du vivant.", "ar": "وحدة الكائن الحي." } },
+    { "id": "q3", "type": "qcm", "q": { "fr": "Le dromadaire est :", "ar": "الجمل العربي:" },
+      "choix": [{ "fr": "un mammifère", "ar": "ثديي" }, { "fr": "un oiseau", "ar": "طائر" }, { "fr": "un reptile", "ar": "زاحف" }], "bonne": 0, "explication": { "fr": "Il allaite et a des poils.", "ar": "يرضع وله شعر." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Que doit donner une descendance fertile pour être la même espèce ?", "ar": "ما الذي يجب أن يعطيه نوعان لتكون نسلهما خصباً؟" },
+      "acceptees": ["descendance fertile", "une descendance fertile", "des petits fertiles"], "explication": { "fr": "Critère de l'espèce.", "ar": "معيار النوع." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Ordre correct :", "ar": "الترتيب الصحيح:" },
+      "choix": [{ "fr": "règne → classe → genre → espèce", "ar": "مملكة ← طائفة ← جنس ← نوع" }, { "fr": "espèce → genre → règne → classe", "ar": "نوع ← جنس ← مملكة ← طائفة" }, { "fr": "classe → règne → espèce → genre", "ar": "طائفة ← مملكة ← نوع ← جنس" }], "bonne": 0, "explication": { "fr": "Du plus grand au plus petit.", "ar": "من الأكبر إلى الأصغر." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "Une clé de détermination utilise des questions à deux réponses.", "ar": "مفتاح التعيين يستعمل أسئلة بإجابتين." }, "bonne": true, "explication": { "fr": "Oui/non à chaque étape.", "ar": "نعم/لا في كل خطوة." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Hiérarchie de la classification", "ar": "سلّم التصنيف" }, "verso": { "fr": "Règne, embranchement, classe, ordre, famille, genre, espèce.", "ar": "مملكة، شعبة، طائفة، رتبة، عائلة، جنس، نوع." } },
+    { "id": "f2", "recto": { "fr": "Définition de l'espèce", "ar": "تعريف النوع" }, "verso": { "fr": "Individus semblables et fertiles entre eux.", "ar": "أفراد متشابهون وخصبون فيما بينهم." } },
+    { "id": "f3", "recto": { "fr": "Unité du vivant", "ar": "وحدة الكائن الحي" }, "verso": { "fr": "Tous faits de cellules.", "ar": "الكل مكون من خلايا." } },
+    { "id": "f4", "recto": { "fr": "Caractère des mammifères", "ar": "خاصية الثدييات" }, "verso": { "fr": "Allaitement + poils.", "ar": "الرضاعة + الشعر." } },
+    { "id": "f5", "recto": { "fr": "But d'une clé de détermination", "ar": "هدف مفتاح التعيين" }, "verso": { "fr": "Identifier un être vivant étape par étape.", "ar": "تعيين الكائن الحي خطوة بخطوة." } },
+    { "id": "f6", "recto": { "fr": "Deux êtres du même genre…", "ar": "كائنان من الجنس نفسه…" }, "verso": { "fr": "…peuvent être d'espèces différentes.", "ar": "…قد يكونان من نوعين مختلفين." } }
+  ]
+}

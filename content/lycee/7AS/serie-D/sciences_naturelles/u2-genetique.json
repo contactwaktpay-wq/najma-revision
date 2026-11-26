@@ -1,0 +1,377 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-svn-02",
+  "niveau": "7AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 2,
+  "titre": {
+    "fr": "Génétique : de l'ADN aux lois de Mendel",
+    "ar": "الوراثة: من الحمض النووي إلى قوانين مندل"
+  },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Relier ADN, gènes, allèles, génotype et phénotype",
+      "Appliquer la 1re et la 2e loi de Mendel (monohybridisme)",
+      "Résoudre un exercice de dihybridisme (3e loi) et de déterminisme du sexe"
+    ],
+    "ar": [
+      "الربط بين DNA والجينات والأليلات والطراز الوراثي والنمط الظاهري",
+      "تطبيق القانونين الأول والثاني لمندل",
+      "حل تمرين في الازدواج (القانون الثالث) وتحديد الجنس"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "ADN, gènes et allèles",
+        "ar": "الحمض النووي والجينات والأليلات"
+      },
+      "puces": [
+        {
+          "fr": "L'ADN est une double hélice de nucléotides (A-T, C-G). Un gène = portion d'ADN codant un caractère.",
+          "ar": "الحمض النووي حلزون مزدوج من النكليوتيدات (A-T، C-G). الجين قطعة من الحمض ترمز لصفة."
+        },
+        {
+          "fr": "Allèles : versions différentes d'un même gène (A et a). Génotype = ensemble des allèles (AA, Aa, aa) ; phénotype = caractère observable.",
+          "ar": "الأليلات: صور مختلفة للجين نفسه (A و a). الطراز الوراثي = مجموعة الأليلات؛ والنمط الظاهري = الصفة المرئية."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Mendel : monohybridisme",
+        "ar": "مندل: أحادي الصفة"
+      },
+      "bloc": [
+        {
+          "fr": "1re loi (uniformité) : croisement de deux races pures AA × aa → F1 toute Aa, phénotype dominant. 2e loi (disjonction) : F1 × F1 → F2 avec 3/4 dominant et 1/4 récessif (génotypes 1 AA : 2 Aa : 1 aa).",
+          "ar": "القانون الأول (الانتظام): تهجين سلالتين خالصتين AA × aa ← الجيل الأول كلها Aa بنمط سائد. القانون الثاني (انفصال الأليلات): F1 × F1 ← F2 بتناسب 3/4 سائد و 1/4 متنحٍ."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Croisement Aa × Aa : proportions génotypiques et phénotypiques ?",
+          "ar": "تهجين Aa × Aa: ما التناسبات الوراثية والظاهرية؟"
+        },
+        "etapes": [
+          {
+            "fr": "Échiquier de croisement : 1 AA, 2 Aa, 1 aa.",
+            "ar": "مربع التهجين: 1 AA و 2 Aa و 1 aa."
+          },
+          {
+            "fr": "Phénotypes : 3/4 [A] + 1/4 [a].",
+            "ar": "الأنماط الظاهرية: 3/4 سائد + 1/4 متنحٍ."
+          }
+        ],
+        "resultat": {
+          "fr": "1 AA : 2 Aa : 1 aa → 3/1.",
+          "ar": "1 AA : 2 Aa : 1 aa ← 3/1."
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Dihybridisme et sexe",
+        "ar": "الازدواج وتحديد الجنس"
+      },
+      "puces": [
+        {
+          "fr": "3e loi (indépendance des gènes sur chromosomes différents) : AaBb × AaBb → 9 [AB] : 3 [Ab] : 3 [aB] : 1 [ab].",
+          "ar": "القانون الثالث (استقلال الجينات): AaBb × AaBb ← 9 : 3 : 3 : 1."
+        },
+        {
+          "fr": "Déterminisme du sexe : XX = femelle, XY = mâle ; le père détermine le sexe (spermatozoïdes X ou Y).",
+          "ar": "تحديد الجنس: XX أنثى و XY ذكر؛ والأب هو الذي يحدد الجنس (نطائف X أو Y)."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Allèle",
+        "ar": "الأليل"
+      },
+      "def": {
+        "fr": "Version d'un gène située au même locus.",
+        "ar": "صورة من الجين في الموضع نفسه."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Homozygote / hétérozygote",
+        "ar": "متماثل الأليلات / مغاير الأليلات"
+      },
+      "def": {
+        "fr": "AA ou aa / Aa.",
+        "ar": "AA أو aa / Aa."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Dominant / récessif",
+        "ar": "سائد / متنحٍ"
+      },
+      "def": {
+        "fr": "Allèle qui s'exprime à l'état hétérozygote / qui ne s'exprime qu'en homozygotie.",
+        "ar": "الأليل الذي يظهر في المغاير / الذي يظهر فقط في التماثل."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "AA × aa : génotypes et phénotypes de F1 ?",
+        "ar": "AA × aa: ما طرازات وأنماط الجيل الأول؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "100 % Aa → phénotype [A] (dominant).",
+            "ar": "كلها Aa ← النمط السائد."
+          }
+        ],
+        "resultat": {
+          "fr": "F1 : 100 % Aa.",
+          "ar": "الجيل الأول: كلها Aa."
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Aa × aa : proportions attendues ?",
+        "ar": "Aa × aa: ما التناسبات المتوقعة؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "1 Aa : 1 aa → 1/2 [A], 1/2 [a].",
+            "ar": "1 Aa : 1 aa ← نصف سائد ونصف متنحٍ."
+          }
+        ],
+        "resultat": {
+          "fr": "1/2 – 1/2.",
+          "ar": "1/2 – 1/2."
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "AaBb × AaBb : proportion du phénotype double récessif [ab] ?",
+        "ar": "AaBb × AaBb: ما نسبة النمط المزدوج المتنحي؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "3e loi : (1/4) × (1/4) = 1/16.",
+            "ar": "القانون الثالث: (1/4) × (1/4) = 1/16."
+          }
+        ],
+        "resultat": {
+          "fr": "1/16",
+          "ar": "1/16"
+        }
+      },
+      "acceptees": [
+        "1/16"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "F2 du monohybridisme Aa×Aa : rapport phénotypique ?",
+        "ar": "الجيل الثاني في أحادي الصفة: النسبة الظاهرية؟"
+      },
+      "acceptees": [
+        "3/1",
+        "3:1",
+        "75/25"
+      ],
+      "explication": {
+        "fr": "3/4 dominant.",
+        "ar": "ثلاثة أرباع سائد."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Un individu Aa est :",
+        "ar": "الفردين Aa هو:"
+      },
+      "choix": [
+        {
+          "fr": "hétérozygote",
+          "ar": "مغاير الأليلات"
+        },
+        {
+          "fr": "homozygote dominant",
+          "ar": "متماثل سائد"
+        },
+        {
+          "fr": "homozygote récessif",
+          "ar": "متماثل متنحٍ"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Deux allèles différents.",
+        "ar": "أليلان مختلفان."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Le sexe de l'enfant est déterminé par le père.",
+        "ar": "جنس المولود يحدده الأب."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Spermatozoïdes X ou Y.",
+        "ar": "النطائف تحمل X أو Y."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Dihybridisme AaBb × AaBb : rapport ?",
+        "ar": "الازدواج AaBb × AaBb: النسبة؟"
+      },
+      "acceptees": [
+        "9:3:3:1",
+        "9/3/3/1"
+      ],
+      "explication": {
+        "fr": "3e loi de Mendel.",
+        "ar": "القانون الثالث لمندل."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Un allèle récessif s'exprime…",
+        "ar": "الأليل المتنحي يظهر…"
+      },
+      "choix": [
+        {
+          "fr": "en homozygotie (aa)",
+          "ar": "في التماثل (aa)"
+        },
+        {
+          "fr": "toujours",
+          "ar": "دائماً"
+        },
+        {
+          "fr": "jamais",
+          "ar": "أبداً"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Masqué par le dominant en Aa.",
+        "ar": "يحجبه السائد في Aa."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "vf",
+      "q": {
+        "fr": "Un gène est une portion d'ADN.",
+        "ar": "الجين قطعة من الحمض النووي."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Définition de base.",
+        "ar": "تعريف أساسي."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Génotype vs phénotype",
+        "ar": "الطراز الوراثي مقابل الظاهري"
+      },
+      "verso": {
+        "fr": "Allèles portés / caractère observable.",
+        "ar": "الأليلات المحمولة / الصفة المرئية."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "1re loi de Mendel",
+        "ar": "القانون الأول لمندل"
+      },
+      "verso": {
+        "fr": "F1 uniforme (Aa).",
+        "ar": "الجيل الأول منتظم (Aa)."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "2e loi (disjonction)",
+        "ar": "القانون الثاني (انفصال الأليلات)"
+      },
+      "verso": {
+        "fr": "F2 : 3/1.",
+        "ar": "الجيل الثاني: 3/1."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "3e loi (indépendance)",
+        "ar": "القانون الثالث (الاستقلال)"
+      },
+      "verso": {
+        "fr": "F2 : 9/3/3/1.",
+        "ar": "الجيل الثاني: 9/3/3/1."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Déterminisme du sexe",
+        "ar": "تحديد الجنس"
+      },
+      "verso": {
+        "fr": "XX femelle, XY mâle.",
+        "ar": "XX أنثى، XY ذكر."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Paires de bases de l'ADN",
+        "ar": "أزواج القواعد في DNA"
+      },
+      "verso": {
+        "fr": "A-T et C-G.",
+        "ar": "A-T و C-G."
+      }
+    }
+  ],
+  "notes_editeur": [
+    {
+      "fr": "Vérifier la profondeur exigée (analyse de pedigrees, maladies héréditaires) au programme mauritanien 7AS D.",
+      "ar": "التحقق من العمق المطلوب (تحليل أشجار النسب، الأمراض الوراثية) في البرنامج الموريتاني."
+    }
+  ]
+}

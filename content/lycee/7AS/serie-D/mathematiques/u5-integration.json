@@ -1,0 +1,407 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-math-05",
+  "niveau": "7AS",
+  "matiere": "mathematiques",
+  "ordre": 5,
+  "titre": {
+    "fr": "Primitives et calcul intégral",
+    "ar": "الدوال الأصلية وحساب التكامل"
+  },
+  "duree_min": 35,
+  "objectifs": {
+    "fr": [
+      "Déterminer des primitives des fonctions usuelles",
+      "Calculer une intégrale définie",
+      "Interpréter l'intégrale comme une aire"
+    ],
+    "ar": [
+      "إيجاد الدوال الأصلية للدوال الأساسية",
+      "حساب تكامل محدود",
+      "تفسير التكامل كمساحة"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Primitives usuelles",
+        "ar": "الدوال الأصلية الأساسية"
+      },
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "f(x)",
+            "ar": "f(x)"
+          },
+          {
+            "fr": "Une primitive F(x)",
+            "ar": "دالة أصلية F(x)"
+          }
+        ],
+        "lignes": [
+          [
+            "xⁿ (n ≥ 0)",
+            "xⁿ⁺¹/(n+1)"
+          ],
+          [
+            "1/x²",
+            "−1/x"
+          ],
+          [
+            "1/√x",
+            "2√x"
+          ],
+          [
+            "1/x",
+            "ln x"
+          ],
+          [
+            "eˣ",
+            "eˣ"
+          ],
+          [
+            "cos x",
+            "sin x"
+          ],
+          [
+            "sin x",
+            "−cos x"
+          ]
+        ]
+      },
+      "puces": [
+        {
+          "fr": "F est une primitive de f si F′ = f. Toutes les primitives sont F + c (c constante).",
+          "ar": "F دالة أصلية لـ f إذا كانت F′ = f. وجميع الدوال الأصلية على شكل F + c."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Intégrale définie",
+        "ar": "التكامل المحدود"
+      },
+      "formules": [
+        "∫ₐᵇ f(x) dx = F(b) − F(a)",
+        "∫ₐᵇ (f + g) = ∫ₐᵇ f + ∫ₐᵇ g",
+        "∫ₐᵇ k·f = k·∫ₐᵇ f"
+      ],
+      "bloc": [
+        {
+          "fr": "Si f ≥ 0 sur [a, b], ∫ₐᵇ f(x) dx est l'aire (en unités d'aire) du domaine compris entre la courbe, l'axe des abscisses et les droites x = a et x = b.",
+          "ar": "إذا كانت f ≥ 0 على [a، b] فإن التكامل يمثل مساحة (بوحدات المساحة) للنطاق بين المنحنى ومحور الفواصل والمستقيمين x = a و x = b."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Calcule ∫₀¹ (3x² + 2x) dx.",
+          "ar": "احسب ∫₀¹ (3x² + 2x) dx."
+        },
+        "etapes": [
+          {
+            "fr": "Primitive : F(x) = x³ + x².",
+            "ar": "الدالة الأصلية: F(x) = x³ + x²."
+          },
+          {
+            "fr": "F(1) − F(0) = (1 + 1) − 0 = 2.",
+            "ar": "F(1) − F(0) = 2."
+          }
+        ],
+        "resultat": {
+          "fr": "2 unités d'aire",
+          "ar": "2 وحدة مساحة"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Primitive",
+        "ar": "الدالة الأصلية"
+      },
+      "def": {
+        "fr": "F telle que F′ = f.",
+        "ar": "دالة F بحيث F′ = f."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Intégrale définie",
+        "ar": "التكامل المحدود"
+      },
+      "def": {
+        "fr": "F(b) − F(a) pour f continue sur [a, b].",
+        "ar": "F(b) − F(a) إذا كانت f متصلة على [a، b]."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Unité d'aire",
+        "ar": "وحدة المساحة"
+      },
+      "def": {
+        "fr": "Aire du rectangle de côtés 1 (selon les unités du repère).",
+        "ar": "مساحة مستطيل ضلعاه 1 حسب وحدات المرجع."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Trouve une primitive de f(x) = 6x².",
+        "ar": "أوجد دالة أصلية لـ f(x) = 6x²."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "F(x) = 2x³ (car (2x³)′ = 6x²).",
+            "ar": "F(x) = 2x³."
+          }
+        ],
+        "resultat": {
+          "fr": "F(x) = 2x³ + c",
+          "ar": "F(x) = 2x³ + c"
+        }
+      },
+      "acceptees": [
+        "2"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Calcule ∫₀¹ (3x² + 2x) dx.",
+        "ar": "احسب ∫₀¹ (3x² + 2x) dx."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "F(x) = x³ + x² ; F(1) − F(0) = 2.",
+            "ar": "F(x) = x³ + x² ؛ F(1) − F(0) = 2."
+          }
+        ],
+        "resultat": {
+          "fr": "2",
+          "ar": "2"
+        }
+      },
+      "acceptees": [
+        "2"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Aire sous la courbe de f(x) = eˣ entre 0 et ln 2.",
+        "ar": "المساحة تحت منحنى f(x) = eˣ بين 0 و ln 2."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "∫₀^(ln2) eˣ dx = e^(ln 2) − e⁰ = 2 − 1 = 1.",
+            "ar": "التكامل = 2 − 1 = 1."
+          }
+        ],
+        "resultat": {
+          "fr": "1 unité d'aire",
+          "ar": "وحدة مساحة واحدة"
+        }
+      },
+      "acceptees": [
+        "1"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "∫₀¹ (3x² + 2x) dx = ?",
+        "ar": "∫₀¹ (3x² + 2x) dx = ؟"
+      },
+      "acceptees": [
+        "2"
+      ],
+      "explication": {
+        "fr": "F(1) − F(0) = 2.",
+        "ar": "F(1) − F(0) = 2."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Une primitive de 1/x :",
+        "ar": "دالة أصلية لـ 1/x:"
+      },
+      "choix": [
+        {
+          "fr": "ln x",
+          "ar": "ln x"
+        },
+        {
+          "fr": "−1/x²",
+          "ar": "−1/x²"
+        },
+        {
+          "fr": "eˣ",
+          "ar": "eˣ"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "(ln x)′ = 1/x.",
+        "ar": "(ln x)′ = 1/x."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Si f ≥ 0, l'intégrale est une aire.",
+        "ar": "إذا كانت f ≥ 0 فإن التكامل يمثل مساحة."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Interprétation géométrique.",
+        "ar": "التفسير الهندسي."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "∫₀^(ln2) eˣ dx = ?",
+        "ar": "∫₀^(ln2) eˣ dx = ؟"
+      },
+      "acceptees": [
+        "1"
+      ],
+      "explication": {
+        "fr": "2 − 1.",
+        "ar": "2 − 1."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Primitive de cos x :",
+        "ar": "دالة أصلية لـ cos x:"
+      },
+      "choix": [
+        {
+          "fr": "sin x",
+          "ar": "sin x"
+        },
+        {
+          "fr": "−sin x",
+          "ar": "−sin x"
+        },
+        {
+          "fr": "cos x",
+          "ar": "cos x"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "(sin x)′ = cos x.",
+        "ar": "(sin x)′ = cos x."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "vf",
+      "q": {
+        "fr": "Deux primitives d'une même f diffèrent d'une constante.",
+        "ar": "دالتان أصليتان لنفس f تختلفان بثابت."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "F₂ − F₁ = c.",
+        "ar": "F₂ − F₁ = c."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Définition de la primitive",
+        "ar": "تعريف الدالة الأصلية"
+      },
+      "verso": {
+        "fr": "F′ = f.",
+        "ar": "F′ = f."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "∫ₐᵇ f(x) dx",
+        "ar": "∫ₐᵇ f(x) dx"
+      },
+      "verso": {
+        "fr": "F(b) − F(a).",
+        "ar": "F(b) − F(a)."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Primitive de xⁿ",
+        "ar": "دالة أصلية لـ xⁿ"
+      },
+      "verso": {
+        "fr": "xⁿ⁺¹/(n+1).",
+        "ar": "xⁿ⁺¹/(n+1)."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Primitive de eˣ",
+        "ar": "دالة أصلية لـ eˣ"
+      },
+      "verso": {
+        "fr": "eˣ.",
+        "ar": "eˣ."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Linéarité de l'intégrale",
+        "ar": "خطية التكامل"
+      },
+      "verso": {
+        "fr": "∫(f+g) = ∫f + ∫g ; ∫kf = k∫f.",
+        "ar": "∫(f+g) = ∫f + ∫g ؛ ∫kf = k∫f."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Aire si f ≤ 0",
+        "ar": "المساحة إذا كانت f ≤ 0"
+      },
+      "verso": {
+        "fr": "Aire = −∫ (valeur absolue).",
+        "ar": "المساحة = −∫ (القيمة المطلقة)."
+      }
+    }
+  ],
+  "notes_editeur": [
+    {
+      "fr": "Vérifier l'étendue du programme de calcul intégral en 7AS série D en Mauritanie (primitives simples uniquement ou intégration par parties).",
+      "ar": "التحقق من حدود برنامج التكامل في السنة السابعة شعبة D بموريتانيا (دوال أصلية بسيطة فقط أم التكامل بالتجزئة)."
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-06",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 6,
+  "titre": {
+    "fr": "Production d'écrit : raconter, décrire, écrire une lettre",
+    "ar": "التعبير الكتابي: السرد والوصف وكتابة رسالة"
+  },
+  "duree_min": 35,
+  "objectifs": {
+    "fr": [
+      "Raconter un événement avec connecteurs temporels",
+      "Décrire une personne ou un lieu",
+      "Écrire une lettre avec les formules d'usage",
+      "Soigner ponctuation et accords"
+    ],
+    "ar": [
+      "سرد حدث بربطات زمنية",
+      "وصف شخص أو مكان",
+      "كتابة رسالة بصيغها المعتادة",
+      "الاهتمام بالترقيم والمطابقات"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Raconter un événement",
+        "ar": "سرد حدث"
+      },
+      "bloc": [
+        {
+          "fr": "Un récit suit l'ordre des événements et utilise des connecteurs temporels pour guider le lecteur.",
+          "ar": "يتبع السرد ترتيب الأحداث ويستعمل ربطات زمنية لتوجيه القارئ."
+        }
+      ],
+      "puces": [
+        {
+          "fr": "Connecteurs : d'abord, ensuite, puis, soudain, enfin, le lendemain.",
+          "ar": "الربطات: أولاً، ثم، بعد ذلك، فجأة، أخيراً، في الغد."
+        },
+        {
+          "fr": "Temps du récit : passé composé (actions) + imparfait (décor).",
+          "ar": "أزمنة السرد: الماضي المركب (أحداث) + الناقص (مشهد)."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Écris 3 phrases racontant ta journée avec des connecteurs.",
+          "ar": "اكتب ثلاث جمل تحكي يومك مع ربطات."
+        },
+        "etapes": [
+          {
+            "fr": "D'abord, je me suis réveillé tôt.",
+            "ar": "أولاً، استيقظت مبكراً."
+          },
+          {
+            "fr": "Ensuite, nous avons révisé les maths.",
+            "ar": "ثم راجعنا الرياضيات."
+          },
+          {
+            "fr": "Enfin, je me suis couché fatigué mais content.",
+            "ar": "أخيراً نامت متعباً لكن سعيداً."
+          }
+        ],
+        "resultat": {
+          "fr": "Récit court et bien lié.",
+          "ar": "سرد قصير مترابط."
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Décrire",
+        "ar": "الوصف"
+      },
+      "puces": [
+        {
+          "fr": "Portrait : taille, visage, cheveux, vêtements, caractère (adjectifs).",
+          "ar": "النعت: الطول، الوجه، الشعر، اللباس، الطبع (صفات)."
+        },
+        {
+          "fr": "Description d'un lieu : on va du général au particulier (la ville → la rue → la maison).",
+          "ar": "وصف المكان: من العام إلى الخاص (المدينة ← الشارع ← البيت)."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "La lettre",
+        "ar": "الرسالة"
+      },
+      "puces": [
+        {
+          "fr": "En haut à droite : lieu et date (Nouakchott, le 24 novembre 2026).",
+          "ar": "أعلى اليمين: المكان والتاريخ."
+        },
+        {
+          "fr": "Salutation : « Cher ami, » / « Chère Toute, »",
+          "ar": "التحية: «صديقي العزيز»."
+        },
+        {
+          "fr": "Corps : paragraphs courts ; formule finale : « Amicalement, » ou « Ton ami(e), »",
+          "ar": "المتن: فقرات قصيرة؛ الخاتمة: «مع عاطفة الصداقة»."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Connecteur temporel",
+        "ar": "ربط زمني"
+      },
+      "def": {
+        "fr": "Mot qui lie les événements dans le temps (ensuite, enfin).",
+        "ar": "كلمة تربط الأحداث زمنياً (ثم، أخيراً)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Portrait",
+        "ar": "النعت"
+      },
+      "def": {
+        "fr": "Description d'une personne (physique + caractère).",
+        "ar": "وصف شخص (شكله وطبعه)."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Formule d'usage",
+        "ar": "الصيغة المعتادة"
+      },
+      "def": {
+        "fr": "Salutation ou formule finale d'une lettre.",
+        "ar": "التحية أو الخاتمة في الرسالة."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Paragraphe",
+        "ar": "الفقرة"
+      },
+      "def": {
+        "fr": "Suite de phrases sur une seule idée, avec alinéa.",
+        "ar": "مجموعة جمل حول فكرة واحدة، بمسافة بادئة."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Rangée les phrases en ordre logique : « Enfin, nous sommes rentrés. » / « D'abord, nous sommes arrivés au marché. » / « Ensuite, nous avons acheté des dattes. »",
+        "ar": "رتّب الجمل منطقياً: «أخيراً عُدنا» / «أولاً وصلنا السوق» / «ثم اشترينا تمراً»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Suivre les connecteurs : D'abord → Ensuite → Enfin.",
+            "ar": "اتبع الربطات: أولاً ← ثم ← أخيراً."
+          }
+        ],
+        "resultat": {
+          "fr": "arrivés → acheté → rentrés",
+          "ar": "الوصول ← الشراء ← العودة"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Écris 2 phrases pour décrire ton école (un lieu + une action).",
+        "ar": "اكتب جملتين لوصف مدرستك (مكان + حدث)."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Exemple : « Notre école est grande et propre. Dans la cour, les élèves jouent au football. »",
+            "ar": "مثال: «مدرستنا كبيرة ونظيفة. في الساحة يلعب التلاميذ الكرة.»"
+          }
+        ],
+        "resultat": {
+          "fr": "Deux phrases avec adjectifs et verbes.",
+          "ar": "جملتان بصفات وأفعال."
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Rédige le début d'une lettre à ton cousin : lieu, date, salutation, une phrase d'annonce.",
+        "ar": "اكتب بداية رسالة إلى ابن عمك: المكان، التاريخ، التحية، وجملة افتتاحية."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Nouakchott, le 24 novembre 2026.",
+            "ar": "نواكشوط، 24 نوفمبر 2026."
+          },
+          {
+            "fr": "« Cher cousin, Comment vas-tu ? Je t'écris pour te annoncer une bonne nouvelle. »",
+            "ar": "«ابن عمي العزيز، كيف حالك؟ أكتب إليك لأخبرك بخبر سار.»"
+          }
+        ],
+        "resultat": {
+          "fr": "Lettre bien commencée avec toutes les formules.",
+          "ar": "رسالة مفتوحة بجميع الصيغ."
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Réorganise : 1) « Je vais à l’école. » 2) « Je me lève à 6h. » 3) « Puis je déjeune. » → ordre chronologique avec connecteurs.",
+        "ar": "أعِد الترتيب الزمني مع الروابط."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Je me lève à 6h. Puis je déjeune. Ensuite, je vais à l’école.",
+            "ar": "أستيقظ السادسة. ثم أتناول الفطور. بعدها أذهب للمدرسة."
+          }
+        ],
+        "resultat": {
+          "fr": "2 → 3 → 1 avec Puis/Ensuite",
+          "ar": "انظر الخطوات"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Écris 3 phrases pour raconter ta journée d’hier (passé composé) avec d’abord, puis, enfin.",
+        "ar": "اكتب 3 جمل عن يوم أمس بالماضي المركب مع الروابط."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Ex. : « D’abord, j’ai révisé. Puis j’ai joué. Enfin, j’ai dormi. »",
+            "ar": "مثال: «أولاً راجعت. ثم لعبت. أخيراً نمت»."
+          }
+        ],
+        "resultat": {
+          "fr": "3 phrases + connecteurs",
+          "ar": "ثلاث جمل مع روابط"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel connecteur marque la fin ?",
+        "ar": "أي ربط يشير إلى النهاية؟"
+      },
+      "choix": [
+        {
+          "fr": "enfin",
+          "ar": "أخيراً"
+        },
+        {
+          "fr": "d'abord",
+          "ar": "أولاً"
+        },
+        {
+          "fr": "ensuite",
+          "ar": "ثم"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "« Enfin » conclut.",
+        "ar": "«أخيراً» تختم."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Temps principal des actions d'un récit au passé :",
+        "ar": "الزمن الأساسي لأحداث سرد بالماضي:"
+      },
+      "choix": [
+        {
+          "fr": "passé composé",
+          "ar": "الماضي المركب"
+        },
+        {
+          "fr": "futur",
+          "ar": "المستقبل"
+        },
+        {
+          "fr": "présent",
+          "ar": "الحاضر"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Actions ponctuelles → passé composé.",
+        "ar": "الأحداث المنفردة ← الماضي المركب."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Dans une lettre, la date se place au début.",
+        "ar": "في الرسالة يوضع التاريخ في البداية."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Lieu et date en haut.",
+        "ar": "المكان والتاريخ في الأعلى."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Donne un connecteur de succession.",
+        "ar": "اذكر ربطاً من ربطات التتابع."
+      },
+      "acceptees": [
+        "ensuite",
+        "puis",
+        "après",
+        "d'abord"
+      ],
+      "explication": {
+        "fr": "Toute la famille : d'abord, ensuite, puis, enfin.",
+        "ar": "العائلة كلها: أولاً، ثم، أخيراً."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Décrire, c'est surtout utiliser…",
+        "ar": "الوصف يعتمد أساساً على…"
+      },
+      "choix": [
+        {
+          "fr": "des adjectifs",
+          "ar": "الصفات"
+        },
+        {
+          "fr": "des dates",
+          "ar": "التواريخ"
+        },
+        {
+          "fr": "des chiffres",
+          "ar": "الأرقام"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Les adjectifs précisent la description.",
+        "ar": "الصفات تضبط الوصف."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Formule finale d'une lettre à un ami ?",
+        "ar": "خاتمة رسالة إلى صديق؟"
+      },
+      "acceptees": [
+        "amicalement",
+        "ton ami",
+        "ton amie",
+        "a bientot",
+        "à bientôt"
+      ],
+      "explication": {
+        "fr": "Formule adaptée à l'ami.",
+        "ar": "صيغة مناسبة للصديق."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel connecteur exprime la fin ?",
+        "ar": "أي رابط يعبر عن النهاية؟"
+      },
+      "choix": [
+        {
+          "fr": "enfin",
+          "ar": "أخيراً"
+        },
+        {
+          "fr": "d’abord",
+          "ar": "أولاً"
+        },
+        {
+          "fr": "puis",
+          "ar": "ثم"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "enfin = à la fin.",
+        "ar": "enfin = أخيراً."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "vf",
+      "q": {
+        "fr": "Un paragraphe traite une seule idée principale.",
+        "ar": "الفقرة تعالج فكرة رئيسية واحدة."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai.",
+        "ar": "صحيح."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Connecteurs du récit",
+        "ar": "ربطات السرد"
+      },
+      "verso": {
+        "fr": "D'abord, ensuite, puis, soudain, enfin.",
+        "ar": "أولاً، ثم، بعد ذلك، فجأة، أخيراً."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Imparfait dans le récit",
+        "ar": "الناقص في السرد"
+      },
+      "verso": {
+        "fr": "Décrire le décor.",
+        "ar": "وصف المشهد."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "En-tête d'une lettre",
+        "ar": "رأس الرسالة"
+      },
+      "verso": {
+        "fr": "Lieu + date (en haut à droite).",
+        "ar": "المكان + التاريخ (أعلى اليمين)."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Ordre d'une description de lieu",
+        "ar": "ترتيب وصف المكان"
+      },
+      "verso": {
+        "fr": "Du général au particulier.",
+        "ar": "من العام إلى الخاص."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Que contient un portrait ?",
+        "ar": "ماذا يتضمن النعت؟"
+      },
+      "verso": {
+        "fr": "Physique + caractère (adjectifs).",
+        "ar": "الشكل + الطبع (صفات)."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Paragraphe = ?",
+        "ar": "الفقرة = ؟"
+      },
+      "verso": {
+        "fr": "Une idée par paragraphe + alinéa.",
+        "ar": "فكرة واحدة لكل فقرة + مسافة بادئة."
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Connecteurs chronologiques",
+        "ar": "الروابط الزمنية"
+      },
+      "verso": {
+        "fr": "d’abord, puis, ensuite, enfin.",
+        "ar": "أولاً، ثم، بعدها، أخيراً."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Paragraphe",
+        "ar": "الفقرة"
+      },
+      "verso": {
+        "fr": "Une idée principale + des phrases qui l’expliquent.",
+        "ar": "فكرة رئيسية + جمل تشرحها."
+      }
+    }
+  ]
+}

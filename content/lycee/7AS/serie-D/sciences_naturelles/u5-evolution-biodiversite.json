@@ -1,0 +1,86 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "A_RELIRE",
+  "id": "7ASD-svn-05",
+  "niveau": "7AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 5,
+  "titre": { "fr": "Évolution et biodiversité", "ar": "التطور والتنوع البيولوجي" },
+  "duree_min": 35,
+  "objectifs": {
+    "fr": ["Expliquer les mécanismes évolutifs (mutations, sélection naturelle)", "Relier biodiversité, ressources et conservation", "Illustrer par un exemple sahélien (dromadaire, gazelle dorcas)"],
+    "ar": ["شرح آليات التطور (الطفرات والانتقاء الطبيعي)", "الربط بين التنوع البيولوجي والموارد والحفاظ عليها", "التوضيح بمثال ساحلي (الجمل، غزال دوركاس)"]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Mécanismes de l'évolution", "ar": "آليات التطور" },
+      "puces": [
+        { "fr": "Mutations : changements aléatoires de l'ADN → nouvelles variantes (allèles).", "ar": "الطفرات: تغيرات عشوائية في الحمض النووي ← صور وراثية جديدة." },
+        { "fr": "Sélection naturelle : l'environnement favorise les individus les mieux adaptés → leurs allèles se propagent.", "ar": "الانتقاء الطبيعي: البيئة تُفضّل الأفراد الأكفأ تكيفاً ← انتشار أليلاتهم." },
+        { "fr": "Dérive génétique et isolement → divergence des populations → nouvelles espèces.", "ar": "الانحراف الوراثي والعزل ← انفصال المجموعات ← أنواع جديدة." }
+      ]
+    },
+    {
+      "titre": { "fr": "Adaptations au désert", "ar": "التكيفات الصحراوية" },
+      "bloc": [{ "fr": "Le dromadaire du Sahara illustre la sélection : bosse de réserve lipidique, tolérance à la déshydratation, reins conservant l'eau, température variable. La gazelle dorcas, elle, économise l'eau par ses excréta concentrés.", "ar": "الجمل العربي مثال على الانتقاء: سنام دهني، تحمل الجفاف، كلى تحفظ الماء، حرارة متغيرة. وغزال دوركاس يوفّر الماء عبر فضلات مركزة." }],
+      "exemple": {
+        "enonce": { "fr": "Pourquoi la bosse du dromadaire est-elle une adaptation ?", "ar": "لماذا يُعد سنام الجمل تكيفاً؟" },
+        "etapes": [
+          { "fr": "Réserve de lipides métabolisable en énergie ET en eau métabolique.", "ar": "مخزون دهني يتحول إلى طاقة وإلى ماء أيضي." },
+          { "fr": "Les individus les mieux pourvus survivent mieux aux sécheresses → sélection des gènes favorables.", "ar": "الأفراد الأفضل تجهيزاً ينجون في الجفاف ← انتقاء الجينات المواتية." }
+        ],
+        "resultat": { "fr": "Caractère sélectionné, transmis héréditairement.", "ar": "صفة منتقاة وموروثة." }
+      }
+    },
+    {
+      "titre": { "fr": "Biodiversité et conservation", "ar": "التنوع البيولوجي والحفاظ" },
+      "puces": [
+        { "fr": "Biodiversité = diversité des espèces, des gènes et des écosystèmes ; elle nourrit l'agriculture, la médecine, l'équilibre écologique.", "ar": "التنوع البيولوجي = تنوع الأنواع والجينات والنظم البيئية؛ ويغذي الزراعة والطب والتوازن البيئي." },
+        { "fr": "Menaces : dégradation des habitats, braconnage (gazelle), changement climatique.", "ar": "التهديدات: تدهور المواطن، الصيد الجائر (الغزال)، التغير المناخي." },
+        { "fr": "Conservation : aires protégées (Banc d'Arguin, Diawling voisin), élevage conservatoire, sensibilisation.", "ar": "الحفظ: المحميات (بانك دأرقوان، دايلينغ المجاورة)، التربية الحافظة، التوعية." }
+      ]
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Mutation", "ar": "الطفرة" }, "def": { "fr": "Changement de la séquence d'ADN, source de diversité.", "ar": "تغير في تسلسل الحمض النووي، مصدر التنوع." } },
+    { "terme": { "fr": "Sélection naturelle", "ar": "الانتقاء الطبيعي" }, "def": { "fr": "Survie et reproduction préférentielle des individus les mieux adaptés.", "ar": "بقاء وتكاثر مفضل للأفراد الأكفأ تكيفاً." } },
+    { "terme": { "fr": "Espèce menacée", "ar": "نوع مهدد" }, "def": { "fr": "Espèce dont la survie est en danger (ex. gazelle dorcas).", "ar": "نوع بقاءه في خطر (مثل غزال دوركاس)." } }
+  ],
+  "exercices": [
+    { "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Cite deux mécanismes de l'évolution.", "ar": "اذكر آليتين للتطور." },
+      "correction": { "etapes": [{ "fr": "Mutations ; sélection naturelle (ou dérive, isolement).", "ar": "الطفرات؛ الانتقاء الطبيعي (أو الانحراف، العزل)." }], "resultat": { "fr": "Deux mécanismes justes.", "ar": "آليتان صحيحتان." } } },
+    { "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Explique l'adaptation du dromadaire à la déshydratation.", "ar": "اشرح تكيف الجمل مع الجفاف." },
+      "correction": { "etapes": [
+        { "fr": "Reins qui concentrent l'urine, tolérance à la perte d'eau (jusqu'à ≈ 25 % du poids), température variable pour économiser la sueur.", "ar": "كلى تركّز البول، تحمل فقد الماء (إلى ≈ 25% من الوزن)، حرارة متغيرة لتوفير العرق." }
+      ], "resultat": { "fr": "Adaptations physiologiques multiples.", "ar": "تكيفات فسيولوجية متعددة." } } },
+    { "id": "e3", "niveau_diff": 3,
+      "enonce": { "fr": "Propose 3 mesures pour protéger la gazelle dorcas en Mauritanie.", "ar": "اقترح ثلاث إجراءات لحماية غزال دوركاس في موريتانيا." },
+      "correction": { "etapes": [
+        { "fr": "1) Zones protégées et gardiennage ; 2) répression du braconnage ; 3) éducation environnementale et élevage conservatoire.", "ar": "1) محميات وحراسة؛ 2) منع الصيد الجائر؛ 3) التربية البيئية والتربية الحافظة." }
+      ], "resultat": { "fr": "Plan de conservation cohérent.", "ar": "خطة حفظ متماسكة." } } }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Source première de la diversité génétique :", "ar": "المصدر الأول للتنوع الوراثي:" },
+      "choix": [{ "fr": "les mutations", "ar": "الطفرات" }, { "fr": "la sélection", "ar": "الانتقاء" }, { "fr": "la dérive", "ar": "الانحراف" }], "bonne": 0, "explication": { "fr": "Nouvelles variantes d'ADN.", "ar": "صور وراثية جديدة." } },
+    { "id": "q2", "type": "qcm", "q": { "fr": "La sélection naturelle favorise…", "ar": "الانتقاء الطبيعي يُفضّل…" },
+      "choix": [{ "fr": "les individus mieux adaptés", "ar": "الأفراد الأكفأ تكيفاً" }, { "fr": "les plus grands", "ar": "الأكبر حجماً" }, { "fr": "les plus nombreux", "ar": "الأكثر عدداً" }], "bonne": 0, "explication": { "fr": "Selon l'environnement.", "ar": "بحسب البيئة." } },
+    { "id": "q3", "type": "vf", "q": { "fr": "La bosse du dromadaire stocke de l'eau liquide.", "ar": "سنام الجمل يخزن الماء السائل." }, "bonne": false, "explication": { "fr": "Elle stocke des lipides ; l'eau peut être produite par leur métabolisme.", "ar": "يخزن الدهون؛ ويمكن إنتاج ماء أيضي منها." } },
+    { "id": "q4", "type": "courte", "q": { "fr": "Nom d'une gazelle menacée du Sahara :", "ar": "اسم غزال مهدد في الصحراء:" }, "acceptees": ["dorcas", "gazelle dorcas", "دوركاس"], "explication": { "fr": "Gazella dorcas.", "ar": "غزال دوركاس." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Aire protégée maritime emblématique de Mauritanie :", "ar": "محمية بحرية موريتانية مرموقة:" },
+      "choix": [{ "fr": "Banc d'Arguin", "ar": "بانك دأرقوان" }, { "fr": "Serengeti", "ar": "سيرينغيتي" }, { "fr": "Okavango", "ar": "أوكافانغو" }], "bonne": 0, "explication": { "fr": "Classée UNESCO.", "ar": "مدرجة في اليونسكو." } },
+    { "id": "q6", "type": "vf", "q": { "fr": "L'isolement des populations favorise la spéciation.", "ar": "عزل المجموعات يُساعد نشوء الأنواع." }, "bonne": true, "explication": { "fr": "Divergence génétique progressive.", "ar": "تباعد وراثي تدريجي." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Mutation", "ar": "الطفرة" }, "verso": { "fr": "Changement aléatoire de l'ADN.", "ar": "تغير عشوائي في الحمض النووي." } },
+    { "id": "f2", "recto": { "fr": "Sélection naturelle", "ar": "الانتقاء الطبيعي" }, "verso": { "fr": "Favorise les adaptés → propagation des allèles.", "ar": "يُفضّل المتكيفين ← انتشار الأليلات." } },
+    { "id": "f3", "recto": { "fr": "Biodiversité : 3 niveaux", "ar": "التنوع البيولوجي: ثلاثة مستويات" }, "verso": { "fr": "Espèces, gènes, écosystèmes.", "ar": "أنواع، جينات، نظم بيئية." } },
+    { "id": "f4", "recto": { "fr": "Adaptation du dromadaire", "ar": "تكيف الجمل" }, "verso": { "fr": "Bosse lipidique, reins efficaces, tolérance à la déshydratation.", "ar": "سنام دهني، كلى فعالة، تحمل الجفاف." } },
+    { "id": "f5", "recto": { "fr": "Spéciation", "ar": "نشوء الأنواع" }, "verso": { "fr": "Divergence jusqu'à espèces distinctes.", "ar": "تباعد حتى أنواع مستقلة." } },
+    { "id": "f6", "recto": { "fr": "Conservation : exemple MR", "ar": "الحفظ: مثال موريتاني" }, "verso": { "fr": "Banc d'Arguin (UNESCO).", "ar": "بانك دأرقوان (يونسكو)." } }
+  ],
+  "notes_editeur": [
+    { "fr": "Module évolution/biodiversité : présent dans plusieurs programmes sous-régionaux ; vérifier s'il est exigé au bac mauritanien 7AS D (sinon garder comme culture scientifique).", "ar": "وحدة التطور والتنوع: موجودة في برامج المنطقة؛ التحقق من مطابقتها لامتحان البكالوريا الموريتاني (وإلا تبقى ثقافة علمية)." }
+  ]
+}

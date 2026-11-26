@@ -1,0 +1,166 @@
+{
+  "schema": "sehil.examen@1",
+  "statut": "PUBLIE",
+  "id": "EX-4AS",
+  "niveau": "4AS",
+  "type": "BREVET",
+  "titre": { "fr": "Brevet blanc (BEPC) — Mathématiques", "ar": "بريفيه تجريبي (شهادة نهاية الإعدادي) — الرياضيات" },
+  "matiere": "mathematiques",
+  "duree_min": 120,
+  "note_max": 20,
+  "consignes": {
+    "fr": [
+      "16 questions, 120 minutes : les questions faciles d'abord (Partie I), le problème à la fin.",
+      "Justifie toutes tes réponses comme le demande l'énoncé ; π ≈ 3,14 si besoin.",
+      "Les réponses numériques tolèrent ±0,05.",
+      "Questions de rédaction : corrige-toi avec le corrigé et compte honnêtement tes points."
+    ],
+    "ar": [
+      "16 سؤالاً في 120 دقيقة: الأسئلة السهلة أولاً ثم المسألة في الأخير.",
+      "علّل جميع إجاباتك كما يطلب النص؛ π ≈ 3,14 عند الحاجة.",
+      "تقبل الإجابات العددية بخطأ ±0,05.",
+      "أسئلة التحرير: صحّح نفسك بالمصحح واحسب نقاطك بصدق."
+    ]
+  },
+  "sections": [
+    {
+      "titre": { "fr": "Partie I — Calculs (6 points)", "ar": "الجزء الأول — الحساب (6 نقاط)" },
+      "points": 6,
+      "questions": [
+        { "id": "I1", "type": "qcm", "points": 1,
+          "enonce": { "fr": "√49 = ?", "ar": "√49 = ؟" },
+          "choix": [{ "fr": "7", "ar": "7" }, { "fr": "−7", "ar": "−7" }, { "fr": "24,5", "ar": "24,5" }],
+          "bonne": 0,
+          "correction": { "etapes": [
+            { "fr": "7² = 49 ; le symbole √ désigne toujours la valeur positive.", "ar": "7² = 49 و √ تعني القيمة الموجبة." }
+          ], "resultat": { "fr": "7", "ar": "7" } } },
+        { "id": "I2", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Calcule : 2³ × 2⁴.", "ar": "احسب: 2³ × 2⁴." },
+          "acceptees": ["128"],
+          "correction": { "etapes": [
+            { "fr": "Rappel : aⁿ × aᵖ = aⁿ⁺ᵖ → 2³⁺⁴ = 2⁷.", "ar": "تذكير: ضرب القوى نفس الأساس نضرب الأساسين ونجمع الأُسس." },
+            { "fr": "2⁷ = 128.", "ar": "2⁷ = 128." }
+          ], "resultat": { "fr": "128", "ar": "128" } } },
+        { "id": "I3", "type": "courte", "points": 1,
+          "enonce": { "fr": "Réduis : 3x + 5x − 2.", "ar": "قلّل: 3x + 5x − 2." },
+          "acceptees": ["8x-2", "8x−2", "8x − 2"],
+          "correction": { "etapes": [
+            { "fr": "Termes semblables : 3x + 5x = 8x ; le −2 reste seul.", "ar": "الحدود المتشابهة: 8x ويبقى −2." }
+          ], "resultat": { "fr": "8x − 2", "ar": "8x − 2" } } },
+        { "id": "I4", "type": "courte", "points": 1,
+          "enonce": { "fr": "Développe : (x + 3)².", "ar": "طوّر: (x + 3)²." },
+          "acceptees": ["x²+6x+9", "x^2+6x+9", "x2+6x+9"],
+          "correction": { "etapes": [
+            { "fr": "Rappel : (a + b)² = a² + 2ab + b².", "ar": "تذكير المتطابقة الشهيرة." },
+            { "fr": "x² + 2×x×3 + 3² = x² + 6x + 9.", "ar": "x² + 6x + 9." }
+          ], "resultat": { "fr": "x² + 6x + 9", "ar": "x² + 6x + 9" } } },
+        { "id": "I5", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Calcule le PGCD de 48 et 36.", "ar": "احسب القاسم المشترك الأكبر للعددين 48 و 36." },
+          "acceptees": ["12"],
+          "correction": { "etapes": [
+            { "fr": "Algorithme d'Euclide : 48 = 36 × 1 + 12.", "ar": "الخوارزمية الإقليدية: 48 = 36 × 1 + 12." },
+            { "fr": "36 = 12 × 3 + 0 → le dernier reste non nul est le PGCD : 12.", "ar": "آخر باق غير معدوم = القاسم المشترك الأكبر: 12." }
+          ], "resultat": { "fr": "12", "ar": "12" } } },
+        { "id": "I6", "type": "qcm", "points": 1,
+          "enonce": { "fr": "0,00037 en notation scientifique :", "ar": "0,00037 بالصورة العلمية:" },
+          "choix": [{ "fr": "3,7 × 10⁻⁴", "ar": "3,7 × 10⁻⁴" }, { "fr": "37 × 10⁻⁴", "ar": "37 × 10⁻⁴" }, { "fr": "3,7 × 10⁴", "ar": "3,7 × 10⁴" }],
+          "bonne": 0,
+          "correction": { "etapes": [
+            { "fr": "Notation scientifique : a × 10ⁿ avec 1 ≤ a < 10.", "ar": "الصورة العلمية: 1 ≤ a < 10." },
+            { "fr": "a = 3,7 ; la virgule a été déplacée de 4 rangs vers la droite → n = −4.", "ar": "الفاصلة تحركت 4 مراتب ← n = −4." }
+          ], "resultat": { "fr": "3,7 × 10⁻⁴", "ar": "3,7 × 10⁻⁴" } } }
+      ]
+    },
+    {
+      "titre": { "fr": "Partie II — Géométrie (7 points)", "ar": "الجزء الثاني — الهندسة (7 نقاط)" },
+      "points": 7,
+      "questions": [
+        { "id": "II1", "type": "vf", "points": 1,
+          "enonce": { "fr": "Un triangle de côtés 3, 4 et 5 cm est rectangle.", "ar": "المثلث بأضلاع 3 و 4 و 5 سم قائم." },
+          "bonne": true,
+          "correction": { "etapes": [
+            { "fr": "Réciproque de Pythagore : 5² = 25 et 3² + 4² = 9 + 16 = 25.", "ar": "عكس فيثاغورس: 5² = 3² + 4²." },
+            { "fr": "L'égalité est vraie → le triangle est rectangle.", "ar": "المساواة صحيحة ← المثلث قائم." }
+          ], "resultat": { "fr": "Vrai.", "ar": "صحيح." } } },
+        { "id": "II2", "type": "calcul", "points": 2,
+          "enonce": { "fr": "ABC est rectangle en A : AB = 6, AC = 8. Calcule BC.", "ar": "المثلث ABC قائم في A و AB = 6 و AC = 8. احسب BC." },
+          "acceptees": ["10", "10 cm"],
+          "correction": { "etapes": [
+            { "fr": "Pythagore : BC² = AB² + AC² = 36 + 64 = 100.", "ar": "فيثاغورس: BC² = 100." },
+            { "fr": "BC = √100 = 10.", "ar": "BC = 10." }
+          ], "resultat": { "fr": "BC = 10", "ar": "BC = 10" } } },
+        { "id": "II3", "type": "calcul", "points": 2,
+          "enonce": { "fr": "Thalès : AM = 9, AB = 12, AN = 6, (MN) ∥ (BC). Calcule AC.", "ar": "طاليس: AM = 9 و AB = 12 و AN = 6 و (MN) ∥ (BC). احسب AC." },
+          "acceptees": ["8"],
+          "correction": { "etapes": [
+            { "fr": "Thalès : AM/AB = AN/AC → 9/12 = 6/AC.", "ar": "نسبة طاليس." },
+            { "fr": "Produit en croix : AC = 6 × 12 ÷ 9 = 8.", "ar": "الضرب التبادلي: AC = 8." }
+          ], "resultat": { "fr": "AC = 8", "ar": "AC = 8" } } },
+        { "id": "II4", "type": "courte", "points": 1,
+          "enonce": { "fr": "Dans un triangle rectangle, l'hypoténuse mesure 10 et le côté adjacent à α mesure 8. cos α = ?", "ar": "في مثلث قائم، الوتر 10 والمجاور لـ α هو 8. ما cos α؟" },
+          "acceptees": ["0,8", "0.8", "4/5"],
+          "correction": { "etapes": [
+            { "fr": "Rappel : cos α = adjacent ÷ hypoténuse.", "ar": "تذكير: cos α = المجاور ÷ الوتر." },
+            { "fr": "cos α = 8 ÷ 10 = 0,8.", "ar": "cos α = 0,8." }
+          ], "resultat": { "fr": "0,8", "ar": "0,8" } } },
+        { "id": "II5", "type": "qcm", "points": 1,
+          "enonce": { "fr": "Volume d'un cube d'arête 3 cm :", "ar": "حجم مكعب حرفه 3 سم:" },
+          "choix": [{ "fr": "27 cm³", "ar": "27 سم³" }, { "fr": "9 cm³", "ar": "9 سم³" }, { "fr": "18 cm³", "ar": "18 سم³" }],
+          "bonne": 0,
+          "correction": { "etapes": [
+            { "fr": "V = arête × arête × arête = 3 × 3 × 3.", "ar": "الحجم = الضلع × الضلع × الضلع." }
+          ], "resultat": { "fr": "27 cm³", "ar": "27 سم³" } } }
+      ]
+    },
+    {
+      "titre": { "fr": "Partie III — Problème (7 points)", "ar": "الجزء الثالث — المسألة (7 نقاط)" },
+      "points": 7,
+      "questions": [
+        { "id": "III1", "type": "qcm", "points": 1,
+          "enonce": { "fr": "Notes d'un élève : 8 ; 10 ; 12 ; 10 ; 15. Quelle est sa moyenne ?", "ar": "نقط تلميذ: 8 ؛ 10 ؛ 12 ؛ 10 ؛ 15. ما معدله؟" },
+          "choix": [{ "fr": "11", "ar": "11" }, { "fr": "10", "ar": "10" }, { "fr": "12", "ar": "12" }],
+          "bonne": 0,
+          "correction": { "etapes": [
+            { "fr": "Somme : 8 + 10 + 12 + 10 + 15 = 55.", "ar": "المجموع 55." },
+            { "fr": "Moyenne : 55 ÷ 5 = 11.", "ar": "المعدل = 55 ÷ 5 = 11." }
+          ], "resultat": { "fr": "11", "ar": "11" } } },
+        { "id": "III2", "type": "calcul", "points": 1,
+          "enonce": { "fr": "Un article coûte 12 000 MRU avec une remise de 15 %. Calcule le montant de la remise (MRU).", "ar": "سلعة بـ 12 000 أوقية عليها تخفيض 15%. احسب قيمة التخفيض." },
+          "acceptees": ["1800", "1 800"],
+          "correction": { "etapes": [
+            { "fr": "15 % = 15 ÷ 100 = 0,15.", "ar": "15% = 0,15." },
+            { "fr": "Remise : 12 000 × 0,15 = 1 800 MRU.", "ar": "التخفيض = 1 800 أوقية." }
+          ], "resultat": { "fr": "1 800 MRU", "ar": "1 800 أوقية" } } },
+        { "id": "III3", "type": "calcul", "points": 2,
+          "enonce": { "fr": "Même article : quel est le prix payé après la remise (MRU) ?", "ar": "السلعة نفسها: ما الثمن المدفوع بعد التخفيض؟" },
+          "acceptees": ["10200", "10 200"],
+          "correction": { "etapes": [
+            { "fr": "Prix payé = prix − remise.", "ar": "المدفوع = الثمن − التخفيض." },
+            { "fr": "12 000 − 1 800 = 10 200 MRU.", "ar": "12 000 − 1 800 = 10 200 أوقية." }
+          ], "resultat": { "fr": "10 200 MRU", "ar": "10 200 أوقية" } } },
+        { "id": "III4", "type": "calcul", "points": 2,
+          "enonce": { "fr": "Une salle de fête coûte 15 000 MRU d'abonnement fixe plus 800 MRU par invité. Pour un total de 39 000 MRU, combien d'invités ?", "ar": "إيجار قاعة 15 000 أوقية ثابتة زائد 800 أوقية للمدعو. لمجموع 39 000 أوقية، كم عدد المدعوين؟" },
+          "acceptees": ["30", "30 invités"],
+          "correction": { "etapes": [
+            { "fr": "Mise en équation : 15 000 + 800x = 39 000.", "ar": "الترجمة إلى معادلة." },
+            { "fr": "800x = 24 000 → x = 24 000 ÷ 800 = 30 invités.", "ar": "x = 30 مدعواً." }
+          ], "resultat": { "fr": "30 invités", "ar": "30 مدعواً" } } },
+        { "id": "III5", "type": "redaction", "points": 1,
+          "enonce": { "fr": "Rédige la résolution complète de III4 : inconnue choisie, équation, résolution, phrase de réponse.", "ar": "اكتب الحل الكامل للمسألة السابقة: المجهول، المعادلة، الحل، جملة الإجابة." },
+          "consigne": { "fr": "Structure attendue en 4 lignes : « Soit x… », équation, résolution, conclusion.", "ar": "البنية المطلوبة في أربعة أسطر." },
+          "correction": {
+            "etapes": [
+              { "fr": "« Soit x le nombre d'invités. Le total est 15 000 + 800x. »", "ar": "«ليكن x عدد المدعوين. المجموع = 15 000 + 800x.»" },
+              { "fr": "« 15 000 + 800x = 39 000 donc 800x = 24 000, donc x = 30. »", "ar": "«800x = 24 000 إذن x = 30.»" },
+              { "fr": "« Conclusion : le nombre d'invités est 30. »", "ar": "«الخاتمة: عدد المدعوين 30.»" }
+            ],
+            "resultat": { "fr": "Résolution complète et rédigée.", "ar": "حل كامل ومحرر." }
+          }
+        }
+      ]
+    }
+  ],
+  "notes_editeur": [
+    { "fr": "Structure BEPC : calculs / géométrie / problème (16 questions) ; coefficients indicatifs à ajuster sur le barème officiel du BEPC mauritanien.", "ar": "بنية شهادة الإعدادي: حساب/هندسة/مسألة (16 سؤالاً)؛ المعاملات استرشادية تُعدّل وفق السلّم الرسمي." }
+  ]
+}

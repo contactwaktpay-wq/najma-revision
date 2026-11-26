@@ -1,0 +1,139 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-09",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 9,
+  "titre": { "fr": "L'adjectif qualificatif", "ar": "النعت الوصفي" },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Reconnaître l'adjectif qualificatif dans une phrase",
+      "Accorder l'adjectif en genre et en nombre",
+      "Placer l'adjectif correctement"
+    ],
+    "ar": [
+      "التعرّف على النعت الوصفي في الجملة",
+      "مطابقة النعت في الجنس والعدد",
+      "وضع النعت في مكانه الصحيح"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Qu'est-ce qu'un adjectif ?", "ar": "ما هو النعت؟" },
+      "puces": [
+        { "fr": "L'adjectif qualificatif donne une qualité du nom : « un nuage blanc », « une fille courageuse ».", "ar": "النعت الوصفي يذكر صفة للاسم: «سحاب أبيض»، «فتاة شجاعة»." },
+        { "fr": "Il s'accorde avec le nom qu'il décrit : même genre, même nombre.", "ar": "يطابق الاسم الذي يصفه: نفس الجنس ونفس العدد." },
+        { "fr": "Pour le trouver : demandez « comment est-il ? » à côté du nom.", "ar": "لإيجاده: اسأل «كيف هو؟» بجانب الاسم." }
+      ]
+    },
+    {
+      "titre": { "fr": "Les accords de l'adjectif", "ar": "مطابقات النعت" },
+      "puces": [
+        { "fr": "Masculin singulier : petit ; féminin singulier : petite (+ e).", "ar": "مذكر مفرد: petit؛ مؤنث مفرد: petite (+ e)." },
+        { "fr": "Pluriel : petits (masculin) ; petites (féminin) (+ s).", "ar": "الجمع: petits؛ petites (+ s)." },
+        { "fr": "Féminins spéciaux : heureux → heureuse ; sportif → sportive ; beau → belle ; long → longue ; blanc → blanche.", "ar": "مؤنثات خاصة: heureux ← heureuse؛ sportif ← sportive؛ beau ← belle؛ long ← longue؛ blanc ← blanche." }
+      ],
+      "tableau": {
+        "entetes": { "fr": ["Masculin", "Féminin", "Pluriel"], "ar": ["مذكر", "مؤنث", "جمع"] },
+        "lignes": [
+          { "fr": ["grand", "grande", "grands / grandes"], "ar": ["طويل", "طويلة", "طويلون / طويلات"] },
+          { "fr": ["heureux", "heureuse", "heureux / heureuses"], "ar": ["سعيد", "سعيدة", "سعداء / سعيدات"] },
+          { "fr": ["blanc", "blanche", "blancs / blanches"], "ar": ["أبيض", "بيضاء", "بيض / بيضات"] },
+          { "fr": ["beau", "belle", "beaux / belles"], "ar": ["جميل", "جميلة", "جميلون / جميلات"] }
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Où placer l'adjectif ?", "ar": "أين نضع النعت؟" },
+      "puces": [
+        { "fr": "La plupart se placent après le nom : « un chameau patient », « le fleuve Sénégal majestueux ».", "ar": "معظمها بعد الاسم: «جمل صبور»، «نهر السنغال العظيم»." },
+        { "fr": "Quelques-uns se placent avant : beau, joli, grand, petit, bon, mauvais, gros.", "ar": "بعضها قبل الاسم: beau، joli، grand، petit، bon، mauvais، gros." },
+        { "fr": "Exemple : « une grande maison blanche » (grand avant, blanc après).", "ar": "مثال: «بيت أبيض كبير» (grand قبل، blanc بعد)." }
+      ],
+      "exemple": { "fr": "Les pêcheurs travailleurs attendent une mer calme.", "ar": "الصيادون المجتهدون ينتظرون بحراً هادئاً." }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Adjectif qualificatif", "ar": "النعت الوصفي" }, "def": { "fr": "Mot qui décrit une qualité du nom.", "ar": "كلمة تصف صفة من صفات الاسم." } },
+    { "terme": { "fr": "Accord", "ar": "المطابقة" }, "def": { "fr": "L'adjectif prend le genre et le nombre du nom.", "ar": "النعت يأخذ جنس الاسم وعدده." } },
+    { "terme": { "fr": "Nom commun", "ar": "الاسم العام" }, "def": { "fr": "Mot qui désigne une personne, un animal ou une chose.", "ar": "كلمة تدل على شخص أو حيوان أو شيء." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Souligne les adjectifs : « Le grand chameau brun traverse le désert chaud. »", "ar": "أبرز النعوت: «الجمل الكبير البني يعبر الصحراء الحارة»." },
+      "correction": {
+        "etapes": [
+          { "fr": "grand et brun décrivent « chameau » ; chaud décrit « désert ».", "ar": "grand وbrun يصفان «الجمل»؛ وchaud يصف «الصحراء»." }
+        ],
+        "resultat": { "fr": "grand, brun, chaud", "ar": "grand، brun، chaud" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 1,
+      "enonce": { "fr": "Accorde : « une maison ___ (blanc) » / « des filles ___ (heureux) » / « un garçon ___ (sportif) ».", "ar": "طابق: «بيت ___ (أبيض)» / «فتيات ___ (سعداء)» / «صبي ___ (رياضي)»." },
+      "correction": {
+        "etapes": [
+          { "fr": "une maison blanche (féminin singulier).", "ar": "بيت أبيض — blanche." },
+          { "fr": "des filles heureuses (féminin pluriel).", "ar": "فتيات سعداء — heureuses." },
+          { "fr": "un garçon sportif (masculin singulier).", "ar": "صبي رياضي — sportif." }
+        ],
+        "resultat": { "fr": "blanche ; heureuses ; sportif", "ar": "blanche؛ heureuses؛ sportif" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Trouve le féminin : long → ___ ; beau → ___ ; actif → ___ ; nouveau → ___.", "ar": "أوجد المؤنث: long، beau، actif، nouveau." },
+      "correction": {
+        "etapes": [
+          { "fr": "long → longue ; beau → belle ; actif → active ; nouveau → nouvelle.", "ar": "longue، belle، active، nouvelle." }
+        ],
+        "resultat": { "fr": "longue ; belle ; active ; nouvelle", "ar": "longue؛ belle؛ active؛ nouvelle" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 2,
+      "enonce": { "fr": "Complète avec un adjectif de ton choix et accorde-le : « Ma ville Nouakchott est ___ . » / « Les dunes sont ___ . »", "ar": "أكمل بنعت من اختيارك وطابقه: «مدينتي نواكشوط ___» / «الكثبان ___»." },
+      "correction": {
+        "etapes": [
+          { "fr": "Exemples : « Ma ville Nouakchott est vivante. » « Les dunes sont immenses. »", "ar": "مثالان: «مدينتي نواكشوط حيوية» «الكثبان شاسعة»." },
+          { "fr": "Barème : 1 pt par adjectif bien accordé.", "ar": "التنقيط: نقطة لكل نعت مطابق." }
+        ],
+        "resultat": { "fr": "Adjectifs accordés (féminin ici)", "ar": "نعوت مطابقة (مؤنث هنا)" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Réécris la phrase en ajoutant un adjectif avant le nom et un adjectif après : « Les pêcheurs rentrent au port. »", "ar": "أعد كتابة الجملة مع نعت قبل الاسم وآخر بعده: «الصيادون يعودون إلى الميناء»." },
+      "correction": {
+        "etapes": [
+          { "fr": "Exemple : « Les courageux pêcheurs fatigués rentrent au port. »", "ar": "مثال: «الصيادون الشجاعون المتعبون يعودون إلى الميناء»." },
+          { "fr": "Barème : 1 pt placement correct + 1 pt accords corrects.", "ar": "التنقيط: نقطة للوضع + نقطة للمطابقة." }
+        ],
+        "resultat": { "fr": "Phrase enrichie avec accords justes", "ar": "جملة مُثراة بمطابقات صحيحة" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Quel est l'adjectif dans « un chameau rapide » ?", "ar": "ما النعت في «جمل سريع»؟" }, "choix": [{ "fr": "rapide", "ar": "سريع" }, { "fr": "chameau", "ar": "جمل" }, { "fr": "un", "ar": "un" }], "bonne": 0, "explication": { "fr": "« rapide » décrit le chameau.", "ar": "«سريع» يصف الجمل." } },
+    { "id": "q2", "type": "courte", "q": { "fr": "Accorde : une histoire ___ (drôle).", "ar": "طابق: قصة ___ (مضحكة)." }, "acceptees": ["drôle", "drole", "مضحكة"], "explication": { "fr": "une histoire drôle (féminin singulier).", "ar": "drôle." } },
+    { "id": "q3", "type": "qcm", "q": { "fr": "Féminin de « heureux » ?", "ar": "مؤنث «heureux»؟" }, "choix": [{ "fr": "heureuse", "ar": "سعيدة" }, { "fr": "heureuxe", "ar": "heureuxe" }, { "fr": "heuresse", "ar": "heuresse" }], "bonne": 0, "explication": { "fr": "-eux → -euse.", "ar": "-eux ← -euse." } },
+    { "id": "q4", "type": "vf", "q": { "fr": "L'adjectif s'accorde avec le nom qu'il décrit.", "ar": "النعت يطابق الاسم الذي يصفه." }, "bonne": true, "explication": { "fr": "Vrai : genre et nombre.", "ar": "صحيح: الجنس والعدد." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "Quel adjectif se place avant le nom ?", "ar": "أي نعت يوضع قبل الاسم؟" }, "choix": [{ "fr": "beau", "ar": "beau" }, { "fr": "blanc", "ar": "blanc" }, { "fr": "patient", "ar": "patient" }], "bonne": 0, "explication": { "fr": "« beau » se met avant : un beau jardin.", "ar": "«beau» قبل الاسم." } },
+    { "id": "q6", "type": "courte", "q": { "fr": "Féminin pluriel de « petit » ?", "ar": "المؤنث الجمع لـ «petit»؟" }, "acceptees": ["petites", "صغيرات"], "explication": { "fr": "petites.", "ar": "petites." } },
+    { "id": "q7", "type": "vf", "q": { "fr": "« Des fleurs bleu » est correct.", "ar": "«أزهار أزرق» صحيحة." }, "bonne": false, "explication": { "fr": "Faux : des fleurs bleues.", "ar": "خطأ: bleues." } },
+    { "id": "q8", "type": "qcm", "q": { "fr": "Féminin de « blanc » ?", "ar": "مؤنث «blanc»؟" }, "choix": [{ "fr": "blanche", "ar": "بيضاء" }, { "fr": "blance", "ar": "blance" }, { "fr": "blancs", "ar": "بيض" }], "bonne": 0, "explication": { "fr": "blanc → blanche.", "ar": "blanc ← blanche." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Adjectif qualificatif ?", "ar": "النعت الوصفي؟" }, "verso": { "fr": "Mot qui décrit une qualité du nom.", "ar": "كلمة تصف صفة الاسم." } },
+    { "id": "f2", "recto": { "fr": "Féminin de heureux ?", "ar": "مؤنث heureux؟" }, "verso": { "fr": "heureuse", "ar": "heureuse" } },
+    { "id": "f3", "recto": { "fr": "Féminin de beau ?", "ar": "مؤنث beau؟" }, "verso": { "fr": "belle", "ar": "belle" } },
+    { "id": "f4", "recto": { "fr": "Féminin de blanc ?", "ar": "مؤنث blanc؟" }, "verso": { "fr": "blanche", "ar": "blanche" } },
+    { "id": "f5", "recto": { "fr": "Pluriel de grande ?", "ar": "جمع grande؟" }, "verso": { "fr": "grandes", "ar": "grandes" } },
+    { "id": "f6", "recto": { "fr": "Adjectifs placés avant le nom ?", "ar": "النعوت التي قبل الاسم؟" }, "verso": { "fr": "beau, joli, grand, petit, bon, gros…", "ar": "beau، joli، grand، petit، bon، gros…" } },
+    { "id": "f7", "recto": { "fr": "Féminin de long ?", "ar": "مؤنث long؟" }, "verso": { "fr": "longue", "ar": "longue" } },
+    { "id": "f8", "recto": { "fr": "« Comment est-il ? » sert à trouver…", "ar": "السؤال «كيف هو؟» يُستعمل لإيجاد…" }, "verso": { "fr": "L'adjectif qualificatif", "ar": "النعت الوصفي" } }
+  ]
+}

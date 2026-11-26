@@ -1,0 +1,138 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-10",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 10,
+  "titre": { "fr": "Temps, heures et durées", "ar": "الزمن والساعات والمدد" },
+  "duree_min": 40,
+  "objectifs": {
+    "fr": [
+      "Lire l'heure et convertir heures, minutes, secondes",
+      "Calculer des durées entre deux instants",
+      "Résoudre des problèmes d'horaires (école, transport)"
+    ],
+    "ar": [
+      "قراءة الساعة والتحويل بين الساعات والدقائق والثواني",
+      "حساب المدد بين لحظتين",
+      "حل مسائل المواعيد (المدرسة، النقل)"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Les unités de temps", "ar": "وحدات الزمن" },
+      "puces": [
+        { "fr": "1 heure = 60 minutes ; 1 minute = 60 secondes.", "ar": "1 ساعة = 60 دقيقة؛ 1 دقيقة = 60 ثانية." },
+        { "fr": "1 jour = 24 heures ; 1 semaine = 7 jours ; 1 an = 365 jours (366 les années bissextiles).", "ar": "1 يوم = 24 ساعة؛ 1 أسبوع = 7 أيام؛ 1 سنة = 365 يوماً (366 في السنوات الكبيسة)." },
+        { "fr": "Le temps n'utilise pas le système décimal : 2 h 30 ≠ 2,30 h !", "ar": "الزمن لا يستعمل النظام العشري: ساعتان و30 دقيقة ≠ 2,30 ساعة!" }
+      ],
+      "tableau": {
+        "entetes": { "fr": ["Conversion", "Résultat"], "ar": ["التحويل", "النتيجة"] },
+        "lignes": [
+          { "fr": ["2 h 15 min", "135 min"], "ar": ["ساعتان و15 دقيقة", "135 دقيقة"] },
+          { "fr": ["90 min", "1 h 30 min"], "ar": ["90 دقيقة", "ساعة و30 دقيقة"] },
+          { "fr": ["180 s", "3 min"], "ar": ["180 ثانية", "3 دقائق"] }
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Calculer une durée", "ar": "حساب مدة" },
+      "puces": [
+        { "fr": "Durée = instant de fin − instant de début.", "ar": "المدة = لحظة النهاية − لحظة البداية." },
+        { "fr": "Méthode : aller jusqu'à l'heure pleine, puis ajouter les minutes restantes.", "ar": "الطريقة: اذهب إلى الساعة التامة، ثم أضف الدقائق المتبقية." },
+        { "fr": "Exemple : de 8h15 à 10h40 → jusqu'à 9h : 45 min ; jusqu'à 10h : 1 h ; jusqu'à 10h40 : 40 min → total 2 h 25.", "ar": "مثال: من 8:15 إلى 10:40 ← إلى الساعة 9: 45 د؛ إلى 10: ساعة؛ إلى 10:40: 40 د ← المجموع ساعتان و25 دقيقة." }
+      ]
+    },
+    {
+      "titre": { "fr": "Problèmes d'horaires", "ar": "مسائل المواعيد" },
+      "puces": [
+        { "fr": "Départ Nouakchott 7h30, arrivée Boutilimit 9h50 → durée 2 h 20.", "ar": "الانطلاق من نواكشوط 7:30، الوصول بوليمليت 9:50 ← المدة ساعتان و20 دقيقة." },
+        { "fr": "Pour trouver l'heure d'arrivée : heure de départ + durée.", "ar": "لإيجاد ساعة الوصول: ساعة الانطلاق + المدة." },
+        { "fr": "Pour trouver l'heure de départ : heure d'arrivée − durée.", "ar": "لإيجاد ساعة الانطلاق: ساعة الوصول − المدة." }
+      ],
+      "exemple": { "fr": "Un film de 1 h 45 commence à 16h20 : fin = 16h20 + 1h45 → 17h20 + 45 min = 18h05.", "ar": "فيلم مدته 1:45 يبدأ 16:20: النهاية = 18:05." }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Durée", "ar": "المدة" }, "def": { "fr": "Temps écoulé entre un début et une fin.", "ar": "الزمن المنقضي بين بداية ونهاية." } },
+    { "terme": { "fr": "Instant", "ar": "لحظة" }, "def": { "fr": "Moment précis, lu sur l'horloge (8h15).", "ar": "وقت محدد يُقرأ على الساعة (8:15)." } },
+    { "terme": { "fr": "Horloge analogique", "ar": "الساعة ذات العقارب" }, "def": { "fr": "Horloge à aiguilles : petite aiguille = heures, grande = minutes.", "ar": "ساعة بعقارب: العقرب الصغير للساعات والكبير للدقائق." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Convertis : 3 h en minutes ; 120 s en minutes.", "ar": "حوّل: 3 ساعات إلى دقائق؛ 120 ثانية إلى دقائق." },
+      "correction": {
+        "etapes": [
+          { "fr": "3 × 60 = 180 min.", "ar": "3 × 60 = 180 دقيقة." },
+          { "fr": "120 ÷ 60 = 2 min.", "ar": "120 ÷ 60 = 2 دقيقة." }
+        ],
+        "resultat": { "fr": "180 min ; 2 min", "ar": "180 دقيقة؛ دقيقتان" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 2,
+      "enonce": { "fr": "Un cours commence à 8h15 et finit à 9h50. Quelle est sa durée ?", "ar": "حصة تبدأ 8:15 وتنتهي 9:50. ما مدتها؟" },
+      "correction": {
+        "etapes": [
+          { "fr": "De 8h15 à 9h : 45 min. De 9h à 9h50 : 50 min.", "ar": "من 8:15 إلى 9: 45 د. من 9 إلى 9:50: 50 د." },
+          { "fr": "45 + 50 = 95 min = 1 h 35.", "ar": "45 + 50 = 95 د = 1:35." }
+        ],
+        "resultat": { "fr": "1 h 35 min", "ar": "ساعة و35 دقيقة" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Un film de 1 h 45 commence à 16h20. À quelle heure finit-il ?", "ar": "فيلم مدته 1:45 يبدأ 16:20. متى ينتهي؟" },
+      "correction": {
+        "etapes": [
+          { "fr": "16h20 + 1 h = 17h20 ; + 45 min = 18h05.", "ar": "16:20 + ساعة = 17:20؛ + 45 د = 18:05." }
+        ],
+        "resultat": { "fr": "18h05", "ar": "18:05" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 3,
+      "enonce": { "fr": "Problème : Un car va de Nouakchott à Rosso en 2 h 15 à l'aller et 1 h 55 au retour. Durée totale du voyage ?", "ar": "مسألة: حافلة تذهب من نواكشوط إلى روصو في ساعتين و15 دقيقة وتعود في ساعة و55 دقيقة. ما المدة الكلية للرحلة؟" },
+      "correction": {
+        "etapes": [
+          { "fr": "Aller : 2 h 15 ; retour : 1 h 55.", "ar": "الذهاب 2:15؛ العودة 1:55." },
+          { "fr": "Total : (2 + 1) h + (15 + 55) min = 3 h + 70 min = 3 h 70 = 4 h 10.", "ar": "المجموع: 3 ساعات + 70 دقيقة = 4 ساعات و10 دقائق." }
+        ],
+        "resultat": { "fr": "4 h 10 min", "ar": "4 ساعات و10 دقائق" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Problème : L'école dure 4 h 30 chaque matin. Quelle est la durée d'une semaine de 5 jours ?", "ar": "مسألة: تستمر المدرسة 4:30 كل صباح. ما مدة أسبوع من 5 أيام؟" },
+      "correction": {
+        "etapes": [
+          { "fr": "5 × 4 h = 20 h ; 5 × 30 min = 150 min = 2 h 30.", "ar": "5 × 4 = 20 ساعة؛ 5 × 30 = 150 دقيقة = ساعتان و30 دقيقة." },
+          { "fr": "Total : 20 h + 2 h 30 = 22 h 30.", "ar": "المجموع: 22 ساعة و30 دقيقة." }
+        ],
+        "resultat": { "fr": "22 h 30", "ar": "22 ساعة و30 دقيقة" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "1 heure = ?", "ar": "1 ساعة = ؟" }, "choix": [{ "fr": "60 min", "ar": "60 دقيقة" }, { "fr": "100 min", "ar": "100 دقيقة" }, { "fr": "24 min", "ar": "24 دقيقة" }], "bonne": 0, "explication": { "fr": "1 h = 60 min.", "ar": "1 ساعة = 60 دقيقة." } },
+    { "id": "q2", "type": "calcul", "q": { "fr": "Convertis 5 h en minutes.", "ar": "حوّل 5 ساعات إلى دقائق." }, "acceptees": ["300", "300 min"], "explication": { "fr": "5 × 60 = 300 min.", "ar": "5 × 60 = 300 دقيقة." } },
+    { "id": "q3", "type": "qcm", "q": { "fr": "2 h 15 min = ?", "ar": "ساعتان و15 دقيقة = ؟" }, "choix": [{ "fr": "135 min", "ar": "135 دقيقة" }, { "fr": "215 min", "ar": "215 دقيقة" }, { "fr": "150 min", "ar": "150 دقيقة" }], "bonne": 0, "explication": { "fr": "2 × 60 + 15 = 135 min.", "ar": "2 × 60 + 15 = 135 دقيقة." } },
+    { "id": "q4", "type": "vf", "q": { "fr": "1 jour = 12 heures.", "ar": "1 يوم = 12 ساعة." }, "bonne": false, "explication": { "fr": "Faux : 1 jour = 24 heures.", "ar": "خطأ: 1 يوم = 24 ساعة." } },
+    { "id": "q5", "type": "courte", "q": { "fr": "De 8h00 à 8h45, quelle durée (en minutes) ?", "ar": "من 8:00 إلى 8:45، ما المدة (بالدقائق)؟" }, "acceptees": ["45", "45 min"], "explication": { "fr": "45 minutes.", "ar": "45 دقيقة." } },
+    { "id": "q6", "type": "calcul", "q": { "fr": "Un match de 90 min commence à 15h30. Heure de fin ?", "ar": "مباراة 90 دقيقة تبدأ 15:30. ساعة النهاية؟" }, "acceptees": ["17:00", "17h00", "17h", "17:00 h"], "explication": { "fr": "15h30 + 1 h 30 = 17h00.", "ar": "15:30 + 1:30 = 17:00." } },
+    { "id": "q7", "type": "qcm", "q": { "fr": "180 secondes = ?", "ar": "180 ثانية = ؟" }, "choix": [{ "fr": "3 min", "ar": "3 دقائق" }, { "fr": "30 min", "ar": "30 دقيقة" }, { "fr": "1 h", "ar": "1 ساعة" }], "bonne": 0, "explication": { "fr": "180 ÷ 60 = 3 min.", "ar": "180 ÷ 60 = 3 دقائق." } },
+    { "id": "q8", "type": "vf", "q": { "fr": "Pour trouver l'heure de départ, on soustrait la durée à l'heure d'arrivée.", "ar": "لإيجاد ساعة الانطلاق نطرح المدة من ساعة الوصول." }, "bonne": true, "explication": { "fr": "Oui : départ = arrivée − durée.", "ar": "نعم: الانطلاق = الوصول − المدة." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "1 h = ? min", "ar": "1 ساعة = ؟ دقيقة" }, "verso": { "fr": "60 minutes", "ar": "60 دقيقة" } },
+    { "id": "f2", "recto": { "fr": "1 min = ? s", "ar": "1 دقيقة = ؟ ثانية" }, "verso": { "fr": "60 secondes", "ar": "60 ثانية" } },
+    { "id": "f3", "recto": { "fr": "1 jour = ? h", "ar": "1 يوم = ؟ ساعة" }, "verso": { "fr": "24 heures", "ar": "24 ساعة" } },
+    { "id": "f4", "recto": { "fr": "Durée d'un intervalle ?", "ar": "مدة فاصل زمني؟" }, "verso": { "fr": "Fin − début", "ar": "النهاية − البداية" } },
+    { "id": "f5", "recto": { "fr": "90 min = ? h … min", "ar": "90 دقيقة = ؟ س … د" }, "verso": { "fr": "1 h 30 min", "ar": "ساعة و30 دقيقة" } },
+    { "id": "f6", "recto": { "fr": "2 h 45 = ? min", "ar": "ساعتان و45 د = ؟ دقيقة" }, "verso": { "fr": "165 min", "ar": "165 دقيقة" } },
+    { "id": "f7", "recto": { "fr": "Départ + durée = ?", "ar": "الانطلاق + المدة = ؟" }, "verso": { "fr": "Heure d'arrivée", "ar": "ساعة الوصول" } },
+    { "id": "f8", "recto": { "fr": "1 semaine = ? jours", "ar": "1 أسبوع = ؟ أيام" }, "verso": { "fr": "7 jours", "ar": "7 أيام" } }
+  ]
+}

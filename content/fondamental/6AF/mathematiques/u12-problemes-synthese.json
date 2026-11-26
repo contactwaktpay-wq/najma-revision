@@ -1,0 +1,525 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-12",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 12,
+  "titre": {
+    "fr": "Problèmes de synthèse",
+    "ar": "مسائل تركيبية"
+  },
+  "duree_min": 50,
+  "objectifs": {
+    "fr": [
+      "Résoudre des problèmes à plusieurs étapes",
+      "Choisir la bonne opération (addition, soustraction, multiplication, division)",
+      "Rédiger une solution claire avec phrase de réponse"
+    ],
+    "ar": [
+      "حل مسائل من عدة خطوات",
+      "اختيار العملية المناسبة (جمع، طرح، ضرب، قسمة)",
+      "تحرير حل واضح بجملة ختامية"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Méthode : résoudre un problème",
+        "ar": "الطريقة: حل مسألة"
+      },
+      "puces": [
+        {
+          "fr": "1. Je lis deux fois l'énoncé et je souligne les nombres et la question.",
+          "ar": "1. أقرأ النص مرتين وأُبرز الأرقام والسؤال."
+        },
+        {
+          "fr": "2. Je cherche les étapes : que dois-je calculer d'abord ?",
+          "ar": "2. أبحث عن الخطوات: ما الذي أحسبه أولاً؟"
+        },
+        {
+          "fr": "3. Je choisis les opérations : + quand on ajoute, − quand on enlève, × quand on répète, ÷ quand on partage.",
+          "ar": "3. أختار العمليات: + عند الإضافة، − عند النقصان، × عند التكرار، ÷ عند التقسيم."
+        },
+        {
+          "fr": "4. Je calcule, je vérifie mon résultat, puis je rédige la phrase de réponse.",
+          "ar": "4. أحسب، أتحقق من النتيجة، ثم أكتب جملة الإجابة."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Les 4 opérations dans la vie réelle",
+        "ar": "العمليات الأربع في الحياة اليومية"
+      },
+      "puces": [
+        {
+          "fr": "Marché de Nouakchott : prix total = × puis + (quantités et prix).",
+          "ar": "سوق نواكشوط: الثمن الكلي = × ثم + (الكميات والأسعار)."
+        },
+        {
+          "fr": "Partage : 96 mangues dans 8 paniers → 96 ÷ 8 = 12 mangues par panier.",
+          "ar": "التقسيم: 96 منجة في 8 سلال ← 96 ÷ 8 = 12 منجة لكل سلة."
+        },
+        {
+          "fr": "Reste d'argent : porte-monnaie − dépense.",
+          "ar": "باقي المال: ما في الجيب − المصروف."
+        },
+        {
+          "fr": "Vitesse simple : vitesse = distance ÷ temps (km par heure).",
+          "ar": "السرعة البسيطة: السرعة = المسافة ÷ الزمن (كم في الساعة)."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Pièges classiques",
+        "ar": "فخاخ معتادة"
+      },
+      "puces": [
+        {
+          "fr": "Ne pas oublier de convertir avant de calculer (kg ↔ g, m ↔ cm, MRU ↔ khoums).",
+          "ar": "لا تنسَ التحويل قبل الحساب (كلغ ↔ غ، م ↔ سم، أوقية ↔ خمس)."
+        },
+        {
+          "fr": "« De plus que » → addition ; « de moins que » → soustraction.",
+          "ar": "«أكثر بـ» ← جمع؛ «أقل بـ» ← طرح."
+        },
+        {
+          "fr": "La réponse doit répondre à la question posée, avec son unité (MRU, kg, m…).",
+          "ar": "يجب أن تجيب الإجابة عن السؤال بوحدته (أوقية، كلغ، م…)."
+        }
+      ],
+      "exemple": {
+        "fr": "2,5 kg de thé à 1 200 MRU le kg + 500 g de sucre à 400 MRU le kg → thé : 2,5 × 1 200 = 3 000 ; sucre : 0,5 × 400 = 200 → total 3 200 MRU.",
+        "ar": "2,5 كلغ شاي بـ 1 200 أوقية للكلغ + 500 غ سكر بـ 400 أوقية للكلغ ← الشاي 3 000؛ السكر 200 ← المجموع 3 200 أوقية."
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Étape",
+        "ar": "خطوة"
+      },
+      "def": {
+        "fr": "Un calcul intermédiaire vers la réponse finale.",
+        "ar": "حساب وسيط نحو الإجابة النهائية."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Énoncé",
+        "ar": "نص المسألة"
+      },
+      "def": {
+        "fr": "Texte qui décrit la situation et pose la question.",
+        "ar": "نص يصف الموقف ويطرح السؤال."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Phrase de réponse",
+        "ar": "جملة الإجابة"
+      },
+      "def": {
+        "fr": "Phrase complète qui donne le résultat avec son unité.",
+        "ar": "جملة كاملة تعطي النتيجة بوحدتها."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Achète 3 cahiers à 175 MRU chacun et 2 stylos à 50 MRU chacun. Calcule le total.",
+        "ar": "اشترِ 3 كراسات بـ 175 أوقية للكراس وقلمين بـ 50 أوقية للقلم. احسب المجموع."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Cahiers : 3 × 175 = 525 MRU.",
+            "ar": "الكراسات: 3 × 175 = 525 أوقية."
+          },
+          {
+            "fr": "Stylos : 2 × 50 = 100 MRU.",
+            "ar": "الأقلام: 2 × 50 = 100 أوقية."
+          },
+          {
+            "fr": "Total : 525 + 100 = 625 MRU.",
+            "ar": "المجموع: 625 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "625 MRU",
+          "ar": "625 أوقية"
+        }
+      },
+      "acceptees": [
+        "625"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Une sortie scolaire : 30 élèves paient 250 MRU chacun. L'école ajoute 1 500 MRU. Quel est le budget total ?",
+        "ar": "رحلة مدرسية: 30 تلميذاً يدفع كل منهم 250 أوقية. تضيف المدرسة 1 500 أوقية. ما الميزانية الكلية؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Élèves : 30 × 250 = 7 500 MRU.",
+            "ar": "التلاميذ: 30 × 250 = 7 500 أوقية."
+          },
+          {
+            "fr": "Total : 7 500 + 1 500 = 9 000 MRU.",
+            "ar": "المجموع: 9 000 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "9 000 MRU",
+          "ar": "9 000 أوقية"
+        }
+      },
+      "acceptees": [
+        "9000"
+      ]
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Avec 5 000 MRU, achète 2 kg de viande à 1 800 MRU le kg. Combien te reste-t-il ?",
+        "ar": "معك 5 000 أوقية، اشترِ 2 كلغ لحم بـ 1 800 أوقية للكلغ. كم يبقى لك؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Dépense : 2 × 1 800 = 3 600 MRU.",
+            "ar": "المصروف: 2 × 1 800 = 3 600 أوقية."
+          },
+          {
+            "fr": "Reste : 5 000 − 3 600 = 1 400 MRU.",
+            "ar": "الباقي: 5 000 − 3 600 = 1 400 أوقية."
+          }
+        ],
+        "resultat": {
+          "fr": "1 400 MRU",
+          "ar": "1 400 أوقية"
+        }
+      },
+      "acceptees": [
+        "1400"
+      ]
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un camion porte 120 caisses de 25 kg de dattes. Décharge 30 caisses à Rosso puis 45 à Kaédi. Combien de kg transportés encore ?",
+        "ar": "مسألة: شاحنة تحمل 120 صندوقاً من 25 كلغ تمر. تنزّل 30 صندوقاً في روصو ثم 45 في كيهيدي. كم كلغاً يظل عليها؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Caisses déchargées : 30 + 45 = 75.",
+            "ar": "الصناديق المنزّلة: 30 + 45 = 75."
+          },
+          {
+            "fr": "Caisses restantes : 120 − 75 = 45.",
+            "ar": "الصناديق الباقية: 120 − 75 = 45."
+          },
+          {
+            "fr": "Masse : 45 × 25 = 1 125 kg.",
+            "ar": "الكتلة: 45 × 25 = 1 125 كلغ."
+          }
+        ],
+        "resultat": {
+          "fr": "1 125 kg",
+          "ar": "1 125 كلغ"
+        }
+      },
+      "acceptees": [
+        "1125"
+      ]
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Problème : Un bus roule 180 km en 3 heures sur la route de Néma. Quelle est sa vitesse en km/h ? À cette vitesse, quelle distance en 5 h ?",
+        "ar": "مسألة: حافلة تقطع 180 كم في 3 ساعات على طريق نما. ما سرعتها بالكم/ساعة؟ وبالسرعة نفسها، ما المسافة في 5 ساعات؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Vitesse : 180 ÷ 3 = 60 km/h.",
+            "ar": "السرعة: 180 ÷ 3 = 60 كم/ساعة."
+          },
+          {
+            "fr": "Distance en 5 h : 60 × 5 = 300 km.",
+            "ar": "المسافة في 5 ساعات: 60 × 5 = 300 كم."
+          }
+        ],
+        "resultat": {
+          "fr": "60 km/h ; 300 km",
+          "ar": "60 كم/ساعة؛ 300 كم"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "96 mangues partagées en 8 paniers : quelle opération ?",
+        "ar": "96 منجة توزع على 8 سلال: أي عملية؟"
+      },
+      "choix": [
+        {
+          "fr": "96 ÷ 8",
+          "ar": "96 ÷ 8"
+        },
+        {
+          "fr": "96 × 8",
+          "ar": "96 × 8"
+        },
+        {
+          "fr": "96 − 8",
+          "ar": "96 − 8"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Partager → division : 12 mangues par panier.",
+        "ar": "التقسيم ← القسمة: 12 منجة لكل سلة."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "calcul",
+      "q": {
+        "fr": "Total de 4 cahiers à 150 MRU chacun (en MRU) ?",
+        "ar": "مجموع 4 كراسات بـ 150 أوقية للكراس؟"
+      },
+      "acceptees": [
+        "600",
+        "600 MRU"
+      ],
+      "explication": {
+        "fr": "4 × 150 = 600 MRU.",
+        "ar": "4 × 150 = 600 أوقية."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "qcm",
+      "q": {
+        "fr": "« J'avais 2 000 MRU, j'ai dépensé 750 » : quelle opération ?",
+        "ar": "«كان معي 2 000 أوقية، صرفت 750»: أي عملية؟"
+      },
+      "choix": [
+        {
+          "fr": "2 000 − 750",
+          "ar": "2 000 − 750"
+        },
+        {
+          "fr": "2 000 + 750",
+          "ar": "2 000 + 750"
+        },
+        {
+          "fr": "2 000 × 750",
+          "ar": "2 000 × 750"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Dépenser → soustraire : reste 1 250 MRU.",
+        "ar": "الصرف ← الطرح: يبقى 1 250 أوقية."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "calcul",
+      "q": {
+        "fr": "Un bus roule 240 km en 4 h. Sa vitesse en km/h ?",
+        "ar": "حافلة تقطع 240 كم في 4 ساعات. سرعتها؟"
+      },
+      "acceptees": [
+        "60",
+        "60 km/h"
+      ],
+      "explication": {
+        "fr": "240 ÷ 4 = 60 km/h.",
+        "ar": "240 ÷ 4 = 60 كم/ساعة."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "vf",
+      "q": {
+        "fr": "Avant de calculer, il faut parfois convertir les unités.",
+        "ar": "أحياناً يجب التحويل بين الوحدات قبل الحساب."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai : toujours travailler avec la même unité.",
+        "ar": "صحيح: نعمل دائماً بالوحدة نفسها."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "courte",
+      "q": {
+        "fr": "Vitesse = distance ÷ … . Complète.",
+        "ar": "السرعة = المسافة ÷ … أكمل."
+      },
+      "acceptees": [
+        "temps",
+        "le temps",
+        "الزمن",
+        "زمن"
+      ],
+      "explication": {
+        "fr": "Vitesse = distance ÷ temps.",
+        "ar": "السرعة = المسافة ÷ الزمن."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "calcul",
+      "q": {
+        "fr": "125 MRU = combien de khoums ? (1 MRU = 5 khoums)",
+        "ar": "125 أوقية كم خمساً؟ (1 أوقية = 5 خمس)"
+      },
+      "acceptees": [
+        "625",
+        "625 khoums"
+      ],
+      "explication": {
+        "fr": "125 × 5 = 625 khoums.",
+        "ar": "125 × 5 = 625 خمساً."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "qcm",
+      "q": {
+        "fr": "Quelle est la dernière étape d'un problème bien résolu ?",
+        "ar": "ما الخطوة الأخيرة في حل مسألة ناجح؟"
+      },
+      "choix": [
+        {
+          "fr": "Écrire la phrase de réponse avec l'unité",
+          "ar": "كتابة جملة الإجابة بوحدتها"
+        },
+        {
+          "fr": "Recopier l'énoncé",
+          "ar": "نسخ نص المسألة"
+        },
+        {
+          "fr": "Effacer les calculs",
+          "ar": "محو الحسابات"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "On conclut toujours par une phrase de réponse.",
+        "ar": "نختم دائماً بجملة الإجابة."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Quand utilise-t-on la division ?",
+        "ar": "متى نستعمل القسمة؟"
+      },
+      "verso": {
+        "fr": "Pour partager ou répartir équitablement.",
+        "ar": "للتقسيم أو التوزيع المتساوي."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Quand utilise-t-on la multiplication ?",
+        "ar": "متى نستعمل الضرب؟"
+      },
+      "verso": {
+        "fr": "Pour répéter une même quantité (prix × nombre).",
+        "ar": "لتكرار كمية (الثمن × العدد)."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Vitesse = ?",
+        "ar": "السرعة = ؟"
+      },
+      "verso": {
+        "fr": "Distance ÷ temps",
+        "ar": "المسافة ÷ الزمن"
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "1 MRU = ? khoums",
+        "ar": "1 أوقية = ؟ خمس"
+      },
+      "verso": {
+        "fr": "5 khoums",
+        "ar": "5 خمس"
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Phrase de réponse ?",
+        "ar": "جملة الإجابة؟"
+      },
+      "verso": {
+        "fr": "Phrase complète avec le résultat et son unité.",
+        "ar": "جملة كاملة بالنتيجة ووحدتها."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "« De plus que » → quelle opération ?",
+        "ar": "«أكثر بـ» ← أي عملية؟"
+      },
+      "verso": {
+        "fr": "L'addition",
+        "ar": "الجمع"
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "« De moins que » → quelle opération ?",
+        "ar": "«أقل بـ» ← أي عملية؟"
+      },
+      "verso": {
+        "fr": "La soustraction",
+        "ar": "الطرح"
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "Avant de calculer, je vérifie…",
+        "ar": "قبل الحساب أتحقق من…"
+      },
+      "verso": {
+        "fr": "Que toutes les quantités sont dans la même unité.",
+        "ar": "أن كل الكميات بنفس الوحدة."
+      }
+    }
+  ]
+}

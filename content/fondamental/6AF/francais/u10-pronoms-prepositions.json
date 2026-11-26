@@ -1,0 +1,142 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-fr-10",
+  "niveau": "6AF",
+  "matiere": "francais",
+  "ordre": 10,
+  "titre": { "fr": "Pronoms et prépositions", "ar": "الضمائر وحروف الجر" },
+  "duree_min": 45,
+  "objectifs": {
+    "fr": [
+      "Utiliser les pronoms personnels (sujet, tonique)",
+      "Employer les prépositions courantes",
+      "Remplacer un nom par un pronom pour éviter les répétitions"
+    ],
+    "ar": [
+      "استعمال الضمائر الشخصية (الفاعل، النصرية)",
+      "استعمال حروف الجر المعتادة",
+      "استبدال الاسم بضمير لتجنب التكرار"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": { "fr": "Les pronoms personnels", "ar": "الضمائر الشخصية" },
+      "puces": [
+        { "fr": "Sujets : je, tu, il/elle/on, nous, vous, ils/elles.", "ar": "ضمائر الفاعل: je، tu، il/elle/on، nous، vous، ils/elles." },
+        { "fr": "Toniques (après une préposition ou pour insister) : moi, toi, lui/elle, nous, vous, eux/elles.", "ar": "النصرية: moi، toi، lui/elle، nous، vous، eux/elles." },
+        { "fr": "Exemple : « Il travaille avec moi » ; « Lui et moi, nous sommes amis. »", "ar": "مثال: «يعمل معي»؛ «هو وأنا أصدقاء»." }
+      ],
+      "tableau": {
+        "entetes": { "fr": ["Sujet", "Tonique"], "ar": ["فاعل", "نصرية"] },
+        "lignes": [
+          { "fr": ["je", "moi"], "ar": ["أنا", "moi"] },
+          { "fr": ["tu", "toi"], "ar": ["أنت", "toi"] },
+          { "fr": ["il / elle", "lui / elle"], "ar": ["هو / هي", "lui / elle"] },
+          { "fr": ["nous", "nous"], "ar": ["نحن", "nous"] },
+          { "fr": ["vous", "vous"], "ar": ["أنتم", "vous"] },
+          { "fr": ["ils / elles", "eux / elles"], "ar": ["هم / هن", "eux / elles"] }
+        ]
+      }
+    },
+    {
+      "titre": { "fr": "Les prépositions courantes", "ar": "حروف الجر المعتادة" },
+      "puces": [
+        { "fr": "Lieu : dans, sur, sous, à, chez, devant, derrière, entre, près de, loin de.", "ar": "المكان: في، على، تحت، إلى، عند، أمام، خلف، بين، قرب، بعيد عن." },
+        { "fr": "Temps : à, en, depuis, pendant, avant, après.", "ar": "الزمن: في، خلال، منذ، أثناء، قبل، بعد." },
+        { "fr": "Manière et autres : avec, sans, pour, par.", "ar": "الأسلوب وأخرى: بـ، بدون، لـ، من قبل." },
+        { "fr": "Exemple : « Je rentre chez moi après le cours, avec mon frère. »", "ar": "مثال: «أعود إلى البيتي بعد الحصة مع أخي»." }
+      ]
+    },
+    {
+      "titre": { "fr": "Pourquoi les pronoms ?", "ar": "لماذا الضمائر؟" },
+      "puces": [
+        { "fr": "Sans eux : « Fatou donne le livre à Mariem. Mariem lit le livre. » (répétitif !)", "ar": "بدونها: «تعطي فاتو الكتاب لمريم. تقرأ مريم الكتاب» (تكرار!)" },
+        { "fr": "Avec eux : « Fatou donne le livre à Mariem. Elle le lit. »", "ar": "بها: «تعطي فاتو الكتاب لمريم. تقرأه»." },
+        { "fr": "Le pronom remplace le nom et allège la phrase.", "ar": "الضمير يحل محل الاسم ويخفف الجملة." }
+      ],
+      "exemple": { "fr": "Tu connais Ahmed ? Oui, je le connais : je joue avec lui chaque soir.", "ar": "تعرف أحمد؟ نعم أعرفه: ألعب معه كل مساء." }
+    }
+  ],
+  "definitions": [
+    { "terme": { "fr": "Pronom", "ar": "الضمير" }, "def": { "fr": "Mot qui remplace un nom pour éviter de le répéter.", "ar": "كلمة تحل محل الاسم لتجنب تكراره." } },
+    { "terme": { "fr": "Préposition", "ar": "حرف الجر" }, "def": { "fr": "Petit mot qui relie et précise lieu, temps ou manière.", "ar": "كلمة صغيرة تحدد المكان أو الزمن أو الأسلوب." } },
+    { "terme": { "fr": "Pronom tonique", "ar": "الضمير النصرية" }, "def": { "fr": "Forme forte : moi, toi, lui, eux (après préposition ou pour insister).", "ar": "الصيغة القوية: moi، toi، lui، eux." } }
+  ],
+  "exercices": [
+    {
+      "id": "e1", "niveau_diff": 1,
+      "enonce": { "fr": "Remplace les mots soulignés par un pronom : « Mariem prépare le thé. Mariem sert le thé aux invités. »", "ar": "استبدل الكلمات المبرزة بضمير: «تحضير مريم الشاي. تقدم مريم الشاي للضيوف»." },
+      "correction": {
+        "etapes": [
+          { "fr": "« Elle prépare le thé. Elle le sert aux invités. »", "ar": "«تحضّر الشاي. تقدّمه للضيوف.»" }
+        ],
+        "resultat": { "fr": "Elle… elle le sert", "ar": "Elle… elle le sert" }
+      }
+    },
+    {
+      "id": "e2", "niveau_diff": 1,
+      "enonce": { "fr": "Complète avec la bonne préposition : « Le chat est ___ le tapis » (sous/sur) / « Je vais ___ l'école » (à/de) / « Nous travaillons ___ notre cousine » (avec/sans).", "ar": "أكمل بحرف الجر المناسب: «القط ___ البساط» / «أذهب ___ المدرسة» / «نعمل ___ ابنة عمي»." },
+      "correction": {
+        "etapes": [
+          { "fr": "sur le tapis (ou « sous » selon la scène, ici le chat est posé dessus).", "ar": "على البساط." },
+          { "fr": "à l'école.", "ar": "إلى المدرسة." },
+          { "fr": "avec notre cousine.", "ar": "مع ابنة عمي." }
+        ],
+        "resultat": { "fr": "sur ; à ; avec", "ar": "sur؛ à؛ avec" }
+      }
+    },
+    {
+      "id": "e3", "niveau_diff": 2,
+      "enonce": { "fr": "Choisis le pronom tonique : « Il est venu avec ___ (moi/je) » / « ___ et toi, vous êtes frères » (lui/il).", "ar": "اختر الضمير النصرية المناسب." },
+      "correction": {
+        "etapes": [
+          { "fr": "« Il est venu avec moi » (après une préposition → tonique).", "ar": "بعد حرف جر ← نصرية: moi." },
+          { "fr": "« Lui et toi, vous êtes frères » (pour insister).", "ar": "للتأكيد: Lui." }
+        ],
+        "resultat": { "fr": "moi ; Lui", "ar": "moi؛ Lui" }
+      }
+    },
+    {
+      "id": "e4", "niveau_diff": 2,
+      "enonce": { "fr": "Écris la phrase sans répétition : « Le professeur explique la leçon. Les élèves écoutent la leçon. Les élèves adorent le professeur. »", "ar": "أعد كتابة الجمل بلا تكرار: «يشرح الأستاذ الدرس. يصغي التلاميذ للدرس. يحب التلاميذ الأستاذ»." },
+      "correction": {
+        "etapes": [
+          { "fr": "« Le professeur explique la leçon. Les élèves l'écoutent et l'adorent. »", "ar": "«يشرح الأستاذ الدرس. يصغي إليه التلاميذ ويحبونه»." }
+        ],
+        "resultat": { "fr": "… l'écoutent et l'adorent", "ar": "… l'écoutent et l'adorent" }
+      }
+    },
+    {
+      "id": "e5", "niveau_diff": 3,
+      "enonce": { "fr": "Décris ta chambre (ou ta classe) en 3 phrases avec au moins 4 prépositions différentes.", "ar": "صف غرفتك (أو قسمك) في 3 جمل مع 4 حروف جر مختلفة على الأقل." },
+      "correction": {
+        "etapes": [
+          { "fr": "Exemple : « Mon lit est contre le mur. Mes cahiers sont dans le cartable, sur la table. Devant la fenêtre, il y a une chaise. »", "ar": "مثال: «سريري ملاصق للجدار. كراسي في الحقيبة، على الطاولة. أمام النافذة كرسي»." },
+          { "fr": "Barème : 1 pt par préposition bien employée.", "ar": "التنقيط: نقطة لكل حرف جر صحيح." }
+        ],
+        "resultat": { "fr": "3 phrases avec 4 prépositions", "ar": "ثلاث جمل بأربعة حروف جر" }
+      }
+    }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "qcm", "q": { "fr": "Quel pronom remplace « Fatou et moi » ?", "ar": "أي ضمير يحل محل «فاتو وأنا»؟" }, "choix": [{ "fr": "nous", "ar": "نحن" }, { "fr": "elles", "ar": "هن" }, { "fr": "vous", "ar": "أنتم" }], "bonne": 0, "explication": { "fr": "Fatou + moi = nous.", "ar": "فاتو + أنا = نحن." } },
+    { "id": "q2", "type": "courte", "q": { "fr": "Complète : « Je vais ___ Nouakchott » (préposition de lieu).", "ar": "أكمل: «أذهب ___ نواكشوط» (حرف جر مكان)." }, "acceptees": ["à", "a", "إلى"], "explication": { "fr": "à Nouakchott.", "ar": "إلى نواكشوط." } },
+    { "id": "q3", "type": "qcm", "q": { "fr": "Pronom tonique de « ils » ?", "ar": "الضمير النصرية لـ «ils»؟" }, "choix": [{ "fr": "eux", "ar": "eux" }, { "fr": "ils", "ar": "ils" }, { "fr": "leur", "ar": "leur" }], "bonne": 0, "explication": { "fr": "ils → eux.", "ar": "ils ← eux." } },
+    { "id": "q4", "type": "vf", "q": { "fr": "Une préposition relie deux mots et précise un lieu ou un temps.", "ar": "حرف الجر يربط كلمتين ويحدد مكاناً أو زمناً." }, "bonne": true, "explication": { "fr": "Vrai.", "ar": "صحيح." } },
+    { "id": "q5", "type": "qcm", "q": { "fr": "« ___ le désert, il y a des dunes. » Complète.", "ar": "«___ الصحراء كثبان» أكمل." }, "choix": [{ "fr": "Dans", "ar": "في" }, { "fr": "Sur", "ar": "على" }, { "fr": "Chez", "ar": "عند" }], "bonne": 0, "explication": { "fr": "Dans le désert.", "ar": "في الصحراء." } },
+    { "id": "q6", "type": "courte", "q": { "fr": "Pronom tonique de « toi et lui » utilisé pour insister : « Vous et ___ » ?", "ar": "الضمير النصرية: «أنتم وهو» ← «vous et ___»؟" }, "acceptees": ["eux", "هم"], "explication": { "fr": "toi + lui = vous et eux… on utilise plutôt « vous deux » ; ici on retient : lui → eux pour ils.", "ar": "lui ← eux." } },
+    { "id": "q7", "type": "qcm", "q": { "fr": "« Je joue ___ mon ami » — quelle préposition ?", "ar": "«ألعب ___ صديقي» — أي حرف جر؟" }, "choix": [{ "fr": "avec", "ar": "مع" }, { "fr": "sans", "ar": "بدون" }, { "fr": "sous", "ar": "تحت" }], "bonne": 0, "explication": { "fr": "avec mon ami.", "ar": "مع صديقي." } },
+    { "id": "q8", "type": "vf", "q": { "fr": "Le pronom sert à éviter les répétitions.", "ar": "الضمير يُستعمل لتجنب التكرار." }, "bonne": true, "explication": { "fr": "Vrai : c'est sa fonction principale.", "ar": "صحيح: هذه وظيفته الأساسية." } }
+  ],
+  "flashcards": [
+    { "id": "f1", "recto": { "fr": "Pronoms sujets ?", "ar": "ضمائر الفاعل؟" }, "verso": { "fr": "je, tu, il/elle/on, nous, vous, ils/elles", "ar": "je، tu، il/elle/on، nous، vous، ils/elles" } },
+    { "id": "f2", "recto": { "fr": "Pronoms toniques ?", "ar": "الضمائر النصرية؟" }, "verso": { "fr": "moi, toi, lui/elle, nous, vous, eux/elles", "ar": "moi، toi، lui/elle، nous، vous، eux/elles" } },
+    { "id": "f3", "recto": { "fr": "Préposition pour le lieu où l'on va ?", "ar": "حرف جر للمكان المقصود؟" }, "verso": { "fr": "à (aller à l'école)", "ar": "à" } },
+    { "id": "f4", "recto": { "fr": "Préposition « chez » ?", "ar": "حرف الجر chez؟" }, "verso": { "fr": "Chez quelqu'un = à sa maison.", "ar": "عند شخص = في بيته." } },
+    { "id": "f5", "recto": { "fr": "Fonction du pronom ?", "ar": "وظيفة الضمير؟" }, "verso": { "fr": "Remplacer un nom (éviter les répétitions).", "ar": "حل محل الاسم (تجنب التكرار)." } },
+    { "id": "f6", "recto": { "fr": "Tonique de « tu » ?", "ar": "النصرية لـ tu؟" }, "verso": { "fr": "toi", "ar": "toi" } },
+    { "id": "f7", "recto": { "fr": "« depuis » ou « pendant » : « ___ deux heures » (durée écoulée) ?", "ar": "«منذ» أو «أثناء»: «___ ساعتين»؟" }, "verso": { "fr": "depuis deux heures", "ar": "منذ ساعتين" } },
+    { "id": "f8", "recto": { "fr": "Prépositions de manière ?", "ar": "حروف الجر للأسلوب؟" }, "verso": { "fr": "avec, sans, par", "ar": "avec، sans، par" } }
+  ]
+}

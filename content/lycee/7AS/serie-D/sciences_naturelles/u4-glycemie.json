@@ -1,0 +1,384 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "7ASD-svn-04",
+  "niveau": "7AS",
+  "matiere": "sciences_naturelles",
+  "ordre": 4,
+  "titre": {
+    "fr": "Régulation de la glycémie",
+    "ar": "تنظيم سكر الدم"
+  },
+  "duree_min": 35,
+  "objectifs": {
+    "fr": [
+      "Définir la glycémie et ses valeurs normales",
+      "Expliquer le rôle de l'insuline et du glucagon",
+      "Décrire la boucle de régulation et le diabète"
+    ],
+    "ar": [
+      "تعريف سكر الدم وقيمه الطبيعية",
+      "شرح دور الأنسولين والغلوكاغون",
+      "وصف حلقة التنظيم وداء السكري"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "La glycémie",
+        "ar": "سكر الدم"
+      },
+      "puces": [
+        {
+          "fr": "Glycémie = concentration de glucose dans le sang ; valeur normale ≈ 0,8 à 1,1 g/L (≈ 1 g/L).",
+          "ar": "سكر الدم = تركيز الغلوكوز في الدم؛ القيمة الطبيعية ≈ 0,8 إلى 1,1 غ/ل."
+        },
+        {
+          "fr": "Sources de glucose : alimentation (absorption intestinale), glycogène hépatique (glycogénolyse), néoglucogenèse.",
+          "ar": "مصادر الغلوكوز: الغذاء، الغليكوجين الكبدي، التصنيع الحيوي الجديد."
+        }
+      ]
+    },
+    {
+      "titre": {
+        "fr": "Le pancréas endocrine",
+        "ar": "البنكرياس الصمّائي"
+      },
+      "bloc": [
+        {
+          "fr": "Les îlots de Langerhans du pancréas contiennent des cellules β (insuline) et α (glucagon). Ce sont les capteurs du glucose.",
+          "ar": "جزر لانغرهانس في البنكرياس تحتوي خلايا β (الأنسولين) و α (الغلوكاغون). وهي المسجّلة لمستوى الغلوكوز."
+        }
+      ],
+      "puces": [
+        {
+          "fr": "Glycémie ↑ (après repas) → insuline : entrée du glucose dans les cellules, stockage en glycogène (foie, muscles) et lipogenèse → glycémie ↓.",
+          "ar": "ارتفاع السكر (بعد الأكل) ← الأنسولين: دخول الغلوكوز للخلايا وتخزينه كغليكوجين ← انخفاض السكر."
+        },
+        {
+          "fr": "Glycémie ↓ (jeûne, effort) → glucagon : glycogénolyse hépatique → libération de glucose → glycémie ↑.",
+          "ar": "انخفاض السكر (صيام، جهد) ← الغلوكاغون: تحلل الغليكوجين الكبدي ← ارتفاع السكر."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Après un repas riche en glucides, décris la réponse hormonale.",
+          "ar": "بعد وجبة غنية بالسكريات، صف الاستجابة الهرمونية."
+        },
+        "etapes": [
+          {
+            "fr": "Absorption intestinale → glycémie monte au-dessus de 1,1 g/L.",
+            "ar": "الامتصاص ← ارتفاع السكر فوق 1,1 غ/ل."
+          },
+          {
+            "fr": "Cellules β sécrètent l'insuline → stockage → retour à ≈ 1 g/L (régulation négative).",
+            "ar": "الخلايا β تفرز الأنسولين ← التخزين ← العودة إلى ≈ 1 غ/ل."
+          }
+        ],
+        "resultat": {
+          "fr": "Régulation par rétroaction négative.",
+          "ar": "تنظيم بالتغذية العكسية السالبة."
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Le diabète",
+        "ar": "الداء السكري"
+      },
+      "puces": [
+        {
+          "fr": "Diabète de type 1 : destruction des cellules β (auto-immune) → insuline absente → injections d'insuline.",
+          "ar": "النمط الأول: تدمير مناعي لخلايا β ← غياب الأنسولين ← حقن الأنسولين."
+        },
+        {
+          "fr": "Diabète de type 2 : résistance à l'insuline (surpoids, sédentarité) → hygiène de vie, médicaments.",
+          "ar": "النمط الثاني: مقاومة للأنسولين (زيادة الوزن، الخمول) ← تغيير نمط الحياة وأدوية."
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Glycogénolyse",
+        "ar": "تحلل الغليكوجين"
+      },
+      "def": {
+        "fr": "Dégradation du glycogène en glucose par le foie.",
+        "ar": "تفتيت الغليكوجين إلى غلوكوز في الكبد."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Rétroaction négative",
+        "ar": "التغذية العكسية السالبة"
+      },
+      "def": {
+        "fr": "La réponse ramène la valeur vers la consigne.",
+        "ar": "الاستجابة تعيد القيمة إلى المستوى المرجعي."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Insuline",
+        "ar": "الأنسولين"
+      },
+      "def": {
+        "fr": "Hormone hypoglycémiante des cellules β.",
+        "ar": "هرمون مخفّض للسكر تفرزه خلايا β."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Valeur normale de la glycémie ?",
+        "ar": "القيمة الطبيعية لسكر الدم؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "≈ 0,8 à 1,1 g/L.",
+            "ar": "نحو 0,8 إلى 1,1 غ/ل."
+          }
+        ],
+        "resultat": {
+          "fr": "≈ 1 g/L",
+          "ar": "≈ 1 غ/ل"
+        }
+      },
+      "acceptees": [
+        "1"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Glycémie à 1,4 g/L : quelle hormone agit et quel effet ?",
+        "ar": "سكر الدم 1,4 غ/ل: أي هرمون يتدخل وما أثره؟"
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Insuline → entrée du glucose dans les cellules + stockage → baisse de la glycémie.",
+            "ar": "الأنسولين ← دخول الغلوكوز والتخزين ← انخفاض السكر."
+          }
+        ],
+        "resultat": {
+          "fr": "Insuline, effet hypoglycémiant.",
+          "ar": "الأنسولين وخافض للسكر."
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Explique pourquoi un diabétique de type 1 ne peut se passer d'insuline.",
+        "ar": "اشرح لماذا لا يستغني مصاب النمط الأول عن الأنسولين."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Ses cellules β sont détruites : sans insuline exogène, le glucose s'accumule dans le sang (hyperglycémie) et les cellules manquent d'énergie.",
+            "ar": "خلايا β مدمرة: بلا أنسولين خارجي يتراكم الغلوكوز في الدم وتفتقر الخلايا للطاقة."
+          }
+        ],
+        "resultat": {
+          "fr": "Insulino-dépendance totale.",
+          "ar": "اعتماد كامل على الأنسولين."
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "courte",
+      "q": {
+        "fr": "Glycémie normale (g/L) ?",
+        "ar": "سكر الدم الطبيعي (غ/ل)؟"
+      },
+      "acceptees": [
+        "1",
+        "1 g/l",
+        "0,8-1,1",
+        "0.8-1.1"
+      ],
+      "explication": {
+        "fr": "≈ 0,8 à 1,1 g/L.",
+        "ar": "نحو 0,8 إلى 1,1 غ/ل."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "qcm",
+      "q": {
+        "fr": "Hormone hypoglycémiante :",
+        "ar": "الهرمون المخفّض للسكر:"
+      },
+      "choix": [
+        {
+          "fr": "insuline",
+          "ar": "الأنسولين"
+        },
+        {
+          "fr": "glucagon",
+          "ar": "الغلوكاغون"
+        },
+        {
+          "fr": "adrénaline",
+          "ar": "الأدرينالين"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Cellules β.",
+        "ar": "خلايا β."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "vf",
+      "q": {
+        "fr": "Le glucagon favorise la libération de glucose par le foie.",
+        "ar": "الغلوكاغون يحفّز تحرير الغلوكوز من الكبد."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Glycogénolyse.",
+        "ar": "تحلل الغليكوجين."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Cellules sécrétrices d'insuline :",
+        "ar": "خلايا إفراز الأنسولين:"
+      },
+      "acceptees": [
+        "beta",
+        "β",
+        "cellules beta",
+        "خلايا بيتا"
+      ],
+      "explication": {
+        "fr": "Îlots de Langerhans.",
+        "ar": "جزر لانغرهانس."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "qcm",
+      "q": {
+        "fr": "Diabète de type 2 : cause principale",
+        "ar": "النمط الثاني: السبب الأساسي"
+      },
+      "choix": [
+        {
+          "fr": "résistance à l'insuline",
+          "ar": "مقاومة الأنسولين"
+        },
+        {
+          "fr": "absence totale d'insuline",
+          "ar": "غياب الأنسولين تماماً"
+        },
+        {
+          "fr": "excès de glucagon",
+          "ar": "فرط الغلوكاغون"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Souvent lié au surpoids.",
+        "ar": "غالباً مرتبط بالوزن الزائد."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "vf",
+      "q": {
+        "fr": "La régulation glycémique est une boucle de rétroaction négative.",
+        "ar": "تنظيم سكر الدم حلقة تغذية عكسية سالبة."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Retour vers la valeur de consigne.",
+        "ar": "العودة إلى القيمة المرجعية."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Glycémie de consigne",
+        "ar": "القيمة المرجعية للسكر"
+      },
+      "verso": {
+        "fr": "≈ 1 g/L (0,8–1,1).",
+        "ar": "≈ 1 غ/ل (0,8–1,1)."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Insuline : effet",
+        "ar": "الأنسولين: الأثر"
+      },
+      "verso": {
+        "fr": "↓ glycémie (entrée + stockage).",
+        "ar": "خفض السكر (الدخول + التخزين)."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Glucagon : effet",
+        "ar": "الغلوكاغون: الأثر"
+      },
+      "verso": {
+        "fr": "↑ glycémie (glycogénolyse).",
+        "ar": "رفع السكر (تحلل الغليكوجين)."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Capteurs du glucose",
+        "ar": "مسجّلات الغلوكوز"
+      },
+      "verso": {
+        "fr": "Cellules α et β des îlots de Langerhans.",
+        "ar": "خلايا α و β في جزر لانغرهانس."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "Type 1 vs type 2",
+        "ar": "النمط الأول مقابل الثاني"
+      },
+      "verso": {
+        "fr": "Absence d'insuline vs résistance à l'insuline.",
+        "ar": "غياب الأنسولين مقابل مقاومته."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Stockage du glucose",
+        "ar": "تخزين الغلوكوز"
+      },
+      "verso": {
+        "fr": "Glycogène (foie, muscles) + lipogenèse.",
+        "ar": "غليكوجين (كبد، عضلات) + دهون."
+      }
+    }
+  ]
+}

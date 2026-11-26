@@ -1,0 +1,537 @@
+{
+  "schema": "sehil.unit@1",
+  "statut": "PUBLIE",
+  "id": "6AF-math-01",
+  "niveau": "6AF",
+  "matiere": "mathematiques",
+  "ordre": 1,
+  "titre": {
+    "fr": "Les nombres entiers et décimaux",
+    "ar": "الأعداد الصحيحة والعشرية"
+  },
+  "duree_min": 25,
+  "objectifs": {
+    "fr": [
+      "Lire et écrire les nombres entiers jusqu'au milliard et les nombres décimaux",
+      "Comparer, ranger et encadrer des nombres décimaux",
+      "Arrondir un nombre décimal au dixième ou au centième"
+    ],
+    "ar": [
+      "قراءة وكتابة الأعداد الصحيحة إلى غاية المليار والأعداد العشرية",
+      "مقارنة وترتيب وتأطير الأعداد العشرية",
+      "تقريب عدد عشري إلى العُشر أو الجزء من المئة"
+    ]
+  },
+  "fiche": [
+    {
+      "titre": {
+        "fr": "Lire et écrire les grands nombres",
+        "ar": "قراءة الأعداد الكبيرة وكتابتها"
+      },
+      "bloc": [
+        {
+          "fr": "Les grands nombres se lisent par classes : la classe des unités, la classe des milliers, la classe des millions. On laisse un espace entre chaque classe.",
+          "ar": "تُقرأ الأعداد الكبيرة حسب الأصناف: صنف الوحدات، صنف الآلاف، صنف الملايين. نترك فراغاً بين كل صنفين."
+        }
+      ],
+      "puces": [
+        {
+          "fr": "405 782 013 se lit : quatre cent cinq millions sept cent quatre-vingt-deux mille treize.",
+          "ar": "405 782 013 تُقرأ: أربعمئة وخمسة ملايين، سبعمئة واثنان وثمانون ألفاً، وثلاثة عشر."
+        },
+        {
+          "fr": "La virgule sépare la partie entière de la partie décimale : 12,5 = 12 unités et 5 dixièmes.",
+          "ar": "الفاصلة تفصل الجزء الصحيح عن الجزء العشري: 12,5 = 12 وحدة و 5 أعشار."
+        },
+        {
+          "fr": "Les zéros placés après la dernière décimale ne changent pas le nombre : 3,50 = 3,5.",
+          "ar": "الأصفار الموضوعة بعد آخر رقم عشري لا تغير العدد: 3,50 = 3,5."
+        }
+      ],
+      "tableau": {
+        "entetes": [
+          {
+            "fr": "Millions (C D U)",
+            "ar": "الملايين"
+          },
+          {
+            "fr": "Milliers (C D U)",
+            "ar": "الآلاف"
+          },
+          {
+            "fr": "Unités (C D U)",
+            "ar": "الوحدات"
+          }
+        ],
+        "lignes": [
+          [
+            "4 0 5",
+            "7 8 2",
+            "0 1 3"
+          ]
+        ]
+      }
+    },
+    {
+      "titre": {
+        "fr": "Comparer et ranger",
+        "ar": "المقارنة والترتيب"
+      },
+      "bloc": [
+        {
+          "fr": "Pour comparer deux nombres décimaux, on compare d'abord les parties entières ; si elles sont égales, on compare les décimales chiffre par chiffre.",
+          "ar": "لمقارنة عددين عشريين نقارن أولاً الجزأين الصحيحين؛ فإذا تساويا قارنّا الأرقام العشرية رقماً برقم."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Ranger du plus petit au plus grand : 12,5 ; 9,98 ; 12,05",
+          "ar": "رتب من الأصغر إلى الأكبر: 12,5 ؛ 9,98 ؛ 12,05"
+        },
+        "etapes": [
+          {
+            "fr": "Parties entières : 9 < 12 = 12, donc 9,98 est le plus petit.",
+            "ar": "الأجزاء الصحيحة: 9 < 12 = 12، إذن 9,98 هو الأصغر."
+          },
+          {
+            "fr": "Pour 12,05 et 12,5 : dixièmes égaux ? Non : 0 < 5, donc 12,05 < 12,5.",
+            "ar": "بشأن 12,05 و 12,5: الأعشار 0 < 5، إذن 12,05 < 12,5."
+          }
+        ],
+        "resultat": {
+          "fr": "9,98 < 12,05 < 12,5",
+          "ar": "9,98 < 12,05 < 12,5"
+        }
+      }
+    },
+    {
+      "titre": {
+        "fr": "Encadrer et arrondir",
+        "ar": "التأطير والتقريب"
+      },
+      "puces": [
+        {
+          "fr": "Encadrer au dixième : 6,849 est entre 6,8 et 6,9.",
+          "ar": "التأطير إلى العُشر: 6,849 يقع بين 6,8 و 6,9."
+        },
+        {
+          "fr": "Arrondir : si le chiffre suivant est 5, 6, 7, 8 ou 9, on augmente de 1 ; sinon on garde.",
+          "ar": "التقريب: إذا كان الرقم الموالي 5 أو 6 أو 7 أو 8 أو 9 نزيدها واحدة، وإلا نُبقيها."
+        }
+      ],
+      "exemple": {
+        "enonce": {
+          "fr": "Arrondir 12,47 au dixième.",
+          "ar": "قرّب 12,47 إلى العُشر."
+        },
+        "etapes": [
+          {
+            "fr": "Le chiffre des centièmes est 7 (≥ 5) : on augmente les dixièmes de 1.",
+            "ar": "رقم الأجزاء من المئة هو 7 (≥ 5): نزيد الأعشار واحدة."
+          }
+        ],
+        "resultat": {
+          "fr": "12,47 ≈ 12,5",
+          "ar": "12,47 ≈ 12,5"
+        }
+      }
+    }
+  ],
+  "definitions": [
+    {
+      "terme": {
+        "fr": "Nombre entier",
+        "ar": "عدد صحيح"
+      },
+      "def": {
+        "fr": "Nombre sans partie décimale, comme 0 ; 7 ; 405.",
+        "ar": "عدد بلا جزء عشري، مثل 0 ؛ 7 ؛ 405."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Nombre décimal",
+        "ar": "عدد عشري"
+      },
+      "def": {
+        "fr": "Nombre qui s'écrit avec une virgule : 3,5 ; 0,08.",
+        "ar": "عدد يُكتب بفاصلة: 3,5 ؛ 0,08."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Partie entière / partie décimale",
+        "ar": "الجزء الصحيح / الجزء العشري"
+      },
+      "def": {
+        "fr": "Dans 12,47 : 12 est la partie entière, 47 la partie décimale.",
+        "ar": "في 12,47: الجزء الصحيح هو 12 والجزء العشري هو 47."
+      }
+    },
+    {
+      "terme": {
+        "fr": "Arrondi",
+        "ar": "التقريب"
+      },
+      "def": {
+        "fr": "Valeur approchée la plus proche, à une position donnée.",
+        "ar": "القيمة المقربة الأقرب إلى مرتبة معينة."
+      }
+    }
+  ],
+  "exercices": [
+    {
+      "id": "e1",
+      "niveau_diff": 1,
+      "enonce": {
+        "fr": "Écris en chiffres : « deux millions trois cent mille dix-sept ».",
+        "ar": "اكتب بالأرقام: «مليونان وثلاثمئة ألف وسبعة عشر»."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "2 millions → 2 000 000 ; + 300 000 ; + 17.",
+            "ar": "مليونان ← 2 000 000 ؛ + 300 000 ؛ + 17."
+          }
+        ],
+        "resultat": {
+          "fr": "2 300 017",
+          "ar": "2 300 017"
+        }
+      },
+      "acceptees": [
+        "2300017"
+      ]
+    },
+    {
+      "id": "e2",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Compare : 7,09 et 7,1. Utilise <, > ou =.",
+        "ar": "قارن: 7,09 و 7,1 باستعمال < ، > أو =."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Parties entières égales (7). Dixièmes : 0 < 1.",
+            "ar": "الأجزاء الصحيحة متساوية (7). الأعشار: 0 < 1."
+          }
+        ],
+        "resultat": {
+          "fr": "7,09 < 7,1",
+          "ar": "7,09 < 7,1"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Encadre 6,849 entre deux dixièmes, puis arrondis-le au dixième.",
+        "ar": "أطّر 6,849 بين عُشرين متتاليين ثم قرّبه إلى العُشر."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "Encadrement : 6,8 < 6,849 < 6,9. Le centième est 4 (< 5) : on garde 6,8.",
+            "ar": "التأطير: 6,8 < 6,849 < 6,9. رقم الأجزاء من المئة هو 4 (< 5): نُبقي 6,8."
+          }
+        ],
+        "resultat": {
+          "fr": "6,8 < 6,849 < 6,9 ; arrondi ≈ 6,8",
+          "ar": "6,8 < 6,849 < 6,9 ؛ التقريب ≈ 6,8"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "niveau_diff": 2,
+      "enonce": {
+        "fr": "Compare avec > ou < : 99 999 et 100 000 ; 1 250 000 et 1 090 000.",
+        "ar": "قارن بـ > أو <: 99 999 و 100 000؛ 1 250 000 و 1 090 000."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "100 000 a un chiffre de plus que 99 999 → 99 999 < 100 000.",
+            "ar": "100 000 رقمه أكثر ← 99 999 < 100 000."
+          },
+          {
+            "fr": "On compare les millions : 1 250 000 > 1 090 000.",
+            "ar": "نقارن الملايين: 1 250 000 > 1 090 000."
+          }
+        ],
+        "resultat": {
+          "fr": "99 999 < 100 000 ; 1 250 000 > 1 090 000",
+          "ar": "انظر الخطوات"
+        }
+      }
+    },
+    {
+      "id": "e5",
+      "niveau_diff": 3,
+      "enonce": {
+        "fr": "Décompose : 4 053 216 = … millions + … centaines de mille + … dizaines de mille + … mille + … centaines + … dizaines + … unités.",
+        "ar": "حلّل: 4 053 216."
+      },
+      "correction": {
+        "etapes": [
+          {
+            "fr": "4 000 000 + 0 + 50 000 + 3 000 + 200 + 10 + 6.",
+            "ar": "4 000 000 + 50 000 + 3 000 + 200 + 10 + 6."
+          }
+        ],
+        "resultat": {
+          "fr": "4 millions + 5 dizaines de mille + 3 mille + 2 centaines + 1 dizaine + 6 unités",
+          "ar": "4 ملايين + 5 عشرات الألف + 3 آلاف + 2 مئات + 1 عشرات + 6 وحدات"
+        }
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel est le chiffre des centaines dans 483 217 ?",
+        "ar": "ما هو رقم المئات في العدد 483 217؟"
+      },
+      "choix": [
+        {
+          "fr": "3",
+          "ar": "3"
+        },
+        {
+          "fr": "2",
+          "ar": "2"
+        },
+        {
+          "fr": "8",
+          "ar": "8"
+        }
+      ],
+      "bonne": 2,
+      "explication": {
+        "fr": "De droite à gauche : 7 unités, 1 dizaine, 2 centaines… en comptant dans la classe des unités : 2 est le chiffre des centaines.",
+        "ar": "من اليمين إلى اليسار: 7 وحدات، 1 عشرات، 2 مئات ضمن صنف الوحدات."
+      }
+    },
+    {
+      "id": "q2",
+      "type": "vf",
+      "q": {
+        "fr": "3,50 et 3,5 sont deux écritures du même nombre.",
+        "ar": "العددان 3,50 و 3,5 مكتوبان لنفس العدد."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Les zéros en fin de partie décimale sont inutiles.",
+        "ar": "الأصفار في نهاية الجزء العشري بلا فائدة."
+      }
+    },
+    {
+      "id": "q3",
+      "type": "qcm",
+      "q": {
+        "fr": "Quel nombre est le plus grand ?",
+        "ar": "أي الأعداد التالية هو الأكبر؟"
+      },
+      "choix": [
+        {
+          "fr": "5,09",
+          "ar": "5,09"
+        },
+        {
+          "fr": "5,9",
+          "ar": "5,9"
+        },
+        {
+          "fr": "5,89",
+          "ar": "5,89"
+        }
+      ],
+      "bonne": 1,
+      "explication": {
+        "fr": "5,9 = 5,90 ; 90 > 89 > 9 (centièmes).",
+        "ar": "5,9 = 5,90 ؛ 90 > 89 > 9 (أجزاء المئة)."
+      }
+    },
+    {
+      "id": "q4",
+      "type": "courte",
+      "q": {
+        "fr": "Arrondis 12,47 au dixième.",
+        "ar": "قرّب 12,47 إلى العُشر."
+      },
+      "acceptees": [
+        "12,5",
+        "12.5"
+      ],
+      "explication": {
+        "fr": "Le centième 7 ≥ 5 → on augmente.",
+        "ar": "رقم الأجزاء من المئة 7 ≥ 5 ← نزيد."
+      }
+    },
+    {
+      "id": "q5",
+      "type": "courte",
+      "q": {
+        "fr": "Écris en chiffres : « sept cent mille quatre-vingt-dix ».",
+        "ar": "اكتب بالأرقام: «سبعمئة ألف وتسعون»."
+      },
+      "acceptees": [
+        "700090",
+        "700 090"
+      ],
+      "explication": {
+        "fr": "700 000 + 90.",
+        "ar": "700 000 + 90."
+      }
+    },
+    {
+      "id": "q6",
+      "type": "qcm",
+      "q": {
+        "fr": "Dans 0,83, le chiffre 8 est…",
+        "ar": "في العدد 0,83 الرقم 8 يمثل…"
+      },
+      "choix": [
+        {
+          "fr": "les dixièmes",
+          "ar": "الأعشار"
+        },
+        {
+          "fr": "les centièmes",
+          "ar": "أجزاء المئة"
+        },
+        {
+          "fr": "les unités",
+          "ar": "الوحدات"
+        }
+      ],
+      "bonne": 0,
+      "explication": {
+        "fr": "Premier chiffre après la virgule = dixièmes.",
+        "ar": "أول رقم بعد الفاصلة = الأعشار."
+      }
+    },
+    {
+      "id": "q7",
+      "type": "vf",
+      "q": {
+        "fr": "99 999 < 100 000.",
+        "ar": "99 999 < 100 000."
+      },
+      "bonne": true,
+      "explication": {
+        "fr": "Vrai : 100 000 est 1 de plus.",
+        "ar": "صحيح: الفرق 1."
+      }
+    },
+    {
+      "id": "q8",
+      "type": "calcul",
+      "q": {
+        "fr": "Combien de dizaines dans 340 ?",
+        "ar": "كم عشرات في 340؟"
+      },
+      "acceptees": [
+        "34"
+      ],
+      "explication": {
+        "fr": "340 ÷ 10 = 34.",
+        "ar": "340 ÷ 10 = 34."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "recto": {
+        "fr": "Comment compare-t-on deux nombres décimaux ?",
+        "ar": "كيف نقارن عددين عشريين؟"
+      },
+      "verso": {
+        "fr": "Parties entières d'abord, puis décimales chiffre par chiffre.",
+        "ar": "الأجزاء الصحيحة أولاً ثم الأرقام العشرية رقماً برقم."
+      }
+    },
+    {
+      "id": "f2",
+      "recto": {
+        "fr": "Règle d'arrondi",
+        "ar": "قاعدة التقريب"
+      },
+      "verso": {
+        "fr": "Chiffre suivant ≥ 5 → +1 ; sinon on garde.",
+        "ar": "الرقم الموالي ≥ 5 ← نزيد 1، وإلا نُبقيه."
+      }
+    },
+    {
+      "id": "f3",
+      "recto": {
+        "fr": "Que sépare la virgule ?",
+        "ar": "ماذا تفصل الفاصلة؟"
+      },
+      "verso": {
+        "fr": "La partie entière de la partie décimale.",
+        "ar": "الجزء الصحيح من الجزء العشري."
+      }
+    },
+    {
+      "id": "f4",
+      "recto": {
+        "fr": "Nomme les 3 classes d'un grand nombre",
+        "ar": "اذكر أصناف العدد الكبير الثلاثة"
+      },
+      "verso": {
+        "fr": "Unités, milliers, millions.",
+        "ar": "الوحدات، الآلاف، الملايين."
+      }
+    },
+    {
+      "id": "f5",
+      "recto": {
+        "fr": "3,50 = ?",
+        "ar": "3,50 = ؟"
+      },
+      "verso": {
+        "fr": "3,5 (zéros de fin inutiles).",
+        "ar": "3,5 (الأصفار الأخيرة بلا فائدة)."
+      }
+    },
+    {
+      "id": "f6",
+      "recto": {
+        "fr": "Encadre 4,53 au dixième",
+        "ar": "أطّر 4,53 إلى العُشر"
+      },
+      "verso": {
+        "fr": "4,5 < 4,53 < 4,6",
+        "ar": "4,5 < 4,53 < 4,6"
+      }
+    },
+    {
+      "id": "f7",
+      "recto": {
+        "fr": "Encadrer un nombre",
+        "ar": "تأطير عدد"
+      },
+      "verso": {
+        "fr": "Écrire le nombre avant et après : 999 et 1 001 encadrent 1 000.",
+        "ar": "كتابة العددين قبله وبعده: 999 و 1 001."
+      }
+    },
+    {
+      "id": "f8",
+      "recto": {
+        "fr": "1 milliard = ?",
+        "ar": "1 مليار = ؟"
+      },
+      "verso": {
+        "fr": "1 000 000 000 (mille millions).",
+        "ar": "1 000 000 000."
+      }
+    }
+  ]
+}
